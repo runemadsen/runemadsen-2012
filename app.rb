@@ -36,7 +36,7 @@ class RuneMadsen < Sinatra::Base
      '/js/404.js'
     ]
 
-    css :shared, 'shared.css', [
+    css :shared, 'css/shared.css', [
       '/css/reset.css',
       '/css/runemadsen.css'
     ]

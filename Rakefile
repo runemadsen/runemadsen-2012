@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler'
-Bundler.require(:default, :production)
+Bundler.require
 require './models'
 
 namespace :db do
@@ -10,3 +10,9 @@ namespace :db do
   end
   
 end
+
+# rake assetpack:build
+APP_FILE  = 'app.rb'
+APP_CLASS = 'RuneMadsen'
+require 'sinatra/assetpack/rake'
+
