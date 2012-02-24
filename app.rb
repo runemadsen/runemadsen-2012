@@ -32,11 +32,11 @@ class RuneMadsen < Sinatra::Base
       '/js/blog-app.js'
     ]
 
-    js :error, 'js/error.js', [
+    js :error, '/js/error.js', [
      '/js/404.js'
     ]
 
-    css :shared, 'css/shared.css', [
+    css :shared, '/css/shared.css', [
       '/css/reset.css',
       '/css/runemadsen.css'
     ]
