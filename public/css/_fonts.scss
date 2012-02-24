@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'Akkurat-Bold';
+	src: url('/fonts/AkkurBol.eot');
+}
+
+@font-face {
+	font-family: 'Akkurat-Bold';
+	src: url('/fonts/AkkurBol.woff') format('woff'),
+	url('/fonts/AkkurBol.svg#Akkurat-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Akkurat-Regular';
+	src: url('/fonts/AkkurReg.eot');
+}
+
+@font-face {
+	font-family: 'Akkurat-Regular';
+	src: url('/fonts/AkkurReg.woff') format('woff'),
+	url('/fonts/AkkurReg.svg#Akkurat-Regular') format('svg');
+}
+
+@mixin heading {
+	font-weight: normal;
+	font-family: "Akkurat-Bold", serif;
+}
+
+h1 {
+	@include heading;
+	font-size: 30px;
+	line-height: 25px;
+	letter-spacing: -0.5;
+}
+
+h3 {
+	@include heading;
+	font-size: 17px;
+}
+
+p {
+	margin-top: $ver_grid;
+	margin-bottom: $ver_grid;
+	line-height: $ver_grid * 2;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid #868686;
+	color: black;
+	&:hover {
+		color: $light_gray;
+	}
+}
+
+blockquote {
+	line-height: $ver_grid * 2;
+	border-left: 3px solid $light_gray;
+	padding: 7px 15px;
+	font-size: 13px;
+	margin: (2 * $ver_grid) 0px; 
+	background-color: $quote_bg;
+}
+
+ul, ol {
+	line-height: $ver_grid * 2;
+	margin: (2 * $ver_grid) 0px;
+	margin-left: 25px;
+}

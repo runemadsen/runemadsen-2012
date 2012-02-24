@@ -1,0 +1,170 @@
+.test {
+	background-color: red;
+}
+
+/* 	Colors
+___________________________________________________ */
+
+$white: #FFFFFF;
+$bg_white: #f7f7f5;
+$dark_gray: #2e2e2e;
+$gray: #333333;
+$light_gray: #4d4c4d;
+$blue : #704475;
+$quote_bg : #e6e6e6;
+
+/* 	Metrics
+___________________________________________________ */
+
+$menu_padding: 19px;
+$ver_grid: 11px;
+$hor_grid: 60px;
+$hor_grid_margin: 15px;
+
+@import "assets/css/fonts";
+@import "assets/css/grid";
+@import "assets/css/boxes";
+@import "assets/css/404";
+
+/* 	General
+___________________________________________________ */
+
+img {
+	margin-top: $ver_grid;
+	margin-bottom: $ver_grid;
+}
+
+/* 	Body
+___________________________________________________ */
+
+body {
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+	color: $dark_gray;
+	background-color: $bg_white;
+/*	background-image: url('../images/vertical_grid.jpg');*/
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/* Header
+___________________________________________________ */
+
+#header {
+	margin-top: $ver_grid;
+	margin-bottom: ($ver_grid * 5) + 6;
+	height: 27px;
+	line-height: 27px;
+	background-color: $dark_gray;
+}
+
+#header ul {
+	float: right;
+	line-height: 27px;
+	margin: 0;
+}
+
+#header ul li {
+	float: left;
+	list-style: none;
+	height: 100%;
+	border-left: 1px solid $light_gray;
+}
+
+@mixin menu_item {
+	font-family: "Akkurat-Regular", serif;
+	color: $white;
+	font-size: 13px;
+	text-decoration: none;
+	border: none;
+	padding: 0px $menu_padding;
+	display: block;
+	&:hover {
+		background-color: $gray;
+	}
+}
+
+#header ul li a {
+	@include menu_item;
+}
+
+#header ul li#active a {
+	font-family: "Akkurat-Bold", serif;
+	background-color: $bg_white;
+	color: $dark_gray;
+}
+
+#header a#logo {
+	@include menu_item;
+	height: 100%;
+	float: left;
+	border-right: 1px solid $light_gray;
+}
+
+/* Small Text For Sidebars
+___________________________________________________ */
+
+.small-text {
+	font-size: 13px;
+}
+
+.small-text {
+	line-height: 20px;
+}
+
+/* Image Collection
+___________________________________________________ */
+
+.image-collection img {
+	display: none;
+	&:first-child {
+		display: inline;
+	}
+}
+
+/* Form
+___________________________________________________ */
+
+label {
+	display: block;
+	margin: $ver_grid 0px;
+}
+
+input[type=text], textarea {
+	border: 1px solid #ADADAD;
+	padding: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+/* Reveal
+___________________________________________________ */
+
+.reveal {
+	display: none;
+}
+
+/* Specific pages
+___________________________________________________ */
+
+@import "assets/css/blog";
+
+/* 	Other
+___________________________________________________ */
+
+.background_gray {
+	background-color: gray;
+}
+
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+	font-size: 0px;
+}

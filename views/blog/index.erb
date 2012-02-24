@@ -1,0 +1,36 @@
+<% content_for :head do %>
+	<%= js :blog %>
+<% end %>
+
+<div class="grid_9">
+<%= partial 'blog/post', :collection => @posts %>
+<%= partial 'blog/pagenav', :locals => { :num_pages => @num_pages, :cur_page => @cur_page } %>
+</div>
+<div class="grid_3 small-text">
+	
+	<!-- <h3>About Me</h3>
+		
+		<p>
+			I’m an artist working in the fields of programming and graphic design. 
+			This blog is where I post anything from random thoughts to work in progress. 
+			New posts will be tweeted out from my <a href="http://www.twitter.com/runemadsen">Twitter</a> account.
+		</p>
+		
+		<h3>Recent Posts</h3>
+		
+		<ul>
+			<li><a href="#">Thoughts on Design</a><br /><time>2 hours ago</time></li>
+			<li><a href="#">Thoughts on Design</a><br /><time>2 hours ago</time></li>
+			<li><a href="#">Thoughts on Design</a><br /><time>2 hours ago</time></li>
+		</ul> -->
+		
+</div>
+<div class="clear"></div>
+
+<script type="text/javascript">
+	$(function() {
+		window.app = new Blog();
+		posts.reset(<%= @posts.to_json %>);
+	});
+</script>
+

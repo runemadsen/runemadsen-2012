@@ -1,0 +1,10 @@
+<% unless num_pages == 0 %>
+	<div id="page-nav">
+		<% if cur_page > 0 %>
+			<a href="/blog<%= cur_page == 1 ? nil : "/page/#{cur_page - 1}" %>" class="pagination">Newer Entries</a>
+		<% end %>
+		<% if cur_page < num_pages %>
+			<a href="/blog/page/<%= cur_page + 1 %>" class="pagination">Older Entries</a>
+		<% end %>
+	</div>
+<% end %>

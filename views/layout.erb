@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Rune Madsen</title>
+	<%= css :shared, :media => 'screen' %>
+	<%= js :shared %>
+	<%= yield_content :head %>
+</head>
+<body>
+	<div id="container">
+
+		<!-- Header -->
+		<div class="grid_12" id="header">
+			<a href="/" id="logo">Rune Madsen</a>
+			<ul>
+				<li<% if @active == :blog %> id="active"<% end %>><a href="/blog">Blog</a></li>
+				<li<% if @active == :work %> id="active"<% end %>><a href="/work">Work</a></li>
+				<li<% if @active == :code %> id="active"<% end %>><a href="/code">Code</a></li>
+				<li<% if @active == :info %> id="active"<% end %>><a href="/info">Info</a></li>
+				<li<% if @active == :mail %> id="active"<% end %>><a href="/mail">Mail</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		<%= yield %>
+	</div>
+</body>
+</html>
