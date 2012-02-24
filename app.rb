@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler'
-Bundler.require
+Bundler.require(:default, ENV['RACK_ENV'] || :development)
 require './helpers'
 require './models'
 
