@@ -30,12 +30,14 @@ h1 {
 	line-height: 42px;
 	font-size: 30px;
 /*	line-height: 25px;*/
+	margin-bottom: $ver_grid;
 	letter-spacing: -0.5;
 }
 
 h2 {
 	font-size: 24px;
 	line-height: 36px;
+	margin-bottom: $ver_grid;
 }
 
 h3 {
