@@ -20,30 +20,35 @@
 	url('/fonts/AkkurReg.svg#Akkurat-Regular') format('svg');
 }
 
-@mixin heading {
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimizelegibility;
 	font-weight: normal;
 	font-family: "Akkurat-Bold", serif;
 }
 
 h1 {
-	@include heading;
+	line-height: 42px;
 	font-size: 30px;
 /*	line-height: 25px;*/
 	letter-spacing: -0.5;
 }
 
 h2 {
-	@include heading;
 	font-size: 24px;
+	line-height: 36px;
 }
 
 h3 {
-	@include heading;
 	font-size: 17px;
+	line-height: 26px;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 26px;
 }
 
 p {
-	margin-top: $ver_grid;
 	margin-bottom: $ver_grid;
 	line-height: $ver_grid * 2;
 }

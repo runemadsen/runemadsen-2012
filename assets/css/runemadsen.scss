@@ -25,6 +25,7 @@ $hor_grid_margin: 15px;
 @import "assets/css/grid";
 @import "assets/css/boxes";
 @import "assets/css/404";
+@import "assets/css/print";
 
 
 /* 	General
@@ -44,6 +45,7 @@ body {
 	color: $dark_gray;
 	background-color: $bg_white;
 /*	background-image: url('../images/vertical_grid.jpg');*/
+	
 }
 
 #container {

@@ -78,6 +78,7 @@ class RuneMadsen < Sinatra::Base
   # -------------------------------------------------------------------
 
   get "/info" do
+    @active = :info
     erb :"info/index"
   end
   

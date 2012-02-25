@@ -1,3 +1,7 @@
+<% content_for :head do %>
+	<%= js :blog %>
+<% end %>
+
 <div class="post" id="post<%= post.id %>">
 	<div class="post-header">
 		<div class="time"><canvas class="clock" width="12" height="12"></canvas><%= post.time_since_now %></div>
