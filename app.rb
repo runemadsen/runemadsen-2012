@@ -82,6 +82,11 @@ class RuneMadsen < Sinatra::Base
     erb :"info/index"
   end
   
+  get '/info/resume' dp
+    @active = :info
+    erb :"info/resume"
+  end
+  
   # 404
   # -------------------------------------------------------------------
   
