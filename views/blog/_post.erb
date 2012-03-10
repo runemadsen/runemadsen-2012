@@ -1,7 +1,3 @@
-<% content_for :head do %>
-	<%= js :blog %>
-<% end %>
-
 <div class="post" id="post<%= post.id %>">
 	<div class="post-header">
 		<div class="time"><canvas class="clock" width="12" height="12"></canvas><%= post.time_since_now %></div>
@@ -13,14 +9,6 @@
 			<div class="fixie">
 			<ul>
 				<li><a href="/blog/<%= post.route %>">Permalink</a></li>
-				<!-- <li>
-									Share post on <a href="#" data-reveal="share-box">choose</a>
-									<ul id="share-box" class="reveal">
-										<li><a href="#" class="twitter-share">Twitter</a></li>
-										<li><a href="#" class="facebook-share">Facebook</a></li>
-										<li><a href="#" class="tumblr-share">Tumblr</a></li>
-									</ul>
-								</li>	 -->
 			</ul>
 			</div>
 			&nbsp;

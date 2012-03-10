@@ -9,43 +9,6 @@ class RuneMadsen < Sinatra::Base
   set :root, File.dirname(__FILE__)
   register Padrino::Helpers
   helpers RuneMadsenHelpers
-  register Sinatra::AssetPack
-  
-  # Assetpack
-  # -------------------------------------------------------------------
-  
-  assets {
-    serve '/js',     from: 'assets/js'
-    serve '/css',    from: 'assets/css'
-
-    js :shared, '/js/shared.js', [
-      '/js/jquery.js',
-      '/js/underscore.js',
-      '/js/backbone.js',
-      '/js/tools.js',
-      '/js/modules.js',
-      '/js/jquery-tools.js',
-      '/js/date.js'
-    ]
-
-    js :blog, '/js/blog.js', [
-      '/js/blog-app.js'
-    ]
-
-    js :error, '/js/error.js', [
-     '/js/404.js'
-    ]
-
-    css :shared, '/css/shared.css', [
-      '/css/reset.css',
-      '/css/runemadsen.css'
-    ]
-
-    js_compression  :yui, :munge => true
-    css_compression :sass
-
-    prebuild ENV['RACK_ENV'] == 'production'
-  }
   
   # Home
   # -------------------------------------------------------------------
