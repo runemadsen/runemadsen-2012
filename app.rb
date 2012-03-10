@@ -82,7 +82,7 @@ class RuneMadsen < Sinatra::Base
     erb :"info/index"
   end
   
-  get '/info/resume' dp
+  get '/info/resume' do
     @active = :info
     erb :"info/resume"
   end
