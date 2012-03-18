@@ -51,9 +51,9 @@ var PostView = Backbone.View.extend({
 		
 		this.draw_clock();
 		
-		this.setup_fixie({
+		/*this.setup_fixie({
 			els : ".fixie"
-		})
+		})*/
 	},
 	
 	draw_clock : function()

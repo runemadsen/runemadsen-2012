@@ -1,16 +1,18 @@
 <html>
 <head>
 	<title>Rune Madsen</title>
-	<%= css :shared, :media => 'screen' %>
-	<%= js :shared %>
-	<%= js :error %>
+	<%= stylesheet_link_tag "reset" %>
+	<%= stylesheet_link_tag "runemadsen" %>
+	<%= javascript_include_tag "libraries" %>
+	<%= javascript_include_tag "shared" %>
+	<%= javascript_include_tag :error %>
 </head>
 <body>
 	
 	<div id="error">
 		<h1>404</h1>
 		<div id="computer">
-			<img src="/images/404.jpg" />
+			<img src="http://runemadsen-2012.s3.amazonaws.com/images/404.jpg" />
 			<div id="left-eye">&nbsp;</div>
 			<div id="right-eye">&nbsp;</div>
 		</div>

@@ -37,6 +37,12 @@ class RuneMadsen < Sinatra::Base
     erb :'blog/index'
   end
   
+  get '/blog/:route' do
+    @post = Post.first :route => params[:route]
+    return 404 if @post.nil?
+    erb :'blog/show'
+  end
+  
   # Info
   # -------------------------------------------------------------------
 
@@ -66,8 +72,19 @@ class RuneMadsen < Sinatra::Base
   end
   
   post '/admin/blog' do
-    Post.create(params[:post])
-    redirect "/admin"
+    if params[:id]
+      @post = Post.get(params[:id])
+      @post.update(params[:post])
+    else
+      Post.create(params[:post])
+    end
+    redirect "/blog/#{@post.route}"
+  end
+  
+  get '/blog/:route/edit' do
+    #protected!
+    @post = Post.first :route => params[:route]
+    erb :'blog/edit'
   end
   
 end
