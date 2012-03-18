@@ -249,7 +249,7 @@ input[type=text], textarea {
   width: 600px;
 }
 
-.post-main-right :first-child {
+.post-main-right p:first-child {
 	margin-top: 15px;
 }
 
@@ -288,18 +288,27 @@ canvas.clock {
   padding: 10px 15px;
 }
 
+.post-main-right .gist .gist-file .gist-highlight {
+  padding: 0;
+}
+
 .post-main-right .gist .gist-file .gist-meta {
   background-color: #e6e6e6;
-  font-size: 11px;
+  font-size: 10px;
   font-family: Helvetica, Arial, sans-serif;
-  color: #4d4c4d;
+  color: #bebebe;
 }
 
 .post-main-right .gist .gist-file .gist-meta a,
 .post-main-right .gist .gist-file .gist-meta a:visited,
 .post-main-right .gist .gist-file .gist-meta a:link {
-  color: #4d4c4d;
+  text-decoration: none;
+	color: #bebebe !important;
+	border-bottom: none;
 }
+
+/* Resume Styling
+------------------------------------------- */
 
 #resume ul {
   margin: 0;

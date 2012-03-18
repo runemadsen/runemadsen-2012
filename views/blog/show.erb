@@ -12,6 +12,6 @@
 <script type="text/javascript">
 	$(function() {
 		window.app = new Blog();
-		posts.reset([<%= @post.to_json %>]);
+		posts.reset([<%= @post.to_json(:exclude => [:body]) %>]);
 	});
 </script>

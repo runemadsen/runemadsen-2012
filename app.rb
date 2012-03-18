@@ -38,6 +38,7 @@ class RuneMadsen < Sinatra::Base
   end
   
   get '/blog/:route' do
+    @active = :blog
     @post = Post.first :route => params[:route]
     return 404 if @post.nil?
     erb :'blog/show'

@@ -30,7 +30,7 @@
 <script type="text/javascript">
 	$(function() {
 		window.app = new Blog();
-		posts.reset(<%= @posts.to_json %>);
+		posts.reset(<%= @posts.to_json(:exclude => [:body]) %>);
 	});
 </script>
 

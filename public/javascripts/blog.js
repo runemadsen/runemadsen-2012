@@ -47,7 +47,7 @@ var PostView = Backbone.View.extend({
 		
 	initialize : function()
 	{
-		_.extend(this, Modules.fixie);
+		//_.extend(this, Modules.fixie);
 		
 		this.draw_clock();
 		
