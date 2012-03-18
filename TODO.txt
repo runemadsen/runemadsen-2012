@@ -1,0 +1,1 @@
+Images + IFRAMEs get too much top margin when inserted around paragraphs. All elements should only have bottom margins. This should be fixed along with the first-child thing in the /blog pages.

@@ -86,6 +86,11 @@ img {
   margin-bottom: 11px;
 }
 
+iframe {
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
 .small-text {
   font-size: 13px; }
 
@@ -253,7 +258,8 @@ input[type=text], textarea {
 	margin-top: 15px;
 }
 
-.post-main-right img:first-child {
+.post-main-right img:first-child,
+.post-main-right iframe:first-child {
   margin-top: 0;
 }
 
