@@ -48,4 +48,22 @@ class Post
   
 end
 
+
+class Project
+  include DataMapper::Resource
+  
+  property :id,                 Serial    
+  property :title,              String    
+  property :short_description,  Text
+  property :long_description,   Text    
+  property :image,              String  
+  property :freeform,            Text
+  
+  property :published,          Boolean, :default => true
+  property :ordering,           Integer, :default => 99
+  property :route,              String, :length => 255
+  property :created_at,         DateTime
+end
+  
+
 DataMapper.finalize

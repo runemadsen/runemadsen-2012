@@ -17,6 +17,15 @@ class RuneMadsen < Sinatra::Base
     ENV['RACK_ENV']
   end
   
+  # Work
+  # -------------------------------------------------------------------
+  
+  get '/work' do
+    @active = :work
+    @projects = Project.all
+    erb :'work/index'
+  end
+  
   # Blog
   # -------------------------------------------------------------------
   

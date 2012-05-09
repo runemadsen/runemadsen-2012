@@ -2,7 +2,7 @@
 	<%= javascript_include_tag "blog" %>
 <% end %>
 
-<div class="grid_9">
+<div class="grid_9" id="blog">
 <%= partial 'blog/post', :collection => @posts %>
 <%= partial 'blog/pagenav', :locals => { :num_pages => @num_pages, :cur_page => @cur_page } %>
 </div>
