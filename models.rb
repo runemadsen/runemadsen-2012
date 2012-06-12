@@ -53,10 +53,10 @@ class Project
   include DataMapper::Resource
   
   property :id,                 Serial    
-  property :title,              String    
+  property :title,              String, :length => 255    
   property :short_description,  Text
   property :long_description,   Text    
-  property :image,              String  
+  property :image,              String, :length => 255  
   property :freeform,            Text
   
   property :published,          Boolean, :default => true

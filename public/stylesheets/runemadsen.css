@@ -70,6 +70,13 @@ a {
   color: black; 
 }
 
+h1.underline, h2.underline {
+	line-height: 25px;
+	margin-bottom: 15px;
+	border-bottom: 3px solid #2e2e2e;
+  padding-bottom: 15px;
+}
+
 a:hover {
 	color: #4d4c4d; 
 }
@@ -347,6 +354,16 @@ canvas.clock {
 	float: left;
 	width: 240px;
 	margin-top: 10px;
+}
+
+.project .long-description {
+	margin-top: 22px;
+}
+
+.project .long-description h3 {
+	border-bottom: 2px solid #2e2e2e;
+	padding-bottom: 4px;
+	margin-bottom: 0px;
 }
 
 /* Resume Styling

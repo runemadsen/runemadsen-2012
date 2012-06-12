@@ -22,8 +22,14 @@ class RuneMadsen < Sinatra::Base
   
   get '/work' do
     @active = :work
-    @projects = Project.all
+    @projects = Project.all :order => [ :ordering.asc ]
     erb :'work/index'
+  end
+  
+  get '/work/:route' do
+    @active = :work
+    @project = Project.first :route => params[:route]
+    erb :'work/show'
   end
   
   # Blog
@@ -64,6 +70,13 @@ class RuneMadsen < Sinatra::Base
   get '/info/resume' do
     @active = :info
     erb :"info/resume"
+  end
+  
+  # Printing Code
+  # -------------------------------------------------------------------
+  
+  get '/printing-code-2012' do
+    erb :"printing-code-2012/index"
   end
   
   # 404
