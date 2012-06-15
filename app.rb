@@ -75,7 +75,10 @@ class RuneMadsen < Sinatra::Base
   # Printing Code
   # -------------------------------------------------------------------
   
-  get '/printing-code-2012' do
+  get '/printing-code-2012/?:page?' do
+    filename = params[:page] || "index"
+    markdown = File.read(File.join("writings", "printing-code", filename + ".md"))
+    @html = Kramdown::Document.new(markdown).to_html
     erb :"printing-code-2012/index"
   end
   

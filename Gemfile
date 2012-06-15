@@ -10,6 +10,7 @@ gem 'dm-timestamps'
 gem 'dm-serializer'
 gem 'dm-tags'
 gem 'time_diff'
+gem 'kramdown'
 
 group :development do
   gem 'dm-mysql-adapter'

@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   color: #2e2e2e;
   background-color: #f7f7f5;
-  /*	background-image: url(../images/vertical_grid.jpg);*/ 
+/*  	background-image: url(../images/vertical_grid.jpg); */
 }
 
 /* Fonts
@@ -70,11 +70,19 @@ a {
   color: black; 
 }
 
-h1.underline, h2.underline {
+h1.underline, #printing-code-body h1 {
 	line-height: 25px;
 	margin-bottom: 15px;
 	border-bottom: 3px solid #2e2e2e;
   padding-bottom: 15px;
+}
+
+h2.underline, #printing-code-body h2 {
+	line-height: 25px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #2e2e2e;
+  padding-bottom: 12px;
 }
 
 a:hover {
