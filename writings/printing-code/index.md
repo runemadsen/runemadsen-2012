@@ -23,3 +23,34 @@ For many years graphic design education has been a separate field. You learn abo
 For people who grew up as a part of the computer generation this divide might seem problematic. These are the people who first experimented with color and form by writing HTML and CSS by hand. Where graphic [design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), not just a last layer of make-up.
 
 As you become a better graphic designer, it's obvious how much of graphic design could be distilled into algorithms. Grids are just basic measurements. Typography is all about spacing and curves. Choosing a color scheme is all about choosing an algorithmic approach to the color spectrum (one example is choosing a color scheme with equal distance in hues). This is where quotes from graphic design prophets start to break down, like the one above from Paul Rand.
+
+This class .....
+
+Some Informal Stuff
+-------------------
+
+I want the students to put up assignments the day before class, so I can pick them.
+
+I will give my honest opinion, and you will give me yours.
+
+Only the final is up for grabs. First many weeks + midterm is assigned assignments. Midterm + final can be in groups
+
+Great Books to Read
+-------------------
+
+You will not need to purchase these, but all of them are highly recommended reading.
+
+Generative Gestaltung
+John Maeda - Design By Numbers
+John Maeda - Creative Code
+Paul Graham - Hackers and Painters
+Paul Rand Design, Form and Chaos
+Karl Gerstner - Designing Programmes
+Type + Code
+Form + Code
+Dot Dot Dot Magazine
+Bulletins of the Serving Library
+Elements of Typographic Style by Robert Bringhurst.
+
+
+
