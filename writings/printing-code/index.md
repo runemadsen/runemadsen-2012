@@ -11,7 +11,12 @@ Weekly homework can be produced using the digital printers at [NYU’s Advanced 
 
 The class aims not only to teach the students how to create physical prints via code, but also to have something interesting to say about it. The class requires ICM or similar programming background.
 
-<a name="introduction"></a>
+Contact Info
+------------
+
+* Rune Skjoldborg Madsen
+* rune@runemadsen.com
+* Office Hours Signup
 
 Introduction
 ------------
@@ -24,8 +29,8 @@ For someone who grew up as a part of the computer generation this divide might s
 
 As I've grown more experienced as a graphic designer, it has become obvious that a great deal of this experience is built on a very systematic approach to design. Graphic design almost seems like algorithms controlled by a creative vision. Grids are just basic measurements. Typography is all about spacing and curves. Color schemes are basic math performed on the color spectrum. This class is about investigating what happens when we start creating graphic art only by writing code. It's an experiment in replacing already exiting tools (that too long has dictated the visual look of computational design - hello drop shadow) with our own software programs. We will investigate graphic design systems, distill them into algorithms, and eventually let them spin out of control.
 
-Some Informal Stuff
--------------------
+Things To Keep In Mind
+----------------------
 
 **Printing Code** is a class where we will be working in the intersection between programming and graphic design. This means that you will need to bring both a desire to work hard on the programming assignments, and an interest in leading the in-class discussions around the weekly readings. Here’s a few things to keep in mind: 
 
@@ -39,10 +44,10 @@ Some Informal Stuff
 
 * Please participate. I will try to give my honest opinion, and you should try your best to give me yours. 
 
-Great Books to Read
--------------------
+Inspirational Reading
+---------------------
 
-You will not need to purchase these, but all of them are highly recommended reading.
+These books might come in handy before, during or after the semester. You will not need to purchase these, but all of them are highly recommended reading.
 
 * [Generative Design: Visualize, Program, and Create with Processing](http://amzn.to/Numea0) is one of the few recent books about algorithmic graphic art. It's pricey but really worth the money.
 * [Creative Code by John Maeda](http://amzn.to/KspHn9)
@@ -56,9 +61,20 @@ You will not need to purchase these, but all of them are highly recommended read
 * [Dot Dot Dot Magazine](http://www.dot-dot-dot.us/)
 * [Bulletins of the Serving Library](http://www.servinglibrary.org/)
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9)
+* The Art of Color by Josef Albers
 
 Week 1: Hello World
 -------------------
+
+* Introductions
+* About the class
+* Syllabus walk-through
+* Reading discussion
+* **Lecture**: The History of Graphic Design, Computational Form, and Everything In Between
+
+### Readings for this week
+
+### Assignment for this week
 
 Week 2: Form
 ------------
@@ -98,12 +114,6 @@ Week 13: _Final Presentations 1_
 
 Week 14: _Final Presentations 2_
 ------------------------------
-
-
-Stuff to put somewhere
-----------------------
-
-Field trip?
 
 
 
