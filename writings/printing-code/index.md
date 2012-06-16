@@ -72,31 +72,31 @@ Week 4: Grids
 Week 5: Typography
 ------------------
 
-Week 6: Transformation
----------------------
+Week 6: Logo
+------------
 
-Week 7: Midterm Presentations
+Week 7: _Midterm Presentations_
 -----------------------------
 
-Week 8: Repetition
+Week 8: Transformation
+----------------------
+
+Week 9: Repetition
 ------------------
 
-Week 9: Motion
---------------
-
 Week 10: Randomization
----------------------
+----------------------
 
-Week 11: 3D
+Week 11: Motion
+---------------
+
+Week 12: 3D
 -----------
 
-Week 12: Logo
--------------
-
-Week 13: Final Presentations 1
+Week 13: _Final Presentations 1_
 ------------------------------
 
-Week 14: Final Presentations 2
+Week 14: _Final Presentations 2_
 ------------------------------
 
 
