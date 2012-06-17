@@ -42,7 +42,9 @@ Things To Keep In Mind
 
 * That being said, you are encouraged to share paper and AMS reservations with at least one other person. The print reservations at AMS fills up quickly, and it's much better to go in groups of 2 or 3 people.
 
-* Please participate. I will try to give my honest opinion, and you should try your best to give me yours. 
+* Please participate. I will try to give my honest opinion, and you should try your best to give me yours. This also means doing the readings.
+
+* In this class I highly encourage you to take on the role as an artist and independent thinker: This means that you will need to find a delicate balance between thought and tool.
 
 Inspirational Reading
 ---------------------
@@ -66,15 +68,44 @@ These books might come in handy before, during or after the semester. You will n
 Week 1: Hello World
 -------------------
 
-* Introductions
+>“Beauty is a function, after all, of any relevant visual message. Just as prose can be dull and straight-forward or well edited and lyrical, so too can a utilitarian object be designed to be more than just simply what it is” (intro, design elements)
+
+#### Readings for this week
+
+#### Assignment for this week
+
+### About the class
+
 * About the class
+* [Things to keep in mind](#things-to-keep-in-mind)
 * Syllabus walk-through
-* Reading discussion
-* **Lecture**: The History of Graphic Design, Computational Form, and Everything In Between
 
-### Readings for this week
+### Introductions
 
-### Assignment for this week
+* A tiny bit about me
+* Who are you? Why did you take the class? What do you expect to learn?
+
+### Reading discussion
+
+* Why are these important to the class?
+Hackers and Painters:
+Touch on the idea of “programming as you go”. [Embrace failure](https://twitter.com/#!/runemadsen/status/192300820727996416/photo/1), but THINK!
+Did you understand his idea of static typing? (We are using Java, a static typed language)
+What did it mean to you what he said about learning by reading source code? (this is what we will do in this class)
+Talk about DaVinci painting leaves: Relentlessness!
+
+### [The History of Graphic Design, Computational Form, and Everything In Between](/printing-code-2012/lecture-week1)
+
+### Using Processing to create graphic prints
+
+* How to use the Processing framework
+* Preparing for print (borders, color profile, etc)
+* The printers at AMS
+
+### Using Git
+
+* Quick intro to Git
+* How to hand in assignments 
 
 Week 2: Form
 ------------
