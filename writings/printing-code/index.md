@@ -72,6 +72,8 @@ Week 1: Hello World
 
 #### Readings for this week
 
+First essay in Graphic Design History? - talk about how tied design is to technology, why not use computer?
+
 #### Assignment for this week
 
 ### About the class
