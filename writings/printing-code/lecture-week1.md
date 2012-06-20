@@ -1,9 +1,13 @@
 The History of Graphic Design, Computational Form, and Everything In Between
 ============================================================================
 
-Graphic design is a relatively young way of expression, primarily a response to the communication needs of the industrial revolution. The word itself was first used by William Addison Dwiggins in 1928, to describe his own diverse practice of book, type, lettering and advertising design. 
+<img src="/test/test_small.png" data-slideshow="/test/test_big.png" />
+
+Graphic design is a relatively young way of expression, primarily a response to the communication needs of the industrial revolution. The word itself was first used by William Addison Dwiggins in 1928, to describe his own diverse practice of book, type, lettering and advertising design.
 
 This was the same year as Jan Tschichold released _Die Neue Typografie_ [talk about how this book changed fonts. Talk about Jan Tschichold]
+
+<img src="/test/test_small_2.png" data-slideshow="/test/test_big_2.png" />
 
 Rooted in European typesetting - moveable type in the renaissance - typesetting was a craft and primarily focused on readability. Not interpretive. If images were used, it was for iconic purposes. Symbolic imagery had its place in the "high arts".
 
