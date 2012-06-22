@@ -3,7 +3,7 @@
 Printing Code 2012
 ==================
 
-**Printing Code** is a graduate course taught at the Interactive Telecommunications Program in the fall 2012 semester. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition and generative form.
+**Printing Code** is a graduate course taught at the Interactive Telecommunications Program during the fall 2012 semester. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition and generative form.
 
 Weekly readings include relevant writings from the history of graphic design ([Josef Muller-Brockmann](http://bit.ly/KR2jkA), [Paul Rand](http://bit.ly/KzNyhy)), articles from the history of computation ([Vannevar Bush](http://bit.ly/9Zat9h), [Douglas Englebart](http://bit.ly/B4HDX)) and everything in between ([Sol Lewitt](http://bit.ly/BX1iy), [Edward Tufte](http://bit.ly/49i1Xj)).
 
@@ -96,7 +96,7 @@ Did you understand his idea of static typing? (We are using Java, a static typed
 What did it mean to you what he said about learning by reading source code? (this is what we will do in this class)
 Talk about DaVinci painting leaves: Relentlessness!
 
-### [The History of Graphic Design, Computational Form, and Everything In Between](/printing-code-2012/lecture-week1)
+### [The History of Graphic Design and Computational Form](/printing-code-2012/lecture-intro)
 
 ### Using Processing to create graphic prints
 

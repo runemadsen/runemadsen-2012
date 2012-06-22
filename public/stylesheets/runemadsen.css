@@ -394,6 +394,11 @@ canvas.clock {
 /* Printing Code / Slideshow styling
 ----------------------------------------------------------------- */
 
+img[data-slideshow] {
+	cursor:pointer;
+	cursor:hand;
+}
+
 #slideshow_container {
 	width: 100%;
 	height: 100%;
