@@ -104,28 +104,40 @@ Sol LeWitt
 
 1970's: Graphic design discovered it has a history. "Post-modernism". Venturi. Meta in graphic design. Humor. Mocking history. BASEL SCHOOL (Kunstbewergeschule) WAS THE IMPORTANT THING. This was post-modernism or "new wave". They began to ignore the grid. Visual complexity. No more obedient delivery of the client message.
 
-Then switch to computational form
+## Xerox Parc
 
-Use [Golan Levins course list of artists](http://www.golancourses.net/2012spring/lectures/lecture-02-14/)
+Sketchpad, Donald Sutherland
+Donald Knuth
+First computers were interested in typesetting: Major triumph for graphic design
+Xerox Star: Inventing the UI (vs. google docs)
 
+## The first computers in arts
 
-Sketchpad
+Exactly like the Bauhaus where machines became accessible to ordinary people, the computer became accessible for artists
 
-Per Arnoldi
+Wassilly Kandisky expressed great interest in distilling art into algorithmic and geometrical figures, essentially art becoming math: "The final abstract expression of every art is number"
 
-The Responsive Eye and The New Tendencies
+The New Tendencies -> The Responsive Eye at MoMa
 
-Xerox Parc
+## Second Generation Artists
 
-Steve Jobs and postscript: Laserwriter
+John Maeda - Aesthetics and Computation Group, MIT (Use projects from “Creative Code”)
+Mark Wilson - http://mgwilson.com/
+Karl Sims - http://www.karlsims.com/
+
+## The Internet
+
+Explosion in graphics programming
+HTML and CSS
+
+## Design programs as coding environments
 
 [Hypercard](http://www.arstechnica.com/apple/2012/05/25-years-of-hypercard-the-missing-link-to-the-web/)
+Lingo and Adobe Director
+Flash
+Processing
 
-Lingo and Adobe Director to Flash
-
-Aesthetics and Computation Group, MIT (Use projects from “Creative Code”)
-
-Today:
+## Today
 
 Projects from Generative Gestaltung
 Eric Mika’s project
@@ -134,3 +146,4 @@ Eric Mika’s project
 Sum up: Graphic Design today is built on the entire history. to understand design today, you have to understand the computer (255 for color). We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
 
 LOOK THROUGH AND FIND STUFF FROM MY MICA TALK
+USE GOLAN LEVINS LIST OF COMPUTATIONAL ARTISTS: http://golancourses.net/2012spring/lectures/lecture-02-14/
