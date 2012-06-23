@@ -74,8 +74,6 @@ Week 1: Hello World
 
 First essay in Graphic Design History? - talk about how tied design is to technology, why not use computer?
 
-#### Assignment for this week
-
 ### About the class
 
 * About the class
@@ -109,8 +107,13 @@ Talk about DaVinci painting leaves: Relentlessness!
 * Quick intro to Git
 * How to hand in assignments 
 
+#### Assignment for next week
+
+Using the Processing framework I showed you, print something on ITPs laser printer. Something simple.
+
 Week 2: Form
 ------------
+
 
 Week 3: Color
 -------------

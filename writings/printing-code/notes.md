@@ -1,6 +1,8 @@
 Printing Code
 =============
 
+THESE WEEKLY LECTURES ARE NOT GRAPHIC DESIGN HISTORY, LIKE THE FIRST CLASS. THESE ARE HANDS ON EXAMPLES AND EXERCISES - LIKE IN GRAPHIC DESIGN BOOKS - AND I ONLY SHOW WORK TO EMPHASIS THE LEARNINGS.
+
 Class: Form
 ----------------------
 
@@ -41,6 +43,9 @@ Place, scale and order specific forms. I give them source code, they tweak varia
 
 Class: Color
 ----------------------
+
+Use this:
+http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
 
 One class about color theory. We go through combining color and schemes. Assignment is to create a sketch that generates a color scheme and prints it.
 Programming assignment: Make the gradient class
