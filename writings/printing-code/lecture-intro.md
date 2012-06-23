@@ -1,20 +1,38 @@
 The History of Graphic Design and Computational Form
 ====================================================
 
-<img src="/test/test_small.png" data-slideshow="/test/test_big.png" />
-
 Graphic design is a relatively young way of expression, primarily a response to the communication needs of the industrial revolution. 
+
+## Early Renaissance
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gutenberg_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gutenberg.jpg" />
+
+Since the invention of movable type in the early 1400's, book design was a craft primarily focused on readability. Typography was neutral, and headings were very rare. Images were used sparingly and mostly for iconic purposes. A book was merely a medium for communicating spoken words. 
 
 ## William Addison Dwiggins
 
-The word itself was first used by William Addison Dwiggins in 1928, to describe his own diverse practice of book, type, lettering and advertising design.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins.jpg" />
 
-Rooted in European typesetting - moveable type in the renaissance - typesetting was a craft and primarily focused on readability. Not interpretive. If images were used, it was for iconic purposes. Symbolic imagery had its place in the "high arts". New way of thinking:  _seeing_ is as important as _reading_.
+The invention of the term _Graphic Design_ has been attributed to William Addison Dwiggins, director of the Harvard University Press and founder of the Society of Calligraphers in Boston. Born in 1880 at the exact time of the invention of the Linotype machine, Dwiggins coined this term in 1922 to describe his process of designing books, as combination of typesetting, illustration and design. Book design changed from being a simple, neutral craft to a interpretive art:
+
+> What type does the architect of advertising elect to use, and why? That question is the acolyte’s invariable first prayer for enlightenment—phrased always in one of the various voices of despair—what type shall I use? The gods refuse an answer. They refuse (sacrilege though it be to say it) because they do not know.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover.jpg" />
+
+This - one of many book covers designed by Dwiggins - underlines this new way of thinking: That _seeing_ is as important as _reading_, and that typography and illustration can be used for symbolism. Dwiggins worked most of his life in advertising, and released the book _Layout in Advertising_ in 1928.
 
 
 ## Futurists, Dadaists and De Stijl
 
-It was not until the early 20th century that typography was used with symbolic meaning. Futurists, Dadaist and De Stijl rejected the divide between "high art". They added symbolism to typography and functionalism to art. (show examples of these)
+At the same time in the early 20th century quite a few artistic movements started rejecting the former divide between high art and every day design. The most important of these were the Futurists, Dadaists and De Stijl. With these movements came a very strong reinvention of graphic form.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/depero_futurista_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/depero_futurista_cover.jpg" />
+
+With the **Futurist Manifesto**, a number of Italian artists swore off the traditional arts, and instead sought to visualize the future, technology and the industrial revolution through the lens of most artistic expressions. In the graphic arts this meant experiments in typography, geometric forms and color. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/futurismo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/futurismo.jpg" />
+
+The futurist movement had strong ties to Fascism and Mussolini, which meant a further popularization of the futurist art through newspaper and poster design. 
 
 
 ## The Bauhaus
