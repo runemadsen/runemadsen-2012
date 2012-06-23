@@ -35,6 +35,25 @@ With the **Futurist Manifesto**, a number of Italian artists swore off the tradi
 The futurist movement had strong ties to Fascism and Mussolini, which meant a further popularization of the futurist art through newspaper and poster design. 
 
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show.jpg" />
+
+**Dadaism** was an art movement that started as a reaction to the first world war. They borrowed heavily from the experimental typography of the Futurists, although their style was more surreal. They rebelled against any logic in the arts, to the degree that their work can seem almost post-modern today. In the graphic arts they combined expressive typography and extreme use of white-space with the heavy use of photo montages. The typeface itself held as much symbolism as the words it spelled out. Here it is a poster for the international Dadaist show in 1921.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_blume_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_blume.jpg" />
+
+Here it's the cover for Kurt Schwitters "Anna Blume" from 1919.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/mondrian_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/mondrian.jpg" />
+
+**De Stijl**, or _The Style_ in Dutch, was an abstract art movement formed in the Netherlands. With its strict minimalism, De Stijl artists kept to a bare minimum of expression, rarely using anything other than straight lines and primary colors.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/destijl_logo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/destijl_logo.jpg" />
+
+The important thing to notice, here with the original logo for the De Stijl publication, is the almost algorithmic use of form and proportion. It's a use of form and color that points towards the later works of Sol Lewitt, and even the early experiments in computational art.
+
+All in all these movements made a drastic impact on the way typography, form and color was used in publications. It further diminished the former distinction between _high art_ and print design, and all three of these movements had a great impact on the teachings at the Bauhaus.
+
+
 ## The Bauhaus
 
 Opened by Walter Gropius in 1919 in Weimar (show bauhaus building)
@@ -105,6 +124,8 @@ First generation of modernist immigrants: Moholy-Nagy and Albers (Albers became 
 ## The Big Idea
 
 These european designers influenced a new generation of American designers: PAUL RAND (a lot about Paul Rand). Matured during the 50's. Centered in New York. The "Big Idea" men (explain why). All associated with New York School of Advertising. Show Bernbach's Volkswagen Ads, also NYSA. Bernbach broke traditional rules and made advertising art: For Avis: "We're No. 2. We Try Harder". Poking fun of the brand. This was also where the "." in end of headlines started.
+
+SAUL BASS
 
 
 ## The Swiss Style
