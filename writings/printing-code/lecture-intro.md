@@ -113,7 +113,7 @@ Painter geometric forms
 
 All focused on color, geometric shapes - and after a poster (show poster: http://www.flickr.com/photos/35617001@N02/3297165580/in/set-72157614565413098/) - also typography
 
-Bauhaus closed in 1933 after pressure from the Nazis (they called it degenerate art)
+Bauhaus closed abruptly in 1933 after intense pressure from the Nazi party. Considered _degenerate art_ by the leading Nazi politicians, Bauhaus modernism was replaced by art and architecture informed by classicist ideals. This newly found romantic realism was in architecture led by Hitler's chief architect Albert Speer. German art was as well dictated by the Nazi party, in particular Hitler and Reichsmarschall Hermann Goering (who at the end of WW2 had one of the biggest art collections known to man). In the coming years graphic design was heavily influenced by regime changes around the world.
 
 
 Jan Tschichold
@@ -128,18 +128,6 @@ Clashed with the Nazi regime and moved to Switzerland
 
 Relocated to London in the 1940's where he created the design manual for Penguin Books.
 
-
-Germany and the USSR
---------------------
-
-
-Graphic design heavily influenced by regime changes around the world: Germany and USSR in the late 20's - 30's.
-
-[albert speer image]
-The nazi movement killed the Bauhaus - focus on classisicm
-
-[poster]
-The propaganda poster proved an invaluable part of the 
 
 
 Modernist Immigrants
