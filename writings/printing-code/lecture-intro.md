@@ -132,11 +132,8 @@ Tschichold clashed with the Nazi regime and moved with his family to Switzerland
 Here's an example of the 1930's Penguin Books paperback design, and Tschichold's revised version from the 1950's to the right.
 
 
-New York School of Advertising
-------------------------------
-
-SAUL BASS?
-Sol LeWitt?
+Big Idea Designers
+------------------
 
 These european designers influenced a new generation of American designers, primarily centered around New York School of Advertising in the 50's and 60's. These so-called _Big Idea_ designers often relied on the creativity of the individual designer, introducing the idea of the artist into mainstream advertising. Characterized by a balance between simplicity and playfulness, these designers revolutionized the advertising industry, and invented a whole new way of reaching the consumer. This period is often called _the golden days_ of advertising, as glorified in the TV-series _Mad Men_.
 
@@ -164,6 +161,10 @@ The Beetle campaign dared making fun of the Volkswagen brand. Also notice the us
 
 Paul Rand released numerous books (see _[Suggested Readings](/printing-code-2012#inspirational-reading)_), in which he often argued that graphic design, with its focus on color, form and proportion, should be considered as the basis for all visual arts.
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass.jpg" />
+
+Another hugely important designer from this period is **Saul Bass**, who is best known for his movie poster designs.
+
 
 The Swiss Style
 ---------------
@@ -188,9 +189,22 @@ Brockmann held to these rules in his own work to a degree that Michael Kroeger r
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner.jpg" />
 
-**Karl Gerstner**'s - pointing towards the early experiments with computers
-Algorithmic approach, generative systems
--> Donald Knuth's metafont
+In _Designing Programmes_, **Karl Gerstner** goes even further and proposes an approach to graphic design based on strict modular principles. As can be seen in the picture above, Gerstner often relies on rules that can be re-used to generate multiple versions of a graphic design. In this sense Gerstner's work is almost algorithimic, which was also mentioned in the press release when _Designing Programmes_ was re-released by Lars Müller in 2007:
+
+> The book is especially topical and exciting in the context of current developments in computational design, which seem to hold out the possibility of programmed design.
+
+Gerstner's work points directly to the notion of Serial Art, the early experiments in computational art, and projects like Donald Knuth's Metafont.
+
+Serial Art
+----------
+
+[Serial Art](http://en.wikipedia.org/wiki/Serial_art)
+
+strict modular principles
+
+Karl Gerstner
+
+Sol Lewitt
 
 
 Xerox Parc
