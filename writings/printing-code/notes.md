@@ -115,6 +115,9 @@ Class: Logo
 I like this because a logo is everything about graphic design condensed into one thing.
 Show work like the Tisch Gala logo and the MIT logo + stuff like 
 
+Dynamic identities: http://rulesbased.wordpress.com/category/graphic-design/
+http://rulesbased.wordpress.com/
+
 Related Readings 
 ----------------------
 

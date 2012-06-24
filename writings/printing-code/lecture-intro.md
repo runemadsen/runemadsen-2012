@@ -111,6 +111,8 @@ Replaced Itten as a teacher in the foundation courses.
 Painter geometric forms
 (Insert pictures on google images)
 
+Both Albers and Moholy-Nagy was a part of the first modernist immigrants to the US, and they both had a profound impact on the new breed of American graphic designers in the golden age of advertising. Albers was appointed head of the graphic design department at Yale University, and Moholy-Nagy became head of the _New Bauhaus_ school on Chicago in 1937.
+
 All focused on color, geometric shapes - and after a poster (show poster: http://www.flickr.com/photos/35617001@N02/3297165580/in/set-72157614565413098/) - also typography
 
 Bauhaus closed abruptly in 1933 after intense pressure from the Nazi party. Considered _degenerate art_ by the leading Nazi politicians, Bauhaus modernism was replaced by art and architecture informed by classicist ideals. This newly found romantic realism was in architecture led by Hitler's chief architect Albert Speer. German art was as well dictated by the Nazi party, in particular Hitler and Reichsmarschall Hermann Goering (who at the end of WW2 had one of the biggest art collections known to man). In the coming years graphic design was heavily influenced by regime changes around the world.
@@ -130,22 +132,13 @@ Tschichold clashed with the Nazi regime and moved with his family to Switzerland
 Here's an example of the 1930's Penguin Books paperback design, and Tschichold's revised version from the 1950's to the right.
 
 
-Modernist Immigrants
---------------------
-
-First generation of modernist immigrants: Moholy-Nagy and Albers (Albers became the head of graphic design at Yale). This had a massive impact on public graphics: from text heavy to simplistic, modernist expressions (show coca cola before and after).
-
-[coca-cola before]
-
-[coca-cola after]
-
-[saul bass - where was he? Should he be in NYSA part?]
-
-
 New York School of Advertising
 ------------------------------
 
-These european designers influenced a new generation of American designers, primarily centered around New York School of Advertising in the 50's. These so-called _Big Idea_ designers often relied on the creativity of the individual designer, introducing the idea of the artist into mainstream advertising. Characterized by a balance between simplicity and playfulness, these designers revolutionized the advertising industry, and invented a whole new way of reaching the consumer. This period is often called _the golden days_ of advertising, as glorified in the TV-series _Mad Men_.
+SAUL BASS?
+Sol LeWitt?
+
+These european designers influenced a new generation of American designers, primarily centered around New York School of Advertising in the 50's and 60's. These so-called _Big Idea_ designers often relied on the creativity of the individual designer, introducing the idea of the artist into mainstream advertising. Characterized by a balance between simplicity and playfulness, these designers revolutionized the advertising industry, and invented a whole new way of reaching the consumer. This period is often called _the golden days_ of advertising, as glorified in the TV-series _Mad Men_.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
 
@@ -159,7 +152,7 @@ The Beetle campaign dared making fun of the Volkswagen brand. Also notice the us
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand.jpg" />
 
-**Paul Rand** is without doubt one of the most influential graphic designers in the history of the field. Although [often cited](http://en.wikipedia.org/wiki/Paul_Rand) as a proponent of the _Swiss Style_ of graphic design, Paul Rand's body of work has a notable degree of playfulness and artistic vision that cannot be found in the extremely systematic designs from his European colleagues. Rand is also known for his critique of graphic design education, including his departure as head of the Graphic Design department at Yale because of the acceptance of post-modern influences to the curriculum.
+**Paul Rand** is without doubt one of the most influential graphic designers in the history of the field. Although [often cited](http://en.wikipedia.org/wiki/Paul_Rand) as a proponent of the _Swiss Style_ of graphic design, Paul Rand's body of work has a notable degree of playfulness and artistic vision that cannot be found in the extremely systematic designs from his European colleagues. Rand is also known for his critique of graphic design education, including his departure as head of the Graphic Design department at Yale because of the acceptance of post-modern influences to the curriculum. I will not talk about post-modern graphic design in this class, but you can read more about it on ...
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
 
@@ -175,29 +168,34 @@ Paul Rand released numerous books (see _[Suggested Readings](/printing-code-2012
 The Swiss Style
 ---------------
 
+> This graphic aesthetic and method was the second wave of European Modernism to influence the U.S. Essentially different from the "big idea" approach, it is based on an assumption of Modernist rational "method", a codified approach not so dependent on the individualistic inspiration and talent of the designer. - "American Graphic Design Expression", Katherine McCoy, 1990
 
-In the 1960's came the Swiss Style, influenced by Graphis and "Bibles" by Josef Muller-Brockmann and Karl Gerstner. Systematic methology in contrast to "Big Idea". This had a huge impact on America Corporations. (Explain, examples). Grids and typographic relationships. The relatively new field of Semiotics had a huge impact. It was Bauhaus applied.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann.jpg" />
 
-Josef Muller-Brockmann
+The _Swiss Style_ is a term used to describe the new approach to graphic design that came from Switzerland in the 1960's. Centered around Josef Müller-Brockmann's "Grid Systems" and Karl Gerstner's "Designing Programmes" books, the _Swiss Style_ was a systematic methodology built around the concept of simple rules that stood in sharp contrast to the American _Big Idea_ style. 
 
-Karl Gerstner
+<iframe width="560" height="338" src="http://www.youtube.com/embed/VDLPAE9wLEU" frameborder="0" allowfullscreen></iframe>
 
-Sol LeWitt
+The _Swiss Style_ distilled graphic design into a series of simple constraints and rules. Use Helvetica. Use a grid system. It was a return to the purely functional graphic arts, in a way that it has been described as _Bauhaus applied_. The _Swiss Style_ had a profound impact on American corporations, as explained in this video from the movie _Helvetica_.
 
-the battle between big idea and systematic style
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2.jpg" />
 
-Post-Modernism
---------------
+**Josef Muller-Brockmann** was... 
 
-Paul Rand resigned: http://en.wikipedia.org/wiki/Paul_Rand (critisicm)
+> "The message will reach a maximum power of expression if the object or idea is presented aesthetically and efficiently with a minimum of accompanying design. Both subjective ornament in the sense of illustrative exaggerations and over-objective presentation must be avoided" - Josef Müller-Brockmann
 
-1970's: Graphic design discovered it has a history. "Post-modernism". Venturi. Meta in graphic design. Humor. Mocking history. BASEL SCHOOL (Kunstbewergeschule) WAS THE IMPORTANT THING. This was post-modernism or "new wave". They began to ignore the grid. Visual complexity. No more obedient delivery of the client message.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner.jpg" />
+
+Karl Gerstner - pointing towards the early experiments with computers
+Algorithmic approach, generative systems
+-> Donald Knuth's metafont
+
 
 Xerox Parc
 ----------
 
 Sketchpad, Donald Sutherland
-Donald Knuth
+Donald Knuth - metafont
 First computers were interested in typesetting: Major triumph for graphic design
 Xerox Star: Inventing the UI (vs. google docs)
 
