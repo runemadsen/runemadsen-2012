@@ -51,6 +51,9 @@ One class about color theory. We go through combining color and schemes. Assignm
 Programming assignment: Make the gradient class
 Albers, Itten
 
+Start with RGB, then explain HSB (all from Processing)
+Then start including color theory and work examples, but everything should be based in Processing
+
 Class: Grids
 ----------------------
 
@@ -69,6 +72,7 @@ Read: Something from Bringhurst (one could be p. 25)
 Talk about [Greta and](http://www.typotheque.com/blog/greta_system) and the [blog post](http://www.typotheque.com/articles/designing_type_systems)
 THIS IS GREAT: http://37signals.com/svn/posts/3183-the-art-of-computer-typography. Use it with bulletins from the serving library that uses his font. Show how to draw a font in vectors...
 THERE A BOOK CALLED [TYPE + CODE](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn). It’s only about creating generative typography with processing.
+Bringhurst for the web: http://www.webtypography.net/toc/
 
 Class: Transformation
 ----------------------

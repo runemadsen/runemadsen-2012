@@ -3,13 +3,16 @@ The History of Graphic Design and Computational Form
 
 Graphic design is a relatively young way of expression, primarily a response to the communication needs of the industrial revolution. 
 
-## Early Renaissance
+Early Renaissance
+-----------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gutenberg_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gutenberg.jpg" />
 
 Since the invention of movable type in the early 1400's, book design was a craft primarily focused on readability. Typography was neutral, and headings were very rare. Images were used sparingly and mostly for iconic purposes. A book was merely a medium for communicating spoken words. 
 
-## William Addison Dwiggins
+
+William Addison Dwiggins
+------------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins.jpg" />
 
@@ -22,7 +25,8 @@ The invention of the term _Graphic Design_ has been attributed to William Addiso
 This - one of many book covers designed by Dwiggins - underlines this new way of thinking: That _seeing_ is as important as _reading_, and that typography and illustration can be used for symbolism. Dwiggins worked most of his life in advertising, and released the book _Layout in Advertising_ in 1928.
 
 
-## Futurists, Dadaists and De Stijl
+Futurists, Dadaists and De Stijl
+--------------------------------
 
 At the same time in the early 20th century quite a few artistic movements started rejecting the former divide between high art and every day design. The most important of these were the Futurists, Dadaists and De Stijl. With these movements came a very strong reinvention of graphic form.
 
@@ -34,7 +38,6 @@ With the **Futurist Manifesto**, a number of Italian artists swore off the tradi
 
 The futurist movement had strong ties to Fascism and Mussolini, which meant a further popularization of the futurist art through newspaper and poster design. 
 
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show.jpg" />
 
 **Dadaism** was an art movement that started as a reaction to the first world war. They borrowed heavily from the experimental typography of the Futurists, although their style was more surreal. They rebelled against any logic in the arts, to the degree that their work can seem almost post-modern today. In the graphic arts they combined expressive typography and extreme use of white-space with the heavy use of photo montages. The typeface itself held as much symbolism as the words it spelled out. Here it is a poster for the international Dadaist show in 1921.
@@ -45,7 +48,7 @@ Here it's the cover for Kurt Schwitters "Anna Blume" from 1919.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/mondrian_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/mondrian.jpg" />
 
-**De Stijl**, or _The Style_ in Dutch, was an abstract art movement formed in the Netherlands. With its strict minimalism, De Stijl artists kept to a bare minimum of expression, rarely using anything other than straight lines and primary colors.
+**De Stijl**, or _The Style_ in Dutch, was an abstract art movement formed in the Netherlands. With its strict minimalism, De Stijl artists kept to a bare minimum of expression, rarely using anything other than straight lines and primary colors. Here it is the famous painter Piet Mondrian, one of the leading figures in the De Stijl movement.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/destijl_logo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/destijl_logo.jpg" />
 
@@ -54,31 +57,27 @@ The important thing to notice, here with the original logo for the De Stijl publ
 All in all these movements made a drastic impact on the way typography, form and color was used in publications. It further diminished the former distinction between _high art_ and print design, and all three of these movements had a great impact on the teachings at the Bauhaus.
 
 
-## The Bauhaus
+The Bauhaus
+-----------
 
-Opened by Walter Gropius in 1919 in Weimar (show bauhaus building)
 
-Foundation Courses (inspired ITP): http://www.gardenvisit.com/blog/wp-content/uploads/2008/12/image001.jpg
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus.jpg" />
 
-One of the most important movements in architecture, arts and design. The Bauhaus unified art and crafts
+Few things has influenced modern architecture, arts and design like the Bauhaus school in Germany. Opened by Walter Gropius in 1919 in Weimar (image is of the Bauhaus complex in Dessau), the Bauhaus school took a modernist approach to the unification of arts and craft.
 
-Tools from the industrial revolution became available to everyone. Parallel to how programming is now available to everyone.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_course.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_course.jpg" />
 
-Modernism: Uniformity of all objects made by man - no matter the size. As big as a house and as small as a spoon (show house and spoon)
+The basic motto of the Bauhaus was _form follows function_, which meant a focus on functional simplicity: 
 
-> But the idea of freeing ourselves of tradition and of starting again from the two basic motives, the practical requirement of life and the conditions of the materials is so good that nothing else matters for the time being" - Rudolf Arnheim
+> "Just as in the workshops of the Bauhaus the smallest utility object is given the simplest geometrical shape, so are these, the biggest of them all. Thus one is made to receive here the sense of a convincing uniformity of all objects made by man regardless of size, from a metal ashtray to a building" - Rudolf Arnheim
 
-For graphic design, these _Masters_ made a great difference
+> "But the idea of freeing ourselves of tradition and of starting again from the two basic motives, the practical requirement of life and the conditions of the materials is so good that nothing else matters for the time being" - Rudolf Arnheim
 
-Vassily Kandinsky
-Geometric shapes in his painting - probably the most well known.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius.jpg" />
 
-Paul Klee
+The graphic products from the Bauhaus era are therefore closely tied to all other fields of art practiced at the Bauhaus. Nothing is used without a functional meaning, which led to an increased focus on grids and proportions. Color theory also played a major role in the Bauhaus foundation courses.
 
-Josef Albers
-Wrote _The Interaction of Color_
-Simple geometric forms
-(A few images of his work on black/white structures)
+[johannes itten image]
 
 Johannes Itten (Not a Master)
 Wrote _The Art of Color_
@@ -86,20 +85,40 @@ Itten himself was a follower of the Christian fire cult Mazdaznan, in which the 
 Color experiments - 
 Color like music
 
+[kandinsky image]
+
+Vassily Kandinsky
+Geometric shapes in his painting - probably the most well known.
+
+[paul klee image]
+
+Paul Klee
+
+[josef albers image]
+
+Josef Albers
+Wrote _The Interaction of Color_
+Simple geometric forms
+(A few images of his work on black/white structures)
+
+Both created a taxonomy of color 
+We will talk more about these in our session about color theory
+
+[moholy-nagy image]
+
 Moholy-Nagy
 Replaced Itten as a teacher in the foundation courses.
 Painter geometric forms
 (Insert pictures on google images)
-
-Both created a taxonomy of color 
-We will talk more about these in our session about color theory
 
 All focused on color, geometric shapes - and after a poster (show poster: http://www.flickr.com/photos/35617001@N02/3297165580/in/set-72157614565413098/) - also typography
 
 Bauhaus closed in 1933 after pressure from the Nazis (they called it degenerate art)
 
 
-## Jan Tschichold
+Jan Tschichold
+--------------
+
 
 This was the same year 1928 as Jan Tschichold released _Die Neue Typografie_, inspired by the first Bauhaus Weimar exhibition [talk about how this book changed fonts. Talk about Jan Tschichold]
 
@@ -110,25 +129,64 @@ Clashed with the Nazi regime and moved to Switzerland
 Relocated to London in the 1940's where he created the design manual for Penguin Books.
 
 
+Germany and the USSR
+--------------------
 
-## Germany and the USSR
 
 Graphic design heavily influenced by regime changes around the world: Germany and USSR in the late 20's - 30's.
 
+[albert speer image]
+The nazi movement killed the Bauhaus - focus on classisicm
 
-## Modernist Immigrants
+[poster]
+The propaganda poster proved an invaluable part of the 
+
+
+Modernist Immigrants
+--------------------
 
 First generation of modernist immigrants: Moholy-Nagy and Albers (Albers became the head of graphic design at Yale). This had a massive impact on public graphics: from text heavy to simplistic, modernist expressions (show coca cola before and after).
 
+[coca-cola before]
 
-## The Big Idea
+[coca-cola after]
 
-These european designers influenced a new generation of American designers: PAUL RAND (a lot about Paul Rand). Matured during the 50's. Centered in New York. The "Big Idea" men (explain why). All associated with New York School of Advertising. Show Bernbach's Volkswagen Ads, also NYSA. Bernbach broke traditional rules and made advertising art: For Avis: "We're No. 2. We Try Harder". Poking fun of the brand. This was also where the "." in end of headlines started.
-
-SAUL BASS
+[saul bass - where was he? Should he be in NYSA part?]
 
 
-## The Swiss Style
+New York School of Advertising
+------------------------------
+
+These european designers influenced a new generation of American designers, primarily centered around New York School of Advertising in the 50's. These so-called _Big Idea_ designers often relied on the creativity of the individual designer, introducing the idea of the artist into mainstream advertising. Characterized by a balance between simplicity and playfulness, these designers revolutionized the advertising industry, and invented a whole new way of reaching the consumer. This period is often called _the golden days_ of advertising, as glorified in the TV-series _Mad Men_.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
+
+Originally designed by Ferdinand Porsche as a _people's car_ for the third Reich (on orders by Hitler), the Beetle was not an obvious success on the American market. The _Think Small_ campaign by Williams Bernbach with its heavy use of white-space, simplistic typography, and creative text copy, managed to build a strong relationship between the Beetle and American consumers.  
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle.jpg" />
+
+> "Let us prove to the world that good taste, good art, and good writing can be good selling." - William Bernbach
+
+The Beetle campaign dared making fun of the Volkswagen brand. Also notice the use of "." at the end of short headings.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand.jpg" />
+
+**Paul Rand** is without doubt one of the most influential graphic designers in the history of the field. Although [often cited](http://en.wikipedia.org/wiki/Paul_Rand) as a proponent of the _Swiss Style_ of graphic design, Paul Rand's body of work has a notable degree of playfulness and artistic vision that cannot be found in the extremely systematic designs from his European colleagues. Rand is also known for his critique of graphic design education, including his departure as head of the Graphic Design department at Yale because of the acceptance of post-modern influences to the curriculum.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/next_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/next.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/ibm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/ibm.jpg" />
+
+Paul Rand released numerous books (see _[Suggested Readings](/printing-code-2012#inspirational-reading)_), in which he often argued that graphic design, with its focus on color, form and proportion, should be considered as the basis for all visual arts.
+
+
+The Swiss Style
+---------------
+
 
 In the 1960's came the Swiss Style, influenced by Graphis and "Bibles" by Josef Muller-Brockmann and Karl Gerstner. Systematic methology in contrast to "Big Idea". This had a huge impact on America Corporations. (Explain, examples). Grids and typographic relationships. The relatively new field of Semiotics had a huge impact. It was Bauhaus applied.
 
@@ -138,19 +196,26 @@ Karl Gerstner
 
 Sol LeWitt
 
+the battle between big idea and systematic style
 
-## Post-Modernism
+Post-Modernism
+--------------
+
+Paul Rand resigned: http://en.wikipedia.org/wiki/Paul_Rand (critisicm)
 
 1970's: Graphic design discovered it has a history. "Post-modernism". Venturi. Meta in graphic design. Humor. Mocking history. BASEL SCHOOL (Kunstbewergeschule) WAS THE IMPORTANT THING. This was post-modernism or "new wave". They began to ignore the grid. Visual complexity. No more obedient delivery of the client message.
 
-## Xerox Parc
+Xerox Parc
+----------
 
 Sketchpad, Donald Sutherland
 Donald Knuth
 First computers were interested in typesetting: Major triumph for graphic design
 Xerox Star: Inventing the UI (vs. google docs)
 
-## The first computers in arts
+
+The first computers in arts
+---------------------------
 
 Exactly like the Bauhaus where machines became accessible to ordinary people, the computer became accessible for artists
 
@@ -158,25 +223,39 @@ Wassilly Kandisky expressed great interest in distilling art into algorithmic an
 
 The New Tendencies -> The Responsive Eye at MoMa
 
-## Second Generation Artists
+
+Steve Jobs
+----------
+
+FROM THIS PAGE: http://guity-novin.blogspot.com/2010/04/history-of-graphic-design-pioneers-of.html#Four
+
+
+Second Generation Artists
+-------------------------
 
 John Maeda - Aesthetics and Computation Group, MIT (Use projects from “Creative Code”)
 Mark Wilson - http://mgwilson.com/
 Karl Sims - http://www.karlsims.com/
 
-## The Internet
+
+The Internet
+------------
 
 Explosion in graphics programming
 HTML and CSS
+Webdesign (critical)
 
-## Design programs as coding environments
+
+Design programs as coding environments
+--------------------------------------
 
 [Hypercard](http://www.arstechnica.com/apple/2012/05/25-years-of-hypercard-the-missing-link-to-the-web/)
 Lingo and Adobe Director
 Flash
 Processing
 
-## Today
+Today
+-----
 
 Projects from Generative Gestaltung
 Eric Mika’s project
