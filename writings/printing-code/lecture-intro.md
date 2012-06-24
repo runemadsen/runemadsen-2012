@@ -180,13 +180,15 @@ The _Swiss Style_ distilled graphic design into a series of simple constraints a
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2.jpg" />
 
-**Josef Muller-Brockmann** was... 
+**Josef Muller-Brockmann**'s book _Grid Systems_ suggested the use of strict grid systems to order graphic elements on the page. Gone where the artistic freedom of the artist:
 
 > "The message will reach a maximum power of expression if the object or idea is presented aesthetically and efficiently with a minimum of accompanying design. Both subjective ornament in the sense of illustrative exaggerations and over-objective presentation must be avoided" - Josef Müller-Brockmann
 
+Brockmann held to these rules in his own work to a degree that Michael Kroeger referred to Brockmann as _mechanical_ in [conversations with Paul Rand](http://amzn.to/gZHfWO).
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner.jpg" />
 
-Karl Gerstner - pointing towards the early experiments with computers
+**Karl Gerstner**'s - pointing towards the early experiments with computers
 Algorithmic approach, generative systems
 -> Donald Knuth's metafont
 
