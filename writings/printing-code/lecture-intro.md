@@ -119,15 +119,15 @@ Bauhaus closed abruptly in 1933 after intense pressure from the Nazi party. Cons
 Jan Tschichold
 --------------
 
+Inspired by the first Bauhaus Weimar exhibition, Jan Tschichold released _Die Neue Typografie_ in 1928. What today is considered an extreme modernist manifesto of typography, it had a profound impact on graphic design and typography at the time. In the book Tschichold condemned the use of serif fonts, as well as centered designs.
 
-This was the same year 1928 as Jan Tschichold released _Die Neue Typografie_, inspired by the first Bauhaus Weimar exhibition [talk about how this book changed fonts. Talk about Jan Tschichold]
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dieneue_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dieneue.jpg" />
 
-Very modernist: Condemned the use of serifs and centered design
+Tschichold clashed with the Nazi regime and moved with his family to Switzerland. In the 1940's he relocated to London where he created the design manual for Penguin Books and helped design more than 500 of the famous Penguin paperback books.
 
-Clashed with the Nazi regime and moved to Switzerland
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/penguin_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/penguin.jpg" />
 
-Relocated to London in the 1940's where he created the design manual for Penguin Books.
-
+Here's an example of the 1930's Penguin Books paperback design, and Tschichold's revised version from the 1950's to the right.
 
 
 Modernist Immigrants
