@@ -72,13 +72,17 @@ class RuneMadsen < Sinatra::Base
     erb :"info/resume"
   end
   
-  # Printing Code
+  # Writings
   # -------------------------------------------------------------------
   
   get '/printing-code-2012/?:page?' do
     filename = params[:page] || "index"
-    markdown = File.read(File.join("writings", "printing-code", filename + ".md"))
-    @html = Kramdown::Document.new(markdown).to_html
+    @html = md_to_html(File.join("writings", "printing-code", filename + ".md"))
+    erb :"printing-code-2012/index"
+  end
+  
+  get '/itp-camp' do
+    @html = md_to_html("writings/openframeworks-itpcamp.md")
     erb :"printing-code-2012/index"
   end
   

@@ -27,5 +27,10 @@ module RuneMadsenHelpers
       erb(:"#{template}", options)
     end
   end
+  
+  def md_to_html(filename)
+    markdown = File.read(filename)
+    @html = Kramdown::Document.new(markdown).to_html
+  end
 
 end

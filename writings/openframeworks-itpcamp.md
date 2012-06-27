@@ -37,20 +37,18 @@ Creating A New Project
 * Remember 2-folder nesting when copying empty example
 * That weird thing when OF is the scheme instead of the app
 
-The OF API
+The API
 ----------
 
 * Show the [documentation page](http://www.openframeworks.cc/documentation/) vs. the Processing documentation page
 
-=== Drawing Shapes
+### Drawing Shapes
 
 	ofEllipse(x, y, width, height);
 	ofRect(x, y, width, height);
 	ofTriangle(x1, y1, x2, y2, x3, y3);
-	
-	
 
-=== Stroke and Fill
+### Stroke and Fill
 
 	// draw something with a fill and no stroke
 	ofFill();
@@ -66,7 +64,65 @@ The OF API
 	ofNoFill();
 	ofRect(x, y, w, h);
 	
-=== BeginShape and EndShape
+### Color
+
+	ofSetColor(255, 0, 0);
+	ofSetColor(255, 0, 0, 255);
+	ofSetHexColor(0xFF0000);
+
+### Drawing Fonts
+
+	// setup
+	ofTrueTypeFont verdana;
+	verdana.loadFont("verdana.ttf", 14, true, true);
+	verdana.setLineHeight(18.0f);
+	verdana.setLetterSpacing(1.037);
+	
+	// draw
+	ofSetColor(245, 58, 135);
+	verdana.drawString("Hello There", 100, 100);
+
+### Drawing Images
+
+	// header
+	ofImage myImage;
+	
+	// setup
+	myImage.loadImage("myimage.jpg");
+	
+	// draw
+	ofSetColor(255);
+	myImage.draw(0, 0);
+
+### Rotation
+
+	// wrong, rotates around 0,0
+	ofRotate(45);
+	ofSetColor(255, 0, 0);
+	ofFill();
+	ofRect(200, 200, 100, 100);
+	
+	// right, rotates around 200,200
+	ofTranslate(200, 200);
+	ofRotate(45);
+	ofSetColor(255, 0, 0);
+	ofFill();
+	ofRect(0, 0, 100, 100);
+	
+### pushMatrix and popMatrix
+
+	ofPushMatrix();
+	ofTranslate(200, 200);
+	ofRotate(45);
+	ofSetColor(255, 0, 0);
+	ofFill();
+	ofRect(0, 0, 100, 100);
+	ofRect(110, 110, 100, 100);
+	ofPopMatrix();
+
+	ofRect(0, 0, 100, 100);
+
+### BeginShape and EndShape
 
 	ofSetHexColor(0xe0be21);
 
@@ -90,30 +146,9 @@ The OF API
 		ofVertex(305,200);
 		ofVertex(250,25);
 	ofEndShape();
-	
-=== Color
 
-	ofSetColor(255, 0, 0);
-	ofSetColor(255, 0, 0, 255);
-	ofSetHexColor(0xFF0000);
 
-=== Drawing Fonts
-
-	// setup
-	ofTrueTypeFont verdana;
-	verdana.loadFont("verdana.ttf", 14, true, true);
-	verdana.setLineHeight(18.0f);
-	verdana.setLetterSpacing(1.037);
-	
-	// draw
-	ofSetColor(245, 58, 135);
-	verdana.drawString("Hello There", 100, 100);
-
-* Loading and displaying images
-* Rotation, translation and pushMatrix, popMatrix (you have to translate to the point of origin)
-* Keypress, mousepress and other presses
-
-=== Smoothing
+### Smoothing
 
 	ofSetColor(255, 0, 0);
 	ofEnableSmoothing();
@@ -125,7 +160,7 @@ The OF API
 	
 	ofDisableSmoothing();
 
-=== Playing Video
+### Playing Video
 
 	// header
 	ofVideoPlayer fingerMovie;
@@ -141,9 +176,9 @@ The OF API
 	ofSetHexColor(0xFFFFFF);
 	fingerMovie.draw(20,20);
 
-=== Capturing Video
+### Capturing Video
 
-  // header
+	// header
 	int camWidth;
 	int camHeight;
 	ofVideoGrabber vidGrabber;
@@ -160,14 +195,14 @@ The OF API
 	ofSetHexColor(0xffffff);
 	vidGrabber.draw(20,20);
 	
-=== Inverting the Captured Video
+### Inverting the Captured Video
 
 	// add to header
-	unsigned char * 	videoInverted;
-	ofTexture			videoTexture;
+	unsigned char * videoInverted;
+	ofTexture videoTexture;
 	
 	// setup
-	videoInverted 	= new unsigned char[camWidth*camHeight*3];
+	videoInverted = new unsigned char[camWidth*camHeight*3];
 	videoTexture.allocate(camWidth,camHeight, GL_RGB);
 	
 	// update
@@ -182,6 +217,52 @@ The OF API
 	
 	// draw
 	videoTexture.draw(20+camWidth,20,camWidth,camHeight);
+	
+### Events
+
+	void testApp::keyPressed  (int key){ 
+		sprintf(eventString, "keyPressed = (%i)", key);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::keyReleased(int key){ 
+		sprintf(eventString, "keyReleased = (%i)", key);	
+	}
+
+	//--------------------------------------------------------------
+	void testApp::mouseMoved(int x, int y ){
+		sprintf(eventString, "mouseMoved = (%i,%i)", x, y);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::mouseDragged(int x, int y, int button){
+		sprintf(eventString, "mouseDragged = (%i,%i - button %i)", x, y, button);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::mousePressed(int x, int y, int button){
+		sprintf(eventString, "mousePressed = (%i,%i - button %i)", x, y, button);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::mouseReleased(int x, int y, int button){
+		sprintf(eventString, "mouseReleased = (%i,%i - button %i)", x, y, button);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::windowResized(int w, int h){
+		sprintf(eventString, "resized = (%i,%i)", w, h);
+	}
+
+	//--------------------------------------------------------------
+	void testApp::gotMessage(ofMessage msg){
+		sprintf(eventString, "gotMessage %s ", msg.message.c_str());
+	}
+
+	//--------------------------------------------------------------
+	void testApp::dragEvent(ofDragInfo dragInfo){ 
+		sprintf(eventString, "%i files dragged into the window at (%i, %i)", (int)dragInfo.files.size(), (int)dragInfo.position.x, (int)dragInfo.position.y);
+	}
 
 Installing Addons
 -----------------
