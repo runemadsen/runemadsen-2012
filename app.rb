@@ -14,7 +14,7 @@ class RuneMadsen < Sinatra::Base
   # -------------------------------------------------------------------
 
   get "/" do
-    ENV['RACK_ENV']
+    erb :'front/index'
   end
   
   # Work
