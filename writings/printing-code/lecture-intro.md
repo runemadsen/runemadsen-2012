@@ -77,43 +77,55 @@ The basic motto of the Bauhaus was _form follows function_, which meant a focus 
 
 The graphic products from the Bauhaus era are therefore closely tied to all other fields of art practiced at the Bauhaus. Nothing is used without a functional meaning, which led to an increased focus on grids and proportions. Color theory also played a major role in the Bauhaus foundation courses.
 
-[johannes itten image]
-
-Johannes Itten (Not a Master)
-Wrote _The Art of Color_
-Itten himself was a follower of the Christian fire cult Mazdaznan, in which the members follow a strict vegetarian diet, perform rhytmic breathing and gymnastic exercises.
-Color experiments - 
-Color like music
-
-[kandinsky image]
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/kandinsky_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/kandinsky.jpg" />
 
 Vassily Kandinsky
-Geometric shapes in his painting - probably the most well known.
+Geometric shapes in his painting - probably the best known - Guggenheim has a large collection of him.
 
-[paul klee image]
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/klee_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/klee.jpg" />
 
-Paul Klee
+Paul Klee is mostly considered a painter, but released numerous essays design (Writings on Form and Design Theory, called Paul Klees notebook in english), which underlines the Bauhaus philospohy of combinaton of art and craft.
 
-[josef albers image]
-
-Josef Albers
-Wrote _The Interaction of Color_
-Simple geometric forms
-(A few images of his work on black/white structures)
-
-Both created a taxonomy of color 
-We will talk more about these in our session about color theory
-
-[moholy-nagy image]
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nagy_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nagy.jpg" />
 
 Moholy-Nagy
 Replaced Itten as a teacher in the foundation courses.
 Painter geometric forms
 (Insert pictures on google images)
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten.jpg" />
+
+Johannes Itten was one of the forces behind the foundation courses at the Bauhaus. He is mostly know for his work in color theory. On the more personal side he was a follower of the Christian fire cult Mazdaznan, in which the members follow a strict vegetarian diet, perform rhytmic breathing and gymnastic exercises - and the students at the Bauhaus were clearly divided into followers and not-followers of Itten.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_book_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_book.jpg" />
+
+Itten is mostly know for his book _The Art of Color_
+TODO: What was essential in that book?
+Color experiments - 
+Color like music
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers.jpg" />
+
+Josef Albers
+- a student of Ittem
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_book_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_book.jpg" />
+
+Wrote _The Interaction of Color_
+Simple geometric forms
+(A few images of his work on black/white structures)
+We're going to spend more time on Albers in the color class.
+
+Both created a taxonomy of color 
+We will talk more about these in our session about color theory
+
 Both Albers and Moholy-Nagy was a part of the first modernist immigrants to the US, and they both had a profound impact on the new breed of American graphic designers in the golden age of advertising. Albers was appointed head of the graphic design department at Yale University, and Moholy-Nagy became head of the _New Bauhaus_ school on Chicago in 1937.
 
-All focused on color, geometric shapes - and after a poster (show poster: http://www.flickr.com/photos/35617001@N02/3297165580/in/set-72157614565413098/) - also typography
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_poster.jpg" />
+
+All focused on color, geometric shapes - and after a poster also typography
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nazi_designmanual.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nazi_designmanual.jpg" />
 
 Bauhaus closed abruptly in 1933 after intense pressure from the Nazi party. Considered _degenerate art_ by the leading Nazi politicians, Bauhaus modernism was replaced by art and architecture informed by classicist ideals. This newly found romantic realism was in architecture led by Hitler's chief architect Albert Speer. German art was as well dictated by the Nazi party, in particular Hitler and Reichsmarschall Hermann Goering (who at the end of WW2 had one of the biggest art collections known to man). In the coming years graphic design was heavily influenced by regime changes around the world.
 
