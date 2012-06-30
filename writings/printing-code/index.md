@@ -65,12 +65,14 @@ These books might come in handy before, during or after the semester. You will n
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9)
 * The Art of Color by Josef Albers
 
+*Before the first class*: Setup Git and clone down the repo.
+
 Week 1: Hello World
 -------------------
 
->“Beauty is a function, after all, of any relevant visual message. Just as prose can be dull and straight-forward or well edited and lyrical, so too can a utilitarian object be designed to be more than just simply what it is” (intro, design elements)
+> "Beauty is a function, after all, of any relevant visual message. Just as prose can be dull and straight-forward or well edited and lyrical, so too can a utilitarian object be designed to be more than just simply what it is" (intro, design elements)
 
-#### Readings for this week
+### Readings for this week
 
 First essay in Graphic Design History? - talk about how tied design is to technology, why not use computer?
 
@@ -82,8 +84,8 @@ First essay in Graphic Design History? - talk about how tied design is to techno
 
 ### Introductions
 
-* A tiny bit about me
-* Who are you? Why did you take the class? What do you expect to learn?
+* About me
+* Who are you? Why did you take the class? What do you expect to learn (Programming? Design? Both?)? Rate your programming and design experience.
 
 ### Reading discussion
 
@@ -100,32 +102,52 @@ Talk about DaVinci painting leaves: Relentlessness!
 
 * How to use the Processing framework
 * Preparing for print (borders, color profile, etc)
-* The printers at AMS
+* Handing in assignments with Git
 
-### Using Git
+### Let's go to AMS
 
-* Quick intro to Git
-* How to hand in assignments 
+### Assignment for next week
 
-#### Assignment for next week
+Could be something about using only one variable... etc
 
-Using the Processing framework I showed you, print something on ITPs laser printer. Something simple.
 
 Week 2: Form
 ------------
+
+### Readings for this week
+
+### Reading Discussion
+
+### [Computational Form and Space](/printing-code-2012/lecture-form)
+
+### Assignment for next week
+
+Using the [Processing framework](#link-to-github-repo) I showed in class, write code that outputs 3 different shapes aligned from top to bottom: POSSIBLE: Wet, sharp, chaos, beauty, thunder. Use only black and white. Print on a poster at AMS and bring to class for design critique. MAYBE USE ONLY FOR LOOPS, IN ORDER TO MAKE THEM DO GENERATIVE.
 
 
 Week 3: Color
 -------------
 
+### Assignment for next week
+Color assignment
+
 Week 4: Grids
 -------------
+
+### Assignment for next week
+Grids assignment
 
 Week 5: Typography
 ------------------
 
+### Assignment for next week
+Typography assignment
+
 Week 6: Logo
 ------------
+
+### Assignment for next week
+Logo assignment will be the midterm, and they have 1 week to do it.
 
 Week 7: _Midterm Presentations_
 -----------------------------
@@ -138,6 +160,8 @@ Week 9: Repetition
 
 Week 10: Randomization
 ----------------------
+
+Start finals
 
 Week 11: Motion
 ---------------

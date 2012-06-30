@@ -1,8 +1,6 @@
 Printing Code
 =============
 
-THESE WEEKLY LECTURES ARE NOT GRAPHIC DESIGN HISTORY, LIKE THE FIRST CLASS. THESE ARE HANDS ON EXAMPLES AND EXERCISES - LIKE IN GRAPHIC DESIGN BOOKS - AND I ONLY SHOW WORK TO EMPHASIS THE LEARNINGS.
-
 Class: Form
 ----------------------
 
@@ -12,31 +10,16 @@ Paul Graham - Hackers and Painters
 Paul Rand: Something from Design, Form and Chaos
 DDD4: CorporateIDMaker (ironic) - goes to the nerve of it: design can never be done by a program, but you can speak through code
 
-Assignment
-Like the rubik’s cube. Maybe they have to print out the shapes and frame, and then organize them and bring them to class.
-
-Discussion
-Talk about form readings
 
 Lecture:
 
-DE, form chapter. Take points from that. 
-DE, p. 32: Show rectangle and circle, show dirty and clean
-DE, p. 36: Talk about proportion and sizes
-DE, p. 37: Talk about positives and negatives / contrast
-DE, p. 38: I STOPPED HERE. READ FROM HERE. 
-Show rectangles from “Design Elements” book’s chapter about form
 Take stuff from Paul Rand book, talking about graphic design education
 Show examples of form in graphic design (Paul rand, etc)
 Show examples of form in generative design (from GG and other books) 
 Talk about relationships
-What can form do? Show image of grayscale skyline. Show [Yoni’s double skyline](http://www.streetarttlvnyc.com/images/logo_pict.png).
 
-Then go through form in Processing: ellipse, rect, so on.
-Then explain beginShape and vertices. How to create forms in Processing
-Show cool examples of sketches from GG (should be in class repo) that creates form
-
-Readings for this class
+Simple explanation of vertices and bezier curves. Thorough examination of this.
+Some examples from 
 
 Assignment
 Place, scale and order specific forms. I give them source code, they tweak variables. Only grayscale. No alpha. 
@@ -87,6 +70,7 @@ Use the 8-bit photo filter as an assignment: Teaches them to think about bits an
 Class: Repetition
 ----------------------
 
+THIS CLASS IS ABOUT PATTERNS
 Use stuff from “Repetition” from Form and Code.
 Use Arabic Patterns?
 - Patterns

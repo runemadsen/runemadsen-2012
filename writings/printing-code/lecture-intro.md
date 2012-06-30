@@ -210,19 +210,33 @@ Gerstner's work points directly to the notion of Serial Art, the early experimen
 Serial Art
 ----------
 
-[Serial Art](http://en.wikipedia.org/wiki/Serial_art)
+> "The serial artist does not attempt to produce a beautiful or mysterious object but functions merely as a clerk cataloguing the results of his premise." - Sol Lewitt
 
-strict modular principles
+> "The system is the work of art; the visual work of art is the proof of the system" - Sol Lewitt
 
-Karl Gerstner
+Aspects of the serial art movement can be traced back to the 1930's, but it came into the publics eye during the 1960's with the emergence of artists like Karl Gerstner and Sol Lewitt. Central to the works of the serial artists is the concept of creating art through algorithms, although the computer was still not a toll of the artist.
 
-Sol Lewitt
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt.jpg" />
+
+He is famous for creating the algorithm and letting his assistants perform it.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_rules_hand.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_rules_hand.jpg" />
+
+Lewitt would create simple rules for the art piece, first by drawing all combinations by hand.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_rules_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_rules.jpg" />
+
+Then translate it into a printed sheet of rules.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_cubes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_cubes.jpg" />
+
+Finally the rules would be translated into a sculpture or painting, mostly done by assistants. Lewitt's work is important to us in this class, not only because of the distinct graphic qualities in his work, but is also because it's built on an algorithmic process that is best performed by a computer. [Casey Reas has written a great text on Lewitt](http://artport.whitney.org/commissions/softwarestructures/text.html) and software.
 
 
 Xerox Parc
 ----------
 
-Sketchpad, Donald Sutherland
+Sketchpad, Donald Sutherland (use history from Form + Code p. 29)
 Donald Knuth - metafont
 First computers were interested in typesetting: Major triumph for graphic design
 Xerox Star: Inventing the UI (vs. google docs)
