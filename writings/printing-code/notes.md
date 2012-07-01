@@ -71,6 +71,7 @@ Class: Repetition
 ----------------------
 
 THIS CLASS IS ABOUT PATTERNS
+Reading: The meaning of repetition, p. 87 in A Designer's Art. There's also a bunch of examples for lecture.
 Use stuff from “Repetition” from Form and Code.
 Use Arabic Patterns?
 - Patterns
@@ -79,17 +80,18 @@ Talk about [this grapefruit](http://24.media.tumblr.com/tumblr_m3pk0fpD471r0i205
 - Recursion
 Use examples from graphic design history. Go through examples and projects
 
-Class: Motion
-----------------------
-
-Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
-Find examples from graphic design that shows movement.
-
 Class: Randomization
 ----------------------
 
 Generative Form
 Noise
+Use p. 335 in GG - I showed an example without noise in the first class.
+
+Class: Motion
+----------------------
+
+Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
+Find examples from graphic design that shows movement.
 
 Class: 3D
 ----------------------

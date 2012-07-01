@@ -78,6 +78,7 @@ First essay in Graphic Design History? - talk about how tied design is to techno
 
 ### About the class
 
+* I a way more a class about the graphic arts, than graphic design
 * Go through [introduction](#introduction)
 * [Things to keep in mind](#things-to-keep-in-mind)
 * Syllabus walk-through
