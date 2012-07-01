@@ -48,6 +48,7 @@ Use Rand lecture book p. 27 illustration and write a sketch that does this with 
 Class: Typography
 ----------------------
 
+Go through use of typography in Processing
 Use p. 113 in Form and Code
 Show examples from “Creative Code” p. 86, 93.
 Show examples from Generative Gestaltung

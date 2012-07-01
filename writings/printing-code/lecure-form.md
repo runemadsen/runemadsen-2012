@@ -88,6 +88,8 @@ This poses a series of questions: When working with computational form, should w
 Code: Simple Forms
 ------------------
 
+(use this and create these: http://www.fredgriffinart.com/GRAPHICDESIGN/design.htm)
+
 So how do you approach creating form in code - especially form with meaning? Processing ships with simple and more advanced ways of drawing shapes, the simplest being the shape functions.
 
 	rect()
