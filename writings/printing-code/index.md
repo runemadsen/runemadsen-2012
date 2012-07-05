@@ -44,7 +44,7 @@ Things To Keep In Mind
 
 * Please participate. I will try to give my honest opinion, and you should try your best to give me yours. This also means doing the readings.
 
-* In this class I highly encourage you to take on the role as an artist and independent thinker: This means that you will need to find a delicate balance between thought and tool.
+* In this class I highly encourage you to take on the role as an artist and independent thinker: This means that you will need to find a delicate balance between thought and tool. Building your own tools is great (and highly encouraged), but please don't surrender to technology just because you can. You are in control, and your thought process should guide your designs.
 
 Inspirational Reading
 ---------------------
@@ -78,15 +78,17 @@ First essay in Graphic Design History? - talk about how tied design is to techno
 
 ### About the class
 
-* I a way more a class about the graphic arts, than graphic design
-* Go through [introduction](#introduction)
+* Advertising vs. Graphic Arts
+* Class [introduction](#introduction)
+* These lectures are based on my way of approaching a task as a designer (first form, then color)
+* Constraints in assignments in the beginning
 * [Things to keep in mind](#things-to-keep-in-mind)
 * Syllabus walk-through
 
 ### Introductions
 
 * About me
-* Who are you? Why did you take the class? What do you expect to learn (Programming? Design? Both?)? Rate your programming and design experience.
+* Let's go around the table. Who are you? Why did you take the class? What do you expect to learn (Programming? Design? Both?)? Rate your programming and design experience.
 
 ### Reading discussion
 
@@ -105,11 +107,9 @@ Talk about DaVinci painting leaves: Relentlessness!
 * Preparing for print (borders, color profile, etc)
 * Handing in assignments with Git
 
-### Let's go to AMS
-
 ### Assignment for next week
 
-Could be something about using only one variable... etc
+Could be something about using only one variable... etc. Print on the schools laser printer.
 
 
 Week 2: Form
@@ -119,7 +119,11 @@ Week 2: Form
 
 ### Reading Discussion
 
+### Assignments Discussions
+
 ### [Computational Form and Space](/printing-code-2012/lecture-form)
+
+### Short trip to AMS
 
 ### Assignment for next week
 

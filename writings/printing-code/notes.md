@@ -10,13 +10,7 @@ Paul Graham - Hackers and Painters
 Paul Rand: Something from Design, Form and Chaos
 DDD4: CorporateIDMaker (ironic) - goes to the nerve of it: design can never be done by a program, but you can speak through code
 
-
 Lecture:
-
-Take stuff from Paul Rand book, talking about graphic design education
-Show examples of form in graphic design (Paul rand, etc)
-Show examples of form in generative design (from GG and other books) 
-Talk about relationships
 
 Simple explanation of vertices and bezier curves. Thorough examination of this.
 Some examples from 
@@ -30,6 +24,8 @@ Class: Color
 Use this:
 http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
 
+Use GG library: sort color
+
 One class about color theory. We go through combining color and schemes. Assignment is to create a sketch that generates a color scheme and prints it.
 Programming assignment: Make the gradient class
 Albers, Itten
@@ -42,6 +38,7 @@ Class: Grids
 
 Use grid system text from Form and Code, p. 101.
 This class should start with explanation of grids and then move on to talk about how to make this algorithmic and mess it up.
+Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
 Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
 Use Rand lecture book p. 27 illustration and write a sketch that does this with masks.
 
@@ -58,6 +55,7 @@ Talk about [Greta and](http://www.typotheque.com/blog/greta_system) and the [blo
 THIS IS GREAT: http://37signals.com/svn/posts/3183-the-art-of-computer-typography. Use it with bulletins from the serving library that uses his font. Show how to draw a font in vectors...
 THERE A BOOK CALLED [TYPE + CODE](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn). It’s only about creating generative typography with processing.
 Bringhurst for the web: http://www.webtypography.net/toc/
+Use Nextext, a type vector library for processing? http://www.nexttext.net/
 
 Class: Transformation
 ----------------------
@@ -93,6 +91,7 @@ Class: Motion
 
 Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
 Find examples from graphic design that shows movement.
+Dan Shiffman has a whole class on this, but go through some physics libraries (toxilibs?)
 
 Class: 3D
 ----------------------
@@ -102,6 +101,14 @@ Class: Logo
 
 I like this because a logo is everything about graphic design condensed into one thing.
 Show work like the Tisch Gala logo and the MIT logo + stuff like 
+
+STEFAN SAGMEISTER:
+http://www.sagmeister.com/taxonomy/term/18#/node/192
+Show Stefan Sagmeister p. 128 in GG
+Show code that creates something like it
+
+Another Sagmeister
+http://www.sagmeister.com/taxonomy/term/18#/node/184
 
 Dynamic identities: http://rulesbased.wordpress.com/category/graphic-design/
 http://rulesbased.wordpress.com/
