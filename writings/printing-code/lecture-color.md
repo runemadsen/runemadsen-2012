@@ -1,3 +1,10 @@
+I've had an obsession with color for many years. I find it to be one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
+
+	examples of Itten with a color changing
+	
+So how do you go about finding color matches that express meaning?
+
+
 Johannes Itten
 --------------
 
