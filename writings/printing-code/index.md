@@ -82,6 +82,7 @@ First essay in Graphic Design History? - talk about how tied design is to techno
 * Class [introduction](#introduction)
 * These lectures are based on my way of approaching a task as a designer (first form, then color)
 * Constraints in assignments in the beginning
+* "Write the truest sentence you've ever written" - Hemingway. That's the aim. We could add "simplest" to that. That's why Paul Rand is great. You cannot change anything.
 * [Things to keep in mind](#things-to-keep-in-mind)
 * Syllabus walk-through
 
