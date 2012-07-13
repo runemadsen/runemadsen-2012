@@ -93,6 +93,55 @@ var SlideshowView = Backbone.View.extend({
 	
 });
 
+/* Automatic Processing Run
+-------------------------------------------------------- */
+
+var CodeBlock = Backbone.View.extend({
+	
+	canvas:{},
+	
+	initialize: function()
+	{		
+		this.check_code();
+	},
+	
+	check_code: function()
+	{
+		var t = this;
+		var code = $(this.el).text();
+		
+		if(code.match(/autorun/))
+		{
+			this.canvas = $("<canvas class='processingjs'></canvas>");
+			$(this.el).before(this.canvas);
+			new Processing(this.canvas[0], code);
+			$(this.el).addClass("processingjs");
+			
+			if(code.match(/autohide/))
+			{
+				$(this.el).hide();
+				this.canvas.click(function() {
+					$(t.el).toggle();
+				});
+			}
+		}
+	}
+	
+});
+
+var ProcessingRunner = Backbone.View.extend({
+	
+	codeBlocks: [],
+	
+	initialize: function()
+	{		
+		_.each($('pre'), function(pre, i) {
+			this.codeBlocks.push( new CodeBlock({el:pre, id:i}));
+		}, this);
+	}
+	
+});
+
 /* App Code
 -------------------------------------------------------- */
 
@@ -100,6 +149,7 @@ var PrintingCode = Backbone.View.extend({
 	
 	slideshow: {},
 	slideshowView: {},
+	processingRunner: {},
 	
 	initialize: function()
 	{		
@@ -107,6 +157,7 @@ var PrintingCode = Backbone.View.extend({
 		
 		this.slideshow = new Slideshow({enabled:false, showItem:undefined});
 		this.slideshowView = new SlideshowView({model:this.slideshow});
+		this.processingRunner = new ProcessingRunner();
 	},
 	
 	create_toc : function()

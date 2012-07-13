@@ -29,6 +29,8 @@ For someone who grew up as a part of the computer generation this divide might s
 
 As I've grown more experienced as a graphic designer, it has become obvious that a great deal of this experience is built on a very systematic approach to design. Graphic design almost seems like algorithms controlled by a creative vision. Grids are just basic measurements. Typography is all about spacing and curves. Color schemes are basic math performed on the color spectrum. This class is about investigating what happens when we start creating graphic art only by writing code. It's an experiment in replacing already exiting tools (that too long has dictated the visual look of computational design - hello drop shadow) with our own software programs. We will investigate graphic design systems, distill them into algorithms, and eventually let them spin out of control.
 
+[it's also about new products of graphic design with computation: stefan sagmeister]
+
 Things To Keep In Mind
 ----------------------
 
