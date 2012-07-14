@@ -1,11 +1,79 @@
-<div class="grid_7">
-	Hello
+<% content_for :head do %>
+	<%= javascript_include_tag "front" %>
+	<script type="text/javascript">
+		$(function() {
+			console.log($(".fixie").offset().left);
+			window.app = new Front({el:"body"});
+		});
+	</script>
+<% end %>
+
+<div class="grid_7" id="front-pics">
+
+	<div class="column_3">
+		<div class="col">
+			<a href="/work/tile-puzzle"><img src="http://runemadsen-2012.s3.amazonaws.com/front/tilepuzzle.jpg" /></a>
+			<a href="/work/ohland-balloon-visuals"><img src="http://runemadsen-2012.s3.amazonaws.com/front/balloons.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/i-used-to-be-somebody"><img src="http://runemadsen-2012.s3.amazonaws.com/front/mac.jpg" /></a>
+			<a href="/work/byte-sculpture"><img src="http://runemadsen-2012.s3.amazonaws.com/front/bytesculpture.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/write-me"><img src="http://runemadsen-2012.s3.amazonaws.com/front/writeme.jpg" /></a>
+			<a href="/work/people-watching-plus"><img src="http://runemadsen-2012.s3.amazonaws.com/front/peoplewatching.jpg" /></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+		
+	<div class="column_3">
+		<div class="col">
+			<a href="/work/911-tapes"><img src="http://runemadsen-2012.s3.amazonaws.com/front/911.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/generative-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/generative.jpg" /></a>
+			<a href="/work/reservoir-game"><img src="http://runemadsen-2012.s3.amazonaws.com/front/reservoir.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/drab"><img src="http://runemadsen-2012.s3.amazonaws.com/front/drab.jpg" /></a>
+			<a href="/work/city-lights-new-york"><img src="http://runemadsen-2012.s3.amazonaws.com/front/citylights.jpg" /></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div class="column_2">
+		<div class="col">
+			<a href="/work/pointcom-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/point.jpg" /></a>
+			<a href="/work/lagrange-consulting-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/lagrange.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/drift-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/drift.jpg" /></a>
+			<a href="/work/versionize"><img src="http://runemadsen-2012.s3.amazonaws.com/front/versionize.jpg" /></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	
+	<div class="column_2">
+		<div class="col">
+			<a href="/work/write-me"><img src="http://runemadsen-2012.s3.amazonaws.com/front/writeme2.jpg" /></a>
+			<a href="/work/omgimg"><img src="http://runemadsen-2012.s3.amazonaws.com/front/onlinenewmedia.jpg" /></a>
+		</div>
+		<div class="col">
+			<a href="/work/speech-comparison"><img src="http://runemadsen-2012.s3.amazonaws.com/front/dataviz.jpg" /></a>
+			<a href="/work/ohland-balloon-visuals"><img src="http://runemadsen-2012.s3.amazonaws.com/front/interactivevisuals.jpg" /></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
 </div>
 <div class="grid_5">
 	
+	<div class="fixie">
 	<p>I am a computational artist working in the fields of programming and graphic design. My work includes both physical and digital projects ranging from print design and gallery installations to data visualizations, online new media and interactive visuals for performers. I believe in simplicity and organized complexity side by side, and that good design is not based on nostalgia or trendiness, but an intelligent and thoughtful combination of form and content.</p>
 	
 	<p>I was born outside of Copenhagen, but I now live in Brooklyn, New York. I work for O'Reilly Media, run a small art studio, and teach a graduate class at New York University's Interactive Telecommunications Program. I only check my email once a day, and I generally try to break the nasty habits of the modern office. Please feel free to contact me for inquiries or questions.</p>
+	</div>
 	
 </div>
 <div class="clear"></div>

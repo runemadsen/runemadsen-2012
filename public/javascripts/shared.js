@@ -5,6 +5,7 @@ Modules.fixie = {
 	
 	setup_fixie : function(options)
 	{
+		this.first_time = true;
 		this.fixie_el = $(this.el).find(options.els);
 		
 		this.fixie_settings = {
@@ -46,15 +47,19 @@ Modules.fixie = {
 	{
 		if(this.fixie_settings.snapped)
 		{
-			if($(window).scrollTop() <= this.fixie_settings.offset.top){     
+			if($(window).scrollTop() <= this.fixie_settings.offset.top - this.fixie_settings.offset_y){     
         this.fixie_el.css(this.fixie_settings.original);
         this.fixie_settings.snapped = false;
       }
     }
     else
 		{
-      if($(window).scrollTop() >= this.fixie_settings.offset.top)
+      if($(window).scrollTop() >= this.fixie_settings.offset.top - this.fixie_settings.offset_y)
 			{
+				// sometimes images will load late and therefore add a scrollbar to the window changing the offset.
+				// therefore we get the position every time we switch
+				this.detect_postition();
+	
         this.fixie_el.css({ position: 'fixed', left: this.fixie_settings.offset.left, top: this.fixie_settings.offset_y, width : this.fixie_settings.dimensions.width });
         this.fixie_settings.snapped = true;
         return;
@@ -65,8 +70,27 @@ Modules.fixie = {
 	on_reflow_fixed : function() {
 		this.fixie_settings.offset = this.fixie_el.find('.fixie').offset();
 	  this.handle_scroll_fixed();
+	},
+	
+	detect_postition : function() {
+		this.fixie_settings.position = this.fixie_el.position();
+	  this.fixie_settings.offset = this.fixie_el.offset();
+	  this.fixie_settings.original = {
+	      position  : this.fixie_el.css('position'),
+	      top       : this.fixie_el.css('top'),
+	      right     : this.fixie_el.css('right'),
+	      bottom    : this.fixie_el.css('bottom'),
+	      left      : this.fixie_el.css('left')                        
+	  },
+		this.fixie_settings.dimensions = {
+				width    : this.fixie_el.width(),
+	      height   : this.fixie_el.height()
+		}
 	}
 }
+
+/* To Query Params
+______________________________________________________ */
 
 
 // Convert object to query params

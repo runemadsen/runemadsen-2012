@@ -11,7 +11,7 @@ Weekly homework can be produced using the digital printers at [NYU’s Advanced 
 
 The class aims not only to teach the students how to create physical prints via code, but also to have something interesting to say about it. The class requires ICM or similar programming background.
 
-Contact Info
+Teacher Info
 ------------
 
 * Rune Skjoldborg Madsen
@@ -23,13 +23,12 @@ Introduction
 
 > It’s important to use your hands, this is what distinguishes you from a cow or a computer operator - Paul Rand
 
-For many years graphic design education has been a separate field. You learn about color, grids, form, balance, typography, and books on the subject are minded towards individuals with visual creativity. The opposite can be said about the field of programming, that for a long time has been geared towards technically skilled people. During the last decade this line has obviously blurred, but not to the degree you would expect. Companies still hire _designers_ or _developers_. Most web design is still made in Photoshop and then translated into code. I even know quite a few creative coders who act like scared children when asked to design something.
+For many years graphic design education has been a separate field. You learn about color, grids, form, balance, typography, and books on the subject are geared towards individuals with visual creativity. The opposite can be said about the field of programming that for a long time has been geared towards technically skilled people. During the last decade this line has obviously blurred, but not to the degree you would expect. Companies still hire _designers_ or _developers_. Most web design is still made in Photoshop and then translated into code. I even know quite a few creative coders who act like scared children when asked to design something.
 
-For someone who grew up as a part of the computer generation this divide might seem problematic. If your first experiments with color and form was when you were also writing HTML and CSS for the first time, then how do you tell when design stops and programming begins? Graphic design and programming are so intermingled today that a term like *Computational Design* seems like a much better explanation of the two merging fields. [Design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), not just a last layer of make-up.
+For someone who grew up as a part of the computer generation, this divide might seem problematic. If your first experiments with color and form was when you were also writing HTML and CSS for the first time, then how do you know where design stops and programming begins? Graphic design and programming are so intermingled today that a term like *Computational Design* seems like a much better explanation of the two merging fields. [Design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), not just a last layer of make-up.
 
 As I've grown more experienced as a graphic designer, it has become obvious that a great deal of this experience is built on a very systematic approach to design. Graphic design almost seems like algorithms controlled by a creative vision. Grids are just basic measurements. Typography is all about spacing and curves. Color schemes are basic math performed on the color spectrum. This class is about investigating what happens when we start creating graphic art only by writing code. It's an experiment in replacing already exiting tools (that too long has dictated the visual look of computational design - hello drop shadow) with our own software programs. We will investigate graphic design systems, distill them into algorithms, and eventually let them spin out of control.
 
-[it's also about new products of graphic design with computation: stefan sagmeister]
 
 Things To Keep In Mind
 ----------------------
@@ -42,11 +41,11 @@ Things To Keep In Mind
 
 * _Design by committee_ is a terrible thing, and therefore most assignments will be individual. Groups are allowed during mid-terms and finals.
 
-* That being said, you are encouraged to share paper and AMS reservations with at least one other person. The print reservations at AMS fills up quickly, and it's much better to go in groups of 2 or 3 people.
+* That being said, you are encouraged to share paper and AMS reservations with at least one other person. The print reservations at AMS fill up quickly, and it's much better to go in groups of 2 or 3 people.
 
-* Please participate. I will try to give my honest opinion, and you should try your best to give me yours. This also means doing the readings.
+* Please participate. I will try to give my honest opinion, and you should try your best to give me yours. This also means actually doing the readings.
 
-* In this class I highly encourage you to take on the role as an artist and independent thinker: This means that you will need to find a delicate balance between thought and tool. Building your own tools is great (and highly encouraged), but please don't surrender to technology just because you can. You are in control, and your thought process should guide your designs.
+* In this class I highly encourage you to take on the role as an artist and independent thinker. You will need to find a delicate balance between thought and tool. Building your own tools is great (and highly encouraged), but please don't surrender to technology just because you can. You are in control, and your thought processes should guide your designs.
 
 Inspirational Reading
 ---------------------
@@ -118,6 +117,8 @@ Could be something about using only one variable... etc. Print on the schools la
 Week 2: Form
 ------------
 
+CLASS DESCRIPTION
+
 ### Readings for this week
 
 ### Reading Discussion
@@ -136,11 +137,15 @@ Using the [Processing framework](#link-to-github-repo) I showed in class, write 
 Week 3: Color
 -------------
 
+CLASS DESCRIPTION
+
 ### Assignment for next week
 Color assignment
 
 Week 4: Grids
 -------------
+
+CLASS DESCRIPTION
 
 ### Assignment for next week
 Grids assignment
@@ -148,11 +153,15 @@ Grids assignment
 Week 5: Typography
 ------------------
 
+CLASS DESCRIPTION
+
 ### Assignment for next week
 Typography assignment
 
 Week 6: Logo
 ------------
+
+CLASS DESCRIPTION
 
 ### Assignment for next week
 Logo assignment will be the midterm, and they have 1 week to do it.
@@ -160,28 +169,44 @@ Logo assignment will be the midterm, and they have 1 week to do it.
 Week 7: _Midterm Presentations_
 -----------------------------
 
+CLASS DESCRIPTION
+
 Week 8: Transformation
 ----------------------
+
+CLASS DESCRIPTION
 
 Week 9: Repetition
 ------------------
 
+CLASS DESCRIPTION
+
 Week 10: Randomization
 ----------------------
+
+CLASS DESCRIPTION
 
 Start finals
 
 Week 11: Motion
 ---------------
 
+CLASS DESCRIPTION
+
 Week 12: 3D
 -----------
+
+CLASS DESCRIPTION
 
 Week 13: _Final Presentations 1_
 ------------------------------
 
+CLASS DESCRIPTION
+
 Week 14: _Final Presentations 2_
 ------------------------------
+
+CLASS DESCRIPTION
 
 
 
