@@ -230,6 +230,10 @@ input[type=text], textarea {
 /* Front
 ----------------------------------------------------------------- */
 
+#front-pics {
+	margin-bottom: 500px; /* let's make sure they see everything when scroll */
+}
+
 #front-pics .column_2,
 #front-pics .column_3 {
 	margin-bottom: 40px;
@@ -254,6 +258,14 @@ input[type=text], textarea {
 #front-pics .column_3 img {
 	margin: 0;
 	padding: 0;
+}
+
+.fixie.tonedown {
+	color: #D7D7D7;
+}
+
+.fixie.tonedown span.highlight.active {
+	color: #2e2e2e;
 }
 
 /* Blog

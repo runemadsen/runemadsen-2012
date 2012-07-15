@@ -68,7 +68,7 @@ Modules.fixie = {
 	},
 	
 	on_reflow_fixed : function() {
-		this.fixie_settings.offset = this.fixie_el.find('.fixie').offset();
+		this.fixie_settings.offset = this.fixie_el.offset();
 	  this.handle_scroll_fixed();
 	},
 	

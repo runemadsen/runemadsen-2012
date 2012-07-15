@@ -2,7 +2,6 @@
 	<%= javascript_include_tag "front" %>
 	<script type="text/javascript">
 		$(function() {
-			console.log($(".fixie").offset().left);
 			window.app = new Front({el:"body"});
 		});
 	</script>
@@ -10,7 +9,7 @@
 
 <div class="grid_7" id="front-pics">
 
-	<div class="column_3">
+	<div class="column_3" data-keywords="physical">
 		<div class="col">
 			<a href="/work/tile-puzzle"><img src="http://runemadsen-2012.s3.amazonaws.com/front/tilepuzzle.jpg" /></a>
 			<a href="/work/ohland-balloon-visuals"><img src="http://runemadsen-2012.s3.amazonaws.com/front/balloons.jpg" /></a>
@@ -26,7 +25,7 @@
 		<div class="clear"></div>
 	</div>
 		
-	<div class="column_3">
+	<div class="column_3" data-keywords="digital">
 		<div class="col">
 			<a href="/work/911-tapes"><img src="http://runemadsen-2012.s3.amazonaws.com/front/911.jpg" /></a>
 		</div>
@@ -41,7 +40,7 @@
 		<div class="clear"></div>
 	</div>
 	
-	<div class="column_2">
+	<div class="column_2" data-keywords="print design">
 		<div class="col">
 			<a href="/work/pointcom-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/point.jpg" /></a>
 			<a href="/work/lagrange-consulting-logo"><img src="http://runemadsen-2012.s3.amazonaws.com/front/lagrange.jpg" /></a>
@@ -54,7 +53,7 @@
 	</div>
 	
 	
-	<div class="column_2">
+	<div class="column_2" data-keywords="gallery installations,data visualizations,online new media,interactive visuals for performers">
 		<div class="col">
 			<a href="/work/write-me"><img src="http://runemadsen-2012.s3.amazonaws.com/front/writeme2.jpg" /></a>
 			<a href="/work/omgimg"><img src="http://runemadsen-2012.s3.amazonaws.com/front/onlinenewmedia.jpg" /></a>
