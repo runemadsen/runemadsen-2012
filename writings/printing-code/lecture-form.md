@@ -75,18 +75,30 @@ Points created with the curveVertex() function will draw a curved line, guided b
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/curve_vertex_circle)
 
-The bezierVertex function is by far the most flexible of the 3 vertex functions, as it draws points using bezier curves. 
+The bezierVertex function is by far the most flexible of the 3 vertex functions, as it draws points using bezier curves. Most people have a faint idea of how bezier curves work, but let's take a deeper look on how to draw things with Bezier curves.
 
-ABOUT bezier curves
+Bezier curves are essential to computational form, as it's the way most visual programming languages, as well as software tools like Photoshop and Illustrator (with the Pen tool), approach the drawing of complex polygons. It's native to the design process of everything from font design to the design of cars.
 
-You should always start with a vertex point.
+Although invented by the mathematician Paul de Casteljau, bezier curves got their name from Pierre Bézier who first used these curves in early CAD programs to design cars for Renault. There are many different kinds of bezier curves (linear, quadratic, cubic), but we'll focus on cubic beziers, as it's the implementation of bezier curves used in Processing.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beziervertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beziervertex.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex)
-	
-Slowly explain QUAD and stuff like that
 
-Show Examples from grahic design with complex forms (also some newer stuff)
+A bezier curve is a formula that describes how to draw a line from one point to another, using 2 control points. The two control points determine the curve of the line going to that specific point. In Processing, you always start a shape with a simple vertex point, and then draw bezierVertex points after it.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement_small.gif" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement.gif" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex_movement)
+
+It can be hard to understand how these two control points tell the line to curve like that. This animation shows how the curve of the line is calculated by doing simple vector math on the anchor points and control points.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
+
+By using bezierVertex() you can create complicated shapes in Processing.
+
+
+
+[examples of complicated form from graphic design history]
 
 
 Computational vs. Organic Form
@@ -106,7 +118,7 @@ This poses a series of questions: When working with computational form, should w
 Placement
 ---------
 
-It matters where we place forms in space. A circle can seem lost in space
+It matters where we place these forms in space. A circle can seem lost in space
 
 	show a tiny circle in the middle
 	
@@ -139,7 +151,7 @@ Now move on to how to place things in Processing. Tricks:
 Repetition
 ----------
 
-We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex scenarios. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has - of course - a much greater significance in computational design, because the pixel grid is the one and only way of expression.
+We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression.
 
 	Show grid of rectangles with different meanings, from DE
 
