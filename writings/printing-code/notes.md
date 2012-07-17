@@ -10,13 +10,6 @@ Paul Graham - Hackers and Painters
 Paul Rand: Something from Design, Form and Chaos
 DDD4: CorporateIDMaker (ironic) - goes to the nerve of it: design can never be done by a program, but you can speak through code
 
-Lecture:
-
-Simple explanation of vertices and bezier curves. Thorough examination of this.
-Some examples from 
-
-Assignment
-Place, scale and order specific forms. I give them source code, they tweak variables. Only grayscale. No alpha. 
 
 Class: Color
 ----------------------

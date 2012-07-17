@@ -94,11 +94,9 @@ It can be hard to understand how these two control points tell the line to curve
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
 
-By using bezierVertex() you can create complicated shapes in Processing.
+By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible.
 
-
-
-[examples of complicated form from graphic design history]
+TODO: examples of complicated form from graphic design history
 
 
 Computational vs. Organic Form
@@ -106,13 +104,13 @@ Computational vs. Organic Form
 
 Some of these shapes have inherent algorithmic characteristics. Even Michelangelo will suffer defeat if competing with a computer in drawing a perfect circle. Changing the size of a circle in code is many times faster than doing it by hand. 
 
-	image of computed cirlce to the left and hand drwn circle to the right
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational.jpg" />
 
 Other shapes have inherent organic qualities, and are harder to replicate on a computer. You can draw a random line across a piece of paper in less than one second, but it will take much longer to code it. 
 
-	image of simulated line to the left and hand drawn line to the right
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic.jpg" />
 
-This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is it fake recreating pen pressure on a line, when the output is a pixel grid?
+This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is it fake recreating pen pressure on a line, when the output is a pixel grid? Is this an argument for a new aesthetic?
 	
 
 Placement
@@ -120,27 +118,51 @@ Placement
 
 It matters where we place these forms in space. A circle can seem lost in space
 
-	show a tiny circle in the middle
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space.jpg" />
 	
-... and dominant in space just by changing its placement.
+... and dominant in space just by changing its placement and proportion.
 
-	show a big circle in the middle
-	
-The same way a rectangle can lay dormant
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space.jpg" />
 
-	Show a horizontal rectangle
-	
-And become agitated by just changing its placement
+However, it's not only the size of the shapes, but also the size of the format that matters. Here's the exact same circle that before looked to be lost in space, now dominant in relation to its format.
 
-	Show the same rectangle rotated
-	
-The placement and thickness of a single line can make a world of difference
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" />
 
-	show example from form chapter in DE
+These are the options every designer must think about, weight, and choose between. A rectangle can lay dormant in space...
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect.jpg" />
 	
-	Show slides from design talk about white space
+... and become agitated by just changing its placement
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect.jpg" />
 	
-Now move on to how to place things in Processing. Tricks:
+The important thing here is that how we order things matter. With more form comes more organization. Often, it's as much the white space that needs to be in balance, as it's the shapes themselves.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_4.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8.png" />
+
+So how do we solve this problem of placement?
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9.png" />
+
+One way is to adhere to a grid. We will talk much more about this in a coming class.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
+
+There are many ways we can place things on the screen with Processing. Many of these, like the golden rule, have inherent algorithmic characteristics.
 
 	Placement, golden ratio
 	Placing something in the center
