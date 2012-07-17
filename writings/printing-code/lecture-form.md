@@ -1,28 +1,12 @@
-!!!!! PUT IN MORE EXAMPLES WITH PROCESSING CODE
-Form is.....
-
-
+Form is the lowest level of graphic design possible: making individual shapes out of color. 
 
 On the most basic level we have space... 
 
-	// autorun autohide
-	void setup()
-	{
-		size(400, 250);
-		background(255);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" />
 	
 ...and form. 
 
-	// autorun autohide
-	void setup()
-	{
-		size(400, 250);
-		background(255);
-		noStroke();
-		fill(0);
-		rect(150, 75, 100, 100);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form.jpg" />
 
 Even here these forms mean something, and this week you'll be working with simple forms to create meaning. You will learn to generate simple forms via code, and learn to _see_ the meaning of their interaction. Remember, simplicity in output requires simplicity in code.
 
@@ -31,30 +15,15 @@ Format
 
 All designs starts with a constrained area - let's call it the _format_. The format dictates the way we understand the forms in it.
 
-	// autorun autohide
-	void setup()
-	{
-		size(200, 200);
-		background(255);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_square.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_square.jpg" />
 	
 The rectangular format makes no attempt to emphasize any direction. It concentrates the viewport into a well-known shape, and makes it easy to understand the placement of the elements inside of it.
 	
-	// autorun autohide
-	void setup()
-	{
-		size(450, 150);
-		background(255);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_horizontal.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_horizontal.jpg" />
 	
 The horizontal format is very natural, shaped to the way we experience the world. The human brain is optimized for analyzing horizontal movement (that orange thing moving behind the trees is probably a tiger!) in opposed to vertical movement.
 
-	// autorun autohide
-	void setup()
-	{
-		size(180, 300);
-		background(255);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_vertical.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_vertical.jpg" />
 
 The vertical format stands out and calls attention to itself. It's more aggressive and seems more "designed", which is probably why most posters have a vertical format.
 
@@ -62,51 +31,29 @@ The vertical format stands out and calls attention to itself. It's more aggressi
 Simple Forms
 ------------
 
-When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning.
+When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning. Processing ships with the simple rect(), ellipse() and triangle() functions.
 
 The rectangle is a mastodon.
 	
-	// autorun autohide autohide
-	void setup()
-	{
-		size(400, 250);
-		background(255);
-		noStroke();
-		fill(0);
-		rect(150, 75, 100, 100);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rect.jpg" />
 	
 Notice how the circle appears smaller than the rectangle, even though they have equal dimensions.
 
-	// autorun autohide
-	void setup()
-	{
-		size(400, 250);
-		background(255);
-		noStroke();
-		fill(0);
-		ellipse(width/2, height/2, 100, 100);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle.jpg" />
 
-The triangle is the simplest polygon possible.
+The triangle is one of the simplest polygons possible.
 
-	// autorun autohide
-	void setup()
-	{
-		size(400, 250);
-		background(255);
-		noStroke();
-		fill(0);
-		triangle(150, 75, 250, 75, 200, 175);
-	}
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle.jpg" />
 	
-These shapes already provide a range of expressions, and you need to chose them wisely as they all have a distinct style. Everything is design. The circle is not a native shape of the cheese, but chosen to convey smoothness and round taste.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle.jpg" />
+These shapes already provide a range of expressions, and you need to chose them wisely as they all have a distinct style. Everything is design. 
 
 A rectangle is used to streamline the packaging for a carton for dictating machines, conveying technology.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square.jpg" />
+
+The circle is not a native shape of the cheese, but chosen to convey smoothness and round taste.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle.jpg" />
 
 A triangle is used to create movement (neither the square or the circle has movement) for a knife product.
 
@@ -116,20 +63,30 @@ A triangle is used to create movement (neither the square or the circle has move
 More Advanced Forms
 -------------------
 
+Now that we realize how form can convey meaning, we can start to play around with more complex shapes. Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
 
+Points created with the vertex() function always connect to the next point in a straight line. This can be used for e.g. drawing a hexagon.
 
-Advanced forms can be created in Processing using the beginShape
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/hexagon_with_vertex)
+	
+Points created with the curveVertex() function will draw a curved line, guided by the point before it and after it. This means that you need a minimum of 4 points to show a single curve, as the first and last point will always be invisible. In this sketch I add 3 to the vertex loop to continue the vertex on top of points already on the line, in order to draw enough guiding points for the circle to complete.
 
-	vertex
-	curveVertex (for lazy people)
-	bezierVertex (use bezier tool here, and link to it in these slides: http://processing.org/reference/tools/)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/curve_vertex_circle)
 
-For example you can draw a perfect circle or a rectangle with vertex points
+The bezierVertex function is by far the most flexible of the 3 vertex functions, as it draws points using bezier curves. 
 
-	Show code for drawing a perfect circle (focus on the need for a start and end vertex point)
-	Show code for drawing a rectangle
+ABOUT bezier curves
+
+You should always start with a vertex point.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beziervertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beziervertex.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex)
 	
 Slowly explain QUAD and stuff like that
+
+Show Examples from grahic design with complex forms (also some newer stuff)
 
 
 Computational vs. Organic Form
@@ -170,6 +127,13 @@ The placement and thickness of a single line can make a world of difference
 	show example from form chapter in DE
 	
 	Show slides from design talk about white space
+	
+Now move on to how to place things in Processing. Tricks:
+
+	Placement, golden ratio
+	Placing something in the center
+	Placing something on the edge of a circle (or sin, cos)
+	Making something dynamic in size and placing on the stage
 
 	
 Repetition

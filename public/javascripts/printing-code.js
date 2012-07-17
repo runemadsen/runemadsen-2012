@@ -135,9 +135,9 @@ var ProcessingRunner = Backbone.View.extend({
 	
 	initialize: function()
 	{		
-		_.each($('pre'), function(pre, i) {
+		/*_.each($('pre'), function(pre, i) {
 			this.codeBlocks.push( new CodeBlock({el:pre, id:i}));
-		}, this);
+		}, this);*/
 	}
 	
 });

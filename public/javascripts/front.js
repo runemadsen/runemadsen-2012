@@ -5,7 +5,7 @@ var Column = Backbone.View.extend({
 
 	words:[],
 	top:undefined,
-	offset_y: 20,
+	offset_y: 40,
 
 	initialize: function()
 	{
