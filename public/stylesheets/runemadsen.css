@@ -455,6 +455,12 @@ img[data-slideshow] {
 	border: 1px solid #D0D0D0;
 }
 
+#printing-code-body pre {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #EBEBEB;
+}
+
 /* 404
 ----------------------------------------------------------------- */
 

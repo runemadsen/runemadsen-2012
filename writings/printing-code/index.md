@@ -3,6 +3,8 @@
 Printing Code 2012
 ==================
 
+**Dislaimer: These pages are slides and notes for my lectures for this class. They are not by any means edited for clarity or proofread for mistakes.**
+
 **Printing Code** is a graduate course taught at the Interactive Telecommunications Program during the fall 2012 semester. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition and generative form.
 
 Weekly readings include relevant writings from the history of graphic design ([Josef Muller-Brockmann](http://bit.ly/KR2jkA), [Paul Rand](http://bit.ly/KzNyhy)), articles from the history of computation ([Vannevar Bush](http://bit.ly/9Zat9h), [Douglas Englebart](http://bit.ly/B4HDX)) and everything in between ([Sol Lewitt](http://bit.ly/BX1iy), [Edward Tufte](http://bit.ly/49i1Xj)).
@@ -75,12 +77,17 @@ Week 1: Hello World
 
 ### Readings for this week
 
+John Maeda - Design By Numbers, Chapter 1
+Paul Graham - Hackers and Painters
+Paul Rand: Something from Design, Form and Chaos
+DDD4: CorporateIDMaker (ironic) - goes to the nerve of it: design can never be done by a program, but you can speak through code
 First essay in Graphic Design History? - talk about how tied design is to technology, why not use computer?
 
 ### About the class
 
 * Advertising vs. Graphic Arts
 * Class [introduction](#introduction)
+* Ultimately about forcing you to **think** about even the simplest forms of graphic communication
 * These lectures are based on my way of approaching a task as a designer (first form, then color)
 * Constraints in assignments in the beginning
 * "Write the truest sentence you've ever written" - Hemingway. That's the aim. We could add "simplest" to that. That's why Paul Rand is great. You cannot change anything.
@@ -142,21 +149,21 @@ CLASS DESCRIPTION
 ### Assignment for next week
 Color assignment
 
-Week 4: Grids
--------------
-
-CLASS DESCRIPTION
-
-### Assignment for next week
-Grids assignment
-
-Week 5: Typography
+Week 4: Typography
 ------------------
 
 CLASS DESCRIPTION
 
 ### Assignment for next week
 Typography assignment
+
+Week 5: Grids
+-------------
+
+CLASS DESCRIPTION
+
+### Assignment for next week
+Grids assignment
 
 Week 6: Logo
 ------------
@@ -176,7 +183,7 @@ Week 8: Transformation
 
 CLASS DESCRIPTION
 
-Week 9: Repetition
+Week 9: Repetition (Patterns)
 ------------------
 
 CLASS DESCRIPTION

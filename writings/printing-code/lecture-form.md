@@ -128,7 +128,7 @@ However, it's not only the size of the shapes, but also the size of the format t
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" />
 
-These are the options every designer must think about, weight, and choose between. A rectangle can lay dormant in space...
+These are the options every designer must think about, weigh, and choose between. A rectangle can lay dormant in space...
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect.jpg" />
 	
@@ -162,18 +162,18 @@ One way is to adhere to a grid. We will talk much more about this in a coming cl
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
 
-There are many ways we can place things on the screen with Processing. Many of these, like the golden rule, have inherent algorithmic characteristics.
+To place an object within a given format requires basic math. Therefore many of the methods we use to align and place objects on the screen, like the golden ratio, have inherent algorithmic characteristics.
 
-	Placement, golden ratio
-	Placing something in the center
-	Placing something on the edge of a circle (or sin, cos)
-	Making something dynamic in size and placing on the stage
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
 
+
+[examples of placement]
 	
-Repetition
-----------
+Basic Repetition
+----------------
 
-We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression.
+We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression. In the center of all of this is of course ... the for loop.
 
 	Show grid of rectangles with different meanings, from DE
 
@@ -189,12 +189,10 @@ We can introduce more complexity by introducing more forms. Even with simple rep
 	* more?
 	
 
-Randomness
-----------
+Basic Randomness
+----------------
 
-We have a whole class on this, so not going into detail.
-
-Random positioning
+The basic concept of randomness is that you can let the computer choose a random number between two numbers. This can be used to make the same code produce extremely varied outputs, and is often used for positioning and shape proportions.
 
 With polygons you have the same basic choice: constraint it to a specific outcome, or use random to specify a variety of outputs. Are you choosing or is the code choosing? This is an aspect of generative design we'll look at later in the semester.
 
@@ -202,16 +200,21 @@ With polygons you have the same basic choice: constraint it to a specific outcom
 	Show Eno Henze's [Scharze Sonnen](http://enohenze.de/ninety-five/)
 	Show code how to create it
 	- Create this yourself
+	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_ambushes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_ambushes.jpg" />
 
-	Vertex repetition:
-	Show Eno Henze's [Ambushes](http://enohenze.de/ambush/) as sketch with generative use of bezier curves
-	Show code: henze_ambushes_example.pde
+Another piece by Eno Henze where he uses simple repetition and random form. This is a great example of the power of using random positioning with vertex points within beginShape().
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_ambushes_example)
+
+The same technique can easily be created with Processing and beginShape().
 	
 
 Form Examples
 -------------
 
-Even with a single format and a single shape, you can create thousands of expressions to fit you communicative needs. When you really start to look, everything - even the smallest detail - is design. Choices in placement, proportions and relationships between shapes all drastically help shape the meaning of a graphic.
+Even with a single format and a single shape, you can create thousands of expressions to fit you communicative needs. When you really start to look, everything - even the smallest detail - is design. Choices in placement, proportions and relationships between shapes all drastically help shape the meaning of a graphic. When you look at the work of some of the best known graphic designers, you realize that they had an incredible eye for all of this. It takes talent and a lot of work to produce a graphic where you cannot put a finger on a single thing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_morse_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_morse.jpg" />
 
@@ -245,6 +248,8 @@ A graphic poster for the art directors hall of fame by Paul Rand. Rand uses "A",
 
 Brockmann plays with focus by placing the motorcycle in front. This would be a very different graphic if the forms were reversed.
 
+TODO: More examples with my favorite work
+
 
 Computational Form Examples
 ---------------------------
@@ -261,6 +266,8 @@ Roman Verostko
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3.jpg" />
+
+TODO: More examples, maybe new tendencies?
 	
 
 Conclusion

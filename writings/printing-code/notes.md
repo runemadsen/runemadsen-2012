@@ -1,120 +1,3 @@
-Printing Code
-=============
-
-Class: Form
-----------------------
-
-Readings
-John Maeda - Design By Numbers, Chapter 1
-Paul Graham - Hackers and Painters
-Paul Rand: Something from Design, Form and Chaos
-DDD4: CorporateIDMaker (ironic) - goes to the nerve of it: design can never be done by a program, but you can speak through code
-
-
-Class: Color
-----------------------
-
-Use this:
-http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
-
-Use GG library: sort color
-
-One class about color theory. We go through combining color and schemes. Assignment is to create a sketch that generates a color scheme and prints it.
-Programming assignment: Make the gradient class
-Albers, Itten
-
-Start with RGB, then explain HSB (all from Processing)
-Then start including color theory and work examples, but everything should be based in Processing
-
-Class: Grids
-----------------------
-
-Use grid system text from Form and Code, p. 101.
-This class should start with explanation of grids and then move on to talk about how to make this algorithmic and mess it up.
-Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
-Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
-Use Rand lecture book p. 27 illustration and write a sketch that does this with masks.
-
-Class: Typography
-----------------------
-
-Go through use of typography in Processing
-Use p. 113 in Form and Code
-Show examples from “Creative Code” p. 86, 93.
-Show examples from Generative Gestaltung
-Read: Paul Rand from p. 149
-Read: Something from Bringhurst (one could be p. 25)
-Talk about [Greta and](http://www.typotheque.com/blog/greta_system) and the [blog post](http://www.typotheque.com/articles/designing_type_systems)
-THIS IS GREAT: http://37signals.com/svn/posts/3183-the-art-of-computer-typography. Use it with bulletins from the serving library that uses his font. Show how to draw a font in vectors...
-THERE A BOOK CALLED [TYPE + CODE](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn). It’s only about creating generative typography with processing.
-Bringhurst for the web: http://www.webtypography.net/toc/
-Use Nextext, a type vector library for processing? http://www.nexttext.net/
-
-Class: Transformation
-----------------------
-
-Use chapter from Form and Code
-- Image filters
-Show examples of Adam Harvey’s spam art.
-Assignment: Create a photo filter
-Use the 8-bit photo filter as an assignment: Teaches them to think about bits and bytes.
-
-Class: Repetition
-----------------------
-
-THIS CLASS IS ABOUT PATTERNS
-Reading: The meaning of repetition, p. 87 in A Designer's Art. There's also a bunch of examples for lecture.
-Use stuff from “Repetition” from Form and Code.
-Use Arabic Patterns?
-- Patterns
-Talk about [these patterns](http://www.itsnicethat.com/articles/andy-gilmore-2)
-Talk about [this grapefruit](http://24.media.tumblr.com/tumblr_m3pk0fpD471r0i205o1_1280.jpg)
-- Recursion
-Use examples from graphic design history. Go through examples and projects
-
-Class: Randomization
-----------------------
-
-Generative Form
-Noise
-Use p. 335 in GG - I showed an example without noise in the first class.
-
-Class: Motion
-----------------------
-
-Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
-Find examples from graphic design that shows movement.
-Dan Shiffman has a whole class on this, but go through some physics libraries (toxilibs?)
-
-Class: 3D
-----------------------
-
-Class: Logo
-----------------------
-
-I like this because a logo is everything about graphic design condensed into one thing.
-Show work like the Tisch Gala logo and the MIT logo + stuff like 
-
-STEFAN SAGMEISTER:
-http://www.sagmeister.com/taxonomy/term/18#/node/192
-Show Stefan Sagmeister p. 128 in GG
-Show code that creates something like it
-
-Another Sagmeister
-http://www.sagmeister.com/taxonomy/term/18#/node/184
-
-Dynamic identities: http://rulesbased.wordpress.com/category/graphic-design/
-http://rulesbased.wordpress.com/
-
-Related Readings 
-----------------------
-
-John Maeda - Creative Code
-John Maeda - Maeda and Media
-Paul Rand
-Dot Dot Dot Magazine
-Bulletins of the serving library
-
 Possible Texts To Read
 ----------------------
 
@@ -137,6 +20,7 @@ Possible Guest Lectures
 
 Stewart Smith
 David Nolen
+Stefan Sagmeister
 
 Possible assignments
 ----------------------
@@ -181,10 +65,8 @@ Make a program that places forms on a page according to some rule of propportion
 Artists to Show
 ----------------------
 
-De Stijl
 Random Numbers by Jer Thorpe. Talk about printing process from blog. http://randomnumber.nu/?page_id=1568
 Written Images by Martin Fuchs
-Eno Henze (GG)
 Nicolas Sassoon - awesome animated GIFs
 [Book with a google image for every word in the dictionary](http://www.thenextweb.com/shareables/2012/05/29/this-book-contains-the-first-google-image-result-for-every-word-in-the-dictionary/)
 
@@ -195,24 +77,8 @@ http://www.computerkunst.org/
 
 Thek: “Remember, I’m going to mark you, it’s my great pleasure to reward real effort, it’s my great pleasure to punish stupidity, laziness and insincerity.” 
 
-Field Trip
-To this: http://www.cooperhewitt.org/exhibitions/now-in-production (it ends sep 3rd)
-
-Notes that I need to put somewhere
-
-Use Gerstner. He also had mathematical paintings, and his design career had the same approach
-
 Use gerstners “programme” idea (p. 8 dot dot dot 4)
 
 Judith Williamson - find texts
 
-Use rules from Design Elements in first class talk, or later?
-Beautiful graphics read like they weren’t designed.
-
 [USE GOLAN LEVINs COURSE SYLLABUS. MENU ON THE RIGHT HAS MORE LECTURES](http://www.golancourses.net/2012spring/lectures/lecture-02-14/)
-
-Stuff to put somewhere
-----------------------
-
-Field trip?
-

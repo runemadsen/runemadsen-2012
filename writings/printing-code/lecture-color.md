@@ -53,12 +53,6 @@ RGB vs HSB
 Why we work with HSB and not RGB
 
 
-Objective vs. Subjective
-------------------------
-
-Few things objectively, a lot is subjective
-
-
 Complimentary Colors
 --------------------
 
@@ -109,10 +103,19 @@ Show sketch that displays different ways of picking a random color scheme
 Itten thinks color design relies on 7 different types of contrast (explain all of them with examples from graphic design world + code examples)
 	
 
+Josef Albers' Interaction of Color
+----------------------------------
+
+All the crazy examples where the same colors do not look a like.
 
 
 
 Combining color is a 2-step process: 1) Plan (objective) 2) Implement and tweak (subjective). Tell story about Matisse who first wrote his colors on the sketch papers, and then tweaked them when painting.
 
+Use this:
+http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
 
+Use GG library: sort color
+
+Show how to calculate a gradient: I HAVE MADE THE EXAMPLE ALREADY
 
