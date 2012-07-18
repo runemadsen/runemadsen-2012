@@ -173,6 +173,8 @@ To place an object within a given format requires basic math. Therefore many of 
 Basic Repetition
 ----------------
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+
 We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression. In the center of all of this is of course ... the for loop.
 
 	Show grid of rectangles with different meanings, from DE
@@ -192,14 +194,34 @@ We can introduce more complexity by introducing more forms. Even with simple rep
 Basic Randomness
 ----------------
 
-The basic concept of randomness is that you can let the computer choose a random number between two numbers. This can be used to make the same code produce extremely varied outputs, and is often used for positioning and shape proportions.
+The basic concept of randomness is that you can let the computer choose a random number between two numbers. This can be used to make the same code produce extremely varied outputs, and is often used for positioning and shape proportions. 
 
-With polygons you have the same basic choice: constraint it to a specific outcome, or use random to specify a variety of outputs. Are you choosing or is the code choosing? This is an aspect of generative design we'll look at later in the semester.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2.jpg" />
 
-	Simple form repetition:
-	Show Eno Henze's [Scharze Sonnen](http://enohenze.de/ninety-five/)
-	Show code how to create it
-	- Create this yourself
+Randomness - or the idea of randomness - has been used way before the computer. Here it's more of Paul Rand's work, using random positioning and rotation. This is a simulation of pure randomness. The dots overlap and vary in their spacing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example)
+
+This is very easy to create in Processing. Create 30 ellipses in a loop and give them all random position.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1.jpg" />
+
+Here it's a cover for the children's book "I know a lot of things". Notice how the rectangles are randomized, but still spaced out so they never overlap.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example2)
+
+The same technique can be used in code by tweaking the rectangle grid example. Before drawing each rectangle we rotate and change the position randomly from its spot in the grid. If we choose the parameters wisely, we'll never see overlapping squares.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen.jpg" />
+
+Eno Henze is a programming artist from Germany. Here he uses random radius and stroke alpha to create a series of graphic prints.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_sonnen_example)
+
+The same visual can be created with Processing using the simple drawing functions, randomization and for loops.
 	
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_ambushes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_ambushes.jpg" />
 
@@ -208,7 +230,7 @@ Another piece by Eno Henze where he uses simple repetition and random form. This
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_ambushes_example)
 
-The same technique can easily be created with Processing and beginShape().
+The same visual can be created with Processing and beginShape().
 	
 
 Form Examples
