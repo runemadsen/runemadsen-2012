@@ -258,7 +258,7 @@ A circle and a triangle. The most perfect ice cream in the world.
 
 Great use of vertical form. The line height suggests measurements, and emphasizes message about growing taller and taller.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_nowwayout_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_nowayout.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_nowayout_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_nowayout.jpg" />
 
 Simple polygons create movement and excitement. The whole story line is right there in the poster.
 
@@ -270,27 +270,18 @@ A graphic poster for the art directors hall of fame by Paul Rand. Rand uses "A",
 
 Brockmann plays with focus by placing the motorcycle in front. This would be a very different graphic if the forms were reversed.
 
+
 TODO: More examples with my favorite work
 
 
-Computational Form Examples
----------------------------
-
-These are just a few examples of use of form in computational graphic art. 
-
-	Show Eno Henze, p. 60 in GG
-	Show code that creates something like it
-	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1.jpg" />
 Roman Verostko	
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1.jpg" />
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2.jpg" />
+Roman Verostko	
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3.jpg" />
-
-TODO: More examples, maybe new tendencies?
-	
+Roman Verostko	
 
 Conclusion
 ----------
