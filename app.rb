@@ -22,7 +22,7 @@ class RuneMadsen < Sinatra::Base
   
   get '/work' do
     @active = :work
-    @projects = Project.all :order => [ :ordering.asc ]
+    @projects = Project.all :published => true, :order => [ :ordering.asc ]
     erb :'work/index'
   end
   

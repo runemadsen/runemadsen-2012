@@ -17,3 +17,6 @@ THIS IS GREAT: http://37signals.com/svn/posts/3183-the-art-of-computer-typograph
 THERE A BOOK CALLED [TYPE + CODE](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn). It’s only about creating generative typography with processing.
 Bringhurst for the web: http://www.webtypography.net/toc/
 Use Nextext, a type vector library for processing? http://www.nexttext.net/
+
+Use experimental jetset, tell their story, show their work
+Book: function, restraint and subversion in typography

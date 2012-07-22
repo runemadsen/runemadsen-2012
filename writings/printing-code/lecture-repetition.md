@@ -7,3 +7,6 @@ Talk about [these patterns](http://www.itsnicethat.com/articles/andy-gilmore-2)
 Talk about [this grapefruit](http://24.media.tumblr.com/tumblr_m3pk0fpD471r0i205o1_1280.jpg)
 RECURSION - a lot about recursion
 Use examples from graphic design history. Go through examples and projects
+SOL LEWITT!!! A WHOLE CHAPTER ON HIM
+
+Show circle packing from GG

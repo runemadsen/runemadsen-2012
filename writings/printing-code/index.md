@@ -18,7 +18,7 @@ Teacher Info
 
 * Rune Skjoldborg Madsen
 * rune@runemadsen.com
-* Office Hours Signup
+* [Office Hours Signup](https://www.google.com/calendar/selfsched?sstoken=UUZYRVhjenlybjZ6fGRlZmF1bHR8ZTlhNjZkZmUwMjU1MTRkNGI3NDQyYzBjMGZjNjNjZWM)
 
 Introduction
 ------------
@@ -66,7 +66,7 @@ These books might come in handy before, during or after the semester. You will n
 * [Dot Dot Dot Magazine](http://www.dot-dot-dot.us/)
 * [Bulletins of the Serving Library](http://www.servinglibrary.org/)
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9)
-* The Art of Color by Josef Albers
+* [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2)
 
 *Before the first class*: Setup Git and clone down the repo.
 

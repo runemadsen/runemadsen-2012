@@ -59,6 +59,14 @@ A triangle is used to create movement (neither the square or the circle has move
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle.jpg" />
 
+Here are some examples with uses of simple shapes from Josef Muller-Brockmann:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_rects_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_rects.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles.jpg" />
+
 
 More Advanced Forms
 -------------------
@@ -94,10 +102,19 @@ It can be hard to understand how these two control points tell the line to curve
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
 
-By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible.
+By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible. Here are some examples with use of more complex forms.
 
-TODO: examples of complicated form from graphic design history
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_anatomy_murder_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_anatomy_murder.jpg" />
 
+Saul Bass' movie title design is widely know for their simple but very meaningful use of form. Here it's the movie poster for "Anatomy of a Murder".
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_golden_arm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_golden_arm.jpg" />
+
+Another movie poster by Saul Bass, using the same simple formula.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/strike_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/strike_poster.jpg" />
+
+The red shape is a very simple collection of polygon, but it still holds tremendous value in its meaning. 
 
 Computational vs. Organic Form
 ------------------------------
@@ -167,28 +184,29 @@ To place an object within a given format requires basic math. Therefore many of 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
 
+This Processing sketch shows a number of different ways of placing objects on the screen, that being in the left, right, center, golden ratio or on the proximity of other objects.
 
-[examples of placement]
-	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
+
+The "small" Beetle ad is a great example of how to attract attention to a design by using size and placement.
+ 	
 Basic Repetition
 ----------------
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
-
 We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression. In the center of all of this is of course ... the for loop.
 
-	Show grid of rectangles with different meanings, from DE
+Show grid of rectangles with different meanings, from DE
 
-	Show Paul Rand repetition examples
-	Re-create in Processing
-	
-	Show how to do simple spacing in loops
-	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+
+Here is a uniform grid of hearts.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/repetition_example)
+
+We can control spacing of shapes in this way using a for loop.
+
 	Show how to control the spacing of the elements by using i (smaller and smaller or larger and larger spacing)
-
-	Show circle packing from GG
-
-	* more?
 	
 
 Basic Randomness
@@ -233,8 +251,8 @@ Another piece by Eno Henze where he uses simple repetition and random form. This
 The same visual can be created with Processing and beginShape().
 	
 
-Form Examples
--------------
+More Form Examples
+------------------
 
 Even with a single format and a single shape, you can create thousands of expressions to fit you communicative needs. When you really start to look, everything - even the smallest detail - is design. Choices in placement, proportions and relationships between shapes all drastically help shape the meaning of a graphic. When you look at the work of some of the best known graphic designers, you realize that they had an incredible eye for all of this. It takes talent and a lot of work to produce a graphic where you cannot put a finger on a single thing.
 
@@ -270,23 +288,17 @@ A graphic poster for the art directors hall of fame by Paul Rand. Rand uses "A",
 
 Brockmann plays with focus by placing the motorcycle in front. This would be a very different graphic if the forms were reversed.
 
-
-TODO: More examples with my favorite work
-
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko1.jpg" />
-Roman Verostko	
+Roman Verostko
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko2.jpg" />
-Roman Verostko	
+	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3.jpg" />	
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/verostko3.jpg" />
-Roman Verostko	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/book_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/book_cover.jpg" />
 
-Conclusion
-----------
+A series of generative book covers made by Karsten Schmidt.
 
-Arsenal of expressions with simple forms:
-http://www.fredgriffinart.com/GRAPHICDESIGN/design.htm
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster.jpg" />
 
--> assignment
+A poster for the literary festival "Poetry on the Road", using Processing to generate a graphic print. Notice how the logo uses whitespace inside the letters to emphasize "on the road" - like a car driving through the poetry. With no arrows or anything pointing in a direction, this logo creates movement just by subtracting mass from the letters.
