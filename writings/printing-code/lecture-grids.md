@@ -1,3 +1,19 @@
+
+WHAT IS A GRID SYSTEM?
+
+EXAMPLE OF GRID SYSTEMS?
+
+HOW WOULD YOU APPLY A GRID SYSTEM IN CODE?
+
+It's all about measurements
+Show sketch that has a very simple 2x3 grid system
+Show sketch that has spacing between the grids
+> They should all use simple getPosition() functions
+
+
+
+THINGS TO USE
+
 Use grid system text from Form and Code, p. 101.
 This class should start with explanation of grids and then move on to talk about how to make this algorithmic and mess it up.
 Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?

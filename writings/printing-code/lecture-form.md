@@ -67,6 +67,14 @@ Here are some examples with uses of simple shapes from Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles.jpg" />
 
+And some from Conrad Smith:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad1.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad2.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" />
+
 
 More Advanced Forms
 -------------------
