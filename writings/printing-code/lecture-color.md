@@ -64,6 +64,10 @@ Computational Color Systems
 
 > "This question is either trivially easy, or nightmarishly complex, depending on what you're trying to achieve." - from Processing.org forum on how to find complementary color.
 
+THERE ARE BIG BIG PROBLEMS: http://forums.adobe.com/thread/75007
+All these rules are based on the color wheel, and most color theorists use RYB, not RGB. This means that complementary, triadic + all other colors are different depending on the model. 
+Problem: We are working in both worlds: screen and print.
+
 RGB 
 
 CMYK
@@ -162,12 +166,12 @@ However, HSB color modes do not wrap around, which means that anything below 0 a
 Generating Analogous Color Schemes
 ----------------------------------
 
-And analogous color scheme is a suit of colors that are located close to each other on the color wheel. Here's an example of a pure analogous color scheme with blue as the base color. I call it pure, as we rotate 30 degrees around the color wheel on each side to find the 2 neighboring colors. It's 30 degrees because the standard color wheel has 12 colors, and 360/12 is 30.
+And analogous color scheme is a suit of colors that are located close to each other on the color wheel. Often this is a color located 30 degrees away from the base color hue on either side, but that degree can vary. We rotate 30 degrees around the color wheel because the standard color wheel has 12 colors, and 360/12 is 30. We are just finding the "next" color on the wheel.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_analogous)
 
-Of course nothing prevents you from playing with the settings. Here's an example of the same blue base color, but with neighboring colors found by rotating 50 degrees around the color wheel, and subtracting 50 from the base saturation. The further you rotate around the wheel, the less analogous harmony you get.
+Of course nothing prevents you from playing with the settings. Here's an example of the same blue base color, but with neighboring colors found by rotating 50 degrees around the color wheel, and subtracting 50 from the base saturation. The further you rotate around the wheel, the less analogous harmony you get. We can loosely say that anything below a 90 degree angle is an analogous color.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_analogous2)
@@ -200,9 +204,29 @@ This is an example of a complementary color scheme. Notice the sharp contrast be
 
 Another complementary color scheme.
 
+TODO: Show sketch that computes complementary in RYB, looks better to the eye
+
+TODO: EXAMPLES
+
 
 Generating Triadic Color Schemes
 --------------------------------
+
+A triadic color can be said to be the opposite of an analogous color. Where analogous colors are colors located within 90 degrees of the primary color hue, triadic colors are colors located more than 90 degrees away of the base color hue. Here's a "pure" triadic color scheme with colors found by rotating 120 degrees on each side (internally an Equilateral triangle with 60 degree internal angles).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tridiadic.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic)
+
+You may notice how this is the primary colors, which makes sense given the calculation.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tridiadic2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic2)
+
+Here's another example of a triadic color scheme with hue 90 as the base hue.
+
+TODO: Show sketch that computes complementary in RYB, looks better to the eye
+TODO: Examples
+
 
 Generating Tetrads Color Schemes
 --------------------------------
