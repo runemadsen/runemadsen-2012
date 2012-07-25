@@ -86,6 +86,7 @@ First essay in Graphic Design History? - talk about how tied design is to techno
 ### About the class
 
 * Advertising vs. Graphic Arts
+* About the word _generative_
 * Class [introduction](#introduction)
 * Ultimately about forcing you to **think** about even the simplest forms of graphic communication
 * These lectures are based on my way of approaching a task as a designer (first form, then color)

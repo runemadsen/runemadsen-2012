@@ -29,6 +29,8 @@ THINK
 What is Color?
 --------------
 
+
+
 Direct white light through a prism > you get a range of colors
 
 	Image of colors in prism (maybe pink floyd - fun)
@@ -59,6 +61,8 @@ Because of this, Goethe and Itten's color circled use RGY. They are based on the
 
 Computational Color Systems
 ---------------------------
+
+> "This question is either trivially easy, or nightmarishly complex, depending on what you're trying to achieve." - from Processing.org forum on how to find complementary color.
 
 RGB 
 
@@ -142,6 +146,18 @@ Traffic signs, here British traffic signs from the 1960's, generally have a mono
 	
 Here's an example of extremely bad use of a monochromatic color scheme. The only role of the color in this graph is to connect names with lines. How can we do that when the colors are almost identical?
 
+Going Around the Wheel in Code
+------------------------------
+
+Now that we need to start finding neighbors and opposite colors on the spectrum, we need to be able to move around the hue wheel. One example of this would be to find the color that is opposite to another color (hue 0 and hue 180). The easiest way to find the opposite of a degree would be to add 180 to it. 
+
+	int degree = 190;
+	int antipode = degree + 180; // yields 370, WRONG!
+
+However, HSB color modes do not wrap around, which means that anything below 0 and above 360 in hue will produce red. So we need to be able to find a degree between 0-360 no matter what the base hue is. For this we can use modulo to find the remainder, and by adding 180 to the degree, we get the correct antipode between 0-360. This formula can be used for any degree, like finding the color next to another color:
+
+	int degree = 190;
+	int antipode = (degree + 180) % 360; // yields 10, CORRECT!
 
 Generating Analogous Color Schemes
 ----------------------------------
@@ -156,17 +172,34 @@ Of course nothing prevents you from playing with the settings. Here's an example
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_analogous2)
 
-Here's an example of analogous color use from Wolfgang Weingart's book about typography.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_trees_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_trees.jpg" />
+
+Analogous color schemes are found in nature and are often very harmonious to the eye.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_letterpress_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_letterpress.jpg" />
+
+With the return of the letterpress greeting card in the 2000's, I've noticed an extreme use of analogous color schemes.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/weingart_analogous_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/weingart_analogous.jpg" />
 
-MORE EXAMPLE OF ANALOGOUS
+Here's an example of analogous color use from Wolfgang Weingart's book about typography.
 
 
-
-
-Generating Complimentary Color Schemes
+Generating Complementary Color Schemes
 --------------------------------------
+
+A complementary color is a color that exist on the opposite side of the color wheel. Older color theorists considered this to be the definition of color harmony, as complementary colors will always mix to grayish black (in paint) or grayish white (in light).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_complementary)
+
+This is an example of a complementary color scheme. Notice the sharp contrast between the two colors.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_complementary2)
+
+Another complementary color scheme.
+
 
 Generating Triadic Color Schemes
 --------------------------------
