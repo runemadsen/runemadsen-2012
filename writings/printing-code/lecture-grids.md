@@ -5,6 +5,12 @@ EXAMPLE OF GRID SYSTEMS?
 
 HOW WOULD YOU APPLY A GRID SYSTEM IN CODE?
 
+The computer screen is already a grid system.
+
+THEN SPIN OUT OF CONTROL
+	
+	Show code that uses 2 grid systems on top of each other (generate 2 grid objects with random values and place stuff)
+
 It's all about measurements
 Show sketch that has a very simple 2x3 grid system
 Show sketch that has spacing between the grids
