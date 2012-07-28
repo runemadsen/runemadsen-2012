@@ -10,6 +10,8 @@ There are 2 reasons why I choose to show this scene:
 
 All of the things I'll talk about in this class are tools and systems for manipulating color. They are in no way a set of final instructions, like "use red when you want to symbolize love". Color is way too subjective for those kinds of arguments. This class is about showing you different ways of approaching the art of color combination, and especially to show you how closely tied programming and color theory are in reality.
 
+Combining color is a 2-step process: 1) Plan (objective) 2) Implement and tweak (subjective). Tell story about Matisse who first wrote his colors on the sketch papers, and then tweaked them when painting.
+
 Color is one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange.jpg" />
@@ -41,15 +43,6 @@ This is why the sun turns red when setting. The athmosphere is a filter.
 Color is all around us. Color express meaning. It's a natural way of communication. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/red_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/red.jpg" />
-
-
-Important People in Color
--------------------------
-
-Goethe
-Itten and his 7 contrasts
-Albers
-Something computational?
 
 
 Subtractive vs. Additive Color Systems 
@@ -100,6 +93,7 @@ CMYK - for printing. Black in RGB is expensive.
 HSB (360, 100, 100)
 
 Why we work with HSB and not RGB
+- How would you otherwise know brightness and saturation of a color? How would you create contrasts and schemes?
 
 	
 HSB Color Wheel
@@ -161,7 +155,7 @@ Contrast of Light and Dark
 
 > If one is not able to distinguish the difference between a higher tone and a lower tone, one probably should not make music - Josef Albers
 
-The contrast of light and dark is very simple to understand: whenever we have two colors with a difference in brightness, a clear contrast between the two colors will exist.
+The contrast of light and dark is very simple to understand: whenever we have two colors with a difference in brightness, a clear contrast between the two colors will exist. The HSB color mode makes it very obvious what kind of brightness we are working with.
 
 However, there's a big problem with computational light/dark scales: they are not linear. One might think that you can make a scale of equally contrasted rectangles by moving from brightness 10 to brightness 90 in steps of 10.
 
@@ -177,8 +171,15 @@ We can of course grow our brightness exponentially in the code instead:
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_right)
 
-Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule. 
+Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule.
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
+
+Front cover designed by Paul Rand. Notice the light-dark contrast and use of monochromatic color scheme.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre.jpg" />
+
+Another example of light-dark contrast by Paul Rand.
 
 Contrast of Saturation
 ----------------------
@@ -192,7 +193,11 @@ This is an example of 2 colors with contrast in saturation.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish.jpg" />
 
-Here's an example of use of contrast of saturation in the painting "Fish Magic" by Paul Klee. Although there is also a light/dark contrast, it's specifically the brilliance of the fish contrasted to the dull background that makes it come alive.
+Here's an example of saturation contrast in the painting "Fish Magic" by Paul Klee. Although there is also a light/dark contrast, it's specifically the brilliance of the fish contrasted to the dull background that makes it come alive.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation.jpg" />
+
+Josef Muller-Brockmann uses saturated color boxes in contrast with the gray background.
 
 
 Going Around the Wheel in Code
@@ -257,11 +262,9 @@ Two examples of complementary color schemes. Notice the sharp contrast between t
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_complementary2)
 
-Another complementary color scheme.
+Complementary contrast is one of Itten's seven contrasts, however his examples are based on the RYB subtractive color model. Most of Ittens complementary colors are triadic color pairs in the RGB model.
 
 TODO: EXAMPLES (blue/yellow)
-
-ITTENS COMPLEMENTARY CONTRAST
 
 
 Generating Triadic Color Schemes
@@ -286,10 +289,28 @@ This is the primary color set that painters and designers throughout the history
 
 Here's another example of a triadic color scheme with hue 90 as the base hue.
 
-Johannes Itten also spoke about a "Contrast of Hue". The bigger the distance in hue, the bigger the contrast.
-ITTEN HUE CONTRAST
-
 TODO: Examples
+
+Contrast of Hue
+---------------
+
+One of Itten's seven color contrasts is the contrast of hue, where the base rule is: the bigger the distance in hue, the bigger the contrast. A pure triadic color scheme is the extreme instance of hue contrast. Contrast of hue is extremely expressive, especially in brilliant colors.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_hue_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_hue.jpg" />
+
+Here's an example of a strong contrast of hue, using full saturated colors and black+white.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_hue2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_hue2.jpg" />
+
+Removing black+white and adding colors closer to each other diminishes the hue contrast.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/book_hue_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/book_hue.jpg" />
+
+As "pure" colors were the first ink-based colors, uses of contrast of hue can be traced back to the early books of the middle ages:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/mondrian_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/mondrian.jpg" />
+
+Mondrian uses the additive primary colors.
 
 
 Generating Tetradic Color Schemes
@@ -312,7 +333,7 @@ It's important to realize the dynamic nature of the cold/warm contrast. People t
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/albers_example)
 
-Simulatneous Contrast
+Simultaneous Contrast
 ---------------------
 
 Show these squares:
@@ -329,25 +350,20 @@ Contrast of Extension
 Awesome stuff!! p. 59 Itten
 
 
+How to Find Opposite Brightness
+-------------------------------
+
+For generative drawings we often want to [calculate the perceived brightness](http://www.nbdtech.com/Blog/archive/2008/04/27/Calculating-the-Perceived-Brightness-of-a-Color.aspx) of a color to be able to choose a font or shape color to draw on top of it. This is especially useful when working with random colors. We do this by using a weighted formula that calculates the perceived brightness of a color. We use that brightness approximation to choose the brightness of the overlay color.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/brightness_perceived)
+
+
+
 Generating Gradients
 --------------------
-
-
-
-
-
-Something where I show what a person can do with color. What's the meaning?
-
-
-
-
-
-	
-there are great tools for this: http://kuler.adobe.com or http://colorschemedesigner.com. They are all very focused on manipulating hue, and when you start playing around with the colors, it's all by freehand. If you write your own code you can set your own constraints. The assignment this week is to create your own code that computes a color scheme.
-
-Use this to practice:
-http://www.speednoisemovement.com/iioc/
-
 
 
 
@@ -360,38 +376,12 @@ THINGS TO PUT IN SOMEWHERE
 //////////////////////////
 
 
+there are great tools for this: http://kuler.adobe.com or http://colorschemedesigner.com. They are all very focused on manipulating hue, and when you start playing around with the colors, it's all by freehand. If you write your own code you can set your own constraints. The assignment this week is to create your own code that computes a color scheme.
 
-Johannes Itten's Art of Color
------------------------------
-
-Studied color theory his whole life
-
-> "The doctrine to be developed here is an aesthetic color theory originating in the experience and intuition of a painter [...] Color effects are in the eye of the beholder." - Johannes Ittens
-
-
-### Itten's color harmoy
-
-Anything that has equal distance in hue or saturation/brightness
-Show sketch that displays different ways of picking a random color scheme
-
-### Itten's contrasts
-
-Itten thinks color design relies on 7 different types of contrast (explain all of them with examples from graphic design world + code examples)
-	
-
-Josef Albers' Interaction of Color
-----------------------------------
-
-All the crazy examples where the same colors do not look a like.
-
-
-
-Combining color is a 2-step process: 1) Plan (objective) 2) Implement and tweak (subjective). Tell story about Matisse who first wrote his colors on the sketch papers, and then tweaked them when painting.
+Use this to practice:
+http://www.speednoisemovement.com/iioc/
 
 Use this:
 http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
 
 Use GG library: sort color
-
-Show how to calculate a gradient: I HAVE MADE THE EXAMPLE ALREADY
-
