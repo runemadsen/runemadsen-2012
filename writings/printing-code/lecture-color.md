@@ -152,11 +152,48 @@ We are hip. We are trendy. We use monochromatic color.
 	
 Here's an example of extremely bad use of a monochromatic color scheme. The only role of the color in this graph is to connect names with lines. How can we do that when the colors are almost identical?
 
-Johannes Itten spoke of 7 different color contrasts that any graphic artist needs to master. Two of these are especially tied to monochrome color: The contrast of saturation and the contrast of light and dark.
+Johannes Itten spoke of 7 different color contrasts that any graphic artist needs to master. Two of these are especially tied to monochrome color: The contrast of light and dark and the contrast of saturation.
+
+Contrast of Light and Dark
+--------------------------
+
+> Day and night, light and darkness - this polarity is of fundamental significance in human life and nature generally - Johannes Itten
+
+> If one is not able to distinguish the difference between a higher tone and a lower tone, one probably should not make music - Josef Albers
+
+The contrast of light and dark is very simple to understand: whenever we have two colors with a difference in brightness, a clear contrast between the two colors will exist.
+
+However, there's a big problem with computational light/dark scales: they are not linear. One might think that you can make a scale of equally contrasted rectangles by moving from brightness 10 to brightness 90 in steps of 10.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_wrong)
+
+You might notice how there's a sharp contrast between first dark rectangles, but almost no contrast between any rectangle with 60 or more in brightness. First discovered in the so-called Weber-Fechner Law, a linear increase in brightness will distribute the contrast visually exponentially from white to black. An exponential increase in brightness will distribute the contrast linearly across all segments.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness.jpg" />
+
+We can of course grow our brightness exponentially in the code instead:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_right)
+
+Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule. 
 
 
-ITTENS CONTRAST OF SATURATION!!!!!
-ITTENS CONTRAST OF LIGHT AND DARK!!!!
+Contrast of Saturation
+----------------------
+
+One way you can experiment with a monochromatic color scheme is by investigating the contrast of saturation. This is the one of Itten's contrasts that is only clearly visible in monochromatic color schemes, as it's drowned out by other contrasts. It describes the contrast that a brilliant color has towards a dull color of the same hue.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_saturation)
+
+This is an example of 2 colors with contrast in saturation.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish.jpg" />
+
+Here's an example of use of contrast of saturation in the painting "Fish Magic" by Paul Klee. Although there is also a light/dark contrast, it's specifically the brilliance of the fish contrasted to the dull background that makes it come alive.
+
 
 Going Around the Wheel in Code
 ------------------------------
@@ -282,6 +319,8 @@ Show these squares:
 http://www.colorbudz.com/2010/11/color-theorist-johannes-itten/
 
 > "He who first draws lines and then add color will never succeed in producing a clear, intense color effect [...] Color have dimensions and directionality of their own" - Johannes Itten
+
+p. 61 albers
 
 
 Contrast of Extension
