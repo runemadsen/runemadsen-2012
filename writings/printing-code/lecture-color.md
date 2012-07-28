@@ -4,24 +4,27 @@ The woman in the red dress is a character in a training program built by the reb
 
 There are 2 reasons why I choose to show this scene:
 
-1. The use of color in this movie is fantastic. A vague green color is used for all scenes in the Matrix. The slaves in the Matric are dressed in gray. Scenes in the Nebuchadnezzar are tinted blue to symbolize clouds, heaven and light - the real world. Everything has a symbolic meaning, and color is used to emphasize it.
+1. The use of color in this movie is fantastic. A vague green color is used for all scenes in the Matrix. The slaves in the Matrix are dressed in gray. Scenes in the Nebuchadnezzar are tinted blue to symbolize clouds, heaven and light - the real world. Everything has a symbolic meaning, and color is used to emphasize it.
 
 2. Once you learn to control color, you'll be like Neo moving through the Matrix. You'll see things that no one else sees.
 
-I've had an obsession with color for many years. It's one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
+All of the things I'll talk about in this class are tools and systems for manipulating color. They are in no way a set of final instructions, like "use red when you want to symbolize love". Color is way too subjective for those kinds of arguments. This class is about showing you different ways of approaching the art of color combination, and especially to show you how closely tied programming and color theory are in reality.
 
-	examples of Itten with a color changing
+Color is one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
 
-What We Want to Learn About Color
----------------------------------
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_exchange)
 
-> "He who first draws lines and then add color will never succeed in producing a clear, intense color effect [...] Color have dimensions and directionality of their own" - Johannes Itten
+Here's a quick example of how dynamic behavior color combination can have. This looks like 2 grounds where the grounds exchanged in the center squares. They are - in fact - 3 colors, where the center square is a color midways in the hue spectrum between the grounds. The eye is searching for relevance. We can prove it by removing the grounds:
 
-	Example from p. 17, Johannes Itten
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange2.jpg" />
 	
-Finding ways to compute color using color models. Color in itself is a mathematical model, and we can manipulate it in code.
+The conclusion to this must be that color theory matters: Based on simple calculation we created an effect in the eye of the beholder. The problem with combining color only by numbers is that you can start to trust the numbers instead of your eyes. Here's another example of why this is problematic:
 
-In this class you will learn about computational color.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_example2)
+
+In this example the small squares looks like the exact same color, but they are not even close. Because they keep a relative distance in brightness to their respective grounds, they look the same to the eye. We will investigate this further later when talking about simultaneous contrast.
 
 	
 What is Color?
@@ -38,6 +41,15 @@ This is why the sun turns red when setting. The athmosphere is a filter.
 Color is all around us. Color express meaning. It's a natural way of communication. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/red_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/red.jpg" />
+
+
+Important People in Color
+-------------------------
+
+Goethe
+Itten and his 7 contrasts
+Albers
+Something computational?
 
 
 Subtractive vs. Additive Color Systems 
@@ -69,7 +81,7 @@ All colors created with light will combine in an **additive** way, meaning that 
 
 The truth is that color is a sliding spectrum, and color wheels are just basic ways of dividing this spectrum. Actually, you can use any three colors to define what's called a color gamut, a subset of all possible colors (http://en.wikipedia.org/wiki/Gamut)
 
-Terms like primary, complementary, triadic colors vary by model. The opposite of "red" in the RYB colour wheel is "green", whereas the opposite of "red" in the RGB colour wheel is cyan.
+Terms like primary, complementary, triadic colors vary by model. The opposite of "red" in the RYB color wheel is "green", whereas the opposite of "red" in the RGB color wheel is cyan.
 
 Because we are working in both worlds, we are faced with a problem: we are designing on a screen that uses additive blending, but printing on a printer that uses subtractive blending. Processing does not have a native way of working with CMYK, and the AMS printers are optimized for the Adobe RGB 1998 color profile ... everything is additive from now on.
 
@@ -105,7 +117,6 @@ H (0-360) control the angle on the wheel. S (0-100) controls saturation (radius)
 By tweaking the saturation and brightness we can make the colors less sharp.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing2.jpg" />
-
 	
 
 Generating Monochromatic Color Schemes
@@ -140,6 +151,12 @@ We are hip. We are trendy. We use monochromatic color.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/bad_mono.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/bad_mono.jpg" />
 	
 Here's an example of extremely bad use of a monochromatic color scheme. The only role of the color in this graph is to connect names with lines. How can we do that when the colors are almost identical?
+
+Johannes Itten spoke of 7 different color contrasts that any graphic artist needs to master. Two of these are especially tied to monochrome color: The contrast of saturation and the contrast of light and dark.
+
+
+ITTENS CONTRAST OF SATURATION!!!!!
+ITTENS CONTRAST OF LIGHT AND DARK!!!!
 
 Going Around the Wheel in Code
 ------------------------------
@@ -207,6 +224,8 @@ Another complementary color scheme.
 
 TODO: EXAMPLES (blue/yellow)
 
+ITTENS COMPLEMENTARY CONTRAST
+
 
 Generating Triadic Color Schemes
 --------------------------------
@@ -230,6 +249,9 @@ This is the primary color set that painters and designers throughout the history
 
 Here's another example of a triadic color scheme with hue 90 as the base hue.
 
+Johannes Itten also spoke about a "Contrast of Hue". The bigger the distance in hue, the bigger the contrast.
+ITTEN HUE CONTRAST
+
 TODO: Examples
 
 
@@ -246,7 +268,26 @@ Notice how this color scheme has a slight rich cold/warm contrast in the complem
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_tetrad2)
 
-TODO: Examples
+ITTEN COLD-WARM CONTRAST
+
+It's important to realize the dynamic nature of the cold/warm contrast. People tend to think that "red" is warm and "blue" is cold. As proved by Albers, here's an example of how extremely fragile that balance is.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/albers_example)
+
+Simulatneous Contrast
+---------------------
+
+Show these squares:
+http://www.colorbudz.com/2010/11/color-theorist-johannes-itten/
+
+> "He who first draws lines and then add color will never succeed in producing a clear, intense color effect [...] Color have dimensions and directionality of their own" - Johannes Itten
+
+
+Contrast of Extension
+---------------------
+
+Awesome stuff!! p. 59 Itten
 
 
 Generating Gradients
@@ -264,6 +305,9 @@ Something where I show what a person can do with color. What's the meaning?
 
 	
 there are great tools for this: http://kuler.adobe.com or http://colorschemedesigner.com. They are all very focused on manipulating hue, and when you start playing around with the colors, it's all by freehand. If you write your own code you can set your own constraints. The assignment this week is to create your own code that computes a color scheme.
+
+Use this to practice:
+http://www.speednoisemovement.com/iioc/
 
 
 
