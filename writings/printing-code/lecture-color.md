@@ -95,6 +95,8 @@ HSB (360, 100, 100)
 Why we work with HSB and not RGB
 - How would you otherwise know brightness and saturation of a color? How would you create contrasts and schemes?
 
+The color object in Processing is not very good. That's why we create our own small class to handle HSB and RGB colors.
+
 	
 HSB Color Wheel
 ---------------
@@ -333,21 +335,41 @@ It's important to realize the dynamic nature of the cold/warm contrast. People t
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/albers_example)
 
-Simultaneous Contrast
----------------------
-
-Show these squares:
-http://www.colorbudz.com/2010/11/color-theorist-johannes-itten/
-
-> "He who first draws lines and then add color will never succeed in producing a clear, intense color effect [...] Color have dimensions and directionality of their own" - Johannes Itten
-
-p. 61 albers
-
 
 Contrast of Extension
 ---------------------
 
-Awesome stuff!! p. 59 Itten
+> "He who first draws lines and then add color will never succeed in producing a clear, intense color effect [...] Color have dimensions and directionality of their own" - Johannes Itten
+
+Itten's contrast of extension relates to the fact that different colors do not have the same perceived volume. If a yellow rectangle and a purple rectangle are set side by side, the yellow rectangle appears much bigger.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_white_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_white.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_white)
+
+This "contrast of extension" varies depending on the background color, neighbor colors, and arrangement.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_black_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_black.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_black)
+
+Goethe and later Itten proposed the following extension values for colors:
+
+* Yellow: 9
+* Orange: 8
+* Red: 6
+* Violet: 3
+* Blue: 4
+* Green: 6
+
+Here's those numbers visualized. Notice how balanced this color wheel is compared to Itten's normal color wheel with constant color sizes.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ittens.jpg" />
+
+And a simple processing sketch that calculates ratio between 2 color pairs using those extension values.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ratios_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ratios.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_ratios)
+
+Of course this is a very basic treatment on the fact that colors have different volumes. It could be nice to have a constant to apply in code, but it varies greatly with the background and matching colors. In the end it's a test for your visual perception.
 
 
 How to Find Opposite Brightness
