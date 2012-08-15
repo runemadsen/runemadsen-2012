@@ -12,7 +12,11 @@ Show quick examples to be implemented with examples later
 Coding a Grid
 -------------
 
-* Everything needs to be floats, otherwise the columns won't line up (show example)
+So how do we approach using a grid in code? The simplest possible grid to make is a manuscript grid that only requires 4 variables: x,y,width,height to define the rectangle in which we place content.
+
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)
+
+A nice way of encapsulating these 4 variables is by creating a class that can keep track of them and hide them from the main file. He I've created a _Column_ class to hold the column values. Nothing else changed. By extracting the grid code into a class we can add convenient helper methods to that class without cluttering out main source file.
 
 Coding a Manuscript Grid
 ------------------------
@@ -22,6 +26,9 @@ Very simple Processing Code
 
 Coding a Column Grid
 --------------------
+
+* Everything needs to be floats, otherwise the columns won't line up (show example)
+
 Examples
 Show simple column grid processing program
 Show generative placement column grid processing program

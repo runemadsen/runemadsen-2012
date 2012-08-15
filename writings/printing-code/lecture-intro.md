@@ -289,6 +289,8 @@ Projects from Generative Gestaltung
 Eric Mika’s project
 \= It's the same as before: Playing with form and color. The form is different. It's bits. But nothing else has changed.
 
+Written images book: http://www.kickstarter.com/projects/deffekt/written-images?ref=users
+
 Sum up: Graphic Design today is built on the entire history. to understand design today, you have to understand the computer (255 for color). We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
 
 LOOK THROUGH AND FIND STUFF FROM MY MICA TALK

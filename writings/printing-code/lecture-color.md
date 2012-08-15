@@ -388,6 +388,12 @@ Generating Gradients
 --------------------
 
 
+Gerstners Programmatic Color Exercise
+-------------------------------------
+
+[everything from my note in Designing Programmes. Don't program, just show the pictures.]
+
+
 
 
 

@@ -461,6 +461,20 @@ img[data-slideshow] {
 	background-color: #EBEBEB;
 }
 
+#toc {
+	margin-left: 0px;
+	list-style: none;
+}
+
+#toc li {
+	margin-bottom: 0px;
+}
+
+#toc li a {
+	border-bottom: none;
+	font-size: 13px;
+}
+
 /* 404
 ----------------------------------------------------------------- */
 

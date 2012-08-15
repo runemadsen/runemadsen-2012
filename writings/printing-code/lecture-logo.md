@@ -13,3 +13,12 @@ http://www.sagmeister.com/taxonomy/term/18#/node/184
 
 Dynamic identities: http://rulesbased.wordpress.com/category/graphic-design/
 http://rulesbased.wordpress.com/
+
+Organic logos that fit a range of sections:
+
+
+
+This redesign: http://www.wikipediaredefined.com/
+And this critique thread: http://news.ycombinator.com/item?id=4352290
+
+http://www.underconsideration.com/brandnew/

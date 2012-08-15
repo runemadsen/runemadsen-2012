@@ -59,8 +59,15 @@ Make a sketch where you control the variables via a GUI. Make something interest
 
 Maybe this is an assignment: Encode data into an image. Like the waveform in the hidden parts of the image, or the stewart smith assignment.
 
-Make a program that places forms on a page according to some rule of propportion (DDD4 p, 14)
+Make a program that places forms on a page according to some rule of proportion (DDD4 p, 14)
 
+
+From Matt
+---------
+
+http://www.realitat.com/HACKPACT/#algo
+http://artegenerativo.laad.com.mx/artgen.html
+http://www.complexification.net/gallery/
 
 Artists to Show
 ----------------------
@@ -72,6 +79,8 @@ Nicolas Sassoon - awesome animated GIFs
 
 Random Cool Stuff
 ----------------------
+
+Sol lewitt software: http://rhizome.org/artbase/artwork/49173/
 
 http://www.computerkunst.org/
 

@@ -171,7 +171,7 @@ var PrintingCode = Backbone.View.extend({
 		  $("<a id='"+alias+"'></a>").insertBefore(this);
 
 		  // create link in toc ul
-			$("ul#toc").append("<li><a href='#"+alias+"'>"+org+"</a></li>")
+			$("#toc").append("<li><a href='#"+alias+"'>"+org+"</a></li>")
 		});
 	}
 	
