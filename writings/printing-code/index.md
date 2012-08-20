@@ -117,7 +117,7 @@ Week 5: Grids
 
 * Homework design critique
 
-* Lecture: [Computational Color](/printing-code-2012/lecture-color)
+* Lecture: [Computational Grids](/printing-code-2012/lecture-grid)
 
 ### Assignment for next week
 
