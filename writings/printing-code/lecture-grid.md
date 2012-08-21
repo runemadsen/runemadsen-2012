@@ -45,10 +45,10 @@ Even a simple grid gives you a lot of variety in placing your content. You use t
 Coding a Grid
 -------------
 
-Before we start diving into grid systems in code:
+Before we start diving into code examples, we need to clarify a simple thing about calculations in Processing. When we work with division of larger numbers into smaller numbers, it's important always to use floats instead of ints. Variables like `width` and `height` must also be cast into floats (by putting (float) in front of it). Why? This code example shows you why.
 
-- floats vs. ints
-- height of grid should be your line-height of body text (if you have any)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/wrong_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/wrong_calculations.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/wrong_calculations)
 
 
 Coding a Manuscript Grid
