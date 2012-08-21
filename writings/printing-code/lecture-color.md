@@ -395,6 +395,11 @@ Gerstners Programmatic Color Exercise
 
 
 
+Toxiclibs
+---------
+
+
+
 
 
 
@@ -403,6 +408,7 @@ Gerstners Programmatic Color Exercise
 THINGS TO PUT IN SOMEWHERE
 //////////////////////////
 
+TOXILIBS COLOR LIBRARY!!!!
 
 there are great tools for this: http://kuler.adobe.com or http://colorschemedesigner.com. They are all very focused on manipulating hue, and when you start playing around with the colors, it's all by freehand. If you write your own code you can set your own constraints. The assignment this week is to create your own code that computes a color scheme.
 

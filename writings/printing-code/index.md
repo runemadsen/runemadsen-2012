@@ -109,6 +109,10 @@ Week 4: Typography
 Week 5: Grids
 -------------
 
+> A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected
+>
+> Khoi Vinh, New York Times
+
 ### Readings for this week
 
 ### Class Overview
@@ -179,6 +183,3 @@ These books might come in handy before, during or after the semester. You will n
 * [Bulletins of the Serving Library](http://www.servinglibrary.org/)
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9)
 * [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2)
-
-
-

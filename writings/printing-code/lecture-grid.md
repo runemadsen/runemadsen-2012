@@ -7,7 +7,7 @@ Relevant for us is how the grid is such a strict mathematical concept. It's perf
 
 The concept of a generative grid system is extremely powerful, but also extremely underused. Even a simple thing like a flexible grid program is non-existent today. 
 
-Today we'll go through the different types of grid systems, look at interesting examples, and look at how we can create and manipulate grid systems in code.
+Today we'll go through the different types of grid systems, look at interesting examples, and look at how we can create and manipulate grid systems in code. If you feel like it, read [this brief introduction to the history of grid](http://www.graphics.com/modules.php?name=Sections&op=viewarticle&artid=620).
 
 
 Types of Grids
@@ -33,7 +33,13 @@ The last type of grid is often called a **hierarchical grid**, although it's kin
 Using a Grid
 ------------
 
-Even a simple grid gives you a lot of variety in placing your content. [ show how to place stuff in a grid ]
+Even a simple grid gives you a lot of variety in placing your content. You use the modules as basis for larger content areas. This creates alignment and balance in your design.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
 
 
 Coding a Grid
@@ -43,6 +49,7 @@ Before we start diving into grid systems in code:
 
 - floats vs. ints
 - height of grid should be your line-height of body text (if you have any)
+
 
 Coding a Manuscript Grid
 ------------------------
@@ -84,12 +91,16 @@ Examples
 Processing Code
 
 
+Karl Gerstner's Flexible Grid
+-----------------------------
+
+Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
+
+
 Grid Deconstructions THIS SHOULD BE THE MOST PART OF THE CLASS
 --------------------
 
 SHOW EXAMPLES!!!!
-
-The computer screen is already a grid system.
 
 THEN SPIN OUT OF CONTROL
 	
@@ -104,14 +115,15 @@ Make a grid where the columns randomly wary in width (but based on rules). apply
 
 
 
-THINGS TO USE
+THINGS I MUST USE
+
+http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/
 
 Use DE p. 207: Write a Processing sketch that generates that type constellations.
 
 Use grid system text from Form and Code, p. 101.
-This class should start with explanation of grids and then move on to talk about how to make this algorithmic and mess it up.
 Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
-Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
+
 Use Rand lecture book p. 27 illustration and write a sketch that does this with masks.
 
 http://www.graphics.com/modules.php?name=Sections&op=viewarticle&artid=620
