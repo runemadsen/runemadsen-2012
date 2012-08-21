@@ -39,7 +39,7 @@ Even a simple grid gives you a lot of variety in placing your content. You use t
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3.jpg" />
 
 
 Coding a Grid
