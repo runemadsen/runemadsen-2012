@@ -97,11 +97,12 @@ class RuneMadsen < Sinatra::Base
   # -------------------------------------------------------------------
   
   get '/admin' do
-    # protected!
+    protected!
     erb :"admin/index"
   end
   
   post '/admin/blog' do
+    protected!
     if params[:id]
       @post = Post.get(params[:id])
       @post.update(params[:post])
@@ -112,7 +113,7 @@ class RuneMadsen < Sinatra::Base
   end
   
   get '/blog/:route/edit' do
-    #protected!
+    protected!
     @post = Post.first :route => params[:route]
     erb :'blog/edit'
   end

@@ -65,5 +65,4 @@ class Project
   property :created_at,         DateTime
 end
   
-
 DataMapper.finalize
