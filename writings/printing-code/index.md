@@ -3,8 +3,6 @@
 Printing Code 2012
 ==================
 
-**Dislaimer: These pages are slides and notes for my lectures for this class. They are not by any means edited for clarity or proofread for mistakes.**
-
 **Printing Code** is a graduate course taught at the Interactive Telecommunications Program during the fall 2012 semester. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition and generative form.
 
 Weekly readings include relevant writings from the history of graphic design ([Josef Muller-Brockmann](http://bit.ly/KR2jkA), [Paul Rand](http://bit.ly/KzNyhy)), articles from the history of computation ([Vannevar Bush](http://bit.ly/9Zat9h), [Douglas Englebart](http://bit.ly/B4HDX)) and everything in between ([Sol Lewitt](http://bit.ly/BX1iy), [Edward Tufte](http://bit.ly/49i1Xj)).
@@ -40,6 +38,8 @@ Week 1: Hello World
 >
 >*Timothy Samara, Design Elements*
 
+In this class we'll introduce ourselves, and talk a little bit about the class, graphic design and computation.
+
 ### Readings for this week
 
 * [Software Structures](http://artport.whitney.org/commissions/softwarestructures/text.html) by Casey Reas
@@ -48,121 +48,127 @@ Week 1: Hello World
 ### Class Overview
 
 * Introductions
-
-* [About the class](/printing-code-2012/about-the-class)
-
-* [Reading Discussion](/printing-code-2012/readings-questions) (if we have time)
-
-* Lecture: **[The History of Graphic Design and Computational Form](/printing-code-2012/lecture-intro)**
-
-* [Using Processing to create graphic prints](/printing-code-2012/using-processing-to-create-graphic-prints)
+* About the class
+* Reading Discussion (if we have time)
+* Lecture: **The History of Graphic Design and Computational Form**
+* Using Processing to create graphic prints
 
 ### Assignment for next week
 
-* Print something on the school's laser printer. A4. This means only grayscale. Using one variable?
-
+* On ITP's laser printer, print a PNG image generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone.
 
 Week 2: Form
 ------------
 
 > Without aesthetic, design is either the humdrum repetition of familiar cliches or a wild scramble for novelty. Without the aesthetic, the computer is but a mindless speed machine, producing effects without substance. Form without relevant content, or content without meaningful form.
 >
-> Paul Rand
+> _Paul Rand_
 
-### Readings for this week
+This week we'll look at the basis of all visual arts: manipulation of form. We'll talk about techniques for creating form in Processing, look at examples from the history of graphic design, and introduce basic concepts of randomization and repetition.
 
+<!--
 ### Class Overview
 
-* [Reading Discussion](/printing-code-2012/readings-questions)
-
+* Reading Discussion
 * Homework design critique
-
-* Lecture: [Computational Form and Format](/printing-code-2012/lecture-form)
-
+* Lecture: **Computational Form and Format**
 * Trip to AMS to see the printers
+
 
 ### Assignment for next week
 
-* Using the [Processing framework](#link-to-github-repo) I showed in class, write code that outputs 3 different shapes aligned from top to bottom: POSSIBLE: Wet, sharp, chaos, beauty, thunder. Use only black and white. Print on a poster at AMS and bring to class for design critique. MAYBE USE ONLY FOR LOOPS, IN ORDER TO MAKE THEM DO GENERATIVE.
+* Using the [Processing framework](#link-to-github-repo) I showed in class, write code that outputs 3 different shapes aligned from top to bottom: POSSIBLE: Wet, sharp, chaos, beauty, thunder. Use only black and white. Print on a poster at AMS and bring to class for design critique. MAYBE USE ONLY FOR LOOPS, IN ORDER TO MAKE THEM DO GENERATIVE.-->
 
 
 Week 3: Color
 -------------
 
-### Readings for this week
+In this class we'll dive into color theory, and especially look at color handling in Processing. We'll talk about the history of color, the difference between RGB and HSB, and investigate how to generate color schemes in code.
 
-### Class Overview
+<!--### Class Overview
 
-* [Reading Discussion](/printing-code-2012/readings-questions)
-
+* Reading Discussion
 * Homework design critique
-
-* Lecture: [Computational Color](/printing-code-2012/lecture-color)
-
-### Assignment for next week
-
-* Color assignment
+* Lecture: Computational Color-->
 
 Week 4: Typography
 ------------------
+
+This week we'll look at typography. We'll go through the basic units that make up a typeface, and how we can manipulate these in Processing.
+
+<!--Create a font. Nothing more-->
 
 Week 5: Grids
 -------------
 
 > A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected
 >
-> Khoi Vinh, New York Times
+> _Khoi Vinh, New York Times_
 
-### Readings for this week
+In this class we'll look at grid systems and how to use them as guiding constraints for your designs. We'll go through different types of grids, implement these in code, and see how it translates to the world of computational design.
 
-### Class Overview
+<!--### Class Overview
 
-* [Reading Discussion](/printing-code-2012/readings-questions)
-
+* Reading Discussion
 * Homework design critique
-
-* Lecture: [Computational Grids](/printing-code-2012/lecture-grid)
+* Lecture: Computational Grids
 
 ### Assignment for next week
 
-* For next you should bring a graphic poster that uses a custom grid system.
+* For next you should bring a graphic poster that uses a custom grid system.-->
 
 Week 6: Logo
 ------------
 
-### Assignment for next week
+To make a well-designed logo requires skills in form, color, type and grid. We'll look at everything from traditional logos to organic, computational logos, and we'll go through different techniques for making generative logos in Processing. This week's assignment is a 1 week midterm project.
 
-* Even though you only have 1 week to do it, this assignment is your mid-term. Something about designing a logo.
+<!--### Assignment for next week
+
+* Even though you only have 1 week to do it, this assignment is your mid-term. Something about designing a logo.-->
 
 Week 7: _Midterm Presentations_
 -----------------------------
 
-This week we will only be looking at mid-term presentations.
+This week will be midterm presentations.
 
 Week 8: Transformation
 ----------------------
 
+What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
+
 Week 9: Repetition
 ------------------
 
-Patterns....
+Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll look at different repetition techniques and ways of creating custom patterns.
+
+<!--Patterns....-->
 
 Week 10: Randomization
 ----------------------
 
-Start finals
+When we start to use programming to output graphic prints, we can let the computer choose. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how to use this in with Processing's drawing functions.
+
+<!--Start finals-->
 
 Week 11: Motion
 ---------------
 
+Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a virtual world. 
+
 Week 12: 3D
 -----------
 
+In the same way as motion can be used in the graphic arts, so too can 3D. Even though we are printing on paper, we can still simulate 3D in our code, twist and turn objects, and randomize the resulting print. We'll look at recent developments in graphic design and 3D, including 3-dimensional typefaces and logos.
+
 Week 13: _Final Presentations 1_
-------------------------------
+--------------------------------
+
+First week of final presentations
 
 Week 14: _Final Presentations 2_
-------------------------------
+--------------------------------
+
+Second week of final presentations
 
 
 Recommended Readings

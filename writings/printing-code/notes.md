@@ -29,7 +29,6 @@ About the assignments: Everything is possible on the computer. Constraints are e
 
 Possible first assignment: Draw something in hand that would be better drawn in code...
 Possible first assignment: Give a vague, confusing assignment
-Possible first assignment: Bring in four images of artworks 1) A work that you like and is good 2) A work that you don’t like and don’t think is good 3) A work that you like but suspect might not be good 4) A work that you don’t like but have to admit is good
 
 Recreate a well-known poster in Processing. Tweak the variables to change the appearance.
 

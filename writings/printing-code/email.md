@@ -20,6 +20,10 @@ I would like you to do read 2 things before coming to class.
 [and then this critique: http://news.ycombinator.com/item?id=4352290]
 
 
+Exercise
+Possible first assignment: Bring in four images of artworks 1) A work that you like and is good 2) A work that you don’t like and don’t think is good 3) A work that you like but suspect might not be good 4) A work that you don’t like but have to admit is good
+
+
 See you soon.
 
 - Rune
