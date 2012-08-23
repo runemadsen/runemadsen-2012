@@ -110,12 +110,6 @@ iframe {
 	margin-bottom: 11px;
 }
 
-.small-text {
-  font-size: 13px; }
-
-.small-text {
-  line-height: 20px; }
-
 /* Re-usable styles
 ----------------------------------------------------------------- */
 
@@ -305,6 +299,15 @@ input[type=text], textarea {
 .post-main-left {
   float: left;
   width: 180px;
+}
+
+#blog-sidebar h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#blog-sidebar p {
+	font-size: 13px;
 }
 
 /* Level 1
