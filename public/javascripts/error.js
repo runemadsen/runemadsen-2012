@@ -4,7 +4,7 @@ var ErrorApp = Backbone.View.extend({
   
 	initialize: function()
 	{		
-		setTimeout(_.bind(this.look, this), 10000);
+		setTimeout(_.bind(this.look, this), 3000);
 	},
 	
 	look : function()
