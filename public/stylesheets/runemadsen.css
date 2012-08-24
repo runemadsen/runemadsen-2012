@@ -143,6 +143,7 @@ ul.options a {
 #container {
   width: 1080px;
   margin: 0 auto;
+	padding-bottom: 40px;
 }
 
 /* Header
@@ -225,7 +226,7 @@ input[type=text], textarea {
 ----------------------------------------------------------------- */
 
 #front-pics {
-	margin-bottom: 500px; /* let's make sure they see everything when scroll */
+	margin-bottom: 300px; /* let's make sure they see everything when scroll */
 }
 
 #front-pics .column_2,
@@ -417,6 +418,13 @@ canvas.clock {
 	border-bottom: 2px solid #2e2e2e;
 	padding-bottom: 4px;
 	margin-bottom: 0px;
+}
+
+/* Info
+------------------------------------------- */
+
+#cv {
+	font-size: 13px;
 }
 
 /* Resume Styling
