@@ -114,22 +114,46 @@ Even though it's quite some years ago now, Karl Gerstner is one of the few graph
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9.jpg" />
 
-Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
+> Grids can turn design into a simple act of placement of elements into a series of column. While this can provide the consistency, grids can be a trap for designers; creating uninspired, homogenous layouts. This is especially the case with simple grids. For Capital, Gerstner developed an complex grid which was flexible and allowed rapid, creative and consistent layouts. As a grid grows in complexity, it provides “a maximum number of constants with the greatest possible variability.
+>
+> The grid looks incredibly complex at first, but upon examination, shows itself as a number of grids overlaid upon each other. While each grid overlay was often used separate, they were designed so if columns were mixed together, they would still maintain a harmony between each other. This way the magazine’s layout is consistent from page to page and between the different grid versions, separate or combined.
+>
+> [aisleone.net](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/)
+
+This concept of multiple grids is extremely powerful, and seems to be a perfect fit for the computer.
+
+
+Multiple Grids
+--------------
+
+TALK ABOUT GERSTNER DESIGN FOR CAPITAL
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital5.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital6.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital7_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital7.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital8_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital8.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital9.jpg" />
+
+Show examples of the above code (nothing new) where we just use multiple grids.
+
 
 
 Grid Deconstructions THIS SHOULD BE THE MOST PART OF THE CLASS
 --------------------
 
 SHOW EXAMPLES!!!!
-
-THEN SPIN OUT OF CONTROL
-	
-	Show code that uses 2 grid systems on top of each other (generate 2 grid objects with random values and place stuff)
-
-It's all about measurements
-Show sketch that has a very simple 2x3 grid system
-Show sketch that has spacing between the grids
-> They should all use simple getPosition() functions
 
 Make a grid where the columns randomly wary in width (but based on rules). apply content into them.
 

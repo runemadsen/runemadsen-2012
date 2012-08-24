@@ -42,7 +42,7 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 
 ### Readings for this week
 
-* Form + Content by Paul Rand (in Design, Form and Chaos)
+* Form + Content by Paul Rand (Design, Form and Chaos)
 * [Software Structures](http://artport.whitney.org/commissions/softwarestructures/text.html) by Casey Reas
 * Computers, Pencils, and Brushes by Paul Rand (Design, Form and Chaos)
 
