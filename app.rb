@@ -115,7 +115,9 @@ class RuneMadsen < Sinatra::Base
       @post = Post.get(params[:id])
       @post.update(params[:post])
     else
-      Post.create(params[:post])
+      @post = Post.new(params[:post])
+      @post.route = params[:post][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') if params[:post][:route] = ""
+      @post.save
     end
     redirect "/blog/#{@post.route}"
   end
