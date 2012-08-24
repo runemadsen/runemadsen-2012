@@ -94,6 +94,26 @@ Processing Code
 Karl Gerstner's Flexible Grid
 -----------------------------
 
+Even though it's quite some years ago now, Karl Gerstner is one of the few graphic designers who approached grid design from a programmable point of view.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner0_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner0.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner5.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner7.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner8_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner8.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9.jpg" />
+
 Talk about gerstners [flexible grid](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/) from “designing programmes”
 
 
@@ -121,7 +141,6 @@ http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-desi
 
 Use DE p. 207: Write a Processing sketch that generates that type constellations.
 
-Use grid system text from Form and Code, p. 101.
 Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
 
 Use Rand lecture book p. 27 illustration and write a sketch that does this with masks.
