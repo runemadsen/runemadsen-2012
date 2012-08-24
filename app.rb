@@ -72,6 +72,14 @@ class RuneMadsen < Sinatra::Base
     erb :"info/resume"
   end
   
+  # Mail
+  # -------------------------------------------------------------------
+
+  get "/mail" do
+    @active = :mail
+    erb :"mail/index"
+  end
+  
   # Writings
   # -------------------------------------------------------------------
   
