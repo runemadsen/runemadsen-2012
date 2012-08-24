@@ -1,5 +1,11 @@
 What is type? Focus on the measurements so the people from Visual Com. are not bored
 
+
+The problem with PFont
+- Exports a texture as bitmap
+
+Using The cool Processing library
+
 Serif / sans-serif
 all that measurement stuff
 

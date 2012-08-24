@@ -34,16 +34,16 @@ As I've grown more experienced as a graphic designer, it has become obvious that
 Week 1: Hello World
 -------------------
 
-> Beauty is a function, after all, of any relevant visual message. Just as prose can be dull and straight-forward or well edited and lyrical, so too can a utilitarian object be designed to be more than just simply what it is
+> Beauty is a function, after all, of any relevant visual message. Just as prose can be dull and straight-forward or well edited and lyrical, so too can a utilitarian object be designed to be more than just simply what it is.
 >
 >*Timothy Samara, Design Elements*
 
-In this class we'll introduce ourselves, and talk a little bit about the class, graphic design and computation.
+In this class we'll introduce ourselves, and talk a little bit about the class, graphic design and computation. Please read these two texts before coming to the class.
 
 ### Readings for this week
 
 * [Software Structures](http://artport.whitney.org/commissions/softwarestructures/text.html) by Casey Reas
-* Something by Paul Rand from Design, Form and Chaos
+* ? by Paul Rand (Design, Form and Chaos)
 
 ### Class Overview
 
@@ -64,7 +64,7 @@ Week 2: Form
 >
 > _Paul Rand_
 
-This week we'll look at the basis of all visual arts: manipulation of form. We'll talk about techniques for creating form in Processing, look at examples from the history of graphic design, and introduce basic concepts of randomization and repetition.
+This week we'll look at the most basic subject in the visual arts: manipulation of form. We'll talk about techniques for creating form in Processing, look at examples from the history of graphic design, and introduce basic ways of using randomization and repetition.
 
 <!--
 ### Class Overview
@@ -83,7 +83,7 @@ This week we'll look at the basis of all visual arts: manipulation of form. We'l
 Week 3: Color
 -------------
 
-In this class we'll dive into color theory, and especially look at color handling in Processing. We'll talk about the history of color, the difference between RGB and HSB, and investigate how to generate color schemes in code.
+In this class we'll dive into color theory and look at color handling in Processing. We'll talk about the history of color, the difference between RGB and HSB, and investigate how to generate color schemes in code.
 
 <!--### Class Overview
 
@@ -94,14 +94,14 @@ In this class we'll dive into color theory, and especially look at color handlin
 Week 4: Typography
 ------------------
 
-This week we'll look at typography. We'll go through the basic units that make up a typeface, and how we can manipulate these in Processing.
+This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.
 
 <!--Create a font. Nothing more-->
 
 Week 5: Grids
 -------------
 
-> A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected
+> A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected.
 >
 > _Khoi Vinh, New York Times_
 
@@ -139,21 +139,21 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 Week 9: Repetition
 ------------------
 
-Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll look at different repetition techniques and ways of creating custom patterns.
+Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
 
 <!--Patterns....-->
 
 Week 10: Randomization
 ----------------------
 
-When we start to use programming to output graphic prints, we can let the computer choose. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how to use this in with Processing's drawing functions.
+Randomization is about letting the computer choose for us.This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
 
 <!--Start finals-->
 
 Week 11: Motion
 ---------------
 
-Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a virtual world. 
+Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a moving virtual world. 
 
 Week 12: 3D
 -----------
