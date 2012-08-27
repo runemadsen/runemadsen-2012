@@ -233,13 +233,43 @@ Then translate it into a printed sheet of rules.
 Finally the rules would be translated into a sculpture or painting, mostly done by assistants. Lewitt's work is important to us in this class, not only because of the distinct graphic qualities in his work, but is also because it's built on an algorithmic process that is best performed by a computer. [Casey Reas has written a great text on Lewitt](http://artport.whitney.org/commissions/softwarestructures/text.html) and software.
 
 
-Xerox Parc
-----------
+A Brief History of Computers
+----------------------------
 
+This is a good time to talk about computers. Everything happened at once. Xerox PARC. PARC was a research center established in 1971 as a research division of the Xerox Corporation. It's widely famous for its contributions to computer science, which include the UI, the mouse, the laser printer, etc. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags.jpg" />
+
+Xerox PARC is not only important to use because of these innovations that changed the life of our generation, but also because they started to think about how a computer can be a useful tool for designers.... and they did an incredibly job. So incredible that most of their innovations stand untouched today. Look at the Xerox Start as an example:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star2.jpg" />
+
+Look at the attention to detail here. By not placing icons on top of the dark pixels in the background, icons get a much cleaner edge.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star3.jpg" />
+
+That's infograhics for you!
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/googleui_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/googleui.jpg" />
+
+Here's a comparison of interface design for Google Docs from the last 5 years, and the original UI for the Xerox Star from 1981. This should give you a sense of their accomplishments. It's also a worthwhile reminder that great design is a product of constraints.
+
+
+
+Show Douglas Englebart computer mouse presentation
+
+A few, very important design tools came out of Xerox PARC. The most important probably being:
 Sketchpad, Donald Sutherland (use history from Form + Code p. 29)
-Donald Knuth - metafont
+
+
+Xerox Parc was a huge inspiration to Apple (and especially the 24 year-old Steve Jobs), who was to create some of the most important innovations for graphic designers in the years to come.
+FROM THIS PAGE: http://guity-novin.blogspot.com/2010/04/history-of-graphic-design-pioneers-of.html#Four
+
+Post-script - things actually looked the same when printing.
+
 First computers were interested in typesetting: Major triumph for graphic design
-Xerox Star: Inventing the UI (vs. google docs)
 
 
 The first computers in arts
@@ -251,11 +281,7 @@ Wassilly Kandisky expressed great interest in distilling art into algorithmic an
 
 The New Tendencies -> The Responsive Eye at MoMa
 
-
-Steve Jobs
-----------
-
-FROM THIS PAGE: http://guity-novin.blogspot.com/2010/04/history-of-graphic-design-pioneers-of.html#Four
+Donald Knuth - metafont
 
 
 Second Generation Artists
@@ -274,12 +300,18 @@ HTML and CSS
 Webdesign (critical)
 
 
+Stefan sagmeister in here
+
+
 Design programs as coding environments
 --------------------------------------
 
 [Hypercard](http://www.arstechnica.com/apple/2012/05/25-years-of-hypercard-the-missing-link-to-the-web/)
 Lingo and Adobe Director
 Flash
+
+In ? the book "generative design - beyond Photoshop" was released. golan levin and CMU. (picture of book)
+
 Processing
 
 Today
