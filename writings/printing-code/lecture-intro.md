@@ -236,9 +236,19 @@ Finally the rules would be translated into a sculpture or painting, mostly done 
 A Brief History of Computers
 ----------------------------
 
-This is a good time to talk about computers. Everything happened at once. Xerox PARC. PARC was a research center established in 1971 as a research division of the Xerox Corporation. It's widely famous for its contributions to computer science, which include the UI, the mouse, the laser printer, etc. 
+This is a good time to talk about computers. Everything happened at once. 
+
+The first noteworthy computer design tool was built by Ivan Sutherland in 1963. It was called the Sketchpad, and it was a very early form of CAD drawing program. (use history from Form + Code p. 29)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sketchpad_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sketchpad.jpg" />
+
+Xerox PARC. PARC was a research center established in 1971 as a research division of the Xerox Corporation. It's widely famous for its contributions to computer science, which include the UI, the mouse, the laser printer, etc. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags.jpg" />
+
+Here is Douglas Englebart from Standford University (later PARC) introducing the computer mouse for the first time.
+
+<iframe width="600" height="450" src="http://www.youtube.com/embed/1MPJZ6M52dI" frameborder="0" allowfullscreen></iframe>
 
 Xerox PARC is not only important to use because of these innovations that changed the life of our generation, but also because they started to think about how a computer can be a useful tool for designers.... and they did an incredibly job. So incredible that most of their innovations stand untouched today. Look at the Xerox Start as an example:
 
@@ -256,20 +266,15 @@ That's infograhics for you!
 
 Here's a comparison of interface design for Google Docs from the last 5 years, and the original UI for the Xerox Star from 1981. This should give you a sense of their accomplishments. It's also a worthwhile reminder that great design is a product of constraints.
 
+The Xerox Parc creations proved to be insanely important, also because a 24-old Steve Jobs - who had frequented the Homebrew Computer Club at Standford - visit the PARC facilities and created some of the most important innovations for graphic designers.
 
+> The Macintosh turned out so well because the people working on it were musicians, artists, poets and historians who also happened to be excellent computer scientists.
+>
+> _Steve Jobs_
 
-Show Douglas Englebart computer mouse presentation
+<iframe width="600" height="450" src="http://www.youtube.com/embed/2B-XwPjn9YY" frameborder="0" allowfullscreen></iframe>
 
-A few, very important design tools came out of Xerox PARC. The most important probably being:
-Sketchpad, Donald Sutherland (use history from Form + Code p. 29)
-
-
-Xerox Parc was a huge inspiration to Apple (and especially the 24 year-old Steve Jobs), who was to create some of the most important innovations for graphic designers in the years to come.
-FROM THIS PAGE: http://guity-novin.blogspot.com/2010/04/history-of-graphic-design-pioneers-of.html#Four
-
-Post-script - things actually looked the same when printing.
-
-First computers were interested in typesetting: Major triumph for graphic design
+Some important but less known innovations of Steve Jobs is Postscript, a vector-like language that made it possible for the first time, to make your printed pages look exactly like what was on your computer, and hypercard, a UI-programming language for the early Machintosh computers.
 
 
 The first computers in arts
