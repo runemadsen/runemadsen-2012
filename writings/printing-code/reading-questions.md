@@ -1,3 +1,15 @@
+Intro
+-----
+
+### Form + Content by Paul Rand (Design, Form and Chaos)
+
+* It's funny how he says that a pencil, but not a computer makes you creative. Creativity happens in the brain, not in the hand. Using a computer or a pencil is the same. Rand never understood this.
+
+
+### [Software Structures](http://artport.whitney.org/commissions/softwarestructures/text.html) by Casey Reas
+### Computers, Pencils, and Brushes by Paul Rand (Design, Form and Chaos)
+
+
 # Readings Questions
 
 ### Reading discussion for first class

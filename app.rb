@@ -89,6 +89,12 @@ class RuneMadsen < Sinatra::Base
     erb :"printing-code-2012/index"
   end
   
+  get '/comm-web-2012/?:page?' do
+    filename = params[:page] || "index"
+    @html = md_to_html(File.join("writings", "comm-web", filename + ".md"))
+    erb :"printing-code-2012/index"
+  end
+  
   get '/itp-camp' do
     @html = md_to_html("writings/openframeworks-itpcamp.md")
     erb :"printing-code-2012/index"
