@@ -3,6 +3,11 @@
 Communications Lab Web 2012
 ===========================
 
+The web has become the most basic technology of interaction — between people and machines, people and data, and, most importantly, people and other people. Though the core web interaction is simple — a client sends a request to a server, which replies — services of incredible sophistication and scale have been built around it. In this class, students will learn to lay out a web page; make the page responsive to the user; embed a form for taking user input; and create a simple server to receive, store, manipulate, and return that input.
+
+Communication Lab: Web will introduce you to three critical pieces of web infrastructure -- client, server, and data store -- and their interactions. A web client is a browser (or indeed any other web-aware tool) that gets data from (or sends data to) a web server on behalf of the user, as when your browser receives and renders a web page. The server is the software that receives and replies to requests from web clients. Data stores are ways for the server to gather and organize data in a way that persists between client requests, as when data you send to the server is stored for later use.
+
+Students will build and use all three elements -- client, server, datastore -- using HTML+CSS, the design language of the web; Sinatra, a programming language specially designed for interactive web servers; DataMapper to store and manipulate data on the server.
 
 Teacher Info
 ------------
@@ -12,28 +17,15 @@ Teacher Info
 * [www.runemadsen.com](http://www.runemadsen.com)
 * [Office Hours Signup](https://www.google.com/calendar/selfsched?sstoken=UUZYRVhjenlybjZ6fGRlZmF1bHR8ZTlhNjZkZmUwMjU1MTRkNGI3NDQyYzBjMGZjNjNjZWM)
 
-Introduction
-------------
+Grading
+-------
 
+* Attendance and Participation: 30%
+* Assignments and presentations: 40%
+* Blog posts: 5%
+* Final Project: 25%
 
+Links
+-----
 
-Week 1: Introduction to HTML
-----------------------------
-
-Week 2: HTML Forms and CSS
---------------------------
-
-Week 3: Sinatra
----------------
-
-Week 4: Datamapper
-------------------
-
-Week 5: ?
-------------------
-
-Week 6: ?
-------------------
-
-Week 7: Final Presentations
----------------------------
+* [Class Syllabus](https://docs.google.com/document/d/16UUg98XhKeQZTYu-ff46GOgLYrsVHCRCH5PQyvxI1oI/edit)
