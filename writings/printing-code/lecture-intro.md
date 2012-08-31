@@ -280,55 +280,123 @@ Some important but less known innovations of Steve Jobs is Postscript, a vector-
 The first computers in arts
 ---------------------------
 
-Exactly like the Bauhaus where machines became accessible to ordinary people, the computer became accessible for artists
+Exactly like the Bauhaus, where machines became accessible to ordinary people, the computer slowly became accessible for artists. There are too many people to mention here, but here's a few important ones.
 
-Wassilly Kandisky expressed great interest in distilling art into algorithmic and geometrical figures, essentially art becoming math: "The final abstract expression of every art is number"
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1.jpg" />
 
-The New Tendencies -> The Responsive Eye at MoMa
+The group known as the "New Tendencies" explored the used of the computer in the 1960's and 1970's in international exhibitions and the magazine "Bit International".
 
-Donald Knuth - metafont
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt2.jpg" />
+
+Here's a photo of a gathering in Paris in 1962.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt5.jpg" />
+
+Karl Reinhartz in 1962.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt6.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt7_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt7.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt8_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt8.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt9.jpg" />
+
+Jose Maria Yturralde in 1972.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt10.jpg" />
+
+Manuel Barbadilloin 1973.
+
+"The Reponsive Eye" was an exhibition held at MoMa in 1965. It features some of the newest developments in so-called "Optic Art". Many of the artists used computers to create their artwork.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re1.jpg" />
+
+Josef Albers showed works in the exhibition.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/re3.jpg" />
 
 
-Second Generation Artists
--------------------------
+Second Generation Computational Artists
+---------------------------------------
 
-John Maeda - Aesthetics and Computation Group, MIT (Use projects from “Creative Code”)
-Mark Wilson - http://mgwilson.com/
-Karl Sims - http://www.karlsims.com/
+A second generation of artists started in the 1980's and 1990's. Common for all of them were a strong knowledge about, and focus on, the art of programming.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/maeda1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/maeda1.jpg" />
+
+John Maeda wrote the influential "Design by Numbers", "Creative Code" and "Maeda&Media" books. He was head of the MIT Aesthetics and Computation group, and a teacher for Processing creators Ben Fry and Casey Reas, plus ITP's own Jared Shiffman.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/wilson1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/wilson1.jpg" />
+
+Mark Wilson is known for his experiments with plotter drawings. He received the Ars Electronica Grand Prize in 1992, and even though his earliest work was way before hom-computer-graphics, his style is very similar to the 1990's aesthetics of e.g. Karl Sims. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sims1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sims1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sims2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sims2.jpg" />
+
+Karl Sims is known for his evolutionary graphic art (e.g. the Galapagos installation). He often used particle systems and artificial life in his computer programs to generate a final output. There's an interesting connection between Sol Lewitt's instructions and Karl Sims' software that chooses its on output.
 
 
-The Internet
-------------
+The Internet and Design programs as Coding Environments
+-------------------------------------------------------
 
-Explosion in graphics programming
-HTML and CSS
-Webdesign (critical)
+Nothing has contributed more to the acceleration of new programming artists as the internet. With a bigger focus on graphics created on the computer, a series of coding environments (web-related or not) started appealing to designers who would otherwise not have thought of programming as a primary expression.
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/html_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/html.jpg" />
 
-Stefan sagmeister in here
+HTML!
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/director_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/director.jpg" />
 
-Design programs as coding environments
---------------------------------------
+Lingo and Adobe Director!
 
-[Hypercard](http://www.arstechnica.com/apple/2012/05/25-years-of-hypercard-the-missing-link-to-the-web/)
-Lingo and Adobe Director
-Flash
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/flash_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/flash.jpg" />
 
-In ? the book "generative design - beyond Photoshop" was released. golan levin and CMU. (picture of book)
+Even though it has a bad rep, Flash was hugely successful in luring in graphic designers. The notion of drawing objects and manipulating them in code (the displayobject and scene graph) was extremely powerful, and it has inspired a number of modern frameworks.
 
-Processing
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design.jpg" />
+
+Books about Flash and Director started being published, only targeted towards designers.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing.jpg" />
+
+... and of course Processing!
+
 
 Today
------
+------------
 
-Projects from Generative Gestaltung
-Eric Mika’s project
-\= It's the same as before: Playing with form and color. The form is different. It's bits. But nothing else has changed.
+... and here we are today. It's impossible just to try and summarize how graphic artists use the computer today (other than to say that design and programming is intermingled), but here's a few notable projects.
 
-Written images book: http://www.kickstarter.com/projects/deffekt/written-images?ref=users
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sagmeister_logo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sagmeister_logo.jpg" />
 
-Sum up: Graphic Design today is built on the entire history. to understand design today, you have to understand the computer (255 for color). We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
+There's Stefan Sagmeister, who we will be talking about in the "Logo" class.
 
-LOOK THROUGH AND FIND STUFF FROM MY MICA TALK
-USE GOLAN LEVINS LIST OF COMPUTATIONAL ARTISTS: http://golancourses.net/2012spring/lectures/lecture-02-14/
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/henze_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/henze.jpg" />
+
+Eno Henze
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/puckey_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/puckey.jpg" />
+
+Jonathan Puckey
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_type_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_type.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_cover.jpg" />
+
+Karsten Schmidt
+
+<iframe src="http://player.vimeo.com/video/18223862?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Written Images Book
+
+
+To sum up: It's important to me that you all know about this before diving into the assignments. Just because we're programming, it doesn't mean that we invent stuff. People have been working in the graphic arts for centuries, and it's important to know this stuff. We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
+
+Hopefully in this class you will learn to balance your visual creativity and your technical skills in a way so they optimize each other. That's a balance that I see very few people have in generative art. It's not about smudging the canvas with a repetition algorithm. It's about using the computer to what it's good for, and it's not necessarily placing a bunch of sh*t randomly across your canvas. Think!
