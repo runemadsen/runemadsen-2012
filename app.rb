@@ -86,7 +86,12 @@ class RuneMadsen < Sinatra::Base
   get '/printing-code-2012/?:page?' do
     filename = params[:page] || "index"
     @html = md_to_html(File.join("writings", "printing-code", filename + ".md"))
-    erb :"printing-code-2012/index"
+    
+    if params[:slideshow]
+      erb :"printing-code-2012/slideshow", :layout => false
+    else
+      erb :"printing-code-2012/index"
+    end
   end
   
   get '/comm-web-2012/?:page?' do
