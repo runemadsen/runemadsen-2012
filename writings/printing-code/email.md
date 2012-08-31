@@ -8,20 +8,19 @@ This is a class where we present both code and product, and during presentations
 
 You will not need to have your laptops open in this class, as I will post slides and example code on the class webpage after every class. If you do wish to take notes on your laptop, please let me know.
 
-Finally, here’s the link to the class website: www.runemadsen.com/printing-code-2012. You will find the syllabus and all other related material there.
+Finally, here’s the link to the class website: http://www.runemadsen.com/printing-code-2012. On the website you will find the basic syllabus, and I will be adding readings, assignments and more class specific details at least a week before each class.
 
-I would like you to do read 2 things before coming to class.
+As you can see I would like you to read 3 (very) short texts before the first class:
 
-*Before the first class*: Setup Git and clone down the repo.
+Form + Content by Paul Rand
+http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/readings/rand_form_content.pdf
 
-[read a general old text]
+Software Structures by Casey Reas
+http://artport.whitney.org/commissions/softwarestructures/text.htm
+ 
+Computers, Pencils, and Brushes by Paul Rand
+http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/readings/rand_computers.pdf
 
-[then look at this site: http://www.wikipediaredefined.com ]
-[and then this critique: http://news.ycombinator.com/item?id=4352290]
-
-
-Exercise
-Possible first assignment: Bring in four images of artworks 1) A work that you like and is good 2) A work that you don’t like and don’t think is good 3) A work that you like but suspect might not be good 4) A work that you don’t like but have to admit is good
 
 
 See you soon.
