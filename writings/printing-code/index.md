@@ -38,7 +38,7 @@ Week 1: Hello World
 >
 >*Timothy Samara, Design Elements*
 
-In this class we'll introduce ourselves, and talk a little bit about the class, graphic design and computation. Please read these two texts before coming to the class.
+In this class we'll introduce ourselves, and talk a little bit about the class, graphic design and computation. Please read these texts before coming to the class.
 
 ### Readings for this week
 
@@ -50,13 +50,13 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 
 * Introductions
 * About the class
-* Reading Discussion (if we have time)
+* Reading Discussion
 * Lecture: **The History of Graphic Design and Computational Form**
 * Using Processing to create graphic prints
 
 ### Assignment for next week
 
-* On ITP's laser printer, print a PNG image generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone.
+* On ITP's laser printer, print a PNG image generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone. Yes, and ice cream cone.
 
 Week 2: Form
 ------------
@@ -147,7 +147,7 @@ Repetition is highly computational, still human beings have created patterns as 
 Week 10: Randomization
 ----------------------
 
-Randomization is about letting the computer choose for us.This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
+Randomization is about letting the computer choose for us. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
 
 <!--Start finals-->
 
@@ -186,7 +186,7 @@ These books might come in handy before, during or after the semester. You will n
 * [A Designer's Art by Paul Rand](http://bit.ly/Lbq1Gl)
 * [Type + Code by Yeohyun Ahn](http://bit.ly/NEFjFk) is a book from 2012 aiming to introduce Processing to designers.
 * [Form + Code by Casey Reas, etc](http://formandcode.com/)
-* [Dot Dot Dot Magazine](http://www.dot-dot-dot.us/)
-* [Bulletins of the Serving Library](http://www.servinglibrary.org/)
-* [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9)
-* [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2)
+* [Dot Dot Dot Magazine](http://www.dot-dot-dot.us/) has some of the best new literature about the intersection of design and technology. It is no longer printed.
+* [Bulletins of the Serving Library](http://www.servinglibrary.org/) is the new magazine that the DDD creators has started.
+* [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9) Want to know about typefaces? This is the book.
+* [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2). Want to know about color? This is the book.

@@ -21,7 +21,7 @@ http://artport.whitney.org/commissions/softwarestructures/text.htm
 Computers, Pencils, and Brushes by Paul Rand
 http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/readings/rand_computers.pdf
 
-
+Please read them, and spend a minute thinking about why I assigned these texts.
 
 See you soon.
 
