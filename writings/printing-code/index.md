@@ -56,6 +56,7 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 
 ### Assignment for next week
 
+* Set up a Github repository where you'll post all your code. Send me an email with the link.
 * On ITP's laser printer, print a PNG image generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone. Yes, and ice cream cone.
 
 Week 2: Form
@@ -94,6 +95,12 @@ In this class we'll dive into color theory and look at color handling in Process
 
 Week 4: Typography
 ------------------
+
+<!-- 
+### Readings for this week
+
+* Grid Systems in Graphic Design - Josef Muller-Brockmann
+-->
 
 This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.
 

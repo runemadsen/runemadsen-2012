@@ -441,6 +441,10 @@ canvas.clock {
 	background-color: #EBEBEB;
 }
 
+#printing-code-body [data-slideshow] {
+	cursor: pointer;
+}
+
 #toc {
 	margin-left: 0px;
 	list-style: none;

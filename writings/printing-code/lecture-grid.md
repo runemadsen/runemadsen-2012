@@ -1,5 +1,5 @@
 What is a grid system?
-----------------------
+======================
 
 There is nothing worse for an artist than a blank canvas. A grid system is a specified group of measurements a graphic designer can use to align and size objects within the given format. Although there are a few different categories of grid systems, there are no strict rules on what can or cannot be a grid. It's up to you. Any guides that help you shape the final design is okay.
 
@@ -8,6 +8,8 @@ Relevant for us is how the grid is such a strict mathematical concept. It's perf
 The concept of a generative grid system is extremely powerful, but also extremely underused. Even a simple thing like a flexible grid program is non-existent today. 
 
 Today we'll go through the different types of grid systems, look at interesting examples, and look at how we can create and manipulate grid systems in code. If you feel like it, read [this brief introduction to the history of grid](http://www.graphics.com/modules.php?name=Sections&op=viewarticle&artid=620).
+
+A grid system is any kind of basic constraint you can put on the canvas.
 
 
 Types of Grids
@@ -42,7 +44,7 @@ Even a simple grid gives you a lot of variety in placing your content. You use t
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3.jpg" />
 
 
-Coding a Grid
+Int vs. Float
 -------------
 
 Before we start diving into code examples, we need to clarify a simple thing about calculations in Processing. When we work with division of larger numbers into smaller numbers, it's important always to use floats instead of ints. Variables like `width` and `height` must also be cast into floats (by putting (float) in front of it). Why? This code example shows you why.
@@ -57,7 +59,9 @@ Examples
 
 The simplest possible grid to make is a manuscript grid that only requires 4 variables: x,y,width,height to define the rectangle in which we place content.
 
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript_example.jpg" />
+[Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)  
+[Using Classes - Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)
 
 A nice way of encapsulating these 4 variables is by creating a class that can keep track of them and hide them from the main file. He I've created a _Column_ class to hold the column values. Nothing else changed. By extracting the grid code into a class we can add convenient helper methods to that class without cluttering out main source file.
 
@@ -67,29 +71,36 @@ Very simple Processing Code
 Coding a Column Grid
 --------------------
 
-* Everything needs to be floats, otherwise the columns won't line up (show example)
-
 Examples
-Show simple column grid processing program
-Show generative placement column grid processing program
-MAKE generative column widths grid processing program
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/column_grid)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_random_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_random_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/column_grid_random_placement)
 
 Coding a Modular Grid
 ---------------------
+
 Examples
-Processing Code
 
-THE BIG PROBLEM IS OVERLAPPING. WE DON'T KNOW YET HOW TO GENERATE A RANDOM SET OF DIVIDED RECTANGLES.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_simple)
 
--> Dividing rectangles and all the other text
+
+What is Used? What is Not?
+--------------------------
+
+The big problem is that we do not know what is used and what is not. If we randomly selects modules, we'll end up selecting the same module over and over. This can be solved by adding a "used" boolean to the module class and only selecting modules that are not used.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_no_overlap_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_no_overlap.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap)
 
 
 Coding a Hierarchical Grid
 --------------------------
 Examples
-Processing Code
-
+Processing Code - This should be simple. Just set up a bunch of specified modules.
 
 Karl Gerstner's Flexible Grid
 -----------------------------
@@ -126,7 +137,7 @@ This concept of multiple grids is extremely powerful, and seems to be a perfect 
 Multiple Grids
 --------------
 
-TALK ABOUT GERSTNER DESIGN FOR CAPITAL
+Gerstner for Capital. Needed a flexible grid that provided flexibility across all platforms and types of materials, but still bullet-proof so designers would not mess up the company identity. He used a combination of multiple grids to do this.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital1.jpg" />
 
@@ -146,24 +157,64 @@ TALK ABOUT GERSTNER DESIGN FOR CAPITAL
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_capital9.jpg" />
 
-Show examples of the above code (nothing new) where we just use multiple grids.
+In code, it's amazingly easy to make something with multiple grids. Here's an example with the column grid and modular grid code combined into the smae processing sketch.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_example.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/grid_multiple)
+
+
+Random Grids
+------------
+
+Until now we have only used randomness to place objects within a static grid. But what if we want to randomly create the grid ever time the program runs? This is of course very simple, as we just replace the static numbers in the constructor with random numbers. Here it's our modular grid example with random numbers.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random3.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_random)
+	
+We also looked at how we can choose random placements in a modular grid without ever picking the same module. But what if we want to have larger random areas that span across multiple modules? 
+
+
+	1. Advanced example where the modules can be any specific size up to a given point (getRandomModule(max_size)). Should look like:
+	Use DE p. 207: Write a Processing sketch that generates that type constellations.
+	
+	2
+	
+	3
+	
+	4
+	
+	5
+
+
+We can also play around with the column grid so each column has a random width. This makes for some interesting outputs.
+
+	1
+	
+	2
+	
+	3
 
 
 
-Grid Deconstructions THIS SHOULD BE THE MOST PART OF THE CLASS
+
+
+Grid Deconstructions
 --------------------
 
 SHOW EXAMPLES!!!!
 
-Make a grid where the columns randomly wary in width (but based on rules). apply content into them.
 
 
 
 THINGS I MUST USE
 
 http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/
-
-Use DE p. 207: Write a Processing sketch that generates that type constellations.
 
 Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
 

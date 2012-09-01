@@ -57,7 +57,8 @@ var PrintingCode = Backbone.View.extend({
 	initialize: function()
 	{		
 		this.create_toc();
-		this.processingRunner = new ProcessingRunner();
+		this.add_events();
+		//this.processingRunner = new ProcessingRunner();
 	},
 	
 	create_toc : function()
@@ -72,6 +73,13 @@ var PrintingCode = Backbone.View.extend({
 
 		  // create link in toc ul
 			$("#toc").append("<li><a href='#"+alias+"'>"+org+"</a></li>")
+		});
+	},
+	
+	add_events: function()
+	{
+		$("*[data-slideshow]").click(function() {
+			window.open($(this).attr("data-slideshow"), '_blank');
 		});
 	}
 	
