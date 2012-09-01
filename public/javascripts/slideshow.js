@@ -7,7 +7,7 @@ var SlideshowView = Backbone.View.extend({
 	
 	tagName: "div",
 	id: "slideshow_container",
-	imageTemplate: _.template('<img src="<%= showItem %>" />'),
+	imageTemplate: _.template('<img class="loadItem" src="<%= showItem %>" />'),
 	videoTemplate: _.template('Im a video!'),
 	slideshowElements: [],
 	slideWindow: {},
@@ -25,7 +25,6 @@ var SlideshowView = Backbone.View.extend({
 		
 		$("#open-slides").click(function() {
 			t.open_slideshow();
-			t.change_slides(0);
 			return false;
 		});
 			
@@ -33,16 +32,16 @@ var SlideshowView = Backbone.View.extend({
 			var index = t.slideshowElements.index(this);
 			t.change_slides(index);
 		});
-
-		$(window).bind("fullscreen-off", function(e) {
-			t.model.set({enabled:false});
-		});
 	},
 	
 	open_slideshow: function()
 	{
+		var t = this;
+		
 		this.slideWindow = window.open();
-		$(this.slideWindow.document.body).html("<div id='slides'></div>");
+		$(this.slideWindow.document).find("head").html("<style>body, html { margin: 0; padding: 0; }</style>");
+		$(this.slideWindow.document).find("body").html("<p>Loading</p>");
+		t.change_slides(0);
 	},
 	
 	change_slides: function(index)
@@ -53,11 +52,51 @@ var SlideshowView = Backbone.View.extend({
 	},
 	
 	render: function()
-	{		
+	{	
+		var t = this;
+		
 		// just render into element on every change
-		$(this.slideWindow.document.body).find("#slides").html(this.imageTemplate(this.model.toJSON()));
+		$(this.slideWindow.document.body).html(this.imageTemplate(this.model.toJSON()));
+		
+		$(this.slideWindow.document.body).find(".loadItem").load(function() {
+			t.fit_to_screen(this);
+		});
 		
 		return this;
+	},
+	
+	fit_to_screen: function(el)
+	{
+		var window_height = this.slideWindow.document.body.clientHeight;
+		var window_width  = this.slideWindow.document.body.clientWidth;
+		var image_width   = $(el).width();
+		var image_height  = $(el).height();
+		var height_ratio  = window_height / image_height;
+		var width_ratio   = window_width / image_width;
+		
+		// super ugly hack to make sure first image is not scaled and disappears because of ratio being 0,0
+		if(height_ratio == 0 || width_ratio == 0)
+			return
+			
+		var w;
+			
+		if (height_ratio < width_ratio)
+		{
+			$(el).css("width", "auto")
+			$(el).css("height", "100%")
+			
+		}
+		else
+		{
+			$(el).css("width", "100%")
+			$(el).css("height", "auto")
+		}
+		
+		var w = $(el).width();
+		$(el).css("position", "absolute");
+		$(el).css("left", "50%");
+		$(el).css("margin-left", -w/2);
+		
 	}
 	
 });
