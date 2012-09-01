@@ -18,7 +18,9 @@ William Addison Dwiggins
 
 The invention of the term _Graphic Design_ has been attributed to William Addison Dwiggins, director of the Harvard University Press and founder of the Society of Calligraphers in Boston. Born in 1880 at the exact time of the invention of the Linotype machine, Dwiggins coined this term in 1922 to describe his process of designing books, as combination of typesetting, illustration and design. Book design changed from being a simple, neutral craft to a interpretive art:
 
-> What type does the architect of advertising elect to use, and why? That question is the acolyte’s invariable first prayer for enlightenment—phrased always in one of the various voices of despair—what type shall I use? The gods refuse an answer. They refuse (sacrilege though it be to say it) because they do not know.
+<blockquote data-slideshow="self">
+What type does the architect of advertising elect to use, and why? That question is the acolyte’s invariable first prayer for enlightenment—phrased always in one of the various voices of despair—what type shall I use? The gods refuse an answer. They refuse (sacrilege though it be to say it) because they do not know.
+</blockquote>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover.jpg" />
 

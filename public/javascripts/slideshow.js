@@ -37,30 +37,42 @@ var SlideshowView = Backbone.View.extend({
 	open_slideshow: function()
 	{
 		var t = this;
-		
-		this.slideWindow = window.open();
-		$(this.slideWindow.document).find("head").html("<style>body, html { margin: 0; padding: 0; }</style>");
-		$(this.slideWindow.document).find("body").html("<p>Loading</p>");
-		t.change_slides(0);
+		this.slideWindow = window.open("/printing-code-2012/slideshow-blank");
+		this.slideWindow.onload = function() { t.change_slides(0); };
 	},
 	
 	change_slides: function(index)
 	{
+		var attr = $(this.slideshowElements[index]).attr("data-slideshow");
+				
+		// simple check for self or data-slideshow attribute
+		if(attr == "self")
+			this.model.set({showItem:$(this.slideshowElements[index])[0].outerHTML, useTemplate:false});
+		else
+			this.model.set({showItem:$(this.slideshowElements[index]).attr("data-slideshow"), useTemplate:true});
+			
 		$(".slideshow-active").removeClass("slideshow-active");
 		$(this.slideshowElements[index]).addClass("slideshow-active");
-		this.model.set({showItem:$(this.slideshowElements[index]).attr("data-slideshow")});
 	},
 	
 	render: function()
 	{	
 		var t = this;
+		var useTemplate = this.model.get("useTemplate")
 		
 		// just render into element on every change
-		$(this.slideWindow.document.body).html(this.imageTemplate(this.model.toJSON()));
-		
-		$(this.slideWindow.document.body).find(".loadItem").load(function() {
-			t.fit_to_screen(this);
-		});
+		if(useTemplate)
+		{
+			$(this.slideWindow.document.body).html(this.imageTemplate(this.model.toJSON()));
+			
+			$(this.slideWindow.document.body).find(".loadItem").load(function() {
+				t.fit_to_screen(this);
+			});
+		}
+		else
+		{
+			$(this.slideWindow.document.body).html(this.model.get("showItem"));
+		}
 		
 		return this;
 	},
@@ -73,10 +85,6 @@ var SlideshowView = Backbone.View.extend({
 		var image_height  = $(el).height();
 		var height_ratio  = window_height / image_height;
 		var width_ratio   = window_width / image_width;
-		
-		// super ugly hack to make sure first image is not scaled and disappears because of ratio being 0,0
-		if(height_ratio == 0 || width_ratio == 0)
-			return
 			
 		var w;
 			

@@ -455,7 +455,7 @@ canvas.clock {
 	font-size: 13px;
 }
 
-/* Slideshow
+/* Slideshow notes
 ----------------------------------------------------------------- */
 
 #slideshow {
@@ -466,6 +466,20 @@ canvas.clock {
 
 .slideshow-active {
 	border: 10px solid black;
+}
+
+/* Slideshow slides
+----------------------------------------------------------------- */
+
+#slides blockquote {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	font-size: 30px;
+	line-height: 40px;
+	background-color: transparent;
+	border-left: none;
+	padding: 50px 10% 0px 10%;
 }
 
 /* 404
