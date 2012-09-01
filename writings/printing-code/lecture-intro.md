@@ -71,9 +71,13 @@ Few things has influenced modern architecture, arts and design like the Bauhaus 
 
 The basic motto of the Bauhaus was _form follows function_, which meant a focus on functional simplicity: 
 
-> "Just as in the workshops of the Bauhaus the smallest utility object is given the simplest geometrical shape, so are these, the biggest of them all. Thus one is made to receive here the sense of a convincing uniformity of all objects made by man regardless of size, from a metal ashtray to a building" - Rudolf Arnheim
+<blockquote data-slideshow="self">
+"Just as in the workshops of the Bauhaus the smallest utility object is given the simplest geometrical shape, so are these, the biggest of them all. Thus one is made to receive here the sense of a convincing uniformity of all objects made by man regardless of size, from a metal ashtray to a building" - Rudolf Arnheim
+</blockquote>
 
-> "But the idea of freeing ourselves of tradition and of starting again from the two basic motives, the practical requirement of life and the conditions of the materials is so good that nothing else matters for the time being" - Rudolf Arnheim
+<blockquote data-slideshow="self">
+"But the idea of freeing ourselves of tradition and of starting again from the two basic motives, the practical requirement of life and the conditions of the materials is so good that nothing else matters for the time being" - Rudolf Arnheim
+</blockquote>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius.jpg" />
 
@@ -157,7 +161,9 @@ Originally designed by Ferdinand Porsche as a _people's car_ for the third Reich
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle.jpg" />
 
-> "Let us prove to the world that good taste, good art, and good writing can be good selling." - William Bernbach
+<blockquote data-slideshow="self">
+	"Let us prove to the world that good taste, good art, and good writing can be good selling." - William Bernbach
+</blockquote>
 
 The Beetle campaign dared making fun of the Volkswagen brand. Also notice the use of "." at the end of short headings.
 
@@ -183,13 +189,15 @@ Another hugely important designer from this period is **Saul Bass**, who is best
 The Swiss Style
 ---------------
 
-> This graphic aesthetic and method was the second wave of European Modernism to influence the U.S. Essentially different from the "big idea" approach, it is based on an assumption of Modernist rational "method", a codified approach not so dependent on the individualistic inspiration and talent of the designer. - "American Graphic Design Expression", Katherine McCoy, 1990
+<blockquote data-slideshow="self">
+This graphic aesthetic and method was the second wave of European Modernism to influence the U.S. Essentially different from the "big idea" approach, it is based on an assumption of Modernist rational "method", a codified approach not so dependent on the individualistic inspiration and talent of the designer. - "American Graphic Design Expression", Katherine McCoy, 1990
+</blockquote>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann.jpg" />
 
 The _Swiss Style_ is a term used to describe the new approach to graphic design that came from Switzerland in the 1960's. Centered around Josef Müller-Brockmann's "Grid Systems" and Karl Gerstner's "Designing Programmes" books, the _Swiss Style_ was a systematic methodology built around the concept of simple rules that stood in sharp contrast to the American _Big Idea_ style. 
 
-<iframe width="560" height="338" src="http://www.youtube.com/embed/VDLPAE9wLEU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="338" src="http://www.youtube.com/embed/VDLPAE9wLEU" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 The _Swiss Style_ distilled graphic design into a series of simple constraints and rules. Use Helvetica. Use a grid system. It was a return to the purely functional graphic arts, in a way that it has been described as _Bauhaus applied_. The _Swiss Style_ had a profound impact on American corporations, as explained in this video from the movie _Helvetica_.
 
@@ -197,7 +205,9 @@ The _Swiss Style_ distilled graphic design into a series of simple constraints a
 
 **Josef Muller-Brockmann**'s book _Grid Systems_ suggested the use of strict grid systems to order graphic elements on the page. Gone where the artistic freedom of the artist:
 
-> "The message will reach a maximum power of expression if the object or idea is presented aesthetically and efficiently with a minimum of accompanying design. Both subjective ornament in the sense of illustrative exaggerations and over-objective presentation must be avoided" - Josef Müller-Brockmann
+<blockquote data-slideshow="self">
+"The message will reach a maximum power of expression if the object or idea is presented aesthetically and efficiently with a minimum of accompanying design. Both subjective ornament in the sense of illustrative exaggerations and over-objective presentation must be avoided" - Josef Müller-Brockmann
+</blockquote>
 
 Brockmann held to these rules in his own work to a degree that Michael Kroeger referred to Brockmann as _mechanical_ in [conversations with Paul Rand](http://amzn.to/gZHfWO).
 
@@ -250,7 +260,7 @@ Xerox PARC. PARC was a research center established in 1971 as a research divisio
 
 Here is Douglas Englebart from Standford University (later PARC) introducing the computer mouse for the first time.
 
-<iframe width="600" height="450" src="http://www.youtube.com/embed/1MPJZ6M52dI" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="http://www.youtube.com/embed/1MPJZ6M52dI" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 Xerox PARC is not only important to use because of these innovations that changed the life of our generation, but also because they started to think about how a computer can be a useful tool for designers.... and they did an incredibly job. So incredible that most of their innovations stand untouched today. Look at the Xerox Start as an example:
 
@@ -274,7 +284,7 @@ The Xerox Parc creations proved to be insanely important, also because a 24-old 
 >
 > _Steve Jobs_
 
-<iframe width="600" height="450" src="http://www.youtube.com/embed/2B-XwPjn9YY" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="http://www.youtube.com/embed/2B-XwPjn9YY" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 Some important but less known innovations of Steve Jobs is Postscript, a vector-like language that made it possible for the first time, to make your printed pages look exactly like what was on your computer, and hypercard, a UI-programming language for the early Machintosh computers.
 
@@ -394,7 +404,7 @@ Jonathan Puckey
 
 Karsten Schmidt
 
-<iframe src="http://player.vimeo.com/video/18223862?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/18223862?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
 
 Written Images Book
 

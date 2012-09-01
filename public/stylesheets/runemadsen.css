@@ -458,14 +458,37 @@ canvas.clock {
 /* Slideshow notes
 ----------------------------------------------------------------- */
 
+#slideshow a#open-slides {
+	display: block;
+	background-color: #91C300;
+	padding: 5px 10px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	margin-top: 10px;
+	border-bottom: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
 #slideshow {
 	margin: 0 auto;
-	width: 600px;
+	width: 660px;
 	font-size: 18px;
 }
 
-.slideshow-active {
-	border: 10px solid black;
+#slideshow [data-slideshow] {
+	padding: 30px;
+	background-color: #C6D1A7;
+	cursor: pointer;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#slideshow [data-slideshow].slideshow-active {
+	background-color: #91C300;
 }
 
 /* Slideshow slides

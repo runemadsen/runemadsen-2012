@@ -31,6 +31,7 @@ var SlideshowView = Backbone.View.extend({
 		this.slideshowElements.click(function() {
 			var index = t.slideshowElements.index(this);
 			t.change_slides(index);
+			return false;
 		});
 	},
 	
@@ -38,7 +39,9 @@ var SlideshowView = Backbone.View.extend({
 	{
 		var t = this;
 		this.slideWindow = window.open("/printing-code-2012/slideshow-blank");
-		this.slideWindow.onload = function() { t.change_slides(0); };
+		this.slideWindow.onload = function() { 
+			t.change_slides(0); 
+		};
 	},
 	
 	change_slides: function(index)
