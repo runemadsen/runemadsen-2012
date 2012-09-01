@@ -179,17 +179,18 @@ Until now we have only used randomness to place objects within a static grid. Bu
 	
 We also looked at how we can choose random placements in a modular grid without ever picking the same module. But what if we want to have larger random areas that span across multiple modules? 
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid5.jpg" />
 
-	1. Advanced example where the modules can be any specific size up to a given point (getRandomModule(max_size)). Should look like:
-	Use DE p. 207: Write a Processing sketch that generates that type constellations.
-	
-	2
-	
-	3
-	
-	4
-	
-	5
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid6.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap_random_size)
 
 
 We can also play around with the column grid so each column has a random width. This makes for some interesting outputs.
@@ -201,23 +202,7 @@ We can also play around with the column grid so each column has a random width. 
 	3
 
 
+Grids in Polar Coordinates
+--------------------------
 
-
-
-Grid Deconstructions
---------------------
-
-SHOW EXAMPLES!!!!
-
-
-
-
-THINGS I MUST USE
-
-http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/
-
-Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates?
-
-Use Rand lecture book p. 27 illustration and write a sketch that does this with masks.
-
-http://www.graphics.com/modules.php?name=Sections&op=viewarticle&artid=620
+Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates? (use PDF)
