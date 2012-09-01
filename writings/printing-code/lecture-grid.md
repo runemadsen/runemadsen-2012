@@ -176,8 +176,19 @@ Until now we have only used randomness to place objects within a static grid. Bu
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_random3.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_random)
+
+
+We can also play around with the column grid so each column has a random width. This makes for some interesting outputs. The only slightly difficult think is calculating the normalized values of the columns.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns.jpg" />
 	
-We also looked at how we can choose random placements in a modular grid without ever picking the same module. But what if we want to have larger random areas that span across multiple modules? 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns2.jpg" />
+	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_columns3.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/column_grid_random_columns)
+
+
+We have already looked at how we can choose random placements in a modular grid without ever picking the same module. But what if we want to have larger random areas that span across multiple modules? 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid5.jpg" />
 
@@ -191,15 +202,6 @@ We also looked at how we can choose random placements in a modular grid without 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap_random_size)
-
-
-We can also play around with the column grid so each column has a random width. This makes for some interesting outputs.
-
-	1
-	
-	2
-	
-	3
 
 
 Grids in Polar Coordinates
