@@ -11,6 +11,9 @@ Short Introduction to Typography
 
 What is type? Focus on the measurements so the people from Visual Com. are not bored
 
+Read: Paul Rand from p. 149
+Read: Something from Bringhurst (one could be p. 25)
+
 Serif / sans-serif
 all that measurement stuff
 
@@ -22,14 +25,36 @@ all that measurement stuff
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13.jpg" />
 
+
+Font Designers & Agencies
+-------------------------
+
+Watch Helvetica
+
+Use experimental jetset, tell their story, show their work
+
+
 Computational Typography
 ------------------------
 
-METAFONT
+So what can you do with fonts? Before the computer and programming, a typeface was something a designer would sit down and carve into metal. Funny enough, it's kind of the same procedure to do a typeface today, although designers use a mouse instead. With the computer comes the ability to generate forms, and there's a range of different typefaces that a "natively computational", as they were created by programmers.
 
-ALL TYPE + CODE
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont.jpg" />
 
-http://generative-typografie.de/
+Donald Knuth: Then METAFONT came along. When writing "The Art of Compuer Programming" he designed a typeface for the book. In 1977! Instead of being described by its outline, this font is represented by a series of variables inspired by handwriting (slant, stroke, etc).
+
+Great
+Take stuff from the blog post: http://www.typotheque.com/articles/designing_type_systems
+http://www.typotheque.com/blog/greta_system
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/ortho_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/ortho.jpg" />
+A typeface that provides UI controls that allows the writer to manipulate the typeface in a 3D, width, height, depth, thickness and color.
+Show this: http://www.ortho-type.it/beta033/index.html
+
+Project Examples
+----------------
+
+ALL TYPE + CODE: http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223.jpg" />
 
@@ -37,11 +62,19 @@ http://generative-typografie.de/
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86.jpg" />
 
+John Maeda describes this project by Peter Cho as "unique for marrying extremely simple numerical form with true elegance in craft". Each letter is generated with only 2 arcs, and the entire typeface is derived from twenty-six groups of only ten numbers. The project is from 1997.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes93_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes93.jpg" />
+
+Another project from the Aesthetics and Computation Group at MIT. It's called "Robotic Arm as Typeface", and that's exactly what it is. A typeface made up of a single, moving robotic arm. The project is from 2001.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes73_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes73.jpg" />
 
+This is a showcase of final projects from a class on generative typography. [Read more on the class website](http://generative-typografie.de/).
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77.jpg" />
+
+Combining evolution and typography. "Growing Data" from 2008.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes113_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes113.jpg" />
 
@@ -49,12 +82,17 @@ http://generative-typografie.de/
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes115_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes115.jpg" />
 
+Jonathan Puckey calls himself a conditional designer. Here's his project "Tile Tool" that draws patterns on top of black and white base images. He also made a project called "Typographic Rhytm" where he picks a font weight for each letter depending on the time it took you to type the character.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes135_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes135.jpg" />
+
+Of course there's Karsten Schmidts evolutionary typeface, that he made for "Print" magazine.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes141_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes141.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143.jpg" />
 
+Genetic typography. How can a typeface "grow" into multiple forms? This software manipulates the outlines of a typeface to create new typefaces.
 
 <iframe width="600" height="338" src="http://www.youtube.com/embed/up1d_fagy6Q" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
@@ -83,24 +121,16 @@ Documentation: http://www.ricardmarxer.com/geomerative/documentation/index.html
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
 
 
-
-Other
------
+TYPE+CODE: http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
 
 
-Go through use of typography in Processing
-Use p. 113 in Form and Code
-Show examples from “Creative Code” p. 86, 93.
-Show examples from Generative Gestaltung
-Read: Paul Rand from p. 149
-Read: Something from Bringhurst (one could be p. 25)
-Talk about [Greta and](http://www.typotheque.com/blog/greta_system) and the [blog post](http://www.typotheque.com/articles/designing_type_systems)
-THIS IS GREAT: http://37signals.com/svn/posts/3183-the-art-of-computer-typography. Use it with bulletins from the serving library that uses his font. Show how to draw a font in vectors...
-THERE A BOOK CALLED [TYPE + CODE](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn). It’s only about creating generative typography with processing.
-Bringhurst for the web: http://www.webtypography.net/toc/
-Use Nextext, a type vector library for processing? http://www.nexttext.net/
+NextText Library
+----------------
 
-Use experimental jetset, tell their story, show their work
-Book: function, restraint and subversion in typography
+http://www.nexttext.net/
 
-USE THIS: http://typeworship.com/
+
+Recommended Readings
+--------------------
+
+http://typeworship.com/
