@@ -14,8 +14,6 @@ What is type? Focus on the measurements so the people from Visual Com. are not b
 Serif / sans-serif
 all that measurement stuff
 
-
-MARIA PUT ALL DESIGNING TYPE IMAGES HERE
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes11_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes11.jpg" />
@@ -33,9 +31,9 @@ ALL TYPE + CODE
 
 http://generative-typografie.de/
 
-MARIA PUT ALL THE REST HERE
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223.jpg" />
+
+"Project Name" by Firstname Lastname, Year (from the book "Creative Code")
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86.jpg" />
 
