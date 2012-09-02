@@ -15,6 +15,15 @@ Serif / sans-serif
 all that measurement stuff
 
 
+MARIA PUT ALL DESIGNING TYPE IMAGES HERE
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes11_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes11.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes12_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes12.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13.jpg" />
+
 Computational Typography
 ------------------------
 
@@ -25,6 +34,9 @@ All Marias Scanned Examples
 ALL TYPE + CODE
 
 http://generative-typografie.de/
+
+MARIA PUT ALL THE REST HERE
+
 
 [Bitfall: Show video of Tokyo Waterfall - Type is something interactive. The form says something about the message]
 
