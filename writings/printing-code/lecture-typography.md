@@ -57,7 +57,8 @@ MARIA PUT ALL THE REST HERE
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143.jpg" />
 
-[Bitfall: Show video of Tokyo Waterfall - Type is something interactive. The form says something about the message]
+
+<iframe width="600" height="338" src="http://www.youtube.com/embed/up1d_fagy6Q" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 
 Fonts in Processing
