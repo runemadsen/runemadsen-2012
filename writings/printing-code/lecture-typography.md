@@ -29,8 +29,6 @@ Computational Typography
 
 METAFONT
 
-All Marias Scanned Examples
-
 ALL TYPE + CODE
 
 http://generative-typografie.de/
@@ -52,8 +50,13 @@ Fonts in Processing
 The problem with PFont
 - Exports a texture as bitmap
 
-Making fonts with beginShape();
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape)
+
+
+Playing with Font Outlines
+------------------------
 
 Manipulating font outlines
 Installing geomerative code library
@@ -63,19 +66,6 @@ Documentation: http://www.ricardmarxer.com/geomerative/documentation/index.html
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
-
-
-
-Playing with Font Points
-------------------------
-
-Using the GG library?
-
-Using The cool Processing library
-
-
-Use this for opening:
-http://thrashlab.com/a-brief-history-of-title-design-2790/
 
 
 
