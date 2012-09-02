@@ -41,6 +41,22 @@ MARIA PUT ALL THE REST HERE
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes93_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes93.jpg" />
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes73_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes73.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes113_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes113.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes114_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes114.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes115_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes115.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes135_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes135.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes141_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes141.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes143.jpg" />
+
 [Bitfall: Show video of Tokyo Waterfall - Type is something interactive. The form says something about the message]
 
 
