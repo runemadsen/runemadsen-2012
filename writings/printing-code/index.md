@@ -99,7 +99,8 @@ Week 4: Typography
 <!-- 
 ### Readings for this week
 
-* Grid Systems in Graphic Design - Josef Muller-Brockmann
+* Basic typography
+* Bulletins of the Serving Library - Metafont
 -->
 
 This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.
@@ -108,6 +109,13 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 
 Week 5: Grids
 -------------
+
+<!-- 
+### Readings for this week
+
+* Grid Systems in Graphic Design - Josef Muller-Brockmann
+-->
+
 
 > A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected.
 >

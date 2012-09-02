@@ -1,18 +1,70 @@
+Typography
+==========
+
+<iframe src="http://player.vimeo.com/video/20759580?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
+
+I'm not sure that anything successful can come out of generative typography, but hey, let's do a class on it.
+
+
+Short Introduction to Typography
+---------------------------------
+
 What is type? Focus on the measurements so the people from Visual Com. are not bored
-
-ALL TYPE + CODE
-
-
-The problem with PFont
-- Exports a texture as bitmap
-
-Using The cool Processing library
 
 Serif / sans-serif
 all that measurement stuff
 
+
+Computational Typography
+------------------------
+
+METAFONT
+
+All Marias Scanned Examples
+
+ALL TYPE + CODE
+
+http://generative-typografie.de/
+
+[Bitfall: Show video of Tokyo Waterfall - Type is something interactive. The form says something about the message]
+
+
+Fonts in Processing
+-------------------
+
+The problem with PFont
+- Exports a texture as bitmap
+
+Making fonts with beginShape();
+
+
+Manipulating font outlines
+Installing geomerative code library
+http://www.ricardmarxer.com/geomerative/
+Documentation: http://www.ricardmarxer.com/geomerative/documentation/index.html
+
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
+
+
+
+Playing with Font Points
+------------------------
+
+Using the GG library?
+
+Using The cool Processing library
+
+
 Use this for opening:
 http://thrashlab.com/a-brief-history-of-title-design-2790/
+
+
+
+Other
+-----
+
 
 Go through use of typography in Processing
 Use p. 113 in Form and Code
