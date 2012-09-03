@@ -144,11 +144,16 @@ Besides vector font handling it has a bunch of interesting methods for computati
 Creating Your Own Fonts
 -----------------------
 
+All you need to start designing your own fonts in Processing is the beginShape, vertex and bezierVertex. Here's a simple sketch that draws an "H" on the screen.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape)
 
 
-MORE EXAMPLES HERE
+However, this is not scalable. What if you want to draw "h" several places in different sizes? Then it's easier to normalize the numbers and scale them up when drawing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape_normalized)
 
 
 Playing With Font Outlines
