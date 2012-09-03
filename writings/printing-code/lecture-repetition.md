@@ -1,4 +1,7 @@
 THIS CLASS IS ABOUT PATTERNS
+
+USE Type+Code p. 61 ->
+
 Reading: The meaning of repetition, p. 87 in A Designer's Art. There's also a bunch of examples for lecture.
 Use stuff from “Repetition” from Form and Code.
 Use Arabic Patterns?

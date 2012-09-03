@@ -9,13 +9,8 @@ I'm not sure that anything successful can come out of generative typography, but
 Short Introduction to Typography
 ---------------------------------
 
-What is type? Focus on the measurements so the people from Visual Com. are not bored
-
 Read: Paul Rand from p. 149
 Read: Something from Bringhurst (one could be p. 25)
-
-Serif / sans-serif
-all that measurement stuff
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10.jpg" />
 
@@ -25,13 +20,15 @@ all that measurement stuff
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13.jpg" />
 
+When to choose what. 
+
 
 Font Designers & Agencies
 -------------------------
 
-Watch Helvetica
+Hoefler & Frere Jones
 
-Use experimental jetset, tell their story, show their work
+Experimental Jetset
 
 
 Computational Typography
@@ -50,6 +47,8 @@ http://www.typotheque.com/blog/greta_system
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/ortho_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/ortho.jpg" />
 A typeface that provides UI controls that allows the writer to manipulate the typeface in a 3D, width, height, depth, thickness and color.
 Show this: http://www.ortho-type.it/beta033/index.html
+
+http://www.jrp-ringier.com/pages/index.php?id_r=4&id_t=&id_p=7&id_b=1604
 
 Project Examples
 ----------------
@@ -101,36 +100,33 @@ Fonts in Processing
 -------------------
 
 The problem with PFont
-- Exports a texture as bitmap
+- Exports a texture as bitmap (way too big for our prints)
+- Instead we'll be using libraries to outline fonts and do high-res
 
+
+Font Experiments
+------------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape)
-
-
-Playing with Font Outlines
-------------------------
 
 Manipulating font outlines
 Installing geomerative code library
 http://www.ricardmarxer.com/geomerative/
 Documentation: http://www.ricardmarxer.com/geomerative/documentation/index.html
 
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
 
+MAKE EXAMPLE WHERE YOU PLACE SMALL DOTS RANDOMLY ACROSS OUTLINE
 
-TYPE+CODE: http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
+MAKE MORE EXAMPLES WITH OUTLINE
+
+
+P. 52-56
 
 
 NextText Library
 ----------------
 
 http://www.nexttext.net/
-
-
-Recommended Readings
---------------------
-
-http://typeworship.com/

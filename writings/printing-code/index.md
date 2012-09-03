@@ -206,3 +206,12 @@ These books might come in handy before, during or after the semester. You will n
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9) Want to know about typefaces? This is the book.
 * [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2). Want to know about color? This is the book.
 * A Little-Known Story About a Movement, a Magazine, and the Computer's Arrival in Art: New Tendencies and Bit International
+
+
+Recommended Blogs
+-----------------
+
+* http://rulesbased.wordpress.com/
+* http://typeworship.com/
+* http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
+* http://www.underconsideration.com/brandnew/
