@@ -259,6 +259,12 @@ Another piece by Eno Henze where he uses simple repetition and random form. This
 The same visual can be created with Processing and beginShape().
 	
 
+Libraries
+---------
+
+The [Geomerative](www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
+
+
 More Form Examples
 ------------------
 

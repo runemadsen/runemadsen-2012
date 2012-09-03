@@ -23,8 +23,14 @@ Read: Something from Bringhurst (one could be p. 25)
 When to choose what. 
 
 
-Font Designers & Agencies
+Fonts, Font Designers & Agencies
 -------------------------
+
+Helvetica
+
+Gotham
+
+
 
 Hoefler & Frere Jones
 
@@ -34,11 +40,38 @@ Experimental Jetset
 Computational Typography
 ------------------------
 
-So what can you do with fonts? Before the computer and programming, a typeface was something a designer would sit down and carve into metal. Funny enough, it's kind of the same procedure to do a typeface today, although designers use a mouse instead. With the computer comes the ability to generate forms, and there's a range of different typefaces that a "natively computational", as they were created by programmers.
+So what can you do with fonts? Before the computer and programming, a typeface was something a designer would sit down and carve into metal. Funny enough, it's kind of the same procedure to do a typeface today, although designers use a mouse instead. With the computer comes the ability to generate forms, and there's a range of different typefaces that a "natively computational".
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/univers_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/univers.jpg" />
+
+One of the first fonts to focus on a variable set of related shapes was the Univers typeface by Adrian Frutiger. Made in 1954, Frutigers approach to the design of Univers was drastically different than that of others fonts: Instead of focusing on the relation between the letters of the same weight, he focused on creating a system of inter-related weights that would function well against each other. This raises a series of questions: What should the default weight be in order to preserve room for both lighter and bolder variants? How do you distribute the weights?
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont.jpg" />
 
-Donald Knuth: Then METAFONT came along. When writing "The Art of Compuer Programming" he designed a typeface for the book. In 1977! Instead of being described by its outline, this font is represented by a series of variables inspired by handwriting (slant, stroke, etc).
+MetaFont was possibly the world's first parametrized typeface (created in 1977). It was created by Donald Knuth for the typesetting of his life-work [The Art of Computer Programming](http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). Most fonts are created by designing the outline of the font. When a typeface has to be created in different weights, you cannot just "grow" or "shrink" this outline computationally. A designer has to sit and create new outlines by hand. MetaFont takes a drastically new approach. Instead of being described by its outline, this font is represented by a series of variables inspired by handwriting:
+
+* Pen
+* Weight
+* Slant
+* Superness
+* Curlyness
+
+By manipulating these variables you can create very different styles of the MetaFont, as shown in these screenshots.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/metafont_example4.jpg" />
+
+You can read more about metafont in the text "[A Note on Type](http://www.servinglibrary.org/read.html?id=8)" from the magzine [Bulletins of the Serving Library](http://www.servinglibrary.org/). There's also a great talk by [Knuth at Google](http://www.youtube.com/watch?v=xLBvCB2kr4Q) and a link to his original paper on [Mathematical Typography](http://www.math.lsa.umich.edu/~millerpd/docs/501_Winter08/Knuth79.pdf) to be found on the web.
+
+Although the MetaFont is probably unique, this approach inspired a whole new set of typefaces bundled under the name [Type Systems](http://www.typotheque.com/articles/designing_type_systems).
+
+
+
 
 Great
 Take stuff from the blog post: http://www.typotheque.com/articles/designing_type_systems
@@ -52,8 +85,6 @@ http://www.jrp-ringier.com/pages/index.php?id_r=4&id_t=&id_p=7&id_b=1604
 
 Project Examples
 ----------------
-
-ALL TYPE + CODE: http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/aTouchOfCodes223.jpg" />
 
@@ -99,34 +130,59 @@ Genetic typography. How can a typeface "grow" into multiple forms? This software
 Fonts in Processing
 -------------------
 
-The problem with PFont
-- Exports a texture as bitmap (way too big for our prints)
-- Instead we'll be using libraries to outline fonts and do high-res
+Processing ships with built-in font handling, however, for print designers it's not the best implementation. When you go to "Create Font" in Processing, a bitmap image of that font is created (.vlw file). Whenever you need to draw a font on the screen, Processing will look up that bitmap image, grab the characters from it, and draw them on the screen. This has one big disadvantage:
+
+1. Fonts are normally defined by Vector points, but Processing handles them as bitmaps. The bigger the font, the bigger the file size of that bitmap file is. For print designers this is not good, as we're often working with files with really high resolutions, and your program will get really slow when drawing giant text.
+
+Instead, external libraries has been made for Processing that can load .ttf font files, read the font outlines, and draw them on the screen. When you're working with large files in Processing, you probably want to use one of these libraries. For these exercises we'll be using te [Geomerative](http://www.ricardmarxer.com/geomerative/) library for Processing 2.0.
+
+Besides vector font handling it has a bunch of interesting methods for computational geometry. You can [find the documentation here](http://www.ricardmarxer.com/geomerative/documentation/index.html).
 
 
-Font Experiments
-------------------------
+Creating Your Own Fonts
+-----------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape)
 
-Manipulating font outlines
-Installing geomerative code library
-http://www.ricardmarxer.com/geomerative/
-Documentation: http://www.ricardmarxer.com/geomerative/documentation/index.html
+
+MORE EXAMPLES HERE
+
+
+Playing With Font Outlines
+--------------------------
+
+First we need to figure out how to load a font and get its outline. This sketch shows how to that.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
 
-MAKE EXAMPLE WHERE YOU PLACE SMALL DOTS RANDOMLY ACROSS OUTLINE
+Now that we have the outline, we can use those points to place objects along the line.
+	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_dots)
+	
+Here's a little more complex sketch that uses beginShape to draw curved lines between the outline points.
 
-MAKE MORE EXAMPLES WITH OUTLINE
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_generative)
+
+We can also fill the outline instead of drawing stroked lines.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_generative_filled)
 
 
-P. 52-56
+P. 52-56 type+code
 
 
-NextText Library
-----------------
+More Libraries
+--------------
 
-http://www.nexttext.net/
+* [NextText](http://www.nexttext.net/) - This library can help you morph your text or enable physics simulations on the font outlines.

@@ -383,7 +383,6 @@ For generative drawings we often want to [calculate the perceived brightness](ht
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/brightness_perceived)
 
 
-
 Generating Gradients
 --------------------
 
@@ -394,28 +393,15 @@ Gerstners Programmatic Color Exercise
 [everything from my note in Designing Programmes. Don't program, just show the pictures.]
 
 
-
 Toxiclibs
 ---------
 
 
+Make all toxiclibs examples into a few, simple sketches
 
 
+Links
+-----
 
-
-
-
-THINGS TO PUT IN SOMEWHERE
-//////////////////////////
-
-TOXILIBS COLOR LIBRARY!!!!
-
-there are great tools for this: http://kuler.adobe.com or http://colorschemedesigner.com. They are all very focused on manipulating hue, and when you start playing around with the colors, it's all by freehand. If you write your own code you can set your own constraints. The assignment this week is to create your own code that computes a color scheme.
-
-Use this to practice:
-http://www.speednoisemovement.com/iioc/
-
-Use this:
-http://itp.nyu.edu/classes/ahsl-fall2010/category/readings/final-projects/combiing-color/
-
-Use GG library: sort color
+* http://kuler.adobe.com
+* http://colorschemedesigner.com
