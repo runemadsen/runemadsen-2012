@@ -98,9 +98,9 @@ Week 4: Typography
 
 <!-- 
 ### Readings for this week
-
-* Basic typography
-* Bulletins of the Serving Library - Metafont
+Watch Helvetica?
+Read: Paul Rand from p. 149
+Read: Something from Bringhurst (one could be p. 25)
 -->
 
 This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.

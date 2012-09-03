@@ -11,6 +11,11 @@ Show Stefan Sagmeister p. 128 in GG
 Show code that creates something like it
 
 
+Examples:
+
+Make P. 52-56 type+code
+
+
 
 Maria find these:
 -----------------
