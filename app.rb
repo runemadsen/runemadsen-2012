@@ -88,6 +88,7 @@ class RuneMadsen < Sinatra::Base
   end
   
   get '/printing-code-2012/?:page?' do
+    @active = :itp
     filename = params[:page] || "index"
     @html = md_to_html(File.join("writings", "printing-code", filename + ".md"))
     
