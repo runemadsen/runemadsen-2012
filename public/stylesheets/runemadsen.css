@@ -495,6 +495,11 @@ canvas.clock {
 	background-color: #91C300;
 }
 
+#slideshow blockquote {
+	font-size: 16px;
+	font-style: italic;
+}
+
 /* Slideshow slides
 ----------------------------------------------------------------- */
 

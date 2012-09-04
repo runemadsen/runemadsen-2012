@@ -16,29 +16,29 @@ William Addison Dwiggins
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins.jpg" />
 
-The invention of the term _Graphic Design_ has been attributed to William Addison Dwiggins, director of the Harvard University Press and founder of the Society of Calligraphers in Boston. Born in 1880 at the exact time of the invention of the Linotype machine, Dwiggins coined this term in 1922 to describe his process of designing books, as combination of typesetting, illustration and design. Book design changed from being a simple, neutral craft to a interpretive art:
+William Addison Dwiggins coined the term "graphic design" in 1922 to describe his process of designing books, as combination of typesetting, illustration and design. Book design changed from being a simple craft to an interpretive art.
 
-<blockquote data-slideshow="self">
-What type does the architect of advertising elect to use, and why? That question is the acolyte’s invariable first prayer for enlightenment—phrased always in one of the various voices of despair—what type shall I use? The gods refuse an answer. They refuse (sacrilege though it be to say it) because they do not know.
-</blockquote>
+Dwiggins was the director of the Harvard University Press and founder of the Society of Calligraphers in Boston. He was born in 1880 at the exact time of the invention of the Linotype machine.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dwiggins_cover.jpg" />
 
-This - one of many book covers designed by Dwiggins - underlines this new way of thinking: That _seeing_ is as important as _reading_, and that typography and illustration can be used for symbolism. Dwiggins worked most of his life in advertising, and released the book _Layout in Advertising_ in 1928.
+This book cover by Dwiggins shows this new way of thinking: That _seeing_ is as important as _reading_, and that typography and illustration can be used for symbolism. Dwiggins worked most of his life in advertising, and released the book _Layout in Advertising_ in 1928.
 
 
 Futurists, Dadaists and De Stijl
 --------------------------------
 
-At the same time in the early 20th century quite a few artistic movements started rejecting the former divide between high art and every day design. The most important of these were the Futurists, Dadaists and De Stijl. With these movements came a very strong reinvention of graphic form.
+At the same time in the early 20th century, quite a few artistic movements had a an effect on the developments of graphic design. The most important of these were the Futurists, Dadaists and De Stijl.
+
+With these movements came a very strong reinvention of graphic form, as many of them rejected the former divide between high art and every day design. Here it's the **Futurist Manifesto** from 1927.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/depero_futurista_cover_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/depero_futurista_cover.jpg" />
 
-With the **Futurist Manifesto**, a number of Italian artists swore off the traditional arts, and instead sought to visualize the future, technology and the industrial revolution through the lens of most artistic expressions. In the graphic arts this meant experiments in typography, geometric forms and color. 
+The futurists started as a number of Italian artists swore off the traditional arts, and instead sought to visualize the future, technology and the industrial revolution. In the graphic arts this meant experiments in typography, geometric forms and color. Text was no longer off-limits in the graphic arts.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/futurismo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/futurismo.jpg" />
 
-The futurist movement had strong ties to Fascism and Mussolini, which meant a further popularization of the futurist art through newspaper and poster design. 
+The futurist movement had strong ties to Fascism and Mussolini in Italy, which is why the graphic art of the futurists can be seen in newspapers and poster designs.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show.jpg" />
 
@@ -56,12 +56,11 @@ Here it's the cover for Kurt Schwitters "Anna Blume" from 1919.
 
 The important thing to notice, here with the original logo for the De Stijl publication, is the almost algorithmic use of form and proportion. It's a use of form and color that points towards the later works of Sol Lewitt, and even the early experiments in computational art.
 
-All in all these movements made a drastic impact on the way typography, form and color was used in publications. It further diminished the former distinction between _high art_ and print design, and all three of these movements had a great impact on the teachings at the Bauhaus.
+All in all these movements made a drastic impact on the way typography, form and color was used in publications. It diminished the distinction between _high art_ and print design, and all three of these movements had a great impact on the teachings at the Bauhaus.
 
 
 The Bauhaus
 -----------
-
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus.jpg" />
 
@@ -75,11 +74,11 @@ The basic motto of the Bauhaus was _form follows function_, which meant a focus 
 "Just as in the workshops of the Bauhaus the smallest utility object is given the simplest geometrical shape, so are these, the biggest of them all. Thus one is made to receive here the sense of a convincing uniformity of all objects made by man regardless of size, from a metal ashtray to a building" - Rudolf Arnheim
 </blockquote>
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius.jpg" />
+
 <blockquote data-slideshow="self">
 "But the idea of freeing ourselves of tradition and of starting again from the two basic motives, the practical requirement of life and the conditions of the materials is so good that nothing else matters for the time being" - Rudolf Arnheim
 </blockquote>
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_gropius.jpg" />
 
 The graphic products from the Bauhaus era are therefore closely tied to all other fields of art practiced at the Bauhaus. Nothing is used without a functional meaning, which led to an increased focus on grids and proportions. Color theory also played a major role in the Bauhaus foundation courses.
 
@@ -92,44 +91,29 @@ Geometric shapes in his painting - probably the best known - Guggenheim has a la
 
 Paul Klee is mostly considered a painter, but released numerous essays design (Writings on Form and Design Theory, called Paul Klees notebook in english), which underlines the Bauhaus philospohy of combinaton of art and craft.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nagy_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nagy.jpg" />
-
-Moholy-Nagy
-Replaced Itten as a teacher in the foundation courses.
-Painter geometric forms
-(Insert pictures on google images)
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten.jpg" />
 
 Johannes Itten was one of the forces behind the foundation courses at the Bauhaus. He is mostly know for his work in color theory. On the more personal side he was a follower of the Christian fire cult Mazdaznan, in which the members follow a strict vegetarian diet, perform rhytmic breathing and gymnastic exercises - and the students at the Bauhaus were clearly divided into followers and not-followers of Itten.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_book_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_book.jpg" />
 
-Itten is mostly know for his book _The Art of Color_
-TODO: What was essential in that book?
-Color experiments - 
-Color like music
+Itten is mostly know for his book _The Art of Color_, here in the condensed version _The Elements of Color_. We'll be talking a lot more about that book in the color class. In the book he talks about 7 color contrasts, and a general approach to using color in the arts.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers.jpg" />
 
-Josef Albers
-- a student of Ittem
+Josef Albers, who was a student of Itten, also wrote about color theory. He spent most of his life making these paintings with the exact same forms and dimensions, but varying the color. He used that to see how color interacted and did with the forms. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_book_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/albers_book.jpg" />
 
-Wrote _The Interaction of Color_
-Simple geometric forms
-(A few images of his work on black/white structures)
-We're going to spend more time on Albers in the color class.
+He wrote this book called _The Interaction of Color_, which is probably the go-to book on color theory for beginners.
 
 Both created a taxonomy of color 
-We will talk more about these in our session about color theory
 
-Both Albers and Moholy-Nagy was a part of the first modernist immigrants to the US, and they both had a profound impact on the new breed of American graphic designers in the golden age of advertising. Albers was appointed head of the graphic design department at Yale University, and Moholy-Nagy became head of the _New Bauhaus_ school on Chicago in 1937.
+Albers and also Moholy-Nagy was a part of the first modernist immigrants to the US, and they both had a profound impact on the new breed of American graphic designers in the golden age of advertising. Albers was appointed head of the graphic design department at Yale University, and Moholy-Nagy became head of the _New Bauhaus_ school in Chicago in 1937.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bauhaus_poster.jpg" />
 
-All focused on color, geometric shapes - and after a poster also typography
+Even though most people think about the Bauhaus as a place for crafts and architecture, its fingerprint on graphic design cannot be under estimated. As you see in this poster for a Bauhaus exhibition, the use of color, geometric shapes and typography in composition was very playful, but strict modernistic. Notice the straight lines, exactly like the architecture of Walter Gropius or Le Corbusier.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nazi_designmanual.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nazi_designmanual.jpg" />
 
@@ -153,11 +137,13 @@ Here's an example of the 1930's Penguin Books paperback design, and Tschichold's
 Big Idea Designers
 ------------------
 
+The introduction of the artist into graphic advertising.
+
 These european designers influenced a new generation of American designers, primarily centered around New York School of Advertising in the 50's and 60's. These so-called _Big Idea_ designers often relied on the creativity of the individual designer, introducing the idea of the artist into mainstream advertising. Characterized by a balance between simplicity and playfulness, these designers revolutionized the advertising industry, and invented a whole new way of reaching the consumer. This period is often called _the golden days_ of advertising, as glorified in the TV-series _Mad Men_.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
 
-Originally designed by Ferdinand Porsche as a _people's car_ for the third Reich (on orders by Hitler), the Beetle was not an obvious success on the American market. The _Think Small_ campaign by Williams Bernbach with its heavy use of white-space, simplistic typography, and creative text copy, managed to build a strong relationship between the Beetle and American consumers.  
+Originally designed by Ferdinand Porsche as a _people's car_ for the third Reich (on orders by Hitler), the Beetle was not an obvious success on the American market. The _Think Small_ campaign by William Bernbach with its heavy use of white-space, simplistic typography, and creative text copy, managed to build a strong relationship between the Beetle and American consumers.  
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle.jpg" />
 
@@ -169,17 +155,27 @@ The Beetle campaign dared making fun of the Volkswagen brand. Also notice the us
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/paulrand.jpg" />
 
-**Paul Rand** is without doubt one of the most influential graphic designers in the history of the field. Although [often cited](http://en.wikipedia.org/wiki/Paul_Rand) as a proponent of the _Swiss Style_ of graphic design, Paul Rand's body of work has a notable degree of playfulness and artistic vision that cannot be found in the extremely systematic designs from his European colleagues. Rand is also known for his critique of graphic design education, including his departure as head of the Graphic Design department at Yale because of the acceptance of post-modern influences to the curriculum. I will not talk about post-modern graphic design in this class, but you can read more about it on ...
+**Paul Rand** is without doubt one of the most influential graphic designers in the history of the field. He is mostly known for his logo design for IBM, NeXT computer and a thousand other companies.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/next_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/next.jpg" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem.jpg" />
-
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/ibm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/ibm.jpg" />
 
-Paul Rand released numerous books (see _[Suggested Readings](/printing-code-2012#inspirational-reading)_), in which he often argued that graphic design, with its focus on color, form and proportion, should be considered as the basis for all visual arts.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/eyebeem.jpg" />
+
+Rand is also known for his critique of graphic design education. He resigned as head of the Graphic Design department at Yale because they included post-moderne theory in the curriculum. However, through books and writing he helped define what graphic design is:
+
+<blockquote data-slideshow="self">
+	Before you have focused your thoughts you are all over the place, because you are searching. You are feeling. You are looking for things. You do not know what you are doing. You are lost. You are in a maze. So thinking is the number one in the design process. The design is the product of your thinking - Paul Rand
+</blockquote>
+
+<blockquote data-slideshow="self">
+Another kind of definition is that design is a system of relationships between all of the aspects of the problem, which means the relationship between you and the piece of canvas, [...] you and the eraser, you and the pen. The relationship between the elements proportions, which mean the relationship of sizes. I can go on all day. This is one of the reasons why design is so difficult to accomplish. Because every time you do something, the potential for making mistakes is enormous. The process of designing is from complexity to simplicity. The part of complexity if filled with all kinds of horrible problems. - Paul Rand
+</blockquote>
+
+Paul Rand released numerous books (see _[Recommended Readings](/printing-code-2012)_), in which he often argued that graphic design, with its focus on color, form and proportion, should be considered as the basis for all visual arts.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass.jpg" />
 
@@ -189,44 +185,58 @@ Another hugely important designer from this period is **Saul Bass**, who is best
 The Swiss Style
 ---------------
 
+The _Swiss Style_ is a term used to describe the new approach to graphic design that came from Switzerland in the 1960's. Centered around Josef Müller-Brockmann's "Grid Systems" and Karl Gerstner's "Designing Programmes" books, the _Swiss Style_ was a systematic methodology built around the concept of simple rules that stood in sharp contrast to the American _Big Idea_ style. 
+
 <blockquote data-slideshow="self">
 This graphic aesthetic and method was the second wave of European Modernism to influence the U.S. Essentially different from the "big idea" approach, it is based on an assumption of Modernist rational "method", a codified approach not so dependent on the individualistic inspiration and talent of the designer. - "American Graphic Design Expression", Katherine McCoy, 1990
 </blockquote>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann.jpg" />
 
-The _Swiss Style_ is a term used to describe the new approach to graphic design that came from Switzerland in the 1960's. Centered around Josef Müller-Brockmann's "Grid Systems" and Karl Gerstner's "Designing Programmes" books, the _Swiss Style_ was a systematic methodology built around the concept of simple rules that stood in sharp contrast to the American _Big Idea_ style. 
+The _Swiss Style_ distilled graphic design into a series of simple constraints and rules. Use Helvetica. Use a grid system. It was a return to the purely functional graphic arts, in a way that it has been described as _Bauhaus applied_. The _Swiss Style_ had a profound impact on American corporations, as explained in this video from the movie _Helvetica_.
 
 <iframe width="560" height="338" src="http://www.youtube.com/embed/VDLPAE9wLEU" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
-The _Swiss Style_ distilled graphic design into a series of simple constraints and rules. Use Helvetica. Use a grid system. It was a return to the purely functional graphic arts, in a way that it has been described as _Bauhaus applied_. The _Swiss Style_ had a profound impact on American corporations, as explained in this video from the movie _Helvetica_.
+One extremely important designer is **Josef Muller-Brockmann**, who's book _Grid Systems_ suggested the use of strict grid systems to order graphic elements on the page.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/grid_systems_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/grid_systems.jpg" />
+
+Gone where the artistic freedom of the artist:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/brockmann2.jpg" />
 
-**Josef Muller-Brockmann**'s book _Grid Systems_ suggested the use of strict grid systems to order graphic elements on the page. Gone where the artistic freedom of the artist:
+... which can be heard in almost any interview with Brockmann:
 
 <blockquote data-slideshow="self">
 "The message will reach a maximum power of expression if the object or idea is presented aesthetically and efficiently with a minimum of accompanying design. Both subjective ornament in the sense of illustrative exaggerations and over-objective presentation must be avoided" - Josef Müller-Brockmann
 </blockquote>
 
-Brockmann held to these rules in his own work to a degree that Michael Kroeger referred to Brockmann as _mechanical_ in [conversations with Paul Rand](http://amzn.to/gZHfWO).
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/designing_programmes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/designing_programmes.jpg" />
+
+In _Designing Programmes_, **Karl Gerstner** goes even further and proposes an approach to graphic design based on strict modular principles. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner.jpg" />
 
-In _Designing Programmes_, **Karl Gerstner** goes even further and proposes an approach to graphic design based on strict modular principles. As can be seen in the picture above, Gerstner often relies on rules that can be re-used to generate multiple versions of a graphic design. In this sense Gerstner's work is almost algorithimic, which was also mentioned in the press release when _Designing Programmes_ was re-released by Lars Müller in 2007:
+As can be seen in the picture above, Gerstner often relies on rules that can be re-used to generate multiple versions of a graphic design. In this sense Gerstner's work is almost algorithimic, which was also mentioned in the press release when _Designing Programmes_ was re-released by Lars Müller in 2007:
 
-> The book is especially topical and exciting in the context of current developments in computational design, which seem to hold out the possibility of programmed design.
+<blockquote data-slideshow="self">
+The book is especially topical and exciting in the context of current developments in computational design, which seem to hold out the possibility of programmed design.
+</blockquote>
 
 Gerstner's work points directly to the notion of Serial Art, the early experiments in computational art, and projects like Donald Knuth's Metafont.
 
 Serial Art
 ----------
 
-> "The serial artist does not attempt to produce a beautiful or mysterious object but functions merely as a clerk cataloguing the results of his premise." - Sol Lewitt
+Aspects of the serial art movement can be traced back to the 1930's, but it came into the publics eye during the 1960's with the emergence of artists like Karl Gerstner and Sol Lewitt. Central to the works of the serial artists is the concept of creating art through algorithms, although the computer was still not a tool of the artist.
 
-> "The system is the work of art; the visual work of art is the proof of the system" - Sol Lewitt
+<blockquote data-slideshow="self">
+The serial artist does not attempt to produce a beautiful or mysterious object but functions merely as a clerk cataloguing the results of his premise. - Sol Lewitt
+</blockquote>
 
-Aspects of the serial art movement can be traced back to the 1930's, but it came into the publics eye during the 1960's with the emergence of artists like Karl Gerstner and Sol Lewitt. Central to the works of the serial artists is the concept of creating art through algorithms, although the computer was still not a toll of the artist.
+<blockquote data-slideshow="self">
+The system is the work of art; the visual work of art is the proof of the system - Sol Lewitt
+</blockquote>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt.jpg" />
 
@@ -242,27 +252,27 @@ Then translate it into a printed sheet of rules.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_cubes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/lewitt_cubes.jpg" />
 
-Finally the rules would be translated into a sculpture or painting, mostly done by assistants. Lewitt's work is important to us in this class, not only because of the distinct graphic qualities in his work, but is also because it's built on an algorithmic process that is best performed by a computer. [Casey Reas has written a great text on Lewitt](http://artport.whitney.org/commissions/softwarestructures/text.html) and software.
+Finally the rules would be translated into a sculpture or painting, mostly done by assistants. Lewitt's work is important to us in this class, not only because of the distinct graphic qualities in his work, but is also because it's built on an algorithmic process that is best performed by a computer.
 
 
 A Brief History of Computers
 ----------------------------
 
-This is a good time to talk about computers. Everything happened at once. 
-
-The first noteworthy computer design tool was built by Ivan Sutherland in 1963. It was called the Sketchpad, and it was a very early form of CAD drawing program. (use history from Form + Code p. 29)
+This is a good time to talk about computers.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sketchpad_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sketchpad.jpg" />
 
-Xerox PARC. PARC was a research center established in 1971 as a research division of the Xerox Corporation. It's widely famous for its contributions to computer science, which include the UI, the mouse, the laser printer, etc. 
+The first noteworthy computer design tool was built by Ivan Sutherland in 1963. It was called the Sketchpad, and it was a very early form of CAD drawing program.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-beanbags.jpg" />
 
-Here is Douglas Englebart from Standford University (later PARC) introducing the computer mouse for the first time.
+Xerox PARC was a research center established in 1971 as a research division of the Xerox Corporation. It's widely famous for its contributions to computer science, which include the UI, the mouse, the laser printer, etc. 
 
 <iframe width="600" height="450" src="http://www.youtube.com/embed/1MPJZ6M52dI" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
-Xerox PARC is not only important to use because of these innovations that changed the life of our generation, but also because they started to think about how a computer can be a useful tool for designers.... and they did an incredibly job. So incredible that most of their innovations stand untouched today. Look at the Xerox Start as an example:
+Here is Douglas Englebart from Standford University (later PARC) introducing the computer mouse for the first time.
+
+Xerox PARC is not only important to use because of these innovations that changed the life of our generation, but also because they started to think about how a computer can be a useful tool for designers.... and they did an incredibly job. So incredible that most of their innovations stand untouched today. Look at the Xerox Star as an example:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/xerox-star1.jpg" />
 
@@ -280,9 +290,13 @@ Here's a comparison of interface design for Google Docs from the last 5 years, a
 
 The Xerox Parc creations proved to be insanely important, also because a 24-old Steve Jobs - who had frequented the Homebrew Computer Club at Standford - visit the PARC facilities and created some of the most important innovations for graphic designers.
 
-> The Macintosh turned out so well because the people working on it were musicians, artists, poets and historians who also happened to be excellent computer scientists.
->
-> _Steve Jobs_
+I want to show you this video, not so much because it's super fun, but because you realize what Steve Jobs did for computation:
+
+<blockquote data-slideshow="self">
+The Macintosh turned out so well because the people working on it were musicians, artists, poets and historians who also happened to be excellent computer scientists. - Steve Jobs
+</blockquote>
+
+He invited designers to participate! Made these tools available. 
 
 <iframe width="600" height="450" src="http://www.youtube.com/embed/2B-XwPjn9YY" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
@@ -296,7 +310,7 @@ Exactly like the Bauhaus, where machines became accessible to ordinary people, t
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1.jpg" />
 
-The group known as the "New Tendencies" explored the used of the computer in the 1960's and 1970's in international exhibitions and the magazine "Bit International".
+The group known as the "New Tendencies" explored the use of the computer in the 1960's and 1970's in international exhibitions and the magazine "Bit International".
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt2.jpg" />
 
@@ -358,7 +372,7 @@ Karl Sims is known for his evolutionary graphic art (e.g. the Galapagos installa
 The Internet and Design programs as Coding Environments
 -------------------------------------------------------
 
-Nothing has contributed more to the acceleration of new programming artists as the internet. With a bigger focus on graphics created on the computer, a series of coding environments (web-related or not) started appealing to designers who would otherwise not have thought of programming as a primary expression.
+Nothing has contributed more to the acceleration of new programming artists as the internet. A series of coding environments (web-related or not) started appealing to designers who would otherwise not have thought of programming as a primary expression.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/html_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/html.jpg" />
 
@@ -374,7 +388,7 @@ Even though it has a bad rep, Flash was hugely successful in luring in graphic d
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design.jpg" />
 
-Books about Flash and Director started being published, only targeted towards designers.
+Books about Flash and Director started being published, only targeted towards designers. What's interesting, however, is that all of these books focused on generative art, not so much graphic design.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing.jpg" />
 
@@ -384,7 +398,7 @@ Books about Flash and Director started being published, only targeted towards de
 Today
 ------------
 
-... and here we are today. It's impossible just to try and summarize how graphic artists use the computer today (other than to say that design and programming is intermingled), but here's a few notable projects.
+It's impossible just to summarize how graphic artists use the computer today, but here's a few notable projects.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sagmeister_logo_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/sagmeister_logo.jpg" />
 
@@ -404,11 +418,16 @@ Jonathan Puckey
 
 Karsten Schmidt
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/GenerativeGes77.jpg" />
+
 <iframe src="http://player.vimeo.com/video/18223862?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
 
 Written Images Book
 
+To sum up: 
 
-To sum up: It's important to me that you all know about this before diving into the assignments. Just because we're programming, it doesn't mean that we invent stuff. People have been working in the graphic arts for centuries, and it's important to know this stuff. We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
+History is a movement from silly decoration to modernism, and then away from modernism.
+
+It's important to me that you all know about this before diving into the assignments. Just because we're programming, it doesn't mean that we invent stuff. People have been working in the graphic arts for centuries, and it's important to know this stuff. We can bend the rules, but we cannot ignore them. And to bend them we must understand them.
 
 Hopefully in this class you will learn to balance your visual creativity and your technical skills in a way so they optimize each other. That's a balance that I see very few people have in generative art. It's not about smudging the canvas with a repetition algorithm. It's about using the computer to what it's good for, and it's not necessarily placing a bunch of sh*t randomly across your canvas. Think!

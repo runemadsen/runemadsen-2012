@@ -6,6 +6,7 @@ A few things to take away from these texts ...
 Form + Content by Paul Rand
 ---------------------------
 
+* 10 points to the person who knows who Paul Rand is
 * Graphic design is not advertising
 * Design is combining form and content. We need both. Too much form becomes abstract. Too much content becomes unreadable
 * Design does not start with: "This is pretty". It starts with an onion of content that you peel
@@ -22,7 +23,6 @@ Computers, Pencils, and Brushes by Paul Rand
 * However, don't do stuff just because the computer can do it
 * Beware of trends
 * Often it all starts in the head
-
 
 
 Software Structures by Casey Reas

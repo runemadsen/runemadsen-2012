@@ -51,8 +51,8 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 * About the class
 * Syllabus Walk-Through
 * Introductions
-* Reading Discussion
-* Lecture: **The History of Graphic Design and Computational Form**
+* [Reading Discussion](/printing-code-2012/reading-questions)
+* Lecture: **[The History of Graphic Design and Computational Form](/printing-code-2012/lecture-intro)**
 * Using Processing to create graphic prints
 
 ### Assignment for next week
