@@ -48,8 +48,9 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 
 ### Class Overview
 
-* Introductions
 * About the class
+* Syllabus Walk-Through
+* Introductions
 * Reading Discussion
 * Lecture: **The History of Graphic Design and Computational Form**
 * Using Processing to create graphic prints

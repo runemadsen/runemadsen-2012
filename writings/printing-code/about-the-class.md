@@ -1,26 +1,26 @@
 About the Class
 ---------------
 
-* How it started: Tiny Artists
-* Not Advertising, but Graphic Arts
-* About the word _generative_
-** Not so much interest in making complicated things as we are in using the computer to simplify.
-* Think! "Write the truest sentence you've ever written" - Hemingway. That's the aim. We could add "simplest" to that. That's why Paul Rand is great. You cannot change anything.
-* Constraints in assignments in the beginning
-
-
-Syllabus
---------
-
-* Syllabus walk-through
-
+* Welcome. First time it runs, happy to see so much interest
+* Today 3 things...
+    1. Talking about the class / syllabus walkthrough
+    2. Introductions
+    3. Me talking a lot
+* About me
+* About Printing Code
+* How it started: Almost all Graphic Design is computational
+* Not advertising
+* Not necessarily generative
+* Our goal: "Write the truest sentence you've ever written" - Hemingway. You can't change anything of the great masters
+* Assignment constraints
 
 A Few Things
 ------------
 
-* Do a git repository for your code! Send me an email with it.
+* No laptops
 * We present code and product
 * Don't just take my examples and change a few things
-* No laptops
 * _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
 * Go to AMS together! (visit next week)
+* Do a git repository for your code! Send me an email with it. 
+* GO TO STEVE SESSION: Wednesday at 1 or 2 and Thursday at 3:30
