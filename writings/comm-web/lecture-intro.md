@@ -1,3 +1,5 @@
+Make AHMAD run the new_ruby_app before class?
+
 Introduction
 ------------
 
@@ -17,14 +19,14 @@ My name is Rune Madsen. I will introduce myself very soon, but first I'll speak 
 
 * Is it something we can use outside ITP? = YES. Ruby and Sinatra is used everywhere (nytimes)
 * Ruby will probably be the most widely used programming language on the web in 5 years
-* It's a great intro to web programming
-* BONUS: Ruby and Datamapper in many ways makes your life easier if you've done PHP or (gosh) ASP before
+* BONUS: Ruby and Datamapper in many ways makes your life easier if you've done PHP or (gosh) ASP before. It's a great intro to web programming
 
 **Today**
 
 * Introductions (me and you)
-* a lot of me talking about the internet
+* a lot of me talking about the internet. The purpose of this first class is to make you aware of all the technologies we use in this class.
 * VERY IMPORTANT that you ask questions. You are not the only one, and nothing is embarrassing.
+* This is only a 7 week class and we have a ton of stuff to learn, so ASSSSK
 * Laptops only for notes
 
 
@@ -41,18 +43,11 @@ Introductions
 
 **You**
 
-Why don't we go around the room so you can introduce yourselves. (write on board)
+Introduce yourselves. (write on board)
 
 * Your name and background
 * Experience with web and programming
 * How scared you are from a scale from 1-10
-
-
-Software We'll Use In This Class
---------------------------------
-
-* Introduce Komodo
-* Introduce CyberDuck
 
 
 What is the Internet
@@ -60,12 +55,12 @@ What is the Internet
 
 **ASK:**
 
-* What is the internet?
+* What is the internet? Any ideas?
 * == Just a bunch of computers talking to each other
 
-Show the map. Don't go into details about what is sent or how it works.
-
 **THE MAP**
+
+This is Peter..... tell a story.
 
 * User
 * Client (browser)
@@ -77,6 +72,8 @@ Show the map. Don't go into details about what is sent or how it works.
 
 HTTP Requests
 -------------
+
+A client can make a request! (point to the map)
 
 HTTP Requests are the backbone of everything that happens on the web. There are 4 types of requests:
 
@@ -111,7 +108,11 @@ Let's look at the most used GET.
 HTTP Responses
 --------------
 
+A server can make a response! (point to the map)
+
 We talked so much about requests, but what about responses?
+
+* a response is what comes back after you make a request. It can be a good or bad response.
 
 * Open webinspector: http://itp.nyu.edu/~rsm347/sinatra/html_form
 * Status
@@ -139,10 +140,11 @@ The thing we return in the body of the response.
 	* wrap in <something> tags
 
 **HTML**
+
 * text with <> no front and back
 * nested tags
 * The different tags
-	* <html>, <title>, <body>, <em>, <strong>, <h1-h5>, <a>, <img>, <ol>, <ul>, <p>
+    * `<html>, <title>, <body>, <em>, <strong>, <h1-h5>, <a>, <img>, <ol>, <ul>, <p>`
 		
 You browser will take this HTML and make a website
 
@@ -154,16 +156,37 @@ You browser will take this HTML and make a website
 * a full GET request with HTML response
 
 
-Introduce <form> and <input> types
-Simple Form Example
-All Fields Form Example
-Dynamic HTML with Sinatra and HTML form
+Okay I understand GET, but how do we make a POST?
+-------------------------------------------------
+
+* introduction to `<form>`
+* introduction to `<input>` - they have different types. This time to mark up what we are sending.
 
 
-Your Sinatra folder
-Simple Sinatra script
-Simple HTML form example with POST to Sinatra route
+Dynamic HTML with Sinatra
+-------------------------
+
+What do we use to handle what we send to it? = SINATRA
+
+You should all have a sinatra folder and an app that is ready to listen to your forms
+
+* [Simple Form Example](https://gist.github.com/3557042)
+* [All Fields Form Example](https://gist.github.com/3557043)
+
+Your Sinatra folder setup
+
+* [Simple HTML form example with POST to Sinatra route](https://gist.github.com/3557046)
+
+You don't need to understand it, just poke around.
+
 Homework Assignment
+-------------------
+
+* Create a HTML file with a form in /public. The form should allow someone to input a recipe, with fields for the title of the recipe, checkboxes for ingredients, or radio buttons to choose the difficulty level. Then, in your app.rb, use the post params to show the values entered in the form inputs. Look at the possible input types exemplified in all_fields.html for an example of inputs. 
 
 
-Create a HTML file with a form in /public. The form should allow someone to input a recipe, with fields for the title of the recipe, checkboxes for ingredients, or radio buttons to choose the difficulty level. Then, in your app.rb, use the post params to show the values entered in the form inputs. Look at the possible input types exemplified in all_fields.html for an example of inputs. 
+Software We'll Use In This Class
+--------------------------------
+
+* Introduce Komodo
+* Introduce CyberDuck
