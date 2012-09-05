@@ -11,6 +11,12 @@ Weekly homework can be produced using the digital printers at [NYU’s Advanced 
 
 The class aims not only to teach the students how to create physical prints via code, but also to have something interesting to say about it. The class requires ICM or similar programming background.
 
+Github Repository
+-----------------
+
+All code examples and frameworks used in the class can be found on Github:
+https://github.com/runemadsen/printing-code-2012
+
 Teacher Info
 ------------
 
@@ -51,9 +57,9 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 * About the class
 * Syllabus Walk-Through
 * Introductions
-* [Reading Discussion](/printing-code-2012/reading-questions)
 * Lecture: **[The History of Graphic Design and Computational Form](/printing-code-2012/lecture-intro)**
 * Using Processing to create graphic prints
+* [Reading Discussion](/printing-code-2012/reading-questions)
 
 ### Assignment for next week
 
