@@ -15,7 +15,8 @@ Github Repository
 -----------------
 
 All code examples and frameworks used in the class can be found on Github:
-https://github.com/runemadsen/printing-code-2012
+
+* [https://github.com/runemadsen/printing-code-2012](https://github.com/runemadsen/printing-code-2012)
 
 Teacher Info
 ------------
