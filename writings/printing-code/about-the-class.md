@@ -1,17 +1,21 @@
 About the Class
 ---------------
 
-* Welcome. First time it runs, happy to see so much interest
+* Welcome. First of all, this is printing code, give people time to leave
+* First time it runs, happy to see so much interest
 * Today 3 things...
     1. Talking about the class / syllabus walkthrough
     2. Introductions
     3. Me talking a lot
-* About me
 * About Printing Code
-* How it started: Almost all Graphic Design is computational
-* Not advertising
-* Not necessarily generative
-* Our goal: "Write the truest sentence you've ever written" - Hemingway. You can't change anything of the great masters
+    * I started thinking about this class: Almost all Graphic Design is computational
+    * People are still doing it by hand
+    * How would automatic graphic design software look like?
+    * Tiny artists
+    * Not advertising, but graphic arts
+    * Not necessarily generative, but applying real graphic design theory to code
+* Explain goal: Hemingway: "Write the truest sentence you've ever written"
+* What you realize: You can't change anything of the great masters
 * Assignment constraints
 
 A Few Things
