@@ -1,5 +1,5 @@
-About the Class
----------------
+9:30  About the Class
+---------------------
 
 * Welcome. First of all, this is printing code, give people time to leave
 * First time it runs, happy to see so much interest
@@ -13,12 +13,16 @@ About the Class
     * Tiny artists
     * Not advertising, but graphic arts
     * Not necessarily generative, but applying real graphic design theory to code
+* A few things
+    * lids down
+		* _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
+		* Go to AMS together! (visit next week)
 * Explain goal: Hemingway: "Write the truest sentence you've ever written"
 * Assignment constraints
 
 
-Syllabus
---------
+9:40  Syllabus
+--------------
 
 Each week we introduce a new concept
 
@@ -27,28 +31,31 @@ Each week we introduce a new concept
 * You will go to AMS and print a poster
 
 
-Introductions
--------------
+9:40  Introductions
+-------------------
 
 * About Me - show website
 * About you
 
 
-Lecture
--------
+9:55  Lecture
+-------------
 
 
-Using Processing to Create Graphic Prints
------------------------------------------
-
-
-A Few Things
+10:55  Pause
 ------------
 
-* No laptops
-* We present code and product
-* Don't just take my examples and change a few things
-* _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
-* Go to AMS together! (visit next week)
-* Do a git repository for your code! Send me an email with it. 
-* GO TO STEVE SESSION: Wednesday at 1 or 2 and Thursday at 3:30
+
+11:05  Using Processing to Create Graphic Prints
+------------------------------------------------
+
+
+11:35  Reading Discussion
+-------------------------
+
+
+11:50  Assignment Discussion
+----------------------------
+
+* Assignment
+* Git: GO TO STEVE SESSION: Wednesday at 1 or 2 and Thursday at 3:30
