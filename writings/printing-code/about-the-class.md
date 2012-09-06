@@ -20,6 +20,12 @@ About the Class
 Syllabus
 --------
 
+Each week we introduce a new concept
+
+* Examples from history
+* How to translate it in code
+* You will go to AMS and print a poster
+
 
 Introductions
 -------------
