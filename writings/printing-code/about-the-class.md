@@ -8,15 +8,33 @@ About the Class
     2. Introductions
     3. Me talking a lot
 * About Printing Code
-    * I started thinking about this class: Almost all Graphic Design is computational
+    * this class comes from personal experience
     * People are still doing it by hand
-    * How would automatic graphic design software look like?
     * Tiny artists
     * Not advertising, but graphic arts
     * Not necessarily generative, but applying real graphic design theory to code
 * Explain goal: Hemingway: "Write the truest sentence you've ever written"
-* What you realize: You can't change anything of the great masters
 * Assignment constraints
+
+
+Syllabus
+--------
+
+
+Introductions
+-------------
+
+* About Me - show website
+* About you
+
+
+Lecture
+-------
+
+
+Using Processing to Create Graphic Prints
+-----------------------------------------
+
 
 A Few Things
 ------------
