@@ -82,18 +82,20 @@ Week 2: Form
 
 This week we'll look at the most basic subject in the visual arts: manipulation of form. We'll talk about techniques for creating form in Processing, look at examples from the history of graphic design, and introduce basic ways of using randomization and repetition.
 
-<!--
+### Readings for this week
+
+* [Paul Rand - Conversations with Students](http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/readings/rand_conversations.pdf)
+
 ### Class Overview
 
-* Reading Discussion
-* Homework design critique
-* Lecture: **Computational Form and Format**
-* Trip to AMS to see the printers
-
+* Homework presentations
+* Lecture: **Computational Format and Form**
+* Reading discussion
+* Trip to AMS
 
 ### Assignment for next week
 
-* Using the [Processing framework](#link-to-github-repo) I showed in class, write code that outputs 3 different shapes aligned from top to bottom: POSSIBLE: Wet, sharp, chaos, beauty, thunder. Use only black and white. Print on a poster at AMS and bring to class for design critique. MAYBE USE ONLY FOR LOOPS, IN ORDER TO MAKE THEM DO GENERATIVE.-->
+* Write a Processing sketch that outputs 2 shapes on a page. The first shape should be inspired by the word "wet". The second shape should be inspired by the word "sharp".  Use only black and white. Print on a poster at AMS and bring to class for design critique.
 
 
 Week 3: Color
