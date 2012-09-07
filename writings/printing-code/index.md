@@ -22,6 +22,7 @@ Student Github repositories:
 
 * [Mark Breneman](https://github.com/markbreneman/Printing-Code-Assignments)
 * [Mark Kleeb](https://github.com/markkleeb/PrintingCode2012)
+* [Sarah Hallacher](https://github.com/sarahkhallacher/printingcode)
 
 Teacher Info
 ------------
