@@ -11,12 +11,17 @@ Weekly homework can be produced using the digital printers at [NYU’s Advanced 
 
 The class aims not only to teach the students how to create physical prints via code, but also to have something interesting to say about it. The class requires ICM or similar programming background.
 
-Github Repository
+Github Repositories
 -----------------
 
 All code examples and frameworks used in the class can be found on Github:
 
 * [https://github.com/runemadsen/printing-code-2012](https://github.com/runemadsen/printing-code-2012)
+
+Student Github repositories:
+
+* [Mark Breneman](https://github.com/markbreneman/Printing-Code-Assignments)
+* [Mark Kleeb](https://github.com/markkleeb/PrintingCode2012)
 
 Teacher Info
 ------------

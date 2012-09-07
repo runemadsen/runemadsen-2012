@@ -20,6 +20,8 @@ My name is Rune Madsen. I will introduce myself very soon, but first I'll speak 
 * VERY IMPORTANT that you ask questions. Only 7 week class. I know how difficult it is.
 * Laptops only for notes
 
+**Syllabus Walk-through**
+
 **The technology in the class**
 
 * Is it something we can use outside ITP? = YES. Ruby and Sinatra is used everywhere (nytimes)
