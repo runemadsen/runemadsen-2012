@@ -27,3 +27,10 @@ Computers, Pencils, and Brushes by Paul Rand
 
 Software Structures by Casey Reas
 ---------------------------------
+
+
+Conversations With Paul Rand
+----------------------------
+
+* Is there anything Paul Rand says that relate to code and algorithms?
+* Find specific passages and ask: If you should, how would you code this?

@@ -124,6 +124,8 @@ Another movie poster by Saul Bass, using the same simple formula.
 
 The red shape is a very simple collection of polygon, but it still holds tremendous value in its meaning. 
 
+	SHOW: You can plot the points yourself manually, or put them in a loop!
+
 Computational vs. Organic Form
 ------------------------------
 

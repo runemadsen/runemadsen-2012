@@ -128,6 +128,20 @@ Genetic typography. How can a typeface "grow" into multiple forms? This software
 
 <iframe width="600" height="338" src="http://www.youtube.com/embed/up1d_fagy6Q" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
+Here's a dynamic typeface made for the small film studio "Lava Films". It's based on the concept of natural disasters: Things moving to non-anticipated places. So is the font.
+
+<iframe src="http://player.vimeo.com/video/23500126?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava5.jpg" />
+
 
 Fonts in Processing
 -------------------
@@ -184,6 +198,12 @@ We can also fill the outline instead of drawing stroked lines.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_generative_filled)
+
+
+Project Examples Recreated in Processing
+----------------------------------------
+
+Take some of the examples above and recreate in Processing.
 
 
 More Libraries

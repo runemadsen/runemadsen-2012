@@ -208,3 +208,13 @@ Grids in Polar Coordinates
 --------------------------
 
 Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates? (use PDF)
+
+
+Crazy Grids (like sun effects)
+------------------------------
+
+
+Blogs and Links
+---------------
+
+* http://www.subtraction.com/pics/0703/grids_are_good.pdf

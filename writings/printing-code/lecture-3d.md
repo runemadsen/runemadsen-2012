@@ -1,0 +1,1 @@
+Make sagmeister casa de musica logo in 3d model and make it choose a viewport to render

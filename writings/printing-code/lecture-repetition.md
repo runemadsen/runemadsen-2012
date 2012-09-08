@@ -13,3 +13,5 @@ Use examples from graphic design history. Go through examples and projects
 SOL LEWITT!!! A WHOLE CHAPTER ON HIM
 
 Show circle packing from GG
+
+http://nomadinception.com/gallery-arabic-patterns-islamic-patterns-research.aspx
