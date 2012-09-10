@@ -25,12 +25,15 @@ Computers, Pencils, and Brushes by Paul Rand
 * Often it all starts in the head
 
 
-Software Structures by Casey Reas
----------------------------------
-
-
 Conversations With Paul Rand
 ----------------------------
 
-* Is there anything Paul Rand says that relate to code and algorithms?
+The reason why I assigned this text is because it gives a good description of how important the manipulation of form is in graphic design, and the problems that arise from it. It's all about relationships. Form and content.
+
+* What does Rand mean with "design is relationships"
+* Name a specific example of a relationship from your assignment this week?
+* Did any of you treat that relationship in code? Dynamically?
+* Rand talks about decoration vs. design. What does he mean?
+
+* Is there anything Paul Rand says that relates to code and algorithms?
 * Find specific passages and ask: If you should, how would you code this?

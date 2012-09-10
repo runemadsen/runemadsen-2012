@@ -1,3 +1,6 @@
+Format and Form
+===============
+
 Form is the lowest level of graphic design possible: making individual shapes out of color. 
 
 On the most basic level we have space... 
@@ -8,7 +11,7 @@ On the most basic level we have space...
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form.jpg" />
 
-Even here these forms mean something, and this week you'll be working with simple forms to create meaning. You will learn to generate simple forms via code, and learn to _see_ the meaning of their interaction. Remember, simplicity in output requires simplicity in code.
+This week you'll be working with simple forms to create meaning. You will learn to generate simple forms via code, and learn to _see_ the meaning of their interaction. Remember, simplicity in output requires simplicity in code.
 
 Format
 ------
@@ -28,8 +31,8 @@ The horizontal format is very natural, shaped to the way we experience the world
 The vertical format stands out and calls attention to itself. It's more aggressive and seems more "designed", which is probably why most posters have a vertical format.
 
 
-Simple Forms
-------------
+Simple Forms in Processing
+--------------------------
 
 When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning. Processing ships with the simple rect(), ellipse() and triangle() functions.
 
@@ -76,8 +79,8 @@ And some from Conrad Smith:
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" />
 
 
-More Advanced Forms
--------------------
+More Advanced Forms in Processing
+---------------------------------
 
 Now that we realize how form can convey meaning, we can start to play around with more complex shapes. Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
 
@@ -110,7 +113,12 @@ It can be hard to understand how these two control points tell the line to curve
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
 
-By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible. Here are some examples with use of more complex forms.
+By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_loop)
+
+Here are some examples with use of more complex forms.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_anatomy_murder_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bass_anatomy_murder.jpg" />
 
@@ -124,7 +132,44 @@ Another movie poster by Saul Bass, using the same simple formula.
 
 The red shape is a very simple collection of polygon, but it still holds tremendous value in its meaning. 
 
-	SHOW: You can plot the points yourself manually, or put them in a loop!
+
+Sin and Cos
+-----------
+
+Of course, plotting these vertex points by hand in the sketch is rather tedious. If you're making more sophisticated shapes, you will need a for loop. And if you need a loop, you most definitely need sin() and cos().
+
+Often you have a specific location in your sketch, and you want to draw some vertex points around it. For example, you want to draw a hexagon, which requires you to rotate around the location and draw points 6 points in a given radius with equal spacing. What you really want in order to this is answer this question:
+
+<blockquote data-slideshow="self">
+How do I find the x and y of a point that is 450 pixels and 33 degrees away from this point?
+</blockquote>
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos.jpg" />
+
+To do this we use the sin() and cos() functions. If you pass in a rotation and multiply it with your radius, they will return the x (cos) and y (sin) for the point we're trying to find.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_simple)
+
+If we put this in a loop, we can generate objects with this equation:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_hexagon)
+
+Change a single parameter, and you get another shape:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon2_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon2_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_hexagon)
+
+Here's another sketch that rotates text around our center:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_text_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_text.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_text)
+
+And another sketch that varies the radius in every loop to create a wobbly shape:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_wobbly)
 
 Computational vs. Organic Form
 ------------------------------
@@ -204,8 +249,6 @@ Basic Repetition
 ----------------
 
 We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression. In the center of all of this is of course ... the for loop.
-
-Show grid of rectangles with different meanings, from DE
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
 

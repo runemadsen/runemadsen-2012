@@ -25,6 +25,7 @@ Student Github repositories:
 * [Sarah Hallacher](https://github.com/sarahkhallacher/printingcode)
 * [Matt Epler](https://github.com/matthewepler/printing_code)
 * [Kody Trauger](https://github.com/kodytrauger/Printing-Code-Fall-2012)
+* [Kim Ash](https://github.com/kimash/printing-code)
 
 Teacher Info
 ------------
@@ -90,9 +91,9 @@ This week we'll look at the most basic subject in the visual arts: manipulation 
 
 ### Class Overview
 
+* Reading discussion
 * Homework presentations
 * Lecture: **Computational Format and Form**
-* Reading discussion
 * Trip to AMS
 
 ### Assignment for next week
@@ -153,6 +154,12 @@ In this class we'll look at grid systems and how to use them as guiding constrai
 
 Week 6: Logo
 ------------
+
+<!-- 
+### Readings for this week
+
+* Dynamic Identities in Cultural and Public Contexts, Introduction.
+-->
 
 To make a well-designed logo requires skills in form, color, type and grid. We'll look at everything from traditional logos to organic, computational logos, and we'll go through different techniques for making generative logos in Processing. This week's assignment is a 1 week midterm project.
 
@@ -225,6 +232,7 @@ These books might come in handy before, during or after the semester. You will n
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9) Want to know about typefaces? This is the book.
 * [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2). Want to know about color? This is the book.
 * A Little-Known Story About a Movement, a Magazine, and the Computer's Arrival in Art: New Tendencies and Bit International
+* Dynamic Identities in Cultural and Public Contexts - Ulrike Felsing
 
 
 Recommended Blogs
