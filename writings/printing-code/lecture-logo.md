@@ -1,3 +1,6 @@
+Logo
+====
+
 1. How do we design something that identifies a certain object, person or group?
 2. Can we use code to create dynamic identities
 
@@ -16,6 +19,8 @@ Show all the Paul Rand logos
 
 What to think about when designing logos
 ----------------------------------------
+
+Don't play around with connecting letters. 
 
 
 Organic Logos

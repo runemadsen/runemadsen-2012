@@ -2,6 +2,25 @@ THIS CLASS IS ABOUT PATTERNS
 
 USE Type+Code p. 61 ->
 
+
+Building patterns is really about division.
+
+Recursion
+---------
+
+Explain what it is...
+
+
+First Penrose tiling:
+https://en.wikipedia.org/wiki/Penrose_tiling
+
+THIS CLASS SHOULD MOSTLY BE ABOUT SUBSTITUTION RULES.
+OH GOD: http://tilings.math.uni-bielefeld.de/substitution_rules/
+http://tilings.math.uni-bielefeld.de/people/d_frettl_ouml_h
+
+
+
+
 Reading: The meaning of repetition, p. 87 in A Designer's Art. There's also a bunch of examples for lecture.
 Use stuff from “Repetition” from Form and Code.
 Use Arabic Patterns?
