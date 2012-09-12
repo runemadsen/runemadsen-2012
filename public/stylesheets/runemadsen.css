@@ -503,6 +503,10 @@ canvas.clock {
 /* Slideshow slides
 ----------------------------------------------------------------- */
 
+body#slides {
+	background-color: #222222;
+}
+
 #slides blockquote {
 	margin: 0;
 	padding: 0;

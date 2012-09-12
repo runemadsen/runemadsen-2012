@@ -34,21 +34,23 @@ The vertical format stands out and calls attention to itself. It's more aggressi
 Simple Forms in Processing
 --------------------------
 
-When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning. Processing ships with the simple rect(), ellipse() and triangle() functions.
+When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning.
 
-The rectangle is a mastodon.
+You all know the simple drawing functions in Processing: rect(), ellipse() and triangle().
+
+The rectangle is very solid and recognizable.
 	
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rect.jpg" />
 	
-Notice how the circle appears smaller than the rectangle, even though they have equal dimensions.
+The circle is smooth, and appears smaller than the rectangle, even though they have equal dimensions.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle.jpg" />
 
-The triangle is one of the simplest polygons possible.
+The triangle has movement, and is one of the simplest polygons possible.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle.jpg" />
 	
-These shapes already provide a range of expressions, and you need to chose them wisely as they all have a distinct style. Everything is design. 
+These shapes already provide a range of expressions, and you need to chose them wisely as they all have a distinct style.
 
 A rectangle is used to streamline the packaging for a carton for dictating machines, conveying technology.
 
@@ -62,7 +64,9 @@ A triangle is used to create movement (neither the square or the circle has move
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle.jpg" />
 
-Here are some examples with uses of simple shapes from Josef Muller-Brockmann:
+As Paul Rand said in today's text: Everything is Design! Design is a journey from complexity to simplicity, and today we're looking at the most simplistic stuff.
+
+As you hopefully experienced in your assignment, massively different outcomes can be produced if you constrain yourself to simple shapes. Here are some examples from Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs.jpg" />
 
@@ -70,13 +74,75 @@ Here are some examples with uses of simple shapes from Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_circles.jpg" />
 
-And some from Conrad Smith:
+Here are some newer examples from Conrad Smith.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad1.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad1.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad2.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad2.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" />
+
+Placement
+---------
+
+One thing is to construct forms. Another is to size them and place them within the given format.
+
+It matters where we place these forms within the format. A circle can seem lost in space
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space.jpg" />
+	
+... and dominant in space just by changing its placement and proportion.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space.jpg" />
+
+However, it's not only the size of the shapes, but also the size of the format that matters. Here's the exact same circle that before looked to be lost in space, now dominant in relation to its format.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" />
+
+These are the options every designer must think about, weigh, and choose between. A rectangle can lay dormant in space...
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect.jpg" />
+	
+... and become agitated by just changing its placement
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect.jpg" />
+	
+The important thing here is that how we order things matter. With more form comes more organization. Often, it's as much the white space that needs to be in balance, as it's the shapes themselves.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_4.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8.png" />
+
+So how do we solve this problem of placement?
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9.png" />
+
+One way is to adhere to a grid. We will talk much more about this in a coming class.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
+
+To place an object within a given format requires basic math. Therefore many of the methods we use to align and place objects on the screen, like the golden ratio, have inherent algorithmic characteristics.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
+
+This Processing sketch shows a number of different ways of placing objects on the screen, that being in the left, right, center, golden ratio or on the proximity of other objects.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
+
+The "small" Beetle ad is a great example of how to attract attention to a design by using size and placement.
 
 
 More Advanced Forms in Processing
@@ -184,66 +250,6 @@ Other shapes have inherent organic qualities, and are harder to replicate on a c
 
 This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is it fake recreating pen pressure on a line, when the output is a pixel grid? Is this an argument for a new aesthetic?
 	
-
-Placement
----------
-
-It matters where we place these forms in space. A circle can seem lost in space
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space.jpg" />
-	
-... and dominant in space just by changing its placement and proportion.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space.jpg" />
-
-However, it's not only the size of the shapes, but also the size of the format that matters. Here's the exact same circle that before looked to be lost in space, now dominant in relation to its format.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" />
-
-These are the options every designer must think about, weigh, and choose between. A rectangle can lay dormant in space...
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect.jpg" />
-	
-... and become agitated by just changing its placement
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect.jpg" />
-	
-The important thing here is that how we order things matter. With more form comes more organization. Often, it's as much the white space that needs to be in balance, as it's the shapes themselves.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_2.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_4.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_5.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_6.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_7.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_8.png" />
-
-So how do we solve this problem of placement?
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9.png" />
-
-One way is to adhere to a grid. We will talk much more about this in a coming class.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10.png" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
-
-To place an object within a given format requires basic math. Therefore many of the methods we use to align and place objects on the screen, like the golden ratio, have inherent algorithmic characteristics.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
-
-This Processing sketch shows a number of different ways of placing objects on the screen, that being in the left, right, center, golden ratio or on the proximity of other objects.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
-
-The "small" Beetle ad is a great example of how to attract attention to a design by using size and placement.
  	
 Basic Repetition
 ----------------

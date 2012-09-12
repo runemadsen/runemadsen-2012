@@ -88,19 +88,20 @@ var SlideshowView = Backbone.View.extend({
 		var image_height  = $(el).height();
 		var height_ratio  = window_height / image_height;
 		var width_ratio   = window_width / image_width;
-			
-		var w;
-			
-		if (height_ratio < width_ratio)
+		
+		if(image_width > window_width || image_height > window_height)
 		{
-			$(el).css("width", "auto")
-			$(el).css("height", "100%")
-			
-		}
-		else
-		{
-			$(el).css("width", "100%")
-			$(el).css("height", "auto")
+			if (height_ratio < width_ratio)
+			{
+				$(el).css("width", "auto")
+				$(el).css("height", "100%")
+
+			}
+			else
+			{
+				$(el).css("width", "100%")
+				$(el).css("height", "auto")
+			}
 		}
 		
 		var w = $(el).width();
@@ -108,6 +109,10 @@ var SlideshowView = Backbone.View.extend({
 		$(el).css("left", "50%");
 		$(el).css("margin-left", -w/2);
 		
+		var h = $(el).height();
+		$(el).css("position", "absolute");
+		$(el).css("top", "50%");
+		$(el).css("margin-top", -h/2);
 	}
 	
 });
