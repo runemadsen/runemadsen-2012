@@ -26,6 +26,7 @@ Student Github repositories:
 * [Matt Epler](https://github.com/matthewepler/printing_code)
 * [Kody Trauger](https://github.com/kodytrauger/Printing-Code-Fall-2012)
 * [Kim Ash](https://github.com/kimash/printing-code)
+* [Hyeyoung Yoon](https://github.com/HyeYoun/PrintingCode-Hyeyoung)
 
 Teacher Info
 ------------
