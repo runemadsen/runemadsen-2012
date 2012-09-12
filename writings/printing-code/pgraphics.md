@@ -40,7 +40,7 @@ That fixed our problem with having too big a window. But if you run this code, t
 	  canvas.beginDraw(); 
 	  canvas.rect(0, 0, 50, 50);
 	  canvas.endDraw();
-	  image(canvas, canvas.width * 0.2, canvas.height * 0.2);
+	  image(canvas, 0, 0, canvas.width * 0.2, canvas.height * 0.2);
 	  saveFrame("grab.png");
 	}
 
@@ -54,8 +54,16 @@ Almost there. This scales our giant drawing to the main window. Great. But if yo
 	  canvas.beginDraw(); 
 	  canvas.rect(0, 0, 50, 50);
 	  canvas.endDraw();
-	  image(canvas, canvas.width * 0.2, canvas.height * 0.2);
+	  image(canvas, 0, 0, canvas.width * 0.2, canvas.height * 0.2);
 	  canvas.save("grab.png");
 	}
 
-And that's it. We can talk more about it in the class.
+If you look in the main repository, there's a little more code than this. Most of this code is in the calculate_resize_ratio() function. This is now something you should worry too much about. It's basically just automatically figuring out how much we need to resize the pgraphics object to fit it on the screen. This is a pretty easy calculation. In the previous example, I would find the ratio by dividing the height of the window with the height of the PGraphics object:
+
+float ratio = height / canvas.height; // return 0.151515
+
+This means that the canvas has to resized to 15% of its original size to fit on the screen. We can easily to this by multiplying the canvas height with this new ratio when drawing:
+
+image(canvas, 0, 0, canvas.width * ratio, canvas.height * ratio);
+
+The code is a little more complicated than that, as we want it to check which dimension is the biggest, and resize to that dimension. We'l talk more about that in class.
