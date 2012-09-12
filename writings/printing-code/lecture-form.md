@@ -7,34 +7,36 @@ On the most basic level we have space...
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" />
 	
-...and form. 
+...and fill. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form.jpg" />
 
-This week you'll be working with simple forms to create meaning. You will learn to generate simple forms via code, and learn to _see_ the meaning of their interaction. Remember, simplicity in output requires simplicity in code.
+This week you'll be working with simple forms to create meaning.
 
 Format
 ------
 
 All designs starts with a constrained area - let's call it the _format_. The format dictates the way we understand the forms in it.
 
+The rectangular format makes no attempt to emphasize any direction. It concentrates the viewport into a well-known shape, and makes it easy to understand the placement of the elements inside of it.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_square.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_square.jpg" />
 	
-The rectangular format makes no attempt to emphasize any direction. It concentrates the viewport into a well-known shape, and makes it easy to understand the placement of the elements inside of it.
+The horizontal format is very natural, shaped to the way we experience the world. The human brain is optimized for analyzing horizontal movement (that orange thing moving behind the trees is probably a tiger!) in opposed to vertical movement.
 	
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_horizontal.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_horizontal.jpg" />
 	
-The horizontal format is very natural, shaped to the way we experience the world. The human brain is optimized for analyzing horizontal movement (that orange thing moving behind the trees is probably a tiger!) in opposed to vertical movement.
+The vertical format stands out and calls attention to itself. It's more aggressive and seems more "designed", which is probably why most posters have a vertical format.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_vertical.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/format_vertical.jpg" />
 
-The vertical format stands out and calls attention to itself. It's more aggressive and seems more "designed", which is probably why most posters have a vertical format.
+Even a simple thing like choosing the bounds of your design matters.
 
 
 Simple Forms in Processing
 --------------------------
 
-When we have the format in place we can place shapes in it. With color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning.
+When we have the format in place we can draw stuff in it. Using color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning. That's what design is.
 
 You all know the simple drawing functions in Processing: rect(), ellipse() and triangle().
 
@@ -46,11 +48,11 @@ The circle is smooth, and appears smaller than the rectangle, even though they h
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/circle.jpg" />
 
-The triangle has movement, and is one of the simplest polygons possible.
+The triangle is one of the simplest polygons possible, but it has a lot more movement than the square and the circle.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/triangle.jpg" />
 	
-These shapes already provide a range of expressions, and you need to chose them wisely as they all have a distinct style.
+With these simple shapes we already have a range of expressions, and you need to chose them wisely as they all have a distinct style.
 
 A rectangle is used to streamline the packaging for a carton for dictating machines, conveying technology.
 
@@ -60,13 +62,13 @@ The circle is not a native shape of the cheese, but chosen to convey smoothness 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_circle.jpg" />
 
-A triangle is used to create movement (neither the square or the circle has movement) for a knife product.
+A triangle is used to create a sense of sharpness for a knife product.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle.jpg" />
 
 As Paul Rand said in today's text: Everything is Design! Design is a journey from complexity to simplicity, and today we're looking at the most simplistic stuff.
 
-As you hopefully experienced in your assignment, massively different outcomes can be produced if you constrain yourself to simple shapes. Here are some examples from Josef Muller-Brockmann:
+Hopefully, you experienced in your assignment how very different outcomes can be produced even if you constrain yourself to simple shapes. Here are some examples from Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs.jpg" />
 
@@ -85,13 +87,13 @@ Here are some newer examples from Conrad Smith.
 Placement
 ---------
 
-One thing is to construct forms. Another is to size them and place them within the given format.
+One thing is to construct forms. Another thing is to size and place them within the given format.
 
 It matters where we place these forms within the format. A circle can seem lost in space
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space.jpg" />
 	
-... and dominant in space just by changing its placement and proportion.
+... and dominant in space just by changing its placement and size.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_in_space.jpg" />
 
@@ -99,7 +101,7 @@ However, it's not only the size of the shapes, but also the size of the format t
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dominant_format.jpg" />
 
-These are the options every designer must think about, weigh, and choose between. A rectangle can lay dormant in space...
+These are the options every designer must think about, weigh, and choose between. Because it changes meaning. A rectangle can lay dormant in space...
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/dormant_rect.jpg" />
 	
@@ -107,7 +109,7 @@ These are the options every designer must think about, weigh, and choose between
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/agitated_rect.jpg" />
 	
-The important thing here is that how we order things matter. With more form comes more organization. Often, it's as much the white space that needs to be in balance, as it's the shapes themselves.
+The important thing here is that how we place things in the format matters. We can do this all sorts of ways.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_1.png" />
 
@@ -127,38 +129,56 @@ So how do we solve this problem of placement?
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_9.png" />
 
-One way is to adhere to a grid. We will talk much more about this in a coming class.
+One way is to use a grid.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_10.png" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
 
-To place an object within a given format requires basic math. Therefore many of the methods we use to align and place objects on the screen, like the golden ratio, have inherent algorithmic characteristics.
+We will talk much more about this in a coming class.
+
+The bottom line with this is that you need to start thinking about now only what you draw, but where you draw it.
+
+The "small" Beetle ad is a classic example of why this matters.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
+
+
+Placement in Processing
+-----------------------
+
+Now that we know placement matters, let's look at how to do this in Processing. To place an object within a given format requires basic math. These are illustrated in this example:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
 
-This Processing sketch shows a number of different ways of placing objects on the screen, that being in the left, right, center, golden ratio or on the proximity of other objects.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
-
-The "small" Beetle ad is a great example of how to attract attention to a design by using size and placement.
+The only thing we can't do yet it calculating the proximity of an object, but we'll get to that later.
 
 
 More Advanced Forms in Processing
 ---------------------------------
 
+Now that we know some basic placement, how do we approach creating more complex shapes in code?
+
+### beginShape() and endShape()
+
 Now that we realize how form can convey meaning, we can start to play around with more complex shapes. Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
 
-Points created with the vertex() function always connect to the next point in a straight line. This can be used for e.g. drawing a hexagon.
+### vertex()
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/hexagon_with_vertex)
+Points created with the vertex() function always connect to the next point in a straight line. This can be used for e.g. drawing a house.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/vertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/vertex.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/vertex)
+
+### curveVertex()
 	
 Points created with the curveVertex() function will draw a curved line, guided by the point before it and after it. This means that you need a minimum of 4 points to show a single curve, as the first and last point will always be invisible. In this sketch I add 3 to the vertex loop to continue the vertex on top of points already on the line, in order to draw enough guiding points for the circle to complete.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/curve_vertex_circle)
+
+### bezierVerterx()
 
 The bezierVertex function is by far the most flexible of the 3 vertex functions, as it draws points using bezier curves. Most people have a faint idea of how bezier curves work, but let's take a deeper look on how to draw things with Bezier curves.
 
@@ -171,18 +191,17 @@ Although invented by the mathematician Paul de Casteljau, bezier curves got thei
 
 A bezier curve is a formula that describes how to draw a line from one point to another, using 2 control points. The two control points determine the curve of the line going to that specific point. In Processing, you always start a shape with a simple vertex point, and then draw bezierVertex points after it.
 
+It can be hard to understand how these two control points tell the line to curve like that. This animation shows how the curve of the line is calculated by doing simple vector math on the anchor points and control points.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement_small.gif" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement.gif" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex_movement)
 
-It can be hard to understand how these two control points tell the line to curve like that. This animation shows how the curve of the line is calculated by doing simple vector math on the anchor points and control points.
+Here's a simple shape created with bezierVertex and vertex.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
 
-By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now create any shape possible.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_loop)
+By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now basically create any shape possible.
 
 Here are some examples with use of more complex forms.
 
@@ -199,23 +218,65 @@ Another movie poster by Saul Bass, using the same simple formula.
 The red shape is a very simple collection of polygon, but it still holds tremendous value in its meaning. 
 
 
+Computational vs. Organic Form
+------------------------------
+
+When you start to look at these different shapes, you realize that some of them have inherent algorithmic characteristics. Even Michelangelo will be loose if competing with a computer in drawing a perfect circle. Changing the size of a circle in code is many times faster than doing it by hand. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational.jpg" />
+
+Other shapes have inherent organic qualities, and are harder to replicate on a computer. You can draw a random line across a piece of paper in less than one second, but it will take much longer to code it with beginShape(). 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic.jpg" />
+
+This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is this an argument for a new aesthetic?
+
+
+Basic Repetition
+----------------
+
+Of course, plotting these vertex points by hand in the sketch is rather tedious. If you're making more sophisticated shapes, you will need a for loop. It gets tedious to plot in all the points of a shape manually.
+
+Even though for loops are in all programming languages, many people have a hard time understanding how they work. Let's do a generative shape with for loops.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_loop)
+
+
+For loops are extremely powerful, and they can be used throughout the design process in Processing. Let's look at a few examples and try to re-create them in Processing. Here is a uniform grid of hearts by Paul Rand.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+
+How would you create that in Processing?
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/repetition_example)
+
+
 Sin and Cos
 -----------
 
-Of course, plotting these vertex points by hand in the sketch is rather tedious. If you're making more sophisticated shapes, you will need a for loop. And if you need a loop, you most definitely need sin() and cos().
-
-Often you have a specific location in your sketch, and you want to draw some vertex points around it. For example, you want to draw a hexagon, which requires you to rotate around the location and draw points 6 points in a given radius with equal spacing. What you really want in order to this is answer this question:
+... and if you need a loop, you most definitely need sin() and cos(). Most times it comes down to a simple question like this:
 
 <blockquote data-slideshow="self">
 How do I find the x and y of a point that is 450 pixels and 33 degrees away from this point?
 </blockquote>
 
+So you want to do this:
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos.jpg" />
+
+People think it's hard, but it really isn't.
 
 To do this we use the sin() and cos() functions. If you pass in a rotation and multiply it with your radius, they will return the x (cos) and y (sin) for the point we're trying to find.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_simple)
+
+This can be used to put something on the perimeter of a circle. Now we can go back and try to do that in our placement example:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
 
 If we put this in a loop, we can generate objects with this equation:
 
@@ -236,60 +297,42 @@ And another sketch that varies the radius in every loop to create a wobbly shape
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_wobbly)
-
-Computational vs. Organic Form
-------------------------------
-
-Some of these shapes have inherent algorithmic characteristics. Even Michelangelo will suffer defeat if competing with a computer in drawing a perfect circle. Changing the size of a circle in code is many times faster than doing it by hand. 
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/computational.jpg" />
-
-Other shapes have inherent organic qualities, and are harder to replicate on a computer. You can draw a random line across a piece of paper in less than one second, but it will take much longer to code it. 
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/organic.jpg" />
-
-This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is it fake recreating pen pressure on a line, when the output is a pixel grid? Is this an argument for a new aesthetic?
-	
- 	
-Basic Repetition
-----------------
-
-We can introduce more complexity by introducing more forms. Even with simple repetition, we can build complex outputs. Repetition is banal when writing code. It is the distribution of the repeated elements that creates meaning. The repetition of rectangles has fundamental significance in computational design, because the pixel grid is the lowest level of expression. In the center of all of this is of course ... the for loop.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
-
-Here is a uniform grid of hearts.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/repetition_example)
-
-We can control spacing of shapes in this way using a for loop.
-
-	Show how to control the spacing of the elements by using i (smaller and smaller or larger and larger spacing)
 	
 
 Basic Randomness
 ----------------
 
-The basic concept of randomness is that you can let the computer choose a random number between two numbers. This can be used to make the same code produce extremely varied outputs, and is often used for positioning and shape proportions. 
+Another important thing is the concept of randomness.
+
+The basic concept of randomness is that you can let the computer choose a random number between two numbers. This seems pretty basic, but it can be used to create extremely varied outputs.
+
+You set the constraints, the computer creates something within those constraints. It's Sol Lewitt all over again.
+
+Let's look at some more examples and re-create them in Processing..
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2.jpg" />
 
 Randomness - or the idea of randomness - has been used way before the computer. Here it's more of Paul Rand's work, using random positioning and rotation. This is a simulation of pure randomness. The dots overlap and vary in their spacing.
 
+This is very easy to create in Processing. Create 30 ellipses in a loop and give them all random position.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example)
 
-This is very easy to create in Processing. Create 30 ellipses in a loop and give them all random position.
+Here it's a cover for the children's book "I know a lot of things". Notice how the rectangles are randomized, but still spaced out so they never overlap. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1.jpg" />
 
-Here it's a cover for the children's book "I know a lot of things". Notice how the rectangles are randomized, but still spaced out so they never overlap.
+The same technique can be used in code by tweaking the rectangle grid example. Before drawing each rectangle we rotate and change the position randomly from its spot in the grid. If we choose the parameters wisely, we'll never see overlapping squares.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example2)
 
-The same technique can be used in code by tweaking the rectangle grid example. Before drawing each rectangle we rotate and change the position randomly from its spot in the grid. If we choose the parameters wisely, we'll never see overlapping squares.
+
+Project Examples and Code
+-------------------------
+
+Using these newly learned techniques we can look at a few advanced projects and try to re-create them in Processing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen.jpg" />
 
