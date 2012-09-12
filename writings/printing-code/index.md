@@ -27,6 +27,8 @@ Student Github repositories:
 * [Kody Trauger](https://github.com/kodytrauger/Printing-Code-Fall-2012)
 * [Kim Ash](https://github.com/kimash/printing-code)
 * [Hyeyoung Yoon](https://github.com/HyeYoun/PrintingCode-Hyeyoung)
+* [Patrick Muth](https://github.com/pmuth/printing-code-f12)
+* [Alessandra Villaamil](https://github.com/avillaamil/PrintingCode)
 
 Teacher Info
 ------------
