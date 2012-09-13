@@ -351,12 +351,6 @@ Another piece by Eno Henze where he uses simple repetition and random form. This
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_ambushes_example)
 
 The same visual can be created with Processing and beginShape().
-	
-
-Libraries
----------
-
-The [Geomerative](www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
 
 
 More Form Examples
@@ -410,3 +404,8 @@ A series of generative book covers made by Karsten Schmidt.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster.jpg" />
 
 A poster for the literary festival "Poetry on the Road", using Processing to generate a graphic print. Notice how the logo uses whitespace inside the letters to emphasize "on the road" - like a car driving through the poetry. With no arrows or anything pointing in a direction, this logo creates movement just by subtracting mass from the letters.
+
+Libraries
+---------
+
+The [Geomerative](www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
