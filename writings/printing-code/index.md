@@ -31,6 +31,8 @@ Student Github repositories:
 * [Alessandra Villaamil](https://github.com/avillaamil/PrintingCode)
 * [Yucef Merhi](https://github.com/yucef/printing_code)
 * [Monica Bate](https://github.com/loadix/Printing-Code)
+* [Ben Light](https://github.com/blightdesign)
+* [Claire Mitchell](https://github.com/subcontext/PrintingCode)
 
 Teacher Info
 ------------
