@@ -21,7 +21,7 @@ This paper is 17" wide, which means that your final image needs to be 5100 pixel
 
 We have 2 rolls of this paper.
 
-Premium Semimatte Photo Paper
+### Premium Semimatte Photo Paper
 
 This is the **photo** paper, and you have to use the "Mac Print A" or "Mac Print B" printers for it. The paper is not glossy, but looks more like photo paper.
 
