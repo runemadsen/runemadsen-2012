@@ -105,7 +105,7 @@ This week we'll look at the most basic subject in the visual arts: manipulation 
 
 ### Assignment for next week
 
-* Write a Processing sketch that outputs 2 shapes on a page. The first shape should be inspired by the word "wet". The second shape should be inspired by the word "sharp".  Use only black and white. You have to use beginShape(), and all vertex points have to be created in a for loop. No manual plotting. Print on a poster at AMS and bring to class for design critique.
+* Write a Processing sketch that outputs 2 shapes on a page. The first shape should be inspired by the word "wet". The second shape should be inspired by the word "sharp".  Use only black and white. You have to use beginShape(), and all vertex points have to be created in a for loop. No manual plotting. Print on a poster at AMS and bring to class for design critique. Please read: [Preparing Your Image for AMS](/printing-code-2012/preparing-for-ams)
 
 
 Week 3: Color
