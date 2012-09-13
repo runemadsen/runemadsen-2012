@@ -12,6 +12,11 @@ Form Notes
 * == Setting constraints is for guiding you. Whenever you feel you have too many options, constrain yourself
 * Anything we need to go through?
 
+**Important things I noticed**
+
+* Setting up one repo, not many.
+* Don't put git repos in a git repo
+
 
 9:40  Homework Presentations
 ----------------------------

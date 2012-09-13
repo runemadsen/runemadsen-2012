@@ -29,6 +29,8 @@ Student Github repositories:
 * [Hyeyoung Yoon](https://github.com/HyeYoun/PrintingCode-Hyeyoung)
 * [Patrick Muth](https://github.com/pmuth/printing-code-f12)
 * [Alessandra Villaamil](https://github.com/avillaamil/PrintingCode)
+* [Yucef Merhi](https://github.com/yucef/printing_code)
+* [Monica Bate](https://github.com/loadix/Printing-Code)
 
 Teacher Info
 ------------
