@@ -28,6 +28,9 @@ The conclusion to this must be that color theory matters: Based on simple calcul
 
 In this example the small squares looks like the exact same color, but they are not even close. Because they keep a relative distance in brightness to their respective grounds, they look the same to the eye. We will investigate this further later when talking about simultaneous contrast.
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_example2)
+
 	
 What is Color?
 --------------
@@ -380,11 +383,16 @@ For generative drawings we often want to [calculate the perceived brightness](ht
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/brightness_perceived)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/opposite_brightness)
 
 
 Generating Gradients
 --------------------
+
+
+
+Possible:
+
 
 
 Gerstners Programmatic Color Exercise
@@ -396,12 +404,4 @@ Gerstners Programmatic Color Exercise
 Toxiclibs
 ---------
 
-
 Make all toxiclibs examples into a few, simple sketches
-
-
-Links
------
-
-* http://kuler.adobe.com
-* http://colorschemedesigner.com
