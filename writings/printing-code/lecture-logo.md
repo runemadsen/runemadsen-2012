@@ -30,19 +30,6 @@ The difficult thing when creating generative logos is setting up constraints to 
 
 Let's go through these and talk about how we might create them in Processing.
 
-
-Here's a dynamic identity Stefan Sagmeister made for the Seed Media Group, based on the phyllotaxis algorithm.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed2.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed3.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed4.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed5.jpg" />
-
 Here's a dynamic identity made for the small film studio "Lava Films". It's based on the concept of natural disasters: Things moving to non-anticipated places. So is the font.
 
 <iframe src="http://player.vimeo.com/video/23500126?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -82,9 +69,7 @@ Here's [even](http://superserious.net/work18.html), [more](http://www.underconsi
 A Few Techniques for Organic Logos
 ----------------------------------
 
-sin & cos - distributing stuff around the edge of a circle
 
-for loops
 
 
 
@@ -101,14 +86,15 @@ Case: Security Forum
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security4.jpg" />
 
-This logo is extremely easy to recreate, however it provides us a good reason to talk about sin() and cos().
+This logo is extremely easy to recreate with sin() and cos().
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/security)
 
-Again, we would probably need to implement some constraints, so the same dot is not chosen over and over, and to provide spacing between the lines.
+However, this code has a few problems. The biggest one is that the same dot can be picked over and over. We need to implement constraints to make the generative output a little cleaner:
 
-
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example_advanced_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example_advanced.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/security_advanced)
 
 Case: The MIT Logo
 ------------------
@@ -172,6 +158,36 @@ Here's an example of how to approach this kind of logo in Processing:
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/musica)
 
 What you'll see is that whenever you code something generative, the designer in you has to establish some kind of constraints in the code. Here the colors cannot be too similar to the background, nor should they be too similar inside the logo. Working in HSB would make it possible for you to handle the brightness if too big, small, etc.
+
+
+Case: Seed Media Group
+----------------------
+
+Here's a dynamic identity Stefan Sagmeister made for the Seed Media Group, based on the phyllotaxis algorithm.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed5.jpg" />
+
+Here is the form recreated in Processing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/seed)
+	
+However, to grab the pixels from an image we need to know the bounds of the shape, and we can do this by creating a holder class and counting the size. We then normalize the positions and choose pixel colors from our sample image:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_example2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_example2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/seed_class)
+
+If you add a little randomness, we now have an organic logo:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples.jpg" />
 
 
 Case: Sun Effects

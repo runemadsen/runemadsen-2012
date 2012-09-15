@@ -172,8 +172,7 @@ To make a well-designed logo requires skills in form, color, type and grid. We'l
 
 <!--### Assignment for next week
 
-* Even though you only have 1 week to do it, this assignment is your mid-term. Something about designing a logo.
-Have any ideas? We can go through it now? Or else come to office hours. -->
+* Even though you only have 1 week to do it, this assignment is your mid-term. Do a dynamic logo for something. Print 3 times on a poster. Do not tell us for what. We will guess it in class. -->
 
 Week 7: _Midterm Presentations_
 -----------------------------
