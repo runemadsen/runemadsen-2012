@@ -425,7 +425,8 @@ To be able to create generative color themes, Toxiclibs also has a _ColorTheme_ 
 
 One of the greatest things about toxi.color is the _ColorTheory_ class that gives us access to all the different color theme types we looked at earlier.
 
-ColorTheory
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colortheory)
 
 Toxiclibs also has a class for generating gradients.
 
