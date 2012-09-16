@@ -4,4 +4,4 @@ Show examples of Adam Harvey’s spam art.
 Assignment: Create a photo filter
 Use the 8-bit photo filter as an assignment: Teaches them to think about bits and bytes.
 
-TOXICLIBS!!!
+TOXICLIBS!!! Especially the color example "ImageColors"

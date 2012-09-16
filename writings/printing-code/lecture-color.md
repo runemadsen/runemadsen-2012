@@ -1,4 +1,14 @@
+Computational Color
+===================
+
 <iframe width="600" height="338" src="http://www.youtube.com/embed/MXQozTxQSiE" frameborder="0" allowfullscreen></iframe>
+
+If you expect to come out of this class knowing simple rules like "red is for love" or "green is for happiness", you'll be extremely disappointed today. Color is way too subjective and dynamic to allow for so simple definitions. Actually, I'd rather stay away from telling you which colors to use when. Today, we will do 2 things instead:
+
+* Learn to, simply, observe color and its characteristics.
+* Learn the physics of color and how to approach it in code.
+
+For most of you, using color is probably a question of "what values do I put in fill()". We'll try to add a little more techniques today.
 
 The woman in the red dress is a character in a training program built by the rebels in the Matrix. More specifically, [_Mouse_](http://en.wikipedia.org/wiki/List_of_minor_characters_in_the_Matrix_series#Mouse) designed her... and he picked the color red for her dress. Although many find it hard to work creatively with color, very few people would question why he chose this. It's attractive, erotic, wild and draws attention.
 
@@ -8,9 +18,7 @@ There are 2 reasons why I choose to show this scene:
 
 2. Once you learn to control color, you'll be like Neo moving through the Matrix. You'll see things that no one else sees.
 
-All of the things I'll talk about in this class are tools and systems for manipulating color. They are in no way a set of final instructions, like "use red when you want to symbolize love". Color is way too subjective for those kinds of arguments. This class is about showing you different ways of approaching the art of color combination, and especially to show you how closely tied programming and color theory are in reality.
-
-Combining color is a 2-step process: 1) Plan (objective) 2) Implement and tweak (subjective). Tell story about Matisse who first wrote his colors on the sketch papers, and then tweaked them when painting.
+Combining color is a 2-step process: 1) Plan (objective) 2) Implement and tweak (subjective). Matisse first wrote his colors on the sketch papers, and then tweaked them when painting.
 
 Color is one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
 
@@ -30,6 +38,12 @@ In this example the small squares looks like the exact same color, but they are 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_example2)
+
+
+Why Color Matter: Gerstners Programmatic Color Exercise
+-------------------------------------------------------
+
+[everything from my note in Designing Programmes. Don't program, just show the pictures.]
 
 	
 What is Color?
@@ -386,22 +400,28 @@ For generative drawings we often want to [calculate the perceived brightness](ht
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/opposite_brightness)
 
 
-Generating Gradients
---------------------
-
-
-
-Possible:
-
-
-
-Gerstners Programmatic Color Exercise
--------------------------------------
-
-[everything from my note in Designing Programmes. Don't program, just show the pictures.]
-
-
 Toxiclibs
 ---------
 
-Make all toxiclibs examples into a few, simple sketches
+Now that we know how color works in Processing, we can take a look at the Toxiclibs library that will help us doing generative color. Here's an example on how you can use the _TColor_ class to create and manipulate single colors. Notice how the library stores color values in normalized values (from 0 to 1), so we need to set the Processing colorMode to that.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_tcolor)
+
+The library has a great collection type called _ColorList_ that allows you to manipulate all colors in the list at once, and do other interesting manipulations.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colorlist)
+
+
+ColorRange - a range to pick colors in between
+NamedColor: file://localhost/Users/rune/Projects/Processing2/libraries/toxiclibs/colorutils/docs/index.html
+
+ColorTheory
+
+ColorThemes - make both examples into one, and go through all the words you can put in it.
+
+Toxiclibs also has a class for generating gradients.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/gradient_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/gradient.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_gradient)
