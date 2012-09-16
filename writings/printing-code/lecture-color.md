@@ -413,13 +413,19 @@ The library has a great collection type called _ColorList_ that allows you to ma
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colorlist)
 
+Toxiclibs has a class called _ColorRange_ that allows you to pick random colors within a specific hue, saturation and brightness. Here's an example of how to use it.
 
-ColorRange - a range to pick colors in between
-NamedColor: file://localhost/Users/rune/Projects/Processing2/libraries/toxiclibs/colorutils/docs/index.html
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colorrange)
+
+To be able to create generative color themes, Toxiclibs also has a _ColorTheme_ class that can contain many of these _ColorRange_ objects and pick random color themes from them.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colortheme)
+
+One of the greatest things about toxi.color is the _ColorTheory_ class that gives us access to all the different color theme types we looked at earlier.
 
 ColorTheory
-
-ColorThemes - make both examples into one, and go through all the words you can put in it.
 
 Toxiclibs also has a class for generating gradients.
 
