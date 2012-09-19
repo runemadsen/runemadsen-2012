@@ -167,57 +167,6 @@ Here's an example of extremely bad use of a monochromatic color scheme. The only
 
 Johannes Itten spoke of 7 different color contrasts that any graphic artist needs to master. Two of these are especially tied to monochrome color: The contrast of light and dark and the contrast of saturation.
 
-Contrast of Light and Dark
---------------------------
-
-> Day and night, light and darkness - this polarity is of fundamental significance in human life and nature generally - Johannes Itten
-
-> If one is not able to distinguish the difference between a higher tone and a lower tone, one probably should not make music - Josef Albers
-
-The contrast of light and dark is very simple to understand: whenever we have two colors with a difference in brightness, a clear contrast between the two colors will exist. The HSB color mode makes it very obvious what kind of brightness we are working with.
-
-However, there's a big problem with computational light/dark scales: they are not linear. One might think that you can make a scale of equally contrasted rectangles by moving from brightness 10 to brightness 90 in steps of 10.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_wrong)
-
-You might notice how there's a sharp contrast between first dark rectangles, but almost no contrast between any rectangle with 60 or more in brightness. First discovered in the so-called Weber-Fechner Law, a linear increase in brightness will distribute the contrast visually exponentially from white to black. An exponential increase in brightness will distribute the contrast linearly across all segments.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness.jpg" />
-
-We can of course grow our brightness exponentially in the code instead:
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_right)
-
-Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
-
-Front cover designed by Paul Rand. Notice the light-dark contrast and use of monochromatic color scheme.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre.jpg" />
-
-Another example of light-dark contrast by Paul Rand.
-
-Contrast of Saturation
-----------------------
-
-One way you can experiment with a monochromatic color scheme is by investigating the contrast of saturation. This is the one of Itten's contrasts that is only clearly visible in monochromatic color schemes, as it's drowned out by other contrasts. It describes the contrast that a brilliant color has towards a dull color of the same hue.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_saturation)
-
-This is an example of 2 colors with contrast in saturation.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish.jpg" />
-
-Here's an example of saturation contrast in the painting "Fish Magic" by Paul Klee. Although there is also a light/dark contrast, it's specifically the brilliance of the fish contrasted to the dull background that makes it come alive.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation.jpg" />
-
-Josef Muller-Brockmann uses saturated color boxes in contrast with the gray background.
-
 
 Going Around the Wheel in Code
 ------------------------------
@@ -310,6 +259,57 @@ Here's another example of a triadic color scheme with hue 90 as the base hue.
 
 TODO: Examples
 
+Contrast of Light and Dark
+--------------------------
+
+> Day and night, light and darkness - this polarity is of fundamental significance in human life and nature generally - Johannes Itten
+
+> If one is not able to distinguish the difference between a higher tone and a lower tone, one probably should not make music - Josef Albers
+
+The contrast of light and dark is very simple to understand: whenever we have two colors with a difference in brightness, a clear contrast between the two colors will exist. The HSB color mode makes it very obvious what kind of brightness we are working with.
+
+However, there's a big problem with computational light/dark scales: they are not linear. One might think that you can make a scale of equally contrasted rectangles by moving from brightness 10 to brightness 90 in steps of 10.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_wrong)
+
+You might notice how there's a sharp contrast between first dark rectangles, but almost no contrast between any rectangle with 60 or more in brightness. First discovered in the so-called Weber-Fechner Law, a linear increase in brightness will distribute the contrast visually exponentially from white to black. An exponential increase in brightness will distribute the contrast linearly across all segments.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_brightness.jpg" />
+
+We can of course grow our brightness exponentially in the code instead:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_right)
+
+Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada.jpg" />
+
+Front cover designed by Paul Rand. Notice the light-dark contrast and use of monochromatic color scheme.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/rand_sartre.jpg" />
+
+Another example of light-dark contrast by Paul Rand.
+
+Contrast of Saturation
+----------------------
+
+One way you can experiment with a monochromatic color scheme is by investigating the contrast of saturation. This is the one of Itten's contrasts that is only clearly visible in monochromatic color schemes, as it's drowned out by other contrasts. It describes the contrast that a brilliant color has towards a dull color of the same hue.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_saturation)
+
+This is an example of 2 colors with contrast in saturation.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/klee_fish.jpg" />
+
+Here's an example of saturation contrast in the painting "Fish Magic" by Paul Klee. Although there is also a light/dark contrast, it's specifically the brilliance of the fish contrasted to the dull background that makes it come alive.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brockmann_saturation.jpg" />
+
+Josef Muller-Brockmann uses saturated color boxes in contrast with the gray background.
+
 Contrast of Hue
 ---------------
 
@@ -345,7 +345,9 @@ Notice how this color scheme has a slight rich cold/warm contrast in the complem
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_tetrad2)
 
-ITTEN COLD-WARM CONTRAST
+
+Cold / Warm Contrast
+--------------------
 
 It's important to realize the dynamic nature of the cold/warm contrast. People tend to think that "red" is warm and "blue" is cold. As proved by Albers, here's an example of how extremely fragile that balance is.
 
