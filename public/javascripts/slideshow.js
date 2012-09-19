@@ -14,6 +14,11 @@ var SlideshowView = Backbone.View.extend({
 	
 	initialize: function()
 	{		
+		// make all h2 headings data-slideshow
+		_.each($("h2"), function(el) {
+			$(el).attr("data-slideshow", "self");
+		});
+		
 		this.slideshowElements = $("*[data-slideshow]");
 		this.model.bind("change", this.render, this);
 		this.add_events();

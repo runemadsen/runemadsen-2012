@@ -507,13 +507,48 @@ body#slides {
 	background-color: #222222;
 }
 
+#slides h2 {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 36px;
+	line-height: 40px;
+	background-color: #FFF;
+	border-left: none;
+	padding: 50px 10% 0px 10%;
+}
+
 #slides blockquote {
 	margin: 0;
 	padding: 0;
 	font-style: italic;
 	font-size: 30px;
 	line-height: 40px;
-	background-color: transparent;
+	height: 100%;
+	width: 100%;
+	background-color: #FFF;
+	border-left: none;
+	padding: 50px 10% 0px 10%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#slides pre {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 26px;
+	line-height: 40px;
+	background-color: #FFF;
 	border-left: none;
 	padding: 50px 10% 0px 10%;
 }
