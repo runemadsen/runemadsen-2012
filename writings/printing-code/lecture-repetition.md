@@ -10,9 +10,9 @@ Recursion
 
 Explain what it is...
 
-
 First Penrose tiling:
 https://en.wikipedia.org/wiki/Penrose_tiling
+Same as: do flashy cube pattern as an "easy" pattern.
 
 THIS CLASS SHOULD MOSTLY BE ABOUT SUBSTITUTION RULES.
 OH GOD: http://tilings.math.uni-bielefeld.de/substitution_rules/

@@ -33,6 +33,7 @@ Student Github repositories:
 * [Monica Bate](https://github.com/loadix/Printing-Code)
 * [Ben Light](https://github.com/blightdesign)
 * [Claire Mitchell](https://github.com/subcontext/PrintingCode)
+* [Sophie Laffont](https://github.com/sl2631/printing-code)
 
 Teacher Info
 ------------

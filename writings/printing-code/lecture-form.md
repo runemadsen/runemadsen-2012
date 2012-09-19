@@ -408,4 +408,4 @@ A poster for the literary festival "Poetry on the Road", using Processing to gen
 Libraries
 ---------
 
-The [Geomerative](www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
+The [Geomerative](http://www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
