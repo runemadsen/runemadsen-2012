@@ -34,6 +34,7 @@ Student Github repositories:
 * [Ben Light](https://github.com/blightdesign)
 * [Claire Mitchell](https://github.com/subcontext/PrintingCode)
 * [Sophie Laffont](https://github.com/sl2631/printing-code)
+* [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
 
 Teacher Info
 ------------
