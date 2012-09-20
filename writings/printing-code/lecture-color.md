@@ -273,19 +273,19 @@ A triadic color can be said to be the opposite of an analogous color. Where anal
 
 Here's a "pure" triadic color scheme with colors found by rotating 120 degrees on each side (internally an Equilateral triangle with 60 degree internal angles).
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tridiadic.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic)
 
 You may notice how this is the primary colors, which makes sense given the calculation.
 
 An interesting thing is to compare a triadic color scheme in RGB with the corresponding scheme in a subtractive color mode like RYB.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_sub_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tridiadic_sub.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_sub_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_sub.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic)
 
 You may notice how the blue/yellow has a triadic relationship in RGB, but are complementary colors in RYB.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tridiadic2.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic2)
 
 Here's another example of a triadic color scheme with hue 90 as the base hue.
@@ -440,7 +440,7 @@ Goethe and later Itten proposed the following extension values for colors:
 
 Here's those numbers visualized. Notice how balanced this color wheel is compared to Itten's normal color wheel with constant color sizes.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ittens.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_itten.jpg" />
 
 And a simple processing sketch that calculates ratio between 2 color pairs using those extension values.
 
