@@ -35,6 +35,7 @@ Student Github repositories:
 * [Claire Mitchell](https://github.com/subcontext/PrintingCode)
 * [Sophie Laffont](https://github.com/sl2631/printing-code)
 * [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
+* [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
 
 Teacher Info
 ------------
