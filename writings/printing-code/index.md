@@ -214,15 +214,19 @@ Week 12: 3D
 
 In the same way as motion can be used in the graphic arts, so too can 3D. Even though we are printing on paper, we can still simulate 3D in our code, twist and turn objects, and randomize the resulting print. We'll look at recent developments in graphic design and 3D, including 3-dimensional typefaces and logos.
 
-Week 13: _Final Presentations 1_
+Week 13: Workday
 --------------------------------
 
-First week of final presentations
+We will work on the final products.
 
 Week 14: _Final Presentations 2_
 --------------------------------
 
-Second week of final presentations
+Final presentations
+
+<!--
+The final should be: Make a poster with form, color and typography for a specific event. Find friends who need a poster. If you can't find any, make one for the ITP show. Show my residents poster as example.
+-->
 
 
 Recommended Readings

@@ -161,13 +161,13 @@ Creating Your Own Fonts
 All you need to start designing your own fonts in Processing is the beginShape, vertex and bezierVertex. Here's a simple sketch that draws an "H" on the screen.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_beginshape)
 
 
 However, this is not scalable. What if you want to draw "h" several places in different sizes? Then it's easier to normalize the numbers and scale them up when drawing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_beginshape_normalized)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_beginshape_normalized)
 
 
 Playing With Font Outlines
@@ -176,12 +176,12 @@ Playing With Font Outlines
 First we need to figure out how to load a font and get its outline. This sketch shows how to that.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points)
 
 Now that we have the outline, we can use those points to place objects along the line.
 	
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_dots)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_dots)
 	
 Here's a little more complex sketch that uses beginShape to draw curved lines between the outline points.
 
@@ -192,12 +192,12 @@ Here's a little more complex sketch that uses beginShape to draw curved lines be
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_generative)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_generative)
 
 We can also fill the outline instead of drawing stroked lines.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/font_to_points_generative_filled)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_generative_filled)
 
 
 Project Examples Recreated in Processing
