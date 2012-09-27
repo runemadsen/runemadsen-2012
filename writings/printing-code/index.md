@@ -124,9 +124,12 @@ In this class we'll dive into color theory and look at color handling in Process
 * This week you'll create an abstract representation ([examples](http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/assignment.jpg)) of your identity. Pick one of the color schemes from today's lecture and write a Processing sketch that outputs abstract forms in colors using your chosen scheme. The only constraint - besides that it needs to as simple as possible - is that the colors have to be different every time you run your sketch. This means that you will need to use "random()". This is an exercise in writing code that is generative, but within constraints. Every output should be different, but still effectively communicate who you are. You can write your own color code or use the Toxiclibs library. Print the result that you like the most, and bring to class a poster that you feel expresses who you are as a person.
 
 
-
 Week 4: Typography
 ------------------
+
+> To create a typeface that is easily malleable in the computational medium, the constituent shapes must be reduced to compact numerical forms.
+>
+> _John Maeda_
 
 <!-- 
 ### Readings for this week
@@ -137,7 +140,17 @@ Read: Something from Bringhurst (one could be p. 25)
 
 This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.
 
-<!--Create a font. Nothing more-->
+### Class Overview
+
+* Toxiclibs and Graphics review
+* Homework presentations
+* Lecture: **[Computational Typography](/printing-code-2012/lecture-typography)**
+* Possible group assignment
+
+### Assignment for next week
+
+* This week you're going to design a word. Pick a word and make a typeface around it. The important thing is that you draw the letters using some kind of rule-based logic. This means that you should not draw the font by hand first, and then translate that into code. Instead, look at the examples we looked at in class, and try to come up with your own typeface system - even if it's very simple. You can create it from scratch, or use an already existing font and manipulate its outline points. If you wish to use your own printing mechanism, this would be the perfect time to do so.
+
 
 Week 5: Grids
 -------------
