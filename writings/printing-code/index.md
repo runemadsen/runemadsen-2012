@@ -36,6 +36,8 @@ Student Github repositories:
 * [Sophie Laffont](https://github.com/sl2631/printing-code)
 * [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
 * [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
+* [Adria Navarro-Lopex](https://github.com/araid/PrintingCode)
+* [Ali Sajjadi](https://github.com/psionn/PrintingCode)
 
 Teacher Info
 ------------
