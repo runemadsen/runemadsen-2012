@@ -128,7 +128,7 @@ class RuneMadsen < Sinatra::Base
       { :img => "IMG_1093.JPG" },
       { :img => "IMG_1094.JPG" },
       { :img => "IMG_1095.JPG" },
-      { :img => "IMG_1096.JPG" },
+      { :img => "IMG_1096.JPG", :buyer => "Xavier Aaronson" },
       { :img => "IMG_1097.JPG" },
       { :img => "IMG_1098.JPG" },
       { :img => "IMG_1099.JPG" },
