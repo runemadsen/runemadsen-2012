@@ -114,6 +114,45 @@ class RuneMadsen < Sinatra::Base
     erb :"printing-code-2012/index"
   end
   
+  # Other
+  # -------------------------------------------------------------------
+  
+  get "/sales" do
+    
+    @url = "http://runemadsen-2012.s3.amazonaws.com/sales/"
+    @sales = [
+      { :img => "IMG_1089.JPG" },
+      { :img => "IMG_1090.JPG", :buyer => "Scott Wayne Indiana" },
+      { :img => "IMG_1091.JPG" },
+      { :img => "IMG_1092.JPG" },
+      { :img => "IMG_1093.JPG" },
+      { :img => "IMG_1094.JPG" },
+      { :img => "IMG_1095.JPG" },
+      { :img => "IMG_1096.JPG" },
+      { :img => "IMG_1097.JPG" },
+      { :img => "IMG_1098.JPG" },
+      { :img => "IMG_1099.JPG" },
+      { :img => "IMG_1100.JPG" },
+      { :img => "IMG_1101.JPG" },
+      { :img => "IMG_1102.JPG" },
+      { :img => "IMG_1103.JPG", :buyer => "Molly Schwartz" },
+      { :img => "IMG_1104.JPG" },
+      { :img => "IMG_1105.JPG" },
+      { :img => "IMG_1106.JPG" },
+      { :img => "IMG_1107.JPG" },
+      { :img => "IMG_1108.JPG" },
+      { :img => "IMG_1109.JPG" },
+      { :img => "IMG_1110.JPG" },
+      { :img => "IMG_1111.JPG" },
+      { :img => "IMG_1112.JPG" },
+      { :img => "IMG_1113.JPG" },
+      { :img => "IMG_1114.JPG" },
+      { :img => "IMG_1115.JPG" },
+    ]
+    
+    erb :'other/sales'
+  end
+  
   # 404
   # -------------------------------------------------------------------
   

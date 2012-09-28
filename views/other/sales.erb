@@ -1,0 +1,15 @@
+<% @sales.each do |sale| %>
+	<div class="ver_spacing_2">
+		<div class="grid_4">
+			<img src="<%= @url + sale[:img] %>" />
+		</div>
+		<div class="grid_8">
+			<% if sale[:buyer] %>
+				<h2>Sold</h2>
+				<p><%= sale[:buyer] %></p>
+			<% end %>
+			&nbsp;
+		</div>
+		<div class="clear"></div>
+	</div>
+<% end %>
