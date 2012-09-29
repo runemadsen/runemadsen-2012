@@ -121,7 +121,7 @@ class RuneMadsen < Sinatra::Base
     
     @url = "http://runemadsen-2012.s3.amazonaws.com/sales/"
     @sales = [
-      { :img => "IMG_1089.JPG" },
+      { :img => "IMG_1089.JPG", :buyer => "Harry Romon-Torres" },
       { :img => "IMG_1090.JPG", :buyer => "Scott Wayne Indiana" },
       { :img => "IMG_1091.JPG" },
       { :img => "IMG_1092.JPG", :buyer => "Antonius" },
@@ -141,9 +141,9 @@ class RuneMadsen < Sinatra::Base
       { :img => "IMG_1106.JPG", :buyer => "Christinas Veninde" },
       { :img => "IMG_1107.JPG" },
       { :img => "IMG_1108.JPG" },
-      { :img => "IMG_1109.JPG" },
+      { :img => "IMG_1109.JPG", :buyer => "Harry Romon-Torres" }, # seno.bpm@gmail.com, 917-459-8890
       { :img => "IMG_1110.JPG" },
-      { :img => "IMG_1111.JPG" },
+      { :img => "IMG_1111.JPG", :buyer => "Gabe Barcia-Colombo" },
       { :img => "IMG_1112.JPG" },
       { :img => "IMG_1113.JPG", :buyer => "Erica Newman" },
       { :img => "IMG_1114.JPG" },
