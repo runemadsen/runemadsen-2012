@@ -200,22 +200,24 @@ Week 7: _Midterm Presentations_
 
 This week will be midterm presentations.
 
-Week 8: Transformation
-----------------------
 
-What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
-
-Week 9: Repetition
+Week 8: Repetition
 ------------------
 
 Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
 
 <!--Patterns....-->
 
-Week 10: Randomization
+Week 9: Randomization
 ----------------------
 
 Randomization is about letting the computer choose for us. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
+
+
+Week 10: Transformation
+----------------------
+
+What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
 
 <!--Start finals-->
 
