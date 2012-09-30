@@ -21,9 +21,13 @@ Recursion
 
 Explain what it is...
 
+Same as: do flashy cube pattern as an "easy" pattern.
+
 
 Periodic Tiling
 ---------------
+
+Simple for loop
 
 Recreate some Sol Lewitt instructions
 
@@ -39,14 +43,37 @@ http://tilings.math.uni-bielefeld.de/people/d_frettl_ouml_h
 First Penrose tiling:
 https://en.wikipedia.org/wiki/Penrose_tiling (maybe recreate in Processing)
 
+**Simple aperiodic tiling**
 
-Patterns in Processing
-----------------------
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple.jpg" />
 
-The simplest division pattern possible
-Same as: do flashy cube pattern as an "easy" pattern.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple2.jpg" />
 
-A little more advanced
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/aperiodic_tiling)
+
+**Slightly more advanced aperiodic tiling**
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division5.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/aperiodic_tiling2)
 
 A little more advanced again
 
@@ -94,3 +121,4 @@ Links
 
 * [Islamic Patterns Research Project](http://nomadinception.com/gallery-arabic-patterns-islamic-patterns-research.aspx)
 * [Pattern Substitution Rules](http://tilings.math.uni-bielefeld.de/substitution_rules/)
+* [More substitutions](http://web.media.mit.edu/~black/tiles/aperiodic.html)

@@ -123,12 +123,12 @@ class RuneMadsen < Sinatra::Base
     @sales = [
       { :img => "IMG_1089.JPG", :buyer => "Harry Romon-Torres" },
       { :img => "IMG_1090.JPG", :buyer => "Scott Wayne Indiana" },
-      { :img => "IMG_1091.JPG" },
+      { :img => "IMG_1091.JPG", :buyer => "Daniel Shiffman" },
       { :img => "IMG_1092.JPG", :buyer => "Antonius" },
       { :img => "IMG_1093.JPG", :buyer => "Christina" },
       { :img => "IMG_1094.JPG", :buyer => "Steve Klise" },
       { :img => "IMG_1095.JPG", :buyer => "Amy Haycock" },
-      { :img => "IMG_1096.JPG", :buyer => "Xavier Aaronson" },
+      { :img => "IMG_1096.JPG", :buyer => "Doug Kanter" },
       { :img => "IMG_1097.JPG", :buyer => "Kate Watson" },
       { :img => "IMG_1098.JPG", :buyer => "Zeven Rodriguez" },
       { :img => "IMG_1099.JPG", :buyer => "Will Jennings & Lia Martinez" },
@@ -142,11 +142,11 @@ class RuneMadsen < Sinatra::Base
       { :img => "IMG_1107.JPG" },
       { :img => "IMG_1108.JPG" },
       { :img => "IMG_1109.JPG", :buyer => "Harry Romon-Torres" }, # seno.bpm@gmail.com, 917-459-8890
-      { :img => "IMG_1110.JPG" },
+      { :img => "IMG_1110.JPG", :buyer => "Robin Reid" },
       { :img => "IMG_1111.JPG", :buyer => "Gabe Barcia-Colombo" },
       { :img => "IMG_1112.JPG" },
       { :img => "IMG_1113.JPG", :buyer => "Erica Newman" },
-      { :img => "IMG_1114.JPG" },
+      { :img => "IMG_1114.JPG", :buyer => "Michael Edgecumbe" },
       { :img => "IMG_1115.JPG" },
     ]
     
