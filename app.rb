@@ -32,25 +32,33 @@ class RuneMadsen < Sinatra::Base
   end
   
   get '/work/:route' do
+    
+    
     @active = :work
     @project = Project.first :route => params[:route]
-    erb :'work/show'
+
+    if @project.has_own_layout
+      erb "/work/individual/#{@project.route}".to_sym
+    else
+      erb :'work/show'
+    end
   end
   
   get '/work/:route/edit' do
     protected!
-    @post = Post.first :route => params[:route]
-    erb :'blog/edit'
+    @project = Project.first :route => params[:route]
+    erb :'work/edit'
   end
   
   post '/work' do
     protected!
+    params[:project][:has_own_layout] = !params[:has_own_layout].nil?
     if params[:id]
       @project = Project.get(params[:id])
       @project.update(params[:project])
     else
       @project = Project.new(params[:project])
-      @project.route = params[:post][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') unless params[:project][:route]
+      @project.route = params[:project][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') unless params[:project][:route]
       @project.save
     end
     redirect "/work/#{@project.route}"

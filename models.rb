@@ -58,6 +58,7 @@ class Project
   property :long_description,   Text    
   property :image,              String, :length => 255  
   property :freeform,            Text
+  property :has_own_layout,     Boolean, :default => false
   
   property :published,          Boolean, :default => true
   property :ordering,           Integer, :default => 99

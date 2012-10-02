@@ -1,0 +1,41 @@
+<div class="grid_9" id="admin">
+
+	<h2>New Project</h2>
+	
+	<form action="/work" method="POST">
+			
+		<input type="hidden" name="id" value="<%= @project.id %>" />	
+			
+		<label for="project[title]">Title</label>
+		<input type="text" name="project[title]" value="<%= @project.title %>">
+		
+		<label for="project[route]">Route</label>
+		<input type="text" name="project[route]"  value="<%= @project.route %>">
+		
+		<label for="project[image]">Route</label>
+		<input type="text" name="project[image]"  value="<%= @project.image %>">
+		
+		<label for="project[short_description]">Short Description</label>
+		<textarea name="project[short_description]" rows="8" cols="20"><%= @project.short_description %></textarea>
+		
+		<label for="project[long_description]">Long Description</label>
+		<textarea name="project[long_description]" rows="8" cols="40"><%= @project.long_description %></textarea>
+		
+		<label for="project[freeform]">Freeform</label>
+		<textarea name="project[freeform]" rows="8" cols="40"><%= @project.freeform %></textarea>
+		
+		<label for="has_own_layout">Has Own Layout?</label>
+		<input type="checkbox" name="has_own_layout" value="true"<% if @project.has_own_layout %>checked="checked"<% end %>>
+		
+		<p><input type="submit" value="Save"></p>
+	</form>
+
+</div>
+<div class="grid_3">
+
+	<p>Images should be 600px wide</p>
+	<p>Amazon is: http://runemadsen-2012.s3.amazonaws.com/blog/</p>
+
+</div>
+<div class="clear"></div>
+

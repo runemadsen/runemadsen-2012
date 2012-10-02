@@ -1,0 +1,11 @@
+<div class="project" >
+	<div class="grid_5">
+		<a href="/work/<%= @project.route %>"><h2><%= @project.title %></h2></a>
+		<div class="long-description"><%= @project.long_description %></div>
+	</div>
+	<div class="grid_7">
+		<div class="clear"></div>
+		<%= @project.freeform %>
+	</div>
+	<div class="clear"></div>
+</div>
