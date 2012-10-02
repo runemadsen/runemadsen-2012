@@ -26,10 +26,34 @@ class RuneMadsen < Sinatra::Base
     erb :'work/index'
   end
   
+  get '/work/new' do
+    protected!
+    erb :'work/new'
+  end
+  
   get '/work/:route' do
     @active = :work
     @project = Project.first :route => params[:route]
     erb :'work/show'
+  end
+  
+  get '/work/:route/edit' do
+    protected!
+    @post = Post.first :route => params[:route]
+    erb :'blog/edit'
+  end
+  
+  post '/work' do
+    protected!
+    if params[:id]
+      @project = Project.get(params[:id])
+      @project.update(params[:project])
+    else
+      @project = Project.new(params[:project])
+      @project.route = params[:post][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') unless params[:project][:route]
+      @project.save
+    end
+    redirect "/work/#{@project.route}"
   end
   
   # Blog
@@ -52,11 +76,35 @@ class RuneMadsen < Sinatra::Base
     erb :'blog/index'
   end
   
+  get '/blog/new' do
+    protected!
+    erb :'blog/new'
+  end
+  
   get '/blog/:route' do
     @active = :blog
     @post = Post.first :route => params[:route]
     return 404 if @post.nil?
     erb :'blog/show'
+  end
+  
+  get '/blog/:route/edit' do
+    protected!
+    @post = Post.first :route => params[:route]
+    erb :'blog/edit'
+  end
+  
+  post '/blog' do
+    protected!
+    if params[:id]
+      @post = Post.get(params[:id])
+      @post.update(params[:post])
+    else
+      @post = Post.new(params[:post])
+      @post.route = params[:post][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') unless params[:post][:route]
+      @post.save
+    end
+    redirect "/blog/#{@post.route}"
   end
   
   # Info
@@ -166,25 +214,6 @@ class RuneMadsen < Sinatra::Base
   get '/admin' do
     protected!
     erb :"admin/index"
-  end
-  
-  post '/admin/blog' do
-    protected!
-    if params[:id]
-      @post = Post.get(params[:id])
-      @post.update(params[:post])
-    else
-      @post = Post.new(params[:post])
-      @post.route = params[:post][:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') if params[:post][:route] = ""
-      @post.save
-    end
-    redirect "/blog/#{@post.route}"
-  end
-  
-  get '/blog/:route/edit' do
-    protected!
-    @post = Post.first :route => params[:route]
-    erb :'blog/edit'
   end
   
 end
