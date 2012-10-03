@@ -35,6 +35,8 @@ The last type of grid is often called a **hierarchical grid**, although it's kin
 Using a Grid
 ------------
 
+The grid systems were made popular with the wave of Swiss Style graphic design. The point is to work creatively within the grid, but also break free when you need it.
+
 Even a simple grid gives you a lot of variety in placing your content. You use the modules as basis for larger content areas. This creates alignment and balance in your design.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1.jpg" />
@@ -42,6 +44,20 @@ Even a simple grid gives you a lot of variety in placing your content. You use t
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3.jpg" />
+
+
+Grid Examples
+-------------
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid1.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid3.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid3.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid4.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5.jpg" />
 
 
 Int vs. Float
@@ -61,7 +77,7 @@ The simplest possible grid to make is a manuscript grid that only requires 4 var
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript_example.jpg" />
 [Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)  
-[Using Classes - Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_no_class)
+[Using Classes - Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/manuscript_grid_class)
 
 A nice way of encapsulating these 4 variables is by creating a class that can keep track of them and hide them from the main file. He I've created a _Column_ class to hold the column values. Nothing else changed. By extracting the grid code into a class we can add convenient helper methods to that class without cluttering out main source file.
 
@@ -97,11 +113,6 @@ The big problem is that we do not know what is used and what is not. If we rando
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap)
 
 
-Coding a Hierarchical Grid
---------------------------
-Examples
-Processing Code - This should be simple. Just set up a bunch of specified modules.
-
 Karl Gerstner's Flexible Grid
 -----------------------------
 
@@ -125,11 +136,12 @@ Even though it's quite some years ago now, Karl Gerstner is one of the few graph
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner9.jpg" />
 
-> Grids can turn design into a simple act of placement of elements into a series of column. While this can provide the consistency, grids can be a trap for designers; creating uninspired, homogenous layouts. This is especially the case with simple grids. For Capital, Gerstner developed an complex grid which was flexible and allowed rapid, creative and consistent layouts. As a grid grows in complexity, it provides “a maximum number of constants with the greatest possible variability.
->
-> The grid looks incredibly complex at first, but upon examination, shows itself as a number of grids overlaid upon each other. While each grid overlay was often used separate, they were designed so if columns were mixed together, they would still maintain a harmony between each other. This way the magazine’s layout is consistent from page to page and between the different grid versions, separate or combined.
->
-> [aisleone.net](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/)
+<blockquote data-slideshow="self">
+<p>Grids can turn design into a simple act of placement of elements into a series of column. While this can provide the consistency, grids can be a trap for designers; creating uninspired, homogenous layouts. This is especially the case with simple grids. For Capital, Gerstner developed a complex grid which was flexible and allowed rapid, creative and consistent layouts. As a grid grows in complexity, it provides “a maximum number of constants with the greatest possible variability.</p>
+
+<p>The grid looks incredibly complex at first, but upon examination, shows itself as a number of grids overlaid upon each other. While each grid overlay was often used separate, they were designed so if columns were mixed together, they would still maintain a harmony between each other. This way the magazine’s layout is consistent from page to page and between the different grid versions, separate or combined.</p>
+</blockquote>
+Source: [aisleone.net](http://www.aisleone.net/2010/design/celebrating-karl-gerstner/)
 
 This concept of multiple grids is extremely powerful, and seems to be a perfect fit for the computer.
 
@@ -159,10 +171,15 @@ Gerstner for Capital. Needed a flexible grid that provided flexibility across al
 
 In code, it's amazingly easy to make something with multiple grids. Here's an example with the column grid and modular grid code combined into the smae processing sketch.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_example.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple.jpg" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2_example.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple2.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/grid_multiple)
+
+Here's a pretty ugly example illustrating multiple grids:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_bruce_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_multiple_bruce.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/grid_multiple_bruce)
 
 
 Random Grids
@@ -204,17 +221,8 @@ We have already looked at how we can choose random placements in a modular grid 
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap_random_size)
 
 
-Grids in Polar Coordinates
---------------------------
-
-Talk about grids in polar coordinate systems. Use GG polar coordinate converter. What is a grid in polar coordinates? (use PDF)
-
-
-Crazy Grids (like sun effects)
-------------------------------
-
-
 Blogs and Links
 ---------------
 
-* http://www.subtraction.com/pics/0703/grids_are_good.pdf
+* [Subtraction: Grids are Good](http://www.subtraction.com/pics/0703/grids_are_good.pdf)
+* [Smashing Magazine: Lessons from Swiss Style Graphic Design](http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/)

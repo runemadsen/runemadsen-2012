@@ -1,0 +1,2 @@
+* Explain PGraphics better. Students need to have a better understanding of how to scale stuff, etc.
+* The typography class should have more about basic typography. Go through normal graphic design use of fonts, baseline designs, etc.

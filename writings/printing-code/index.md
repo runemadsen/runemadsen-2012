@@ -157,28 +157,20 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 Week 5: Grids
 -------------
 
-<!-- 
-### Readings for this week
-
-* Grid Systems in Graphic Design - Josef Muller-Brockmann
--->
-
-
 > A grid system is not just a set of rules to follow... but it's also a set of rules to play off of–to break, even. Given the right grid – the right system of constraints – very good designers can create solutions that are both orderly and unexpected.
 >
 > _Khoi Vinh, New York Times_
 
 In this class we'll look at grid systems and how to use them as guiding constraints for your designs. We'll go through different types of grids, implement these in code, and see how it translates to the world of computational design.
 
-<!--### Class Overview
+### Class Overview
 
-* Reading Discussion
 * Homework design critique
-* Lecture: Computational Grids
+* Lecture: **[Computational Grid Systems](/printing-code-2012/lecture-grid)**
 
 ### Assignment for next week
 
-* For next you should bring a graphic poster that uses a custom grid system.-->
+* Create a Processing sketch that outputs a poster with elements placed via a grid system. This is an exercise in creating your own grid system, and simple tweaking of my example variables won't be enough. Try to investigate what happens when you randomize the grid? What happens when you rotate it? What happens when you overlay multiple grids? What happens if you build a grid system with triangles instead of rectangles? The most important thing is to come up with an idea first, and then implement it step by step. What you're designing is up to you. You can use text, forms and colors, just not images. Think about all the things we've learned (form, color, typography) and bring to class a simple poster using these things in a grid.
 
 Week 6: Logo
 ------------
