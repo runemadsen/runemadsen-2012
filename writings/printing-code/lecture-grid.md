@@ -71,7 +71,8 @@ Before we start diving into code examples, we need to clarify a simple thing abo
 
 Coding a Manuscript Grid
 ------------------------
-Examples
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_manuscript.jpg" />
 
 The simplest possible grid to make is a manuscript grid that only requires 4 variables: x,y,width,height to define the rectangle in which we place content.
 
@@ -87,7 +88,7 @@ Very simple Processing Code
 Coding a Column Grid
 --------------------
 
-Examples
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/column_grid)
@@ -98,7 +99,7 @@ Examples
 Coding a Modular Grid
 ---------------------
 
-Examples
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_simple)
@@ -107,7 +108,7 @@ Examples
 What is Used? What is Not?
 --------------------------
 
-The big problem is that we do not know what is used and what is not. If we randomly selects modules, we'll end up selecting the same module over and over. This can be solved by adding a "used" boolean to the module class and only selecting modules that are not used.
+The big problem is that we do not know what is used and what is not. If we randomly select a modules, we'll end up selecting the same module over and over. This can be solved by adding a "used" boolean to the module class and only selecting modules that are not used.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_no_overlap_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_no_overlap.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap)
