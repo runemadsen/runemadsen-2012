@@ -66,7 +66,7 @@ Organic Logos
 
 The difficult thing when creating generative logos is setting up constraints to make the logo look good - but different - on every run. This can be hard.
 
-<iframe src="http://player.vimeo.com/video/23500126?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/23500126?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/lava.jpg" />
 
@@ -80,7 +80,7 @@ The difficult thing when creating generative logos is setting up constraints to 
 
 Here's an organic identity for ITI, which is basically just multiple variations of an unfolded box (hello Sol Lewitt!).
 
-<iframe src="http://player.vimeo.com/video/32502124?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/32502124?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/iti_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/iti.jpg" />
 
@@ -153,7 +153,7 @@ Here's a Processing sketch that recreates the basic output of the MIT logo. A lo
 Case: Casa de Musica
 --------------------
 
-<iframe width="600" height="338" src="http://www.youtube.com/embed/URmKSyKAK5w" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="338" src="http://www.youtube.com/embed/URmKSyKAK5w" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 Based on the building.
 
