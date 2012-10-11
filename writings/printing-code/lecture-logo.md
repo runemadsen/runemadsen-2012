@@ -9,27 +9,62 @@ It's hard to show specific techniques for how to do dynamic logos - so I took a 
 Important: It starts with an idea. Then an implementation. Like John Cage said: "Do not try to create and analyze at the same time. They are different processes".
 
 
-What is a Logo?
----------------
+What is a (successful) Logo?
+----------------------------
 
-Show all the Paul Rand logos
+A symbol that says everythin about an entity in the simplest possible way.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/okasan_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/okasan.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/ibm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/ibm.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/look_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/look.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/families_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/families.jpg" />
 
 
+Logo Process
+------------
 
-What to think about when designing logos
-----------------------------------------
+Don't play around with connected letters. THINK!
 
-* Don't play around with connecting letters. THINK!
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand1.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand2.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand3.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand4.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand5.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand6.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand7_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand7.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand8_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand8.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand9.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand10.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand11_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand11.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand12_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand12.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand13_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/rand13.png" />
 
 
 Organic Logos
 -------------
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/designing_programmes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/designing_programmes.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/gerstner.jpg" />
+
 The difficult thing when creating generative logos is setting up constraints to make the logo look good - but different - on every run. This can be hard.
-
-Let's go through these and talk about how we might create them in Processing.
-
-Here's a dynamic identity made for the small film studio "Lava Films". It's based on the concept of natural disasters: Things moving to non-anticipated places. So is the font.
 
 <iframe src="http://player.vimeo.com/video/23500126?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
