@@ -4,7 +4,6 @@ Logo
 1. How do we design something that identifies a certain object, person or group?
 2. Can we use code to create dynamic identities
 
-
 It's hard to show specific techniques for how to do dynamic logos - so I took a bunch of them and recreated in Processing.
 
 Important: It starts with an idea. Then an implementation. Like John Cage said: "Do not try to create and analyze at the same time. They are different processes".
@@ -20,7 +19,7 @@ Show all the Paul Rand logos
 What to think about when designing logos
 ----------------------------------------
 
-Don't play around with connecting letters. 
+* Don't play around with connecting letters. THINK!
 
 
 Organic Logos
@@ -65,16 +64,6 @@ Identity for the city of Melbourne. All variations are built around the points o
 Here's [even](http://superserious.net/work18.html), [more](http://www.underconsideration.com/brandnew/archives/monospace_theatre.php) projects.
 
 
-
-A Few Techniques for Organic Logos
-----------------------------------
-
-
-
-
-
-
-
 Case: Security Forum
 --------------------
 
@@ -95,6 +84,7 @@ However, this code has a few problems. The biggest one is that the same dot can 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example_advanced_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/security_example_advanced.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/security_advanced)
+
 
 Case: The MIT Logo
 ------------------
@@ -188,13 +178,6 @@ However, to grab the pixels from an image we need to know the bounds of the shap
 If you add a little randomness, we now have an organic logo:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples.jpg" />
-
-
-Case: Sun Effects
------------------
-
-http://rulesbased.wordpress.com/2010/02/03/sun-effects/#more-132
-
 
 
 Blogs, etc

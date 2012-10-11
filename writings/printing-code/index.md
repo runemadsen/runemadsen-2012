@@ -133,13 +133,6 @@ Week 4: Typography
 >
 > _John Maeda_
 
-<!-- 
-### Readings for this week
-Watch Helvetica?
-Read: Paul Rand from p. 149
-Read: Something from Bringhurst (one could be p. 25)
--->
-
 This week we'll look at typography. We'll go through the basic unit measurement that make up a typeface, and how we can manipulate these in Processing.
 
 ### Class Overview
@@ -175,17 +168,17 @@ In this class we'll look at grid systems and how to use them as guiding constrai
 Week 6: Logo
 ------------
 
-<!-- 
-### Readings for this week
-
-* Dynamic Identities in Cultural and Public Contexts, Introduction.
--->
-
 To make a well-designed logo requires skills in form, color, type and grid. We'll look at everything from traditional logos to organic, computational logos, and we'll go through different techniques for making generative logos in Processing. This week's assignment is a 1 week midterm project.
 
-<!--### Assignment for next week
+### Class Overview
 
-* Even though you only have 1 week to do it, this assignment is your mid-term. Do a dynamic logo for something. Print 3 times on a poster. Do not tell us for what. We will guess it in class. -->
+* Homework design critique
+* Lecture: **[Organic Logos](/printing-code-2012/lecture-logo)**
+
+### Assignment for next week
+
+* For next week write a Processing sketch that outputs a logo for a specific entity, that being a person, group, company, etc. If in doubt, design a logo for ITP. The logo needs to be organic, which means that it has some sort of dynamic expressions. This doesn't mean that it needs to be completely random every time you run the sketch, but it needs to be able to have a range of expressions that can easily be tweaked by changing the variables in the sketch. Bring to class a poster with the same logo printed 3 times in different expressions. For example, if you're designing a logo for ITP, you could have a variation for ITP, one for the ITP Show, and one for ITP Camp. These would look slightly different, but be the output of the same code. Think about form, color, typography and grids before you start coding, and make a strategy. Think. Again, keep it simple. You only have one week. This is a great time to find something in the real world that needs a redesign (your friends' band, a festival, [Arlington Pedriatic Center](http://lh6.ggpht.com/_hVfE2qcyzXU/TMrsVCMfiWI/AAAAAAAAA4Q/o-4G45KsrZo/s800/logo-design-fail-arlington.jpg)... you name it). Please do not tell your classmates who you're designing for, as we will try to guess it in class. 
+
 
 Week 7: _Midterm Presentations_
 -----------------------------
