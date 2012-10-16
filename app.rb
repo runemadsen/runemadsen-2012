@@ -135,6 +135,31 @@ class RuneMadsen < Sinatra::Base
     @active = :mail
     erb :"mail/index"
   end
+
+  post "/mail" do
+    @active = :mail
+
+    if params["address"] && params["address"] != ""
+      return "You're a fake robot!"
+    end
+
+    if params[:action] == "subscribe"
+      s = Subscriber.new
+      s.name = params[:name]
+      s.email = params[:email]
+      s.save
+      @message = "You have been subscribed to the mailinglist. Thank you!"
+    elsif params[:action] == "unsubscribe"
+      s = Subscriber.first(:email => params[:email])
+      if s
+        s.destroy
+        @message = "You have been unsubscribed from the mailinglist."
+      else
+        @message = "I could not find your email in the database. Please try again or send me an email."
+      end
+    end
+    erb :"mail/subscribemessage"
+  end
   
   # Writings
   # -------------------------------------------------------------------

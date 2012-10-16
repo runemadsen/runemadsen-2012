@@ -65,5 +65,13 @@ class Project
   property :route,              String, :length => 255
   property :created_at,         DateTime
 end
+
+class Subscriber
+  include DataMapper::Resource
+  property :id,          Serial    
+  property :name,        String, :length => 255    
+  property :email,       String, :length => 255    
+  property :created_at,  DateTime
+end
   
 DataMapper.finalize
