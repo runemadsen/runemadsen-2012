@@ -246,6 +246,7 @@ class RuneMadsen < Sinatra::Base
   
   get '/admin' do
     protected!
+    @subscribers = Subscriber.all
     erb :"admin/index"
   end
   

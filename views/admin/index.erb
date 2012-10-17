@@ -1,14 +1,29 @@
-<div class="grid_9" id="admin">
+<div class="grid_3">
+
+	<h2>Create Content</h2>
 
 	<ul>
 		<li><a href="/blog/new">Add new Blog Post</a></li>
 		<li><a href="/work/new">Add new Project</a></li>
+	</ul>
+
+	<p>Images should be 600px wide</p>
+	<p>Amazon is: http://runemadsen-2012.s3.amazonaws.com/blog/</p>
 
 </div>
 <div class="grid_3">
 
-	<p>Images should be 600px wide</p>
-	<p>Amazon is: http://runemadsen-2012.s3.amazonaws.com/blog/</p>
+&nbsp;
+</div>
+<div class="grid_6">
+
+	<h2>Mailing List Subscribers</h2>
+
+	<ul>
+		<% @subscribers.each do |sub| %>
+			<li><%= sub.name %>, <%= sub.email %></li>
+		<% end %>
+	</ul>
 
 </div>
 <div class="clear"></div>
