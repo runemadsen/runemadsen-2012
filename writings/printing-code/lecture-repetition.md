@@ -75,9 +75,10 @@ https://en.wikipedia.org/wiki/Penrose_tiling (maybe recreate in Processing)
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/aperiodic_tiling2)
 
-A little more advanced again
 
-The crazy quasi-fold example
+**A crazy quasi-fold example**
+
+TODO
 
 
 

@@ -33,7 +33,7 @@ Student Github repositories:
 * [Monica Bate](https://github.com/loadix/Printing-Code)
 * [Ben Light](https://github.com/blightdesign)
 * [Claire Mitchell](https://github.com/subcontext/PrintingCode)
-* [Sophie Laffont](https://github.com/sl2631/printing-code)
+* [Sophie Laffont](https://github.com/sl2631/printingcode)
 * [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
 * [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
 * [Adria Navarro-Lopex](https://github.com/araid/PrintingCode)
@@ -186,17 +186,16 @@ Week 7: _Midterm Presentations_
 This week will be midterm presentations.
 
 
-Week 8: Repetition
-------------------
-
-Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
-
-<!--Patterns....-->
-
-Week 9: Randomization
+Week 8: Randomization
 ----------------------
 
 Randomization is about letting the computer choose for us. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
+
+
+Week 9: Repetition
+------------------
+
+Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
 
 
 Week 10: Transformation
@@ -204,12 +203,17 @@ Week 10: Transformation
 
 What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
 
-<!--Start finals-->
-
 Week 11: Motion
 ---------------
 
 Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a moving virtual world. 
+
+<!-- Assignment: 
+
+1. do something with motion
+2. Come prepared to present your idea for finals!
+
+-->
 
 Week 12: 3D
 -----------
