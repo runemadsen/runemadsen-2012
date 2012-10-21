@@ -1,4 +1,4 @@
-DataMapper.setup(:default, ENV['DATABASE_URL'] || 'mysql://root:@localhost/runemadsen2012')
+DataMapper.setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/runemadsen_2012")
 
 class Post
   

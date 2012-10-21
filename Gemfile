@@ -11,12 +11,9 @@ gem 'dm-serializer'
 gem 'dm-tags'
 gem 'time_diff'
 gem 'kramdown'
+gem 'dm-postgres-adapter'
+gem 'do_postgres'
 
 group :development do
-  gem 'dm-mysql-adapter'
-end
-
-group :production do
-  gem 'dm-postgres-adapter'
-  gem 'do_postgres'
+	gem "shotgun"
 end

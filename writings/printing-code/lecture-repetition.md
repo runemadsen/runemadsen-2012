@@ -6,6 +6,11 @@ USE Type+Code p. 61 ->
 
 Building patterns is really about division.
 
+Examples
+--------
+
+	P. 135 in Dynamic Identities
+
 About Patterns
 --------------
 

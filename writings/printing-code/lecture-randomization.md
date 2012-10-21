@@ -1,11 +1,29 @@
 Randomization
 =============
 
-random
+Randomization in Graphic Design
+-------------------------------
+
+What does it mean to introduce randomness in graphic design products? Let's examine some cases and see how they take advantage of randomness in code.
+
+	Example: Kunsthaus Graz
+
+	Example: Le Cinemateque Francaise
+
+	Example: Walker Art Center (Using randomness for permutation: choosing randomly from set of patterns / typefaces)
+
+
+
+Random
+------
 
 How to use random to do something with e.g. 30%, 50% or 80% chance 
 
-	example with dropping balls
+Put in "decide" class that you can give multiple options and it chooses one for you.
+
+Example with decide class and shape sizes / positions. Instead of making them any size from 100-500 pixels, they can only be 100, 200, 300, 400, 500 pixels in size => A way of constraining your randomness.
+
+Grid examples with randomization and decide class
 
 
 Perlin Noise
@@ -26,17 +44,18 @@ You can manipulate the octaves and falloff via the noiseDetail function.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_detail_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_detail.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/noise_detail)
 
-	examples organiz forms
+Perlin Noise can be used to do many things. One of things that it's great for is introducing a more organic feel into your sketches. Here's a sketch with a circle drawn with Perlin Noise.
 
-	examples textures: http://processing.org/reference/noiseDetail_.html
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_organic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_organic.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/noise_organic)
+
+Another thing Perlin Noise can be used for, is to create gradient surfaces with an organic look. Here's a Processing sketch that uses Perlin noise in 2 dimensions:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/noise_surface)
 
 
-
-
-	Generative Form
-Noise
-Use p. 335 in GG - I showed an example without noise in the first class.
-
-Use examples from form lecture, but this time go through them and explain the noise
+Toxiclibs
+---------
 
 TOXICLIBS!!!
