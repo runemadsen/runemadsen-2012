@@ -3,6 +3,7 @@
 
 USE Type+Code p. 61 ->
 
+TAKE EXAMPLES FROM PAUL RAND REPETITION IN A DESIGNERS ART!!!!! THERE ARE PLENTY!!!!!
 
 Building patterns is really about division.
 

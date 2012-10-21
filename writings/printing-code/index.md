@@ -191,6 +191,17 @@ Week 8: Randomization
 
 Randomization is about letting the computer choose for us. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
 
+### Readings for this week
+
+* [Hackers and Painters](http://www.paulgraham.com/hp.html) by Paul Graham.
+* [Design and the Play Instinct](http://www.reocities.com/paciunia/paulrandsbook.pdf) by Paul Rand
+
+### Class Overview
+
+* Reading discussion
+* Lecture: Randomization in Design
+* Guest Lecture: E. Roon Kang, The MIT Logo
+
 
 Week 9: Repetition
 ------------------
