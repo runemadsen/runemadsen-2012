@@ -12,6 +12,8 @@ Examples
 
 	P. 135 in Dynamic Identities
 
+	This Mandala: http://www.behance.net/gallery/Mandalas/200703
+
 About Patterns
 --------------
 

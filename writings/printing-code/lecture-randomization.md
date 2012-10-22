@@ -12,16 +12,24 @@ What does it mean to introduce randomness in graphic design products? Let's exam
 
 	Example: Walker Art Center (Using randomness for permutation: choosing randomly from set of patterns / typefaces)
 
+	Example: My own liber Amicorum book cover + generative logo design
+
 
 
 Random
 ------
 
-How to use random to do something with e.g. 30%, 50% or 80% chance 
+We've used simple randomness all through the semester. Here's a short example on how to use the random function in Processing.
 
-Put in "decide" class that you can give multiple options and it chooses one for you.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_simple)
 
-Example with decide class and shape sizes / positions. Instead of making them any size from 100-500 pixels, they can only be 100, 200, 300, 400, 500 pixels in size => A way of constraining your randomness.
+Instead of random() around in your code, here's an example on how to create a class that can help you with this.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_class)
+
+	Example with decide class and shape sizes / positions. Instead of making them any size from 100-500 pixels, they can only be 100, 200, 300, 400, 500 pixels in size => A way of constraining your randomness.
 
 Grid examples with randomization and decide class
 

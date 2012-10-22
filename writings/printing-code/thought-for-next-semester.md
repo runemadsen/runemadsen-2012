@@ -4,3 +4,4 @@
 * For font class, use more time on how the font is drawn on the screen. Then spend time on the Geomerative RFont and how to use the draw method with a PGraphics object. The students don't know how to draw fonts with geomerative.
 * All assignments after midterm should be based on real world design problems.
 * Add p. 142-148 as example in Grids class
+* Add reading from Dynamic Identities to logo class

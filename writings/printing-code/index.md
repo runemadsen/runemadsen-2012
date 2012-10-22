@@ -203,6 +203,13 @@ Randomization is about letting the computer choose for us. This week we'll look 
 * Guest Lecture: E. Roon Kang, The MIT Logo
 
 
+<!--### Assignment for next week
+
+* Redesign a specific book cover using randomness
+
+--> 
+
+
 Week 9: Repetition
 ------------------
 
