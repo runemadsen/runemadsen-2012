@@ -29,9 +29,8 @@ Instead of random() around in your code, here's an example on how to create a cl
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_class)
 
-	Example with decide class and shape sizes / positions. Instead of making them any size from 100-500 pixels, they can only be 100, 200, 300, 400, 500 pixels in size => A way of constraining your randomness.
+This Randomizer class can also be used with your own custom classes. For example, you might create a *Settings* class, and let the Randomizer select a specific setting at random. Here's an example on how to do that.
 
-Grid examples with randomization and decide class
 
 
 Perlin Noise

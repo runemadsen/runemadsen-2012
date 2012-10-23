@@ -28,4 +28,4 @@ Grading
 Links
 -----
 
-* [Class Syllabus](https://docs.google.com/document/d/16UUg98XhKeQZTYu-ff46GOgLYrsVHCRCH5PQyvxI1oI/edit)
+* [Class Syllabus](https://github.com/ITPNYU/CommLabWeb)
