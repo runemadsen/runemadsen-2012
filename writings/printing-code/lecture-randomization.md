@@ -1,6 +1,8 @@
 Randomization
 =============
 
+This class will be about randomization, but just as much about how to structure your code.
+
 Randomization in Graphic Design
 -------------------------------
 
@@ -31,6 +33,13 @@ Instead of random() around in your code, here's an example on how to create a cl
 
 This Randomizer class can also be used with your own custom classes. For example, you might create a *Settings* class, and let the Randomizer select a specific setting at random. Here's an example on how to do that.
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_settings_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_settings.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_settings)
+
+See how clean that code is compared to a bunch of if statements with random function calls in them? We could even go as far as wrapping it all in a circle class. This is exactly the same code as before, but much nicer to look at.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_circles)
 
 
 Perlin Noise
