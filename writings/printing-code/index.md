@@ -186,8 +186,8 @@ Week 7: _Midterm Presentations_
 This week will be midterm presentations.
 
 
-Week 8: Randomization
-----------------------
+Week 8: Vectors and Randomization
+----------------------------------
 
 Randomization is about letting the computer choose for us. This week we'll look at ways to create programs that create unique graphics. We'll look at basic randomness, Perlin noise, and how a simple thing like randomness can help you create unexpected things.
 
@@ -199,7 +199,7 @@ Randomization is about letting the computer choose for us. This week we'll look 
 ### Class Overview
 
 * Reading discussion
-* Lecture: Randomization in Design
+* Lecture: **[Vectors and Randomization](/printing-code-2012/lecture-randomization)**
 * Guest Lecture: E. Roon Kang, The MIT Logo
 
 
