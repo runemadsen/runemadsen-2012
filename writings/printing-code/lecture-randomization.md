@@ -65,6 +65,10 @@ Perlin Noise can be used to do many things. One of things that it's great for is
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_organic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_organic.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/noise_organic)
 
+It's quite easy to draw a circle with Perlin noise, but forming many straight lines into a form can be hard. Here's an example of how you can create your own line function that draw a line with Perlin Noise:
+
+
+
 Another thing Perlin Noise can be used for, is to create gradient surfaces with an organic look. Here's a Processing sketch that uses Perlin noise in 2 dimensions:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface.jpg" />
@@ -74,4 +78,19 @@ Another thing Perlin Noise can be used for, is to create gradient surfaces with 
 Toxiclibs
 ---------
 
-TOXICLIBS!!!
+Toxiclibs has a number of nice classes that you can use for randomization purposes. First of all, it has a weighted random class that you can use to randomly choose from a number of weights (like the one we did before).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_weighted_random)
+
+You can put all types of objects in the weightedrandom class, so we can recreate our circles example using the toxiclibs library.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_circles)
+
+
+TODO: FLOATRANGE
+
+TODO: BIASEDRANGEHISTOGRAM
+
+TODO: ADDITIVEWAVES
