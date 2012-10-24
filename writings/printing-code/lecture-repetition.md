@@ -1,6 +1,8 @@
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" />
 
 
+FOR EXAMPLES GO THROUGH HISTORY OF THE POSTER! THERE'S A TON OF GOOD STUFF IN THERE!
+
 USE Type+Code p. 61 ->
 
 TAKE EXAMPLES FROM PAUL RAND REPETITION IN A DESIGNERS ART!!!!! THERE ARE PLENTY!!!!!
