@@ -1,25 +1,79 @@
-Randomization
-=============
+Vectors and Randomization
+=========================
 
-This class will be about randomization, but just as much about how to structure your code.
-
-Randomization in Graphic Design
--------------------------------
-
-What does it mean to introduce randomness in graphic design products? Let's examine some cases and see how they take advantage of randomness in code.
-
-	Example: Kunsthaus Graz
-
-	Example: Le Cinemateque Francaise
-
-	Example: Walker Art Center (Using randomness for permutation: choosing randomly from set of patterns / typefaces)
-
-	Example: My own liber Amicorum book cover + generative logo design
+For the last 7 weeks of the semester, these lectures will be a little more heavy on code structure and the actual coding. This class is be about randomization and manipulation of vectors, but just as much about how to structure your code.
 
 
+ArrayLists
+----------
 
-Random
-------
+Before we start with the examples, we need to talk about ArrayLists. In your code you often you arrays, which can hold a list of multiple objects. The problem with arrays is that their length is static, which means that you need to know the length of the array beforehand.
+
+Let's imagine that I want to draw 50 Hexagon objects on the screen. Arrays are great for this:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/arrays)
+
+But what if you want to add more hexagons to the array at a later time? For example, what if you want the add a hexagon on the screen where the user presses the mouse? Then you need a kind of flexible array that can get bigger and smaller on the fly. That's what an ArrayList is! 
+
+Take a look at this example that implements the exact same code using ArrayLists, and also implements the mouse clicks
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/arraylists)
+
+Vectors
+--------
+
+The basic concept of a vector is that it's a simple class that has a "x" and "y" property. Processing has a built-in class called PVector that you can use out of the box. Dan Shiffman has a ton of material on this, so I won't go that much into detail (you can [read about it on his website](http://natureofcode.com/book/chapter-1-vectors/)). 
+
+What's important to us in this class is how we can use vectors to represent individual points on the screen. These can be used to create outlines or closed shapes. Here's an example that demonstrates how to draw a line with normal variables AND with PVector.
+ 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/vectors)
+
+What you start to realize is that a vector is actually a description of a direction. For example, a single vector can describe a length of a line. Here's an example of what I mean by that. Also notice how the PVector class has a bunch of cool features, including subtracting and adding vectors to each other. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_subtraction_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_subtraction.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/vectors_subtraction)
+
+The toxiclibs library ships with its own vector class called Vec2D, which basically behaves in the exact same way as PVector, but with a lot of added functionality.
+
+
+Toxiclibs and Vectors
+---------------------
+
+Often when you generate random forms, you need the ability to manipulate the outline of the form. For example, here I generate a line with beginShape using 5 random points
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_1.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_splines)
+
+Now, let's say I want to divide that line up into more segments. Toxiclibs ships with a nice Spline class that can do this for you. Here is the exact same code, but using the spline class to get double the points from the same 5 random points.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_splines)
+
+Here we divide each point into 10 smaller points, with a distance based on the curve of the original 5 points.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_3.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_splines)
+
+You can use the getDecimatedVertices() function to get points with equal distance to each other.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_4.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_splines)
+
+And with a little bit of fun randomness, we can create a wobbly line from those points.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_splines_5.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_splines)
+
+There's a ton of interesting features in toxiclibs, and if you're interested, check the "examples" folder.
+
+
+Weighted Randomness
+-------------------
+
+Now that we understand vectors, let's look at randomization, and later how it related to the concept of vectors.
 
 We've used simple randomness all through the semester. Here's a short example on how to use the random function in Processing.
 
@@ -40,6 +94,20 @@ See how clean that code is compared to a bunch of if statements with random func
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/random_circles)
+
+
+Toxiclibs: Weighted Randomness
+------------------------------
+
+Toxiclibs has a number of nice classes that you can use for randomization purposes. First of all, it has a weighted random class that you can use to randomly choose from a number of weights (like the one we did before).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_weighted_random)
+
+You can put all types of objects in the weightedrandom class, so we can recreate our circles example using the toxiclibs library.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_circles)
 
 
 Perlin Noise
@@ -73,24 +141,3 @@ Another thing Perlin Noise can be used for, is to create gradient surfaces with 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/noise_surface)
-
-
-Toxiclibs
----------
-
-Toxiclibs has a number of nice classes that you can use for randomization purposes. First of all, it has a weighted random class that you can use to randomly choose from a number of weights (like the one we did before).
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_weighted_random)
-
-You can put all types of objects in the weightedrandom class, so we can recreate our circles example using the toxiclibs library.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/randomization/toxiclibs_circles)
-
-
-TODO: FLOATRANGE
-
-TODO: BIASEDRANGEHISTOGRAM
-
-TODO: ADDITIVEWAVES
