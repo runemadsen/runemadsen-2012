@@ -37,3 +37,21 @@ The reason why I assigned this text is because it gives a good description of ho
 
 * Is there anything Paul Rand says that relates to code and algorithms?
 * Find specific passages and ask: If you should, how would you code this?
+
+
+Hackers and Painters by Paul Graham
+----------------------------------
+
+* Good description of being an implementor vs. a creative programmer. Many companies think like this
+* Do you understand the concept of a static vs. dynamic programming language?
+* I love the story about DaVinci painting the leaves. He was relentless. The unseen matters! Great software makes great products.
+* Programs are for humans to read
+
+
+Design and the Play Instinct by Paul Rand
+------------------------------------------
+
+* Now you know why I give constraints in assignments
+* Think about this in your Olivetti assignment. What was the designer trying to communicate? Investigate!
+* Modulor! Le Corbusier was crazy, but it's an interesting way of contraining your own work
+* The last pages have a great catalog of different way of constraining your work. It can be the source of many, many projects.

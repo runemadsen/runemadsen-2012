@@ -6,3 +6,6 @@
 * Add p. 142-148 as example in Grids class
 * Add reading from Dynamic Identities to logo class
 * The class on vectors and randomization should have much more basics of pvector and the toxiclibs vector funcionality, that leads to spline 2D and all that stuff.
+
+* for logo class, use this generative logo (in the mid of video from roskilde: http://vimeo.com/27737392).
+* Use Marcin Ignac examples (he's danish!) : http://marcinignac.com/, http://marcinignac.com/projects/category/featured/

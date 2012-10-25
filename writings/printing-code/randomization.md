@@ -23,11 +23,11 @@ Randomization
 10:30  Perlin Noise
 -------------------
 
-(if time: reading discussion)
------------------------------
+10:45  Reading Discussion
+-------------------------
 
-10:45  Break
+11:00  Break
 ------------
 
-11:00  E. Roon Kang
+11:15  E. Roon Kang
 -------------------
