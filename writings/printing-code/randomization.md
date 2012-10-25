@@ -23,6 +23,9 @@ Randomization
 10:30  Perlin Noise
 -------------------
 
+(if time: reading discussion)
+-----------------------------
+
 10:45  Break
 ------------
 
