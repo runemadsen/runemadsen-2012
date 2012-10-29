@@ -72,9 +72,12 @@ However, these patterns only allow us to
 Recursion
 ---------
 
-Explain what it is...
+Crucial to the concept of aperiodic tiling is recursion. 
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_ref_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_ref.jpg" />
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/recursion)
 
 
 Aperiodic Tiling: Substitution Rules
