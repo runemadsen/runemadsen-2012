@@ -1,29 +1,72 @@
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" />
 
+Repetition in Graphic Design
+----------------------------
 
-FOR EXAMPLES GO THROUGH HISTORY OF THE POSTER! THERE'S A TON OF GOOD STUFF IN THERE!
+Humans have a weird fascination with repetition. The effect of marching soldiers, the arrangement of a bed of flowers. Crowds at football stadiums or concerts. A migrating flock of birds. It's almost hypnotic.
 
-USE Type+Code p. 61 ->
+In graphic design, we can repeat font style, graphic, line, icons, colors, etc. We can use repetition for many things.
 
-TAKE EXAMPLES FROM PAUL RAND REPETITION IN A DESIGNERS ART!!!!! THERE ARE PLENTY!!!!!
+**Movement**
 
-Building patterns is really about division.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement.jpg" />
 
-Examples
---------
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement2.jpg" />
 
-	P. 135 in Dynamic Identities
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_movement_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_movement.jpg" />
 
-	This Mandala: http://www.behance.net/gallery/Mandalas/200703
+**Rhythm**
 
-About Patterns
---------------
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_rhythm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_rhythm.jpg" />
 
-p. 87 in A Designer's Art. There's also a bunch of examples for lecture.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm.jpg" />
 
-SOL LEWITT!!! A WHOLE CHAPTER ON HIM
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm2.png" />
 
-The instruction in design
+**Direction**
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/megert_direction_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/megert_direction.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_direction_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_direction.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/direction2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/direction2.jpg" />
+
+And maybe most important: **Texture**
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/mandala_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/mandala.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/champalimaud_texture_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/champalimaud_texture.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/lewitt_texture_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/lewitt_texture.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/lewitt_texture2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/lewitt_texture2.jpg" />
+
+
+Repetition in Processing
+------------------------
+
+When it comes to repetition and tiling, there are 2 distinct types of patterns. The periodic tiling:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_periodic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_periodic.jpg" />
+
+... and the aperiodic tiling:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_aperiodic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_aperiodic.png" />
+
+Periodic Tiling
+---------------
+
+It's pretty easy to do periodic tiling in Processing. Here's an example of an extremely ugly pattern created with a for-loop.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern)
+
+Here's the same pattern, but using a class. It makes for a nice, clean main file.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern_class)
+
+However, these patterns only allow us to 
 
 
 Recursion
@@ -31,27 +74,15 @@ Recursion
 
 Explain what it is...
 
-Same as: do flashy cube pattern as an "easy" pattern.
-
-
-Periodic Tiling
----------------
-
-Simple for loop
-
-Recreate some Sol Lewitt instructions
 
 
 
 Aperiodic Tiling: Substitution Rules
 ------------------------------------
 
-THIS CLASS SHOULD MOSTLY BE ABOUT SUBSTITUTION RULES.
-OH GOD: http://tilings.math.uni-bielefeld.de/substitution_rules/
-http://tilings.math.uni-bielefeld.de/people/d_frettl_ouml_h
+**The simplest aperiodic tiling possible**
 
-First Penrose tiling:
-https://en.wikipedia.org/wiki/Penrose_tiling (maybe recreate in Processing)
+	Example: Do Robinson Triangle: https://en.wikipedia.org/wiki/Penrose_tiling
 
 **Simple aperiodic tiling**
 
@@ -66,7 +97,7 @@ https://en.wikipedia.org/wiki/Penrose_tiling (maybe recreate in Processing)
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/aperiodic_tiling)
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/aperiodic_tiling)
 
 **Slightly more advanced aperiodic tiling**
 
@@ -83,13 +114,7 @@ https://en.wikipedia.org/wiki/Penrose_tiling (maybe recreate in Processing)
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/logo/aperiodic_tiling2)
-
-
-**A crazy quasi-fold example**
-
-TODO
-
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/aperiodic_tiling2)
 
 
 Some Pattern Examples
@@ -116,15 +141,6 @@ Andy Gilmore
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/gilmore9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/gilmore9.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/gilmore10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/gilmore10.jpg" />
-
-
-
-
-Reading: 
-Use stuff from “Repetition” from Form and Code.
-Use Arabic Patterns?
-
-
 
 
 Links
