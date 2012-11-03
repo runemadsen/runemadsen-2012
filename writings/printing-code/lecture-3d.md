@@ -7,4 +7,5 @@ Go through:
 * toxiclibs Spline3D
 * all other 3D toxiclibs stuff
 * spinning around something in 3D space (automated, not mouse)
+* There are a ton of cool examples in GG, so go through them and use them
 

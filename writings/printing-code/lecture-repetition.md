@@ -66,7 +66,7 @@ Here's the same pattern, but using a class. It makes for a nice, clean main file
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern_class)
 
-However, these patterns only allow us to 
+However, these patterns only allow us to create stricly repetitive patterns. To do more sophisticated patterns, we need to learn about aperiodic tiling.
 
 
 Recursion
