@@ -61,7 +61,12 @@ It's pretty easy to do periodic tiling in Processing. Here's an example of an ex
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern)
 
-Here's the same pattern, but using a class. It makes for a nice, clean main file.
+Here's a slightly better looking cube pattern.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern)
+
+Here's the first pattern, but using a class. It makes for a nice, clean main file.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern_class)
