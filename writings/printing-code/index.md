@@ -212,6 +212,12 @@ Week 9: Repetition
 
 Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
 
+### Class Overview
+
+* Quick homework presentations
+* Assignment code walk-through
+* Lecture: **Computational Repetition**
+
 
 Week 10: Transformation
 ----------------------

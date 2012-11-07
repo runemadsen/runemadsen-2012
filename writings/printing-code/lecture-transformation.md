@@ -152,6 +152,8 @@ From Pixels to Shapes
 
 Now that we have the ability to manipulate pixels form an image, let's investigate what we can create if we don't just update the pixel values, but use those values to draw shapes on the screen instead.
 
+	Example: Simple pixes_rectangles example (not finished)
+
 	Example: colorlist example with 2 triangles per pixel
 
 	Example: Puckney lady
