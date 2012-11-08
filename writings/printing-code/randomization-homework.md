@@ -1,3 +1,7 @@
+Let's try to recreate this thingy...
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/pintori5.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/pintori5.jpg" />
+
 Here's a simple sketch that shows how to draw the basic shapes
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/homework/randomization_simplest_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/homework/randomization_simplest.png" />
