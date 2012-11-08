@@ -219,7 +219,7 @@ Repetition is highly computational, still human beings have created patterns as 
 ### Class Overview
 
 * Quick homework presentations
-* Assignment code walk-through
+* [Assignment code review](/printing-code-2012/randomization-homework)
 * Lecture: **[Computational Repetition](/printing-code-2012/lecture-repetition)**
 
 
