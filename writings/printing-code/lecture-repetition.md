@@ -66,10 +66,15 @@ Here's a slightly better looking cube pattern.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern)
 
-Here's the first pattern, but using a class. It makes for a nice, clean main file.
+Here's that same cube pattern code, but using a class to clean up the main file.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_class.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern_class)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern_class)
+
+Here I'm using the class twice to overlay two patterns
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern_class_overlay)
 
 However, these patterns only allow us to create stricly repetitive patterns. To do more sophisticated patterns, we need to learn about aperiodic tiling.
 
@@ -88,11 +93,9 @@ Crucial to the concept of aperiodic tiling is recursion.
 Aperiodic Tiling: Substitution Rules
 ------------------------------------
 
-**The simplest aperiodic tiling possible**
-
-	Example: Do Robinson Triangle: https://en.wikipedia.org/wiki/Penrose_tiling
-
 **Simple aperiodic tiling**
+
+[Substitution Rule](http://web.media.mit.edu/~black/tiles/aperiodic.html)
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple.jpg" />
 
@@ -108,6 +111,8 @@ Aperiodic Tiling: Substitution Rules
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/aperiodic_tiling)
 
 **Slightly more advanced aperiodic tiling**
+
+[Substitution Rule](http://tilings.math.uni-bielefeld.de/substitution_rules/t2000)
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division.jpg" />
 

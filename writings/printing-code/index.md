@@ -207,7 +207,11 @@ Randomization is about letting the computer choose for us. This week we'll look 
 * For next week, pick [one of these famous Olivetti posters by Giovanni Pintori](/printing-code-2012/posters) and write a Processing sketch that directly copies or is inspired by the design of the poster. Your Processing sketch must demonstrate the use of weighted randomness (this means that it must be generative in some sense) and vectors (this means that all x,y variables should instead use PVectors or Vec2D). Bring to class a poster, and be ready to present why you choose that specific poster, in what way the use of randomness helps illustrate the concept, and how your code is written. I'm looking for the simplest possible implementation of the poster concepts, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
 
 
-Week 9: Repetition
+Week 9: Cancelled: Stooooorm!
+---------------------------------------
+
+
+Week 10: Repetition
 ------------------
 
 Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
@@ -216,37 +220,53 @@ Repetition is highly computational, still human beings have created patterns as 
 
 * Quick homework presentations
 * Assignment code walk-through
-* Lecture: **Computational Repetition**
+* Lecture: **[Computational Repetition](/printing-code-2012/lecture-repetition)**
 
 
-Week 10: Transformation
+### Assignment for next week
+
+* For next week write a Processing sketch that generates a pattern. The pattern should be a design proposal for the company [Makerbot](http://www.makerbot.com/), and should be designed to be used for their christmas gift wrapping paper. So you need to research the company, look at their identity, and come up with a design that reflects this. It doesn't matter whether the pattern is periodic or aperiodic, but what does matter is that it's dynamic. This means that I should be able to change global variables and see the pattern change the next time I run the sketch. Bring to class a printed poster of your pattern, and we'll discuss the proposals.
+
+
+Week 11: Transformation
 ----------------------
 
 What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
 
-Week 11: Motion
+<!-- Assignment: 
+
+1. do something with transformation
+2. come prepared to present your final idea
+
+-->
+
+Week 12: Motion
 ---------------
 
 Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a moving virtual world. 
 
 <!-- Assignment: 
-
-1. do something with motion
-2. Come prepared to present your idea for finals!
-
+1. work on final
 -->
 
-Week 12: 3D
+Week 13: 3D
 -----------
 
 In the same way as motion can be used in the graphic arts, so too can 3D. Even though we are printing on paper, we can still simulate 3D in our code, twist and turn objects, and randomize the resulting print. We'll look at recent developments in graphic design and 3D, including 3-dimensional typefaces and logos.
 
-Week 13: Workday
---------------------------------
+<!-- Assignment: 
+1. work on final
+-->
+
+<!-- Cancelled because of storm
+
+Week 14: Workday
+////////////////
 
 We will work on the final products.
+-->
 
-Week 14: _Final Presentations 2_
+Week 14: _Final Presentations_
 --------------------------------
 
 Final presentations

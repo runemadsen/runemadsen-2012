@@ -10,3 +10,4 @@
 * for logo class, use this generative logo (in the mid of video from roskilde: http://vimeo.com/27737392).
 * Use Marcin Ignac examples (he's danish!) : http://marcinignac.com/, http://marcinignac.com/projects/category/featured/
 * In the beginning it should be much more about the toxiclibs form functions (Line2D, ray, Vectors). Maybe 2 weeks on form, and delete one of the other classes?
+* Color class should be ALL in TColor!
