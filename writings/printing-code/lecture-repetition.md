@@ -159,6 +159,9 @@ Andy Gilmore
 Links
 -----
 
+* [Inspirational Patterns #1](http://design.org/blog/patterns-and-graphic-design-yegor-legkov)
+* [Inspirational Patterns #2](http://pinterest.com/cukri/graphic-design-patterns-textures/)
+* [Fabric Patters](http://patternobserver.com/)
 * [Islamic Patterns Research Project](http://nomadinception.com/gallery-arabic-patterns-islamic-patterns-research.aspx)
 * [Pattern Substitution Rules](http://tilings.math.uni-bielefeld.de/substitution_rules/)
 * [More substitutions](http://web.media.mit.edu/~black/tiles/aperiodic.html)
