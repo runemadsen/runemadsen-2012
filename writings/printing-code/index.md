@@ -305,3 +305,9 @@ Recommended Blogs
 * http://typeworship.com/
 * http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
 * http://www.underconsideration.com/brandnew/
+
+Studios / Companies
+-------------------
+
+* [Onformative - Germany](http://www.onformative.com/)
+* [E. Roon Kang](http://www.eroonkang.com/)

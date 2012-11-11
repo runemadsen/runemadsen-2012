@@ -1,7 +1,7 @@
 Video of my generative logo
+
 Images of my posters
 > That's what I'm excited about.
-
 
 There's a ton of examples in the "movement" chapter in dynamic identities. USE! p. 57
 

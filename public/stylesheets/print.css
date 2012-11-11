@@ -1,0 +1,33 @@
+#header {
+	display: none;
+}
+
+h2 {
+	border-bottom: 2px solid #2e2e2e;
+	margin-bottom: 20px;
+}
+
+h3 {
+	position: relative;
+	margin-bottom: 0px;
+}
+
+h3 small {
+	font-size: 12px;
+	font-family: Helvetica;
+	display: inline-block;
+	text-decoration: underline;
+	position: absolute;
+	right: 0;
+}
+
+a[href^="http://"] {
+	border-bottom: none;
+	font-style: italic;
+}
+
+a[href^="http://"]:after {
+	content: " (" attr(href) ")";
+	font-style: normal;
+	color: #2c4f7f;
+}
