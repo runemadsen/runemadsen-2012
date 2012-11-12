@@ -156,8 +156,12 @@ Now that we have the ability to manipulate pixels form an image, let's investiga
 
 	Example: colorlist example with 2 triangles per pixel
 
-	Example: Puckney lady
+	EXAMPLE: ONE OF MY PATTERNS USING PIXEL COLORS!!!!
+
+	Example: Puckney lady (GG?)
 
 	Example: Harvey's spam art
 
 	Toxiclibs: Imagecolors example
+
+	EXMPLES FROM GG. THERE MUST BE A TON!!!!

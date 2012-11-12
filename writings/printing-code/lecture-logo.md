@@ -220,3 +220,4 @@ Blogs, etc
 
 * http://www.underconsideration.com/brandnew/
 * http://rulesbased.wordpress.com
+* http://nevolution.typepad.com/theories/2011/03/a-relational-design-process-thesis.html
