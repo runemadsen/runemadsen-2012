@@ -1,9 +1,7 @@
 Transformation
 ==============
 
-Transformation is about ... bla bla ...
-
-Use chapter from Form and Code
+TODO: F&C
 
 
 Transformation in Graphic Design
@@ -21,7 +19,7 @@ Jonathan Puckeys graphic image filters
 
 	Posters from design history
 
-	That image I pinterested
+	PInterest Image
 
 	More...
 
@@ -156,7 +154,10 @@ Now that we have the ability to manipulate pixels form an image, let's investiga
 
 	Example: colorlist example with 2 triangles per pixel
 
-	EXAMPLE: ONE OF MY PATTERNS USING PIXEL COLORS!!!!
+Here's an example where we're taking last weeks cube pattern and using the pixel values to determine the color of the cubes:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/cube_pattern)
 
 	Example: Puckney lady (GG?)
 
