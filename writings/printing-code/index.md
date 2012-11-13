@@ -233,12 +233,20 @@ Week 11: Transformation
 
 What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
 
-<!-- Assignment: 
+### Class Overview
 
-1. do something with transformation
-2. come prepared to present your final idea
+* 30 sec. homework presentations
+* Lecture: **[Pixel iteration and manipulation](/printing-code-2012/lecture-transformation)**
 
--->
+### Assignment for next week
+
+_From now on and until the end of the semester, we will be working on final projects. Remember that next week is thanksgiving break._
+
+* **Before Thanksgiving**<br />
+Pick a real-world design problem that you will tackle for your final. This can be a full event poster, an album cover, a logo re-design, a full company identity or a book cover. It's all up to you, and there are no constraints. Write a blog post that outlines what entity you're designing for, why this design problem calls for a code-based solution, and why you're interested in it. Some hand-drawn sketches of what you're trying to achieve would be great, but you shouldn't start coding yet. This is only for outlining the design problem. Email me a link to this blog post before Thursday the 22nd, and I'll review it. Once you have done this, you cannot change the design problem. You might find other ways to solve it or change the approach, but you cannot change the entity you're designing for.
+* **After Thanksgiving**<br />
+Start coding. On the first Thursday after Thanksgiving, come prepared to show the progress you've made. This should not be a finished product at all, but you should be ready to share what your are working on, and what problems you're currently facing. We will spend half the class on this.
+
 
 Week 12: Motion
 ---------------
