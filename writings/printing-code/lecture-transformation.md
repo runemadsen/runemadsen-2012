@@ -152,8 +152,8 @@ Now that we have the ability to manipulate pixels form an image, let's investiga
 
 Here's an example of using our basic tile pattern from last class, but extracting the pixel values from the image:
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixel_triangles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixel_triangles.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/pixel_triangles)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixels_triangles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixels_triangles.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/pixels_triangles)
 
 Here's an example where we're taking last weeks cube pattern and using the pixel values to determine the color of the cubes:
 
