@@ -1,11 +1,18 @@
 Transformation
 ==============
 
-TODO: F&C
+<blockquote data-slideshow="self">
+Transformation refers to the fact of manipulating a preexisting form to create something new - Form+Code
+</blockquote>
 
+In this class we'll look at transformations in Processing, especially picel manipulation and how it relates to repetition.
 
 Transformation in Graphic Design
 --------------------------------
+
+Tomoko Miho, Architecture in Chicago
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/miho_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/miho.jpg" />
 
 Adam Harvey's Spam Art
 
@@ -16,12 +23,6 @@ Adam Harvey's Spam Art
 Jonathan Puckeys graphic image filters
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/puckey_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/puckey.jpg" />
-
-	Posters from design history
-
-	PInterest Image
-
-	More...
 
 
 Bits and Bytes
