@@ -166,3 +166,9 @@ Here's an example where we're taking last weeks cube pattern and using the pixel
 	Toxiclibs: Imagecolors example
 
 	EXMPLES FROM GG. THERE MUST BE A TON!!!!
+
+
+Links
+-----
+
+* http://mlkshk.com/geometric

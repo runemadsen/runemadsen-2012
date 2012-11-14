@@ -235,7 +235,8 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 
 ### Class Overview
 
-* 30 sec. homework presentations
+* 1 min. homework presentations
+* How to create a Tile class
 * Lecture: **[Pixel iteration and manipulation](/printing-code-2012/lecture-transformation)**
 
 ### Assignment for next week
