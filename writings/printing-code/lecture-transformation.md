@@ -150,22 +150,15 @@ From Pixels to Shapes
 
 Now that we have the ability to manipulate pixels form an image, let's investigate what we can create if we don't just update the pixel values, but use those values to draw shapes on the screen instead.
 
-	Example: Simple pixes_rectangles example (not finished)
+Here's an example of using our basic tile pattern from last class, but extracting the pixel values from the image:
 
-	Example: colorlist example with 2 triangles per pixel
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixel_triangles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/pixel_triangles.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/pixel_triangles)
 
 Here's an example where we're taking last weeks cube pattern and using the pixel values to determine the color of the cubes:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/cube_pattern)
-
-	Example: Puckney lady (GG?)
-
-	Example: Harvey's spam art
-
-	Toxiclibs: Imagecolors example
-
-	EXMPLES FROM GG. THERE MUST BE A TON!!!!
 
 
 Links

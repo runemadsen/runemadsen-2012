@@ -236,7 +236,7 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 ### Class Overview
 
 * 1 min. homework presentations
-* How to create a Tile class
+* How to create a [tiling pattern](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/tiling_pattern)
 * Lecture: **[Pixel iteration and manipulation](/printing-code-2012/lecture-transformation)**
 
 ### Assignment for next week
