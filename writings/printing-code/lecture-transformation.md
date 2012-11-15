@@ -96,12 +96,12 @@ Pixel Iteration
 
 Looping over an image pixels in RGB color mode.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/loop_rgb)
 
 Looping over an image pixels in HSB color mode.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/loop_hsb)
 
 
@@ -110,12 +110,12 @@ Pixel Iteration with Bitshifting
 
 You might experience that these color functions are super slow. Now that we know about bites, we can use a tehnique called bitshifting to get the color values. This is a much faster way of getting pixel colors, and even though it looks a little cryptic, it's somehow simple.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/loop_rgb_bitshifting)
 
 Bitshifting is much, much faster than using the color functions, however, it will always return values in RGB. Here's an example of how to use bitshifting in HSB colormode with the Toxiclibs TColor class.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/loop_rgb.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/loop_hsb_bitshifting)
 
 
