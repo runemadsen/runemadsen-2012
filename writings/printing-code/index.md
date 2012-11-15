@@ -238,6 +238,10 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 * 1 min. homework presentations
 * How to create a [tiling pattern](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/tiling_pattern)
 * Lecture: **[Pixel iteration and manipulation](/printing-code-2012/lecture-transformation)**
+* Design exercise. Break into groups and come up with a final idea for:
+	* A book cover
+	* An event poster
+	* A logo redesign
 
 ### Assignment for next week
 
