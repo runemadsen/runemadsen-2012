@@ -14,14 +14,16 @@ Here's an image of a series of graphic prints created with randomized, moving ar
 Examples
 --------
 
-There's a ton of examples in the "movement" chapter in dynamic identities. USE! p. 57
+	There's a ton of examples in the "movement" chapter in dynamic identities. USE! p. 57
 
-Find examples from graphic design that shows movement.
+	Find examples from graphic design that shows movement.
 
 PGraphics and draw
 ------------------
 
-Show the framework loop
+Now that we're moving into the world of motion and animation, take a look at the framework_loop example on how you can use PGraphics with the draw loop, and save multiple images from the animation.
+
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/framework/draw_loop)
 
 
 Random Frame Saving
@@ -50,6 +52,32 @@ Easings
 -------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easingsheet_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easingsheet.jpg" />
+
+Here's a simple example of how to create fluent motion with the [Ani easing library](http://www.looksgood.de/libraries/Ani/).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_simple.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_simple)
+
+Here's an example creating a repeating bouncing ball with the BOUNCE easing, and the onEnd callback.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounce_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounce.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_bounce)
+
+Here's the same example, but using a class and multiple objects created from the class.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounces_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounces.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_bounces)
+
+	Example of a sequence
+
+If you're interested in exploring the different types of easings, this sketch will visualize all of them for you.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_viewer_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_viewer.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_viewer)
+
+	A nice example using easings
+
+You can check out all the methods on the easings library by visiting the [Javadocs](http://www.looksgood.de/libraries/Ani/reference/index.html)
 
 
 Physics Libraries
@@ -90,7 +118,7 @@ Now that we know how to create a world and make things fall, we can use this in 
 Mouse Interaction
 -----------------
 
-ControlP5 to control your sketch after freezing it
+	ControlP5 to control your sketch after freezing it
 
 
 More stuff
