@@ -11,33 +11,14 @@ Weekly homework can be produced using the digital printers at [NYU’s Advanced 
 
 The class aims not only to teach the students how to create physical prints via code, but also to have something interesting to say about it. The class requires ICM or similar programming background.
 
-Github Repositories
+
+Github Repository
 -----------------
 
 All code examples and frameworks used in the class can be found on Github:
 
 * [https://github.com/runemadsen/printing-code-2012](https://github.com/runemadsen/printing-code-2012)
 
-Student Github repositories:
-
-* [Mark Breneman](https://github.com/markbreneman/Printing-Code-Assignments)
-* [Mark Kleeb](https://github.com/markkleeb/PrintingCode2012)
-* [Sarah Hallacher](https://github.com/sarahkhallacher/printingcode)
-* [Matt Epler](https://github.com/matthewepler/printing_code)
-* [Kody Trauger](https://github.com/kodytrauger/Printing-Code-Fall-2012)
-* [Kim Ash](https://github.com/kimash/printing-code)
-* [Hyeyoung Yoon](https://github.com/HyeYoun/PrintingCode-Hyeyoung)
-* [Patrick Muth](https://github.com/pmuth/printing-code-f12)
-* [Alessandra Villaamil](https://github.com/avillaamil/PrintingCode)
-* [Yucef Merhi](https://github.com/yucef/printing_code)
-* [Monica Bate](https://github.com/loadix/Printing-Code)
-* [Ben Light](https://github.com/blightdesign)
-* [Claire Mitchell](https://github.com/subcontext/PrintingCode)
-* [Sophie Laffont](https://github.com/sl2631/printingcode)
-* [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
-* [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
-* [Adria Navarro-Lopex](https://github.com/araid/PrintingCode)
-* [Ali Sajjadi](https://github.com/psionn/PrintingCode)
 
 Teacher Info
 ------------
@@ -46,6 +27,12 @@ Teacher Info
 * rune@runemadsen.com
 * [www.runemadsen.com](http://www.runemadsen.com)
 * [Office Hours Signup](https://www.google.com/calendar/selfsched?sstoken=UUZYRVhjenlybjZ6fGRlZmF1bHR8ZTlhNjZkZmUwMjU1MTRkNGI3NDQyYzBjMGZjNjNjZWM)
+
+
+Students
+--------
+
+* [Class of 2012](/printing-code-2012/students-2012)
 
 Introduction
 ------------
@@ -324,3 +311,5 @@ Studios / Companies
 
 * [Onformative - Germany](http://www.onformative.com/)
 * [E. Roon Kang](http://www.eroonkang.com/)
+* [Laboratoire ORB](http://www.labo-irb.eu/)
+* [JR Schmidt](http://cargocollective.com/jrschmidt/)

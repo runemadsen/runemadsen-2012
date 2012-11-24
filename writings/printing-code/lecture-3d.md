@@ -9,3 +9,8 @@ Go through:
 * spinning around something in 3D space (automated, not mouse)
 * There are a ton of cool examples in GG, so go through them and use them
 
+USE TOxiclibs mesh class and example: BezierPatchSimple
+
+USE this guy:
+http://butdoesitfloat.com/It-is-easy-to-imagine-fantasy-as-physical-and-myth-as-real-We-do-it
+

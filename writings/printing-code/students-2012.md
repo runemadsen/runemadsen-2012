@@ -1,0 +1,48 @@
+Class of 2012
+=============
+
+
+Student Git Repositories
+------------------------
+
+* [Mark Breneman](https://github.com/markbreneman/Printing-Code-Assignments)
+* [Mark Kleeb](https://github.com/markkleeb/PrintingCode2012)
+* [Sarah Hallacher](https://github.com/sarahkhallacher/printingcode)
+* [Matt Epler](https://github.com/matthewepler/printing_code)
+* [Kody Trauger](https://github.com/kodytrauger/Printing-Code-Fall-2012)
+* [Kim Ash](https://github.com/kimash/printing-code)
+* [Hyeyoung Yoon](https://github.com/HyeYoun/PrintingCode-Hyeyoung)
+* [Patrick Muth](https://github.com/pmuth/printing-code-f12)
+* [Alessandra Villaamil](https://github.com/avillaamil/PrintingCode)
+* [Yucef Merhi](https://github.com/yucef/printing_code)
+* [Monica Bate](https://github.com/loadix/Printing-Code)
+* [Ben Light](https://github.com/blightdesign)
+* [Claire Mitchell](https://github.com/subcontext/PrintingCode)
+* [Sophie Laffont](https://github.com/sl2631/printingcode)
+* [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
+* [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
+* [Adria Navarro-Lopex](https://github.com/araid/PrintingCode)
+* [Ali Sajjadi](https://github.com/psionn/PrintingCode)
+
+
+Student Final Proposals
+-----------------------
+
+* [Mark Breneman](http://markbreneman.com/blog/2012/11/21/PrintingCode-FinalProposal/)
+* [Mark Kleeb](http://stu.itp.nyu.edu/~mk3981/blog/?p=1430)
+* [Sarah Hallacher](http://ablogthat.sarahmak.es/?p=8642601365)
+* [Matt Epler]()
+* [Kody Trauger](http://www.kodytrauger.com/blog/printing-code-final-assignment/)
+* [Kim Ash]()
+* [Hyeyoung Yoon]()
+* [Patrick Muth]()
+* [Alessandra Villaamil](http://itp.nyu.edu/~av1105/blog/printing-code-final-brain-storm/)
+* [Yucef Merhi]()
+* [Monica Bate](http://itp.nyu.edu/~mbv227/?p=1291)
+* [Ben Light](http://itp.nyu.edu/~bl1236/blog/2012/11/generative-label-for-mobile-homes/)
+* [Claire Mitchell]()
+* [Sophie Laffont](http://itp.nyu.edu/~sl2631/blog/?p=716)
+* [Manuela Donoso]()
+* [Joe McCargherty]()
+* [Adria Navarro-Lopex]()
+* [Ali Sajjadi]()
