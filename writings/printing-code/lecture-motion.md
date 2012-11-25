@@ -109,7 +109,10 @@ One interesting topic is the idea of simulating physics in graphic designs.
 
 Daniel Shiffman has made a nice wrapper to the Box2D library (hello Angry Birds!) that makes it easier to use in Processing.
 
-	Very simple example with a thing falling
+Here's a simple sketch that shows the steps you need to take to create a "world" and some objects in that world.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_simple.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/physics_simple)
 
 	Very simple example with bounds
 
