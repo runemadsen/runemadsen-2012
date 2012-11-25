@@ -68,14 +68,32 @@ Here's the same example, but using a class and multiple objects created from the
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounces_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounces.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_bounces)
 
-	Example of a sequence
+You can also chain multiple tweens together, in order to create an animation sequence. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounce_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_bounce.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_sequence)
+
+Here's a very simple sketch that demonstrates how you could actually use these easings to create a generative, graphic poster.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster1.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster2.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster3.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster4.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster5.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster6.png" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster7_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_poster7.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_poster)
 
 If you're interested in exploring the different types of easings, this sketch will visualize all of them for you.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_viewer_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_viewer.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/easings_viewer)
-
-	A nice example using easings
 
 You can check out all the methods on the easings library by visiting the [Javadocs](http://www.looksgood.de/libraries/Ani/reference/index.html)
 
@@ -83,7 +101,7 @@ You can check out all the methods on the easings library by visiting the [Javado
 Physics Libraries
 -----------------
 
-One interesting topic is the ide of simulating physics in graphic designs.
+One interesting topic is the idea of simulating physics in graphic designs.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1.jpg" />
 
