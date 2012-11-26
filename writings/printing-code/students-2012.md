@@ -43,6 +43,6 @@ Student Final Proposals
 * Claire Mitchell
 * [Sophie Laffont](http://itp.nyu.edu/~sl2631/blog/?p=716)
 * Manuela Donoso
-* Joe McCargherty
+* [Joe McCargherty](http://josephmccagherty.tumblr.com/printingcode)
 * Adria Navarro-Lopex
 * Ali Sajjadi
