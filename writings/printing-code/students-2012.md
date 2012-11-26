@@ -40,7 +40,7 @@ Student Final Proposals
 * Yucef Merhi
 * [Monica Bate](http://itp.nyu.edu/~mbv227/?p=1291)
 * [Ben Light](http://itp.nyu.edu/~bl1236/blog/2012/11/generative-label-for-mobile-homes/)
-* Claire Mitchell
+* [Claire Mitchell](http://itp.nyu.edu/~cm2897/blog/?p=1113)
 * [Sophie Laffont](http://itp.nyu.edu/~sl2631/blog/?p=716)
 * Manuela Donoso
 * [Joe McCargherty](http://josephmccagherty.tumblr.com/printingcode)
