@@ -21,7 +21,7 @@ Student Git Repositories
 * [Sophie Laffont](https://github.com/sl2631/printingcode)
 * [Manuela Donoso](https://github.com/mdonoso/printing-code-2012)
 * [Joe McCargherty](https://github.com/JoeMcCagherty/Printing_Code)
-* [Adria Navarro-Lopex](https://github.com/araid/PrintingCode)
+* [Adria Navarro-Lopez](https://github.com/araid/PrintingCode)
 * [Ali Sajjadi](https://github.com/psionn/PrintingCode)
 
 
@@ -33,7 +33,7 @@ Student Final Proposals
 * [Sarah Hallacher](http://ablogthat.sarahmak.es/?p=8642601365)
 * Matt Epler
 * [Kody Trauger](http://www.kodytrauger.com/blog/printing-code-final-assignment/)
-* Kim Ash
+* [Kim Ash](http://blog.kim-ash.com/2012/11/an-homage-to-bradbury/)
 * Hyeyoung Yoon
 * Patrick Muth
 * [Alessandra Villaamil](http://itp.nyu.edu/~av1105/blog/printing-code-final-brain-storm/)
@@ -44,5 +44,5 @@ Student Final Proposals
 * [Sophie Laffont](http://itp.nyu.edu/~sl2631/blog/?p=716)
 * Manuela Donoso
 * [Joe McCargherty](http://josephmccagherty.tumblr.com/printingcode)
-* Adria Navarro-Lopex
+* [Adria Navarro-Lopez](http://itp.adrianavarro.net/?p=239)
 * Ali Sajjadi
