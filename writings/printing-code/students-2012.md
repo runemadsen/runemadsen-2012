@@ -31,10 +31,10 @@ Student Final Proposals
 * [Mark Breneman](http://markbreneman.com/blog/2012/11/21/PrintingCode-FinalProposal/)
 * [Mark Kleeb](http://stu.itp.nyu.edu/~mk3981/blog/?p=1430)
 * [Sarah Hallacher](http://ablogthat.sarahmak.es/?p=8642601365)
-* Matt Epler
+* [Matt Epler](http://itp.nyu.edu/~mae383/blog/?p=518)
 * [Kody Trauger](http://www.kodytrauger.com/blog/printing-code-final-assignment/)
 * [Kim Ash](http://blog.kim-ash.com/2012/11/an-homage-to-bradbury/)
-* Hyeyoung Yoon
+* [Hyeyoung Yoon](http://itp.nyu.edu/~hy643/myblog/?p=1403)
 * Patrick Muth
 * [Alessandra Villaamil](http://itp.nyu.edu/~av1105/blog/printing-code-final-brain-storm/)
 * Yucef Merhi
@@ -42,7 +42,7 @@ Student Final Proposals
 * [Ben Light](http://itp.nyu.edu/~bl1236/blog/2012/11/generative-label-for-mobile-homes/)
 * [Claire Mitchell](http://itp.nyu.edu/~cm2897/blog/?p=1113)
 * [Sophie Laffont](http://itp.nyu.edu/~sl2631/blog/?p=716)
-* Manuela Donoso
+* [Manuela Donoso](http://itp.nyu.edu/~mdl425/wordpress/printing-code/printing-code-final-idea/)
 * [Joe McCargherty](http://josephmccagherty.tumblr.com/printingcode)
 * [Adria Navarro-Lopez](http://itp.adrianavarro.net/?p=239)
 * Ali Sajjadi
