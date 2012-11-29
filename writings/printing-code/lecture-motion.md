@@ -11,12 +11,6 @@ Here's an image of a series of graphic prints created with randomized, moving ar
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/tiny_artist1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/tiny_artist1.jpg" />
 
-Examples
---------
-
-	There's a ton of examples in the "movement" chapter in dynamic identities. USE! p. 57
-
-	Find examples from graphic design that shows movement.
 
 PGraphics and draw
 ------------------
@@ -114,7 +108,10 @@ Here's a simple sketch that shows the steps you need to take to create a "world"
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_simple.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/physics_simple)
 
-	Very simple example with bounds
+Here we added a boundary to the example.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_bounds_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_bounds.png" />
+[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/physics_bounds)
 
 Now that we know how to create a world and make things fall, we can use this in our designs. Here's a sketch that uses the same technique to make a generate circle shape.
 
@@ -136,13 +133,9 @@ Now that we know how to create a world and make things fall, we can use this in 
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/motion/physics_advanced)
 
 
-Mouse Interaction
------------------
+ControlP5
+---------
 
-	ControlP5 to control your sketch after freezing it
+A library related to the concept of motion, is the ControlP5 library. ControlP5 is a Processing library that makes it possible to change variables in your code via UI controls.
 
-
-More stuff
-----------
-
-Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
+The library ships with a ton of different examples.

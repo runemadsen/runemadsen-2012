@@ -13,3 +13,5 @@
 * Color class should be ALL in TColor!
 * Repetition class should have example of doing a Tile class that you can put in x,y for loops in setup and create a tiling pattern.
 * Change all examples so they don't use .hue() .saturation() and .brightness(), instead toHex()
+* To motion class, add: Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
+* The form class should be much more about geometry and toxiclibs
