@@ -121,7 +121,7 @@ Now that we know how to create a world and make things fall, we can use this in 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced3.png" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced4.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced4.png" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/physics_advanced5.png" />
 
