@@ -245,9 +245,14 @@ Week 12: Motion
 
 Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a moving virtual world. 
 
-<!-- Assignment: 
-1. work on final
--->
+### Class Overview
+
+* Lecture: **[Computational Motion](/printing-code-2012/lecture-motion)**
+* Final ideas presentation
+
+### Assignment for next week
+
+* Work on your final. When we meet during next class, you'll have only 1 day (Friday) to print your final. I suggest you finish your final and prepare your presentation over the weekend.
 
 Week 13: 3D
 -----------
