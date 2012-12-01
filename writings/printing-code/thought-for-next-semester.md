@@ -15,3 +15,4 @@
 * Change all examples so they don't use .hue() .saturation() and .brightness(), instead toHex()
 * To motion class, add: Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
 * The form class should be much more about geometry and toxiclibs
+* for 3D class: Make sagmeister casa de musica logo in 3d model and make it choose a viewport to render

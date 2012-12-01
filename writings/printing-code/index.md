@@ -311,10 +311,12 @@ Recommended Blogs
 * http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
 * http://www.underconsideration.com/brandnew/
 
-Studios / Companies
--------------------
+Studios / People
+----------------
 
 * [Onformative - Germany](http://www.onformative.com/)
 * [E. Roon Kang](http://www.eroonkang.com/)
 * [Laboratoire ORB](http://www.labo-irb.eu/)
 * [JR Schmidt](http://cargocollective.com/jrschmidt/)
+* [Alessandro Capozzo](http://www.abstract-codex.net/membranae/index.html)
+* [Tim Reynolds](http://butdoesitfloat.com/It-is-easy-to-imagine-fantasy-as-physical-and-myth-as-real-We-do-it)
