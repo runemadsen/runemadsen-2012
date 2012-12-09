@@ -277,6 +277,13 @@ Week 14: _Final Presentations_
 Final presentations
 
 
+Libraries
+---------
+
+* [Toxiclibs](http://toxiclibs.org/)
+* [Geomerative](http://www.ricardmarxer.com/geomerative) is a library for computational geometry.
+
+
 Recommended Readings
 --------------------
 
@@ -295,17 +302,21 @@ These books might come in handy before, during or after the semester. You will n
 * [Bulletins of the Serving Library](http://www.servinglibrary.org/) is the new magazine that the DDD creators has started.
 * [Elements of Typographic Style by Robert Bringhurst](http://amzn.to/17cWk9) Want to know about typefaces? This is the book.
 * [The Interaction of Color by Josef Albers](http://amzn.to/NGs4R2). Want to know about color? This is the book.
-* A Little-Known Story About a Movement, a Magazine, and the Computer's Arrival in Art: New Tendencies and Bit International
-* Dynamic Identities in Cultural and Public Contexts - Ulrike Felsing
+* [A Little-Known Story About a Movement, a Magazine, and the Computer's Arrival in Art: New Tendencies and Bit International](http://mitpress.mit.edu/books/little-known-story-about-movement-magazine-and-computer%E2%80%99s-arrival-art)
+* [Dynamic Identities in Cultural and Public Contexts](http://www.amazon.com/Dynamic-Identities-Cultural-Public-Context/dp/3037781637)
 
 
 Recommended Blogs
 -----------------
 
-* [http://rulesbased.wordpress.com](Rules Based)
-* [http://typeworship.com](Typeworship)
-* [http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn](Type Code)
-* [http://www.underconsideration.com/brandnew](Brand New)
+* [Rules Based](http://rulesbased.wordpress.com)
+* [Typeworship](http://typeworship.com)
+* [Type Code](http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn)
+* [Brand New](http://www.underconsideration.com/brandnew)
+* [mlkshk geometric](http://mlkshk.com/geometric)
+* [Subtraction: Grids are Good](http://www.subtraction.com/pics/0703/grids_are_good.pdf)
+* [Smashing Magazine: Lessons from Swiss Style Graphic Design](http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/)
+* [Relational Design](http://nevolution.typepad.com/theories/2011/03/a-relational-design-process-thesis.html)
 
 Studios / People
 ----------------

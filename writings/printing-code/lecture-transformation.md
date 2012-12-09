@@ -160,9 +160,3 @@ Here's an example where we're taking last weeks cube pattern and using the pixel
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/transformation/cube_pattern.png" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/transformation/cube_pattern)
-
-
-Links
------
-
-* http://mlkshk.com/geometric

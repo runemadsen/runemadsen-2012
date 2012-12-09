@@ -213,11 +213,3 @@ However, to grab the pixels from an image we need to know the bounds of the shap
 If you add a little randomness, we now have an organic logo:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/logo/seed_examples.jpg" />
-
-
-Blogs, etc
-----------
-
-* http://www.underconsideration.com/brandnew/
-* http://rulesbased.wordpress.com
-* http://nevolution.typepad.com/theories/2011/03/a-relational-design-process-thesis.html

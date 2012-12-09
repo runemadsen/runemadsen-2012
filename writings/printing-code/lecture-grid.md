@@ -220,10 +220,3 @@ We have already looked at how we can choose random placements in a modular grid 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/random_grid3.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/grid/modular_grid_no_overlap_random_size)
-
-
-Blogs and Links
----------------
-
-* [Subtraction: Grids are Good](http://www.subtraction.com/pics/0703/grids_are_good.pdf)
-* [Smashing Magazine: Lessons from Swiss Style Graphic Design](http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/)

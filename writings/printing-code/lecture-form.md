@@ -404,8 +404,3 @@ A series of generative book covers made by Karsten Schmidt.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/poetry_poster.jpg" />
 
 A poster for the literary festival "Poetry on the Road", using Processing to generate a graphic print. Notice how the logo uses whitespace inside the letters to emphasize "on the road" - like a car driving through the poetry. With no arrows or anything pointing in a direction, this logo creates movement just by subtracting mass from the letters.
-
-Libraries
----------
-
-The [Geomerative](http://www.ricardmarxer.com/geomerative) library has a bunch of interesting functions for computational geometry.
