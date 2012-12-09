@@ -276,10 +276,6 @@ Week 14: _Final Presentations_
 
 Final presentations
 
-<!--
-The final should be: Make a poster with form, color and typography for a specific event. Find friends who need a poster. If you can't find any, make one for the ITP show. Show my residents poster as example.
--->
-
 
 Recommended Readings
 --------------------
@@ -306,10 +302,10 @@ These books might come in handy before, during or after the semester. You will n
 Recommended Blogs
 -----------------
 
-* http://rulesbased.wordpress.com/
-* http://typeworship.com/
-* http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn
-* http://www.underconsideration.com/brandnew/
+* [http://rulesbased.wordpress.com](Rules Based)
+* [http://typeworship.com](Typeworship)
+* [http://www.issuu.com/jpagecorrigan/docs/type-code_yeohyun-ahn](Type Code)
+* [http://www.underconsideration.com/brandnew](Brand New)
 
 Studios / People
 ----------------

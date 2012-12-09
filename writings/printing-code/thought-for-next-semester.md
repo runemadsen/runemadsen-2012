@@ -1,4 +1,4 @@
-* Form class could be two weeks, the second about how to build more complex forms, and ALL THE TOXICLIBS FORM/MESH FUNCTIONALITY!!!
+* Form class could be two weeks, the second about how to build more complex forms, and ALL THE GEOMERATIVE FUNCTIONALITY. LOOK IN THE EXAMPLES!!!
 * Explain PGraphics better. Students need to have a better understanding of how to scale stuff, etc.
 * The typography class should have more about basic typography. Go through normal graphic design use of fonts, baseline designs, etc.
 * For font class, use more time on how the font is drawn on the screen. Then spend time on the Geomerative RFont and how to use the draw method with a PGraphics object. The students don't know how to draw fonts with geomerative.
@@ -16,3 +16,6 @@
 * To motion class, add: Use “Simulate” chapter in Form and Code: Swarms, Genetic Algorithms, particles, so on.
 * The form class should be much more about geometry and toxiclibs
 * for 3D class: Make sagmeister casa de musica logo in 3d model and make it choose a viewport to render
+* USE GEOMERATIVE SVG FUNCTIONS IN IMAGE CLASS: (HelloPolygonize from examples, etc)
+* In 3D class, use mesh
+* Use geomerative base classes (RPath, RShape) for form class (or later classes). Explain how the RPath works, and how multiple RPaths are in a RShape (maybe wait with some of this for the transformation class)
