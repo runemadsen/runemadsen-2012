@@ -3,7 +3,7 @@
 Printing Code 2012
 ==================
 
-**Printing Code** is a graduate course taught at the Interactive Telecommunications Program during the fall 2012 semester. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition and generative form.
+**Printing Code** is a graduate course taught at the Interactive Telecommunications Program at New York University. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition, transformation and generative form.
 
 Weekly readings include relevant writings from the history of graphic design ([Josef Muller-Brockmann](http://bit.ly/KR2jkA), [Paul Rand](http://bit.ly/KzNyhy)), articles from the history of computation ([Vannevar Bush](http://bit.ly/9Zat9h), [Douglas Englebart](http://bit.ly/B4HDX)) and everything in between ([Sol Lewitt](http://bit.ly/BX1iy), [Edward Tufte](http://bit.ly/49i1Xj)).
 
@@ -17,7 +17,7 @@ Github Repository
 
 All code examples and frameworks used in the class can be found on Github:
 
-* [https://github.com/runemadsen/printing-code-2012](https://github.com/runemadsen/printing-code-2012)
+* [https://github.com/runemadsen/printing-code](https://github.com/runemadsen/printing-code)
 
 
 Teacher Info
@@ -32,18 +32,21 @@ Teacher Info
 Students
 --------
 
-* [Class of 2012](/printing-code-2012/students-2012)
+* [Class Spring 2013](/printing-code-2012/students-spring-2013)
+* [Class Fall 2012](/printing-code-2012/students-2012)
 
 Introduction
 ------------
 
 > It’s important to use your hands, this is what distinguishes you from a cow or a computer operator - Paul Rand
 
-For many years graphic design education has been a separate field. You learn about color, grids, form, balance, typography, and books on the subject are geared towards individuals with visual creativity. The opposite can be said about the field of programming that for a long time has been geared towards technically skilled people. During the last decade this line has obviously blurred, but not to the degree you would expect. Companies still hire _designers_ or _developers_. Most web design is still made in Photoshop and then translated into code. I even know quite a few creative coders who act like scared children when asked to design something.
+For many years graphic design education has been a separate field. You learn about color, grids, form, scale, typography, and books on the subject are geared towards individuals with visual creativity. The opposite can be said about the field of programming that for a long time has been geared towards technically skilled people. During the last decade this line has obviously blurred, but not to the degree one would expect. 
 
-For someone who grew up as a part of the computer generation, this divide might seem problematic. If your first experiments with color and form was when you were also writing HTML and CSS for the first time, then how do you know where design stops and programming begins? Graphic design and programming are so intermingled today that a term like *Computational Design* seems like a much better explanation of the two merging fields. [Design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), not just a last layer of make-up.
+For someone who grew up as a part of the computer generation, this divide might seem problematic. My first experiments with color and form was also when learning HTML and CSS, so how do I know where design stops and programming begins? Graphic design and programming are so intermingled today that a term like *Computational Design* seems like a much better explanation of the two merging fields. [Design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), not just a last layer of make-up.
 
-As I've grown more experienced as a graphic designer, it has become obvious that a great deal of this experience is built on a very systematic approach to design. Graphic design almost seems like algorithms controlled by a creative vision. Grids are just basic measurements. Typography is all about spacing and curves. Color schemes are basic math performed on the color spectrum. This class is about investigating what happens when we start creating graphic art only by writing code. It's an experiment in replacing already exiting tools (that too long has dictated the visual look of computational design - hello drop shadow) with our own software programs. We will investigate graphic design systems, distill them into algorithms, and eventually let them spin out of control.
+As I've grown more experienced as a graphic designer, it has become obvious that a great deal of this experience is built on a very systematic approach to design. Graphic design can at times seem like algorithms controlled by a creative vision. Grids are just basic measurements. Typography is spacing and curves. Color schemes are proportional spacings placed on the color spectrum. This class is about investigating what happens when we start creating graphic art only by writing code. It's an experiment in replacing already exiting tools (that too long has dictated the visual look of computational design - hello drop shadow) with our own software programs. We will investigate graphic design systems, distill them into algorithms, and eventually let them spin out of control.
+
+It's important to note that this class is not so much about generative design, as it's about graphic design through code. I see no value in splattering a shape 5000 times on a canvas, calling it generative art, just because we can. It's about distilling already existing graphic design techniques into code, making valid and reasonable assumptions, and then - only then - letting things spin out of control.
 
 
 Week 1: Hello World
@@ -73,7 +76,7 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 ### Assignment for next week
 
 * Set up a Github repository where you'll post all your code. Send me an email with the link.
-* On ITP's laser printer, print a PNG image generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone. Yes, and ice cream cone.
+* On ITP's laser printer, print a PDF file generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone. Yes, and ice cream cone.
 
 Week 2: Form
 ------------
@@ -194,11 +197,7 @@ Randomization is about letting the computer choose for us. This week we'll look 
 * For next week, pick [one of these famous Olivetti posters by Giovanni Pintori](/printing-code-2012/posters) and write a Processing sketch that directly copies or is inspired by the design of the poster. Your Processing sketch must demonstrate the use of weighted randomness (this means that it must be generative in some sense) and vectors (this means that all x,y variables should instead use PVectors or Vec2D). Bring to class a poster, and be ready to present why you choose that specific poster, in what way the use of randomness helps illustrate the concept, and how your code is written. I'm looking for the simplest possible implementation of the poster concepts, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
 
 
-Week 9: Cancelled: Stooooorm!
----------------------------------------
-
-
-Week 10: Repetition
+Week 9: Repetition
 ------------------
 
 Repetition is highly computational, still human beings have created patterns as long as we have known creative expression. In this class we'll focus on the use of patterns in graphic design, and look at different repetition techniques and ways of creating custom patterns.
@@ -215,7 +214,7 @@ Repetition is highly computational, still human beings have created patterns as 
 * For next week write a Processing sketch that generates a pattern. The pattern should be a design proposal for the company [Makerbot](http://www.makerbot.com/), and should be designed to be used for their christmas gift wrapping paper. So you need to research the company, look at their identity, and come up with a design that reflects this. It doesn't matter whether the pattern is periodic or aperiodic, but what does matter is that it's dynamic. This means that I should be able to change global variables and see the pattern change the next time I run the sketch. Bring to class a printed poster of your pattern, and we'll discuss the proposals.
 
 
-Week 11: Transformation
+Week 10: Transformation
 ----------------------
 
 What happens to graphic files when we start to manipulate the pixels in code? Can we still preserve meaning while creating beauty with algorithms? This week we'll look at different techniques for manipulating pixel arrays. We will look at examples of transformation in graphic design even before the computer, compare these to recent examples of transformation in graphic design products, and go through photo filter algorithms in Processing.
@@ -240,7 +239,7 @@ Pick a real-world design problem that you will tackle for your final. This can b
 Start coding. On the first Thursday after Thanksgiving, come prepared to show the progress you've made. This should not be a finished product at all, but you should be ready to share what your are working on, and what problems you're currently facing. We will spend half the class on this.
 
 
-Week 12: Motion
+Week 11: Motion
 ---------------
 
 Can a still image have movement? In this class we'll experiment with animation and movement in graphic design. We'll see what happens when we introduce physics in our graphic designs. Like a photograph is a snapshot of a moving world, so too can a printed graphic be a snapshot of a moving virtual world. 
@@ -254,27 +253,16 @@ Can a still image have movement? In this class we'll experiment with animation a
 
 * Work on your final. When we meet during next class, you'll have only 1 day (Friday) to print your final. I suggest you finish your final and prepare your presentation over the weekend.
 
-Week 13: 3D
+Week 12: 3D
 -----------
 
 In the same way as motion can be used in the graphic arts, so too can 3D. Even though we are printing on paper, we can still simulate 3D in our code, twist and turn objects, and randomize the resulting print. We'll look at recent developments in graphic design and 3D, including 3-dimensional typefaces and logos.
 
-<!-- Assignment: 
-1. work on final
--->
 
-<!-- Cancelled because of storm
-
-Week 14: Workday
-////////////////
-
-We will work on the final products.
--->
-
-Week 14: _Final Presentations_
+Week 13 + 14: _Final Presentations_
 --------------------------------
 
-Final presentations
+We will combine 2 classes into one long final class presentation. I will invite critics from the design, coding, and curating world, and you will each do a 6-8 minute presentation, followed by a short discussion.
 
 
 Libraries
@@ -327,3 +315,4 @@ Studios / People
 * [JR Schmidt](http://cargocollective.com/jrschmidt/)
 * [Alessandro Capozzo](http://www.abstract-codex.net/membranae/index.html)
 * [Tim Reynolds](http://butdoesitfloat.com/It-is-easy-to-imagine-fantasy-as-physical-and-myth-as-real-We-do-it)
+* [Adam Harvey](ahprojects.com)
