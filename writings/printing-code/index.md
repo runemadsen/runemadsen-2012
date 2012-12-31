@@ -1,7 +1,7 @@
 <a name="course-description"></a>
 
-Printing Code 2012
-==================
+Printing Code
+=============
 
 **Printing Code** is a graduate course taught at the Interactive Telecommunications Program at New York University. In this course students explore the use of computational techniques to produce physical prints, focusing on the intersection between graphic design and code. Class time will be divided between exploring design topics like colors, grids and typefaces, and applying these towards computational topics like randomization, repetition, transformation and generative form.
 
@@ -32,8 +32,8 @@ Teacher Info
 Students
 --------
 
-* [Class Spring 2013](/printing-code-2012/students-spring-2013)
-* [Class Fall 2012](/printing-code-2012/students-2012)
+* [Class Spring 2013](/printing-code/students-spring-2013)
+* [Class Fall 2012](/printing-code/students-2012)
 
 Introduction
 ------------
@@ -69,9 +69,9 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 * About the class
 * Syllabus Walk-Through
 * Introductions
-* Lecture: **[The History of Graphic Design and Computational Form](/printing-code-2012/lecture-intro)**
+* Lecture: **[The History of Graphic Design and Computational Form](/printing-code/lecture-intro)**
 * Using Processing to create graphic prints
-* [Reading Discussion](/printing-code-2012/reading-questions)
+* [Reading Discussion](/printing-code/reading-questions)
 
 ### Assignment for next week
 
@@ -95,12 +95,12 @@ This week we'll look at the most basic subject in the visual arts: manipulation 
 
 * Homework presentations
 * Reading discussion
-* Lecture: **[Computational Format and Form](/printing-code-2012/lecture-form)**
+* Lecture: **[Computational Format and Form](/printing-code/lecture-form)**
 * Trip to AMS
 
 ### Assignment for next week
 
-* Write a Processing sketch that outputs 2 shapes on a page. The first shape should be inspired by the word "wet". The second shape should be inspired by the word "sharp".  Use only black and white. You have to use beginShape(), and all vertex points have to be created in a for loop. No manual plotting. Print on a poster at AMS and bring to class for design critique. Please read: [Preparing Your Image for AMS](/printing-code-2012/preparing-for-ams)
+* Write a Processing sketch that outputs 2 shapes on a page. The first shape should be inspired by the word "wet". The second shape should be inspired by the word "sharp".  Use only black and white. You have to use beginShape(), and all vertex points have to be created in a for loop. No manual plotting. Print on a poster at AMS and bring to class for design critique. Please read: [Preparing Your Image for AMS](/printing-code/preparing-for-ams)
 
 
 Week 3: Color
@@ -109,7 +109,7 @@ Week 3: Color
 In this class we'll dive into color theory and look at color handling in Processing. We'll talk about the history of color, the difference between RGB and HSB, and investigate how to generate color schemes in code.
 
 * Homework design critique
-* Lecture: **[Computational Color](/printing-code-2012/lecture-color)**
+* Lecture: **[Computational Color](/printing-code/lecture-color)**
 
 ### Assignment for next week
 
@@ -129,7 +129,7 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 
 * Toxiclibs and Graphics review
 * Homework presentations
-* Lecture: **[Computational Typography](/printing-code-2012/lecture-typography)**
+* Lecture: **[Computational Typography](/printing-code/lecture-typography)**
 * Possible group assignment
 
 ### Assignment for next week
@@ -149,7 +149,7 @@ In this class we'll look at grid systems and how to use them as guiding constrai
 ### Class Overview
 
 * Homework design critique
-* Lecture: **[Computational Grid Systems](/printing-code-2012/lecture-grid)**
+* Lecture: **[Computational Grid Systems](/printing-code/lecture-grid)**
 
 ### Assignment for next week
 
@@ -163,7 +163,7 @@ To make a well-designed logo requires skills in form, color, type and grid. We'l
 ### Class Overview
 
 * Homework design critique
-* Lecture: **[Organic Logos](/printing-code-2012/lecture-logo)**
+* Lecture: **[Organic Logos](/printing-code/lecture-logo)**
 
 ### Assignment for next week
 
@@ -189,12 +189,12 @@ Randomization is about letting the computer choose for us. This week we'll look 
 ### Class Overview
 
 * Reading discussion
-* Lecture: **[Vectors and Randomization](/printing-code-2012/lecture-randomization)**
+* Lecture: **[Vectors and Randomization](/printing-code/lecture-randomization)**
 * Guest Lecture: E. Roon Kang, The MIT Logo
 
 ### Assignment for next week
 
-* For next week, pick [one of these famous Olivetti posters by Giovanni Pintori](/printing-code-2012/posters) and write a Processing sketch that directly copies or is inspired by the design of the poster. Your Processing sketch must demonstrate the use of weighted randomness (this means that it must be generative in some sense) and vectors (this means that all x,y variables should instead use PVectors or Vec2D). Bring to class a poster, and be ready to present why you choose that specific poster, in what way the use of randomness helps illustrate the concept, and how your code is written. I'm looking for the simplest possible implementation of the poster concepts, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
+* For next week, pick [one of these famous Olivetti posters by Giovanni Pintori](/printing-code/posters) and write a Processing sketch that directly copies or is inspired by the design of the poster. Your Processing sketch must demonstrate the use of weighted randomness (this means that it must be generative in some sense) and vectors (this means that all x,y variables should instead use PVectors or Vec2D). Bring to class a poster, and be ready to present why you choose that specific poster, in what way the use of randomness helps illustrate the concept, and how your code is written. I'm looking for the simplest possible implementation of the poster concepts, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
 
 
 Week 9: Repetition
@@ -205,8 +205,8 @@ Repetition is highly computational, still human beings have created patterns as 
 ### Class Overview
 
 * Quick homework presentations
-* [Assignment code review](/printing-code-2012/randomization-homework)
-* Lecture: **[Computational Repetition](/printing-code-2012/lecture-repetition)**
+* [Assignment code review](/printing-code/randomization-homework)
+* Lecture: **[Computational Repetition](/printing-code/lecture-repetition)**
 
 
 ### Assignment for next week
@@ -222,8 +222,8 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 ### Class Overview
 
 * 1 min. homework presentations
-* How to create a [tiling pattern](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/tiling_pattern)
-* Lecture: **[Pixel iteration and manipulation](/printing-code-2012/lecture-transformation)**
+* How to create a [tiling pattern](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/tiling_pattern)
+* Lecture: **[Pixel iteration and manipulation](/printing-code/lecture-transformation)**
 * Design exercise. Break into groups and come up with a final idea for:
 	* A book cover
 	* An event poster
@@ -246,7 +246,7 @@ Can a still image have movement? In this class we'll experiment with animation a
 
 ### Class Overview
 
-* Lecture: **[Computational Motion](/printing-code-2012/lecture-motion)**
+* Lecture: **[Computational Motion](/printing-code/lecture-motion)**
 * Final ideas presentation
 
 ### Assignment for next week
