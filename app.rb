@@ -163,7 +163,23 @@ class RuneMadsen < Sinatra::Base
   
   # Writings
   # -------------------------------------------------------------------
+ 
+  get '/printing-code/slideshow-blank' do
+    erb :"printing-code-2012/slideshow_blank", :layout => false
+  end
   
+  get '/printing-code/?:page?' do
+    @active = :itp
+    filename = params[:page] || "index"
+    @html = md_to_html(File.join("writings", "printing-code", filename + ".md"))
+    
+    if params[:slideshow]
+      erb :"printing-code-2012/slideshow", :layout => false
+    else
+      erb :"printing-code-2012/index"
+    end
+  end
+
   get '/printing-code-2012/slideshow-blank' do
     erb :"printing-code-2012/slideshow_blank", :layout => false
   end
