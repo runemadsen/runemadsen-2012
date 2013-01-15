@@ -23,7 +23,7 @@ There are 2 reasons why I choose to show this scene:
 Color is one the hardest things to master in the graphic arts, as it's both very subjective and highly dynamic (our perception of a single color change depending on what other colors we pair it with).
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_exchange.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_exchange)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/itten_exchange)
 
 Here's a quick example of how dynamic behavior color combination can have. This looks like 2 grounds where the grounds exchanged in the center squares. They are - in fact - 3 colors, where the center square is a color midways in the hue spectrum between the grounds. The eye is searching for relevance. We can prove it by removing the grounds:
 
@@ -34,12 +34,12 @@ The conclusion to this must be that color theory matters: Based on simple calcul
 The problem with combining color only by numbers is that you can start to trust the numbers instead of your eyes. Here's another example of why this is problematic:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_example2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/itten_example2)
 
 In this example the small squares looks like the exact same color, but they are not even close. Because they keep a relative distance in brightness to their respective grounds, they look the same to the eye. We will investigate this further later when talking about simultaneous contrast.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/itten_example2_removed.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/itten_example2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/itten_example2)
 
 	
 What is Color?
@@ -135,7 +135,7 @@ We're really not talking about a color wheel, but a 3D color space, where hue, s
 H (0-360) control the angle on the wheel. S (0-100) controls saturation (radius). B (0-100) controls brightness (up-down the wheel). The first steps into working with HSB would be to draw a color circle using H.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/hsb_color_circle)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/hsb_color_circle)
 
 By tweaking the saturation and brightness we can make the colors less sharp.
 
@@ -152,14 +152,14 @@ Generating Monochromatic Color Schemes
 One of the simplest possible ways of generating a color scheme is to pick a specific hue and saturation, and then choose colors that are evenly distributed on the brightness scale. This is one example of a **monochromatic color scheme**.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_brightness_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_brightness.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_brightness)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_brightness)
 	
 This sketch has an even distribution in brightness values. You can easily imagine code that choose the values randomly.
 
 A slightly more sophisticated **monochromatic color scheme** would be to manipulate both saturation and brightness:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_saturation_brightness_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_saturation_brightness.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_saturation_brightness)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_saturation_brightness)
 
 This sketch randomly chose a saturation and brightness value between 0 and 100.
 
@@ -220,14 +220,14 @@ And analogous color scheme is a suit of colors that are located close to each ot
 We rotate 30 degrees around the color wheel because the standard color wheel has 12 colors, and 360/12 is 30. We are just finding the "next" color on the wheel.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_analogous)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_analogous)
 
 Of course nothing prevents you from playing with the settings. Here's an example of the same blue base color, but with neighboring colors found by rotating 50 degrees around the color wheel, and subtracting 50 from the base saturation.
 
 The further you rotate around the wheel, the less analogous harmony you get. We can loosely say that anything below a 90 degree angle is an analogous color.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_analogous2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_analogous2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_analogous2)
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_trees_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_trees.jpg" />
 
@@ -258,12 +258,12 @@ It's easy to find a complementary color in Processing:
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary3.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_complementary)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_complementary)
 
 Two examples of complementary color schemes. Notice the sharp contrast between the two colors.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_complementary2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_complementary2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_complementary2)
 
 
 Generating Triadic Color Schemes
@@ -274,19 +274,19 @@ A triadic color can be said to be the opposite of an analogous color. Where anal
 Here's a "pure" triadic color scheme with colors found by rotating 120 degrees on each side (internally an Equilateral triangle with 60 degree internal angles).
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_triadic)
 
 You may notice how this is the primary colors, which makes sense given the calculation.
 
 An interesting thing is to compare a triadic color scheme in RGB with the corresponding scheme in a subtractive color mode like RYB.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_sub_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic_sub.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_triadic)
 
 You may notice how the blue/yellow has a triadic relationship in RGB, but are complementary colors in RYB.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_triadic2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_triadic2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_triadic2)
 
 Here's another example of a triadic color scheme with hue 90 as the base hue.
 
@@ -299,7 +299,7 @@ A tetradic color scheme is a set of 4 colors chosen by placing a rectangle on th
 This color scheme is basically the same as a double complementary color scheme. Here's an example of color chosen by rotating 90 degrees around the color wheel 3 times.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_tetrad)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_tetrad)
 
 Notice the cold/warm contrast in this color scheme. 
 
@@ -308,7 +308,7 @@ However, the rectangle does not need to be equal-sided. Here's an example of a c
 This increases the cold/warm contrast.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/color_scheme_tetrad2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/color_scheme_tetrad2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/color_scheme_tetrad2)
 
 Those are the basic color scheme variations you can play with. This brings us to Itten's color contrasts.
 
@@ -336,7 +336,7 @@ The HSB color mode makes it very obvious what kind of brightness we are working 
 However computational light/dark scales are not linear. One might think that you can make a scale of equally contrasted rectangles by moving from brightness 10 to brightness 90 in steps of 10.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_wrong.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_wrong)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_lightdark_wrong)
 
 You might notice how there's a sharp contrast between first dark rectangles, but almost no contrast between any rectangle with 60 or more in brightness.
 
@@ -347,7 +347,7 @@ First discovered in the so-called Weber-Fechner Law, a linear increase in bright
 We can of course grow our brightness exponentially in the code instead:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_lightdark_right.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_lightdark_right)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_lightdark_right)
 
 Here's an example of using an exponential increment in brightness. Notice how the contrast is much more even. Unfortunately this formula won't work in low- or high-brightness colors, but it's a good general rule.
 
@@ -365,7 +365,7 @@ Contrast of Saturation
 The contrast of saturation describes the contrast that a brilliant color has towards a dull color of the same hue.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_saturation.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_saturation)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_saturation)
 
 This is an example of 2 colors with contrast in saturation.
 
@@ -411,7 +411,7 @@ Cold / Warm Contrast
 It's important to realize the dynamic nature of the cold/warm contrast. People tend to think that "red" is warm and "blue" is cold. As proved by Albers, here's an example of how extremely fragile that balance is.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/albers_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/albers_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/albers_example)
 
 
 Contrast of Extension
@@ -422,12 +422,12 @@ Contrast of Extension
 Itten's contrast of extension relates to the fact that different colors do not have the same perceived volume. If a yellow rectangle and a purple rectangle are set side by side, the yellow rectangle appears much bigger.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_white_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_white.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_white)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_extension_white)
 
 This "contrast of extension" varies depending on the background color, neighbor colors, and arrangement.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_black_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_black.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_black)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_extension_black)
 
 Goethe and later Itten proposed the following extension values for colors:
 
@@ -445,7 +445,7 @@ Here's those numbers visualized. Notice how balanced this color wheel is compare
 And a simple processing sketch that calculates ratio between 2 color pairs using those extension values.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ratios_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/contrast_extension_ratios.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/contrast_extension_ratios)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/contrast_extension_ratios)
 
 Of course this is a very basic treatment on the fact that colors have different volumes. It could be nice to have a constant to apply in code, but it varies greatly with the background and matching colors. In the end it's a test for your visual perception.
 
@@ -460,7 +460,7 @@ We do this by using a weighted formula that calculates the perceived brightness 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/brightness_perceived2.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/opposite_brightness)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/opposite_brightness)
 
 
 Toxiclibs
@@ -469,29 +469,29 @@ Toxiclibs
 Now that we know how color works in Processing, we can take a look at the Toxiclibs library that will help us doing generative color. Here's an example on how you can use the _TColor_ class to create and manipulate single colors. Notice how the library stores color values in normalized values (from 0 to 1), so we need to set the Processing colorMode to that.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_tcolor)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_tcolor)
 
 The library has a great collection type called _ColorList_ that allows you to manipulate all colors in the list at once, and do other interesting manipulations.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colorlist)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colorlist)
 
 Toxiclibs has a class called _ColorRange_ that allows you to pick random colors within a specific hue, saturation and brightness. Here's an example of how to use it.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colorrange)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colorrange)
 
 To be able to create generative color themes, Toxiclibs also has a _ColorTheme_ class that can contain many of these _ColorRange_ objects and pick random color themes from them.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colortheme)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colortheme)
 
 One of the greatest things about toxi.color is the _ColorTheory_ class that gives us access to all the different color theme types we looked at earlier.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_colortheory)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colortheory)
 
 Toxiclibs also has a class for generating gradients.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/gradient_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/gradient.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/color/toxiclibs_gradient)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_gradient)

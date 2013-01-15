@@ -172,7 +172,7 @@ I'm only going to show you a very few things about fonts in Processing.
 Processing ships with built-in font handling. To manipulate text, we need to know how to get the basic measurements of the things we draw. Here's an example of how to find the edges of a word you're drawing on the screen.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_measurements)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_measurements)
 
 
 Playing With Font Outlines
@@ -189,12 +189,12 @@ Besides vector font handling it has a bunch of interesting methods for computati
 First we need to figure out how to load a font and get its outline. This sketch shows how to that.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points)
 
 Now that we have the outline, we can use those points to place objects along the line.
 	
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_dots)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_dots)
 	
 Here's a little more complex sketch that uses beginShape to draw curved lines between the outline points.
 
@@ -205,12 +205,12 @@ Here's a little more complex sketch that uses beginShape to draw curved lines be
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_generative)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative)
 
 We can also fill the outline instead of drawing stroked lines.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_to_points_generative_filled)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative_filled)
 
 
 Custom Rule-based fonts in Processing
@@ -223,19 +223,19 @@ When working in code, we do not want to plot all outline point manually. It's mu
 Let's say that you want to create a custom uppercase "H" with vertex points. You could just draw the character by plotting the points on the screen:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_beginshape)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_beginshape)
 
 However, this is not scalable. What if you want to draw "H" several places in different sizes? Then it's easier to normalize the numbers and scale them up when drawing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_beginshape_normalized.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/font_beginshape_normalized)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_beginshape_normalized)
 
 However, most of the really interesting computational typography leverages simple rules to compute the letters, instead of relying on the plotting of outline points.
 
 Here's the simplest possible font, made up by a 4x6 matrix:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/pixel_font_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/pixel_font.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/pixel_font)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/pixel_font)
 
 That seems a little silly. However, making a rule-based font is much of the same process. Let's look at Peter Cho's pie font example again.
 
@@ -244,4 +244,4 @@ That seems a little silly. However, making a rule-based font is much of the same
 Here's a Processing sketch implementing the same rules. It really doesn't take much work.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/piefont_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/piefont.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/typography/pie_segments_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/pie_segments_example)

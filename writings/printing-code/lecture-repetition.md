@@ -59,22 +59,22 @@ Periodic Tiling
 It's pretty easy to do periodic tiling in Processing. Here's an example of an extremely ugly pattern created with a for-loop.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/simple_pattern.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/simple_pattern)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/simple_pattern)
 
 Here's a slightly better looking cube pattern.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern)
 
 Here's that same cube pattern code, but using a class to clean up the main file.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern_class)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_class)
 
 Here I'm using the class twice to overlay two patterns
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/cube_pattern_class_overlay)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_class_overlay)
 
 However, these patterns only allow us to create stricly repetitive patterns. To do more sophisticated patterns, we need to learn about aperiodic tiling.
 
@@ -87,7 +87,7 @@ Crucial to the concept of aperiodic tiling is recursion.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_ref_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_ref.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion.png" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/recursion)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/recursion)
 
 
 Aperiodic Tiling: Substitution Rules
@@ -108,7 +108,7 @@ Aperiodic Tiling: Substitution Rules
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple5.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division_simple6.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/aperiodic_tiling)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/aperiodic_tiling)
 
 **Slightly more advanced aperiodic tiling**
 
@@ -127,7 +127,7 @@ Aperiodic Tiling: Substitution Rules
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_division6.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/aperiodic_pattern.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/repetition/aperiodic_tiling2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/aperiodic_tiling2)
 
 
 Some Pattern Examples

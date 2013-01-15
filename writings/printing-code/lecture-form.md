@@ -150,7 +150,7 @@ Placement in Processing
 Now that we know placement matters, let's look at how to do this in Processing. To place an object within a given format requires basic math. These are illustrated in this example:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
 
 The only thing we can't do yet it calculating the proximity of an object, but we'll get to that later.
 
@@ -169,14 +169,14 @@ Now that we realize how form can convey meaning, we can start to play around wit
 Points created with the vertex() function always connect to the next point in a straight line. This can be used for e.g. drawing a house.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/vertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/vertex.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/vertex)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/vertex)
 
 ### curveVertex()
 	
 Points created with the curveVertex() function will draw a curved line, guided by the point before it and after it. This means that you need a minimum of 4 points to show a single curve, as the first and last point will always be invisible. In this sketch I add 3 to the vertex loop to continue the vertex on top of points already on the line, in order to draw enough guiding points for the circle to complete.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/curve_vertex_circle)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/curve_vertex_circle)
 
 ### bezierVerterx()
 
@@ -187,19 +187,19 @@ Bezier curves are essential to computational form, as it's the way most visual p
 Although invented by the mathematician Paul de Casteljau, bezier curves got their name from Pierre Bézier who first used these curves in early CAD programs to design cars for Renault. There are many different kinds of bezier curves (linear, quadratic, cubic), but we'll focus on cubic beziers, as it's the implementation of bezier curves used in Processing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/bezier_vertex)
 
 A bezier curve is a formula that describes how to draw a line from one point to another, using 2 control points. The two control points determine the curve of the line going to that specific point. In Processing, you always start a shape with a simple vertex point, and then draw bezierVertex points after it.
 
 It can be hard to understand how these two control points tell the line to curve like that. This animation shows how the curve of the line is calculated by doing simple vector math on the anchor points and control points.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement_small.gif" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_movement.gif" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/bezier_vertex_movement)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/bezier_vertex_movement)
 
 Here's a simple shape created with bezierVertex and vertex.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/wave.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_wave)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/beginshape_wave)
 
 By using bezierVertex() you can create complicated shapes in Processing. If you understand how to use it, you can now basically create any shape possible.
 
@@ -240,7 +240,7 @@ Of course, plotting these vertex points by hand in the sketch is rather tedious.
 Even though for loops are in all programming languages, many people have a hard time understanding how they work. Let's do a generative shape with for loops.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/beginshape_loop)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/beginshape_loop)
 
 
 For loops are extremely powerful, and they can be used throughout the design process in Processing. Let's look at a few examples and try to re-create them in Processing. Here is a uniform grid of hearts by Paul Rand.
@@ -250,7 +250,7 @@ For loops are extremely powerful, and they can be used throughout the design pro
 How would you create that in Processing?
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/repetition_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
 
 
 Sin and Cos
@@ -271,32 +271,32 @@ People think it's hard, but it really isn't.
 To do this we use the sin() and cos() functions. If you pass in a rotation and multiply it with your radius, they will return the x (cos) and y (sin) for the point we're trying to find.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_simple)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_simple)
 
 This can be used to put something on the perimeter of a circle. Now we can go back and try to do that in our placement example:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/placement_calculations)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
 
 If we put this in a loop, we can generate objects with this equation:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_hexagon)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_hexagon)
 
 Change a single parameter, and you get another shape:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon2_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon2_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_hexagon)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_hexagon)
 
 Here's another sketch that rotates text around our center:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_text_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_text.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_text)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_text)
 
 And another sketch that varies the radius in every loop to create a wobbly shape:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/sincos_wobbly)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_wobbly)
 	
 
 Basic Randomness
@@ -317,7 +317,7 @@ Randomness - or the idea of randomness - has been used way before the computer. 
 This is very easy to create in Processing. Create 30 ellipses in a loop and give them all random position.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random2_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/random_distribution_example)
 
 Here it's a cover for the children's book "I know a lot of things". Notice how the rectangles are randomized, but still spaced out so they never overlap. 
 
@@ -326,7 +326,7 @@ Here it's a cover for the children's book "I know a lot of things". Notice how t
 The same technique can be used in code by tweaking the rectangle grid example. Before drawing each rectangle we rotate and change the position randomly from its spot in the grid. If we choose the parameters wisely, we'll never see overlapping squares.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/random_distribution_example2)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/random_distribution_example2)
 
 
 Project Examples and Code
@@ -339,7 +339,7 @@ Using these newly learned techniques we can look at a few advanced projects and 
 Eno Henze is a programming artist from Germany. Here he uses random radius and stroke alpha to create a series of graphic prints.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/eno_sonnen_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_sonnen_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/henze_sonnen_example)
 
 The same visual can be created with Processing using the simple drawing functions, randomization and for loops.
 	
@@ -348,7 +348,7 @@ The same visual can be created with Processing using the simple drawing function
 Another piece by Eno Henze where he uses simple repetition and random form. This is a great example of the power of using random positioning with vertex points within beginShape().
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/henze_ambushes_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code-2012/tree/master/class_code/form/henze_ambushes_example)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/henze_ambushes_example)
 
 The same visual can be created with Processing and beginShape().
 
