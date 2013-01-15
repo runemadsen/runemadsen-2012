@@ -169,7 +169,7 @@ class RuneMadsen < Sinatra::Base
   end
 
   get '/printing-code/slideshow-blank' do
-    erb :"printing-code-2012/slideshow_blank", :layout => false
+    erb :"printing-code/slideshow_blank", :layout => false
   end
   
   get '/printing-code/?:page?' do
@@ -178,9 +178,9 @@ class RuneMadsen < Sinatra::Base
     @html = md_to_html(File.join("writings", "printing-code", filename + ".md"))
     
     if params[:slideshow]
-      erb :"printing-code-2012/slideshow", :layout => false
+      erb :"printing-code/slideshow", :layout => false
     else
-      erb :"printing-code-2012/index"
+      erb :"printing-code/index"
     end
   end
   
@@ -188,15 +188,15 @@ class RuneMadsen < Sinatra::Base
     filename = params[:page] || "index"
     @html = md_to_html(File.join("writings", "comm-web", filename + ".md"))
     if params[:slideshow]
-      erb :"printing-code-2012/slideshow", :layout => false
+      erb :"printing-code/slideshow", :layout => false
     else
-      erb :"printing-code-2012/index"
+      erb :"printing-code/index"
     end
   end
   
   get '/itp-camp' do
     @html = md_to_html("writings/openframeworks-itpcamp.md")
-    erb :"printing-code-2012/index"
+    erb :"printing-code/index"
   end
   
   # Other
