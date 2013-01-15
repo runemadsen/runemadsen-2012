@@ -18,6 +18,7 @@ Typography
 
 * The typography class should have more about basic typography. Go through normal graphic design use of fonts, baseline designs, etc.
 * For font class, use more time on how the font is drawn on the screen. Then spend time on the Geomerative RFont and how to use the draw method with a PGraphics object. The students don't know how to draw fonts with geomerative.
+* Use this talk: http://www.livestream.com/etsy/video?clipId=pla_3c805d93-1e45-4b2e-8380-84f59ef43a84
 
 GRID
 

@@ -305,10 +305,12 @@ Recommended Blogs
 * [Subtraction: Grids are Good](http://www.subtraction.com/pics/0703/grids_are_good.pdf)
 * [Smashing Magazine: Lessons from Swiss Style Graphic Design](http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/)
 * [Relational Design](http://nevolution.typepad.com/theories/2011/03/a-relational-design-process-thesis.html)
+* [Colour Lovers](http://www.colourlovers.com)
 
 Studios / People
 ----------------
 
+* [Stefanie Posavec](http://www.itsbeenreal.co.uk/)
 * [Onformative - Germany](http://www.onformative.com/)
 * [E. Roon Kang](http://www.eroonkang.com/)
 * [Laboratoire ORB](http://www.labo-irb.eu/)
