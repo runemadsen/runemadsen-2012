@@ -46,3 +46,15 @@ Student Final Proposals
 * [Joe McCargherty](http://josephmccagherty.tumblr.com/printingcode)
 * [Adria Navarro-Lopez](http://itp.adrianavarro.net/?p=239)
 * Ali Sajjadi
+
+
+Class Documentation
+-------------------
+
+* [Mark Breneman](http://www.markbreneman.com/blog/2012/12/28/PrintingCode-Redux/)
+* [Mark Kleeb](http://www.kleebtronics.com/printingcode)
+* [Adria Navarro-Lopez](https://github.com/araid/PrintingCode)
+* [Ben Light](http://blightdesign.com/unfinished/?p=326)
+* [Monica Bate](http://itp.nyu.edu/~mbv227/?cat=20)
+* [Patrick Muth](http://itppatrick.tumblr.com/)
+* [Sarah & Alessandra](http://www.alessandravillaamil.com/Sediment-Mars)

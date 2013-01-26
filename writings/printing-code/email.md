@@ -6,9 +6,9 @@ Here’s a few things to keep in mind...
 
 This is a class where we present both code and product, and during presentations you will have to account for the code that produced your visual. Hopefully this will teach you a ton about programming, make you write clean code, and keep the “copy / paste / tweak” mentality away.
 
-You will not need to have your laptops open in this class, as I will post slides and example code on the class webpage after every class. If you do wish to take notes on your laptop, please let me know.
+You will not need to have your laptops open in this class, as I will post slides and example code on the class webpage after every class. If you do wish to take notes on your laptop, please let me know beforehand.
 
-Finally, here’s the link to the class website: http://www.runemadsen.com/printing-code-2012. On the website you will find the basic syllabus, and I will be adding readings, assignments and more class specific details at least a week before each class.
+Finally, here’s the link to the class website: http://www.runemadsen.com/printing-code. On the website you will find the syllabus, along with lecture notes for the classes. As this is still a very young class, I'll be making big changes to the notes as we go.
 
 As you can see I would like you to read 3 (very) short texts before the first class:
 

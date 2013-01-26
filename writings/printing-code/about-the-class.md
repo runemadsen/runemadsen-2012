@@ -17,6 +17,7 @@
     * lids down
 		* _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
 		* Go to AMS together! (visit next week)
+    * More than 2 missed classes / assignments: fail. More than 15 minutes late: absent. No tolerance for people who are late.
 * Explain goal: Hemingway: "Write the truest sentence you've ever written"
 * Assignment constraints
 
