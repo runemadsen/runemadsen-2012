@@ -57,4 +57,6 @@ Class Documentation
 * [Ben Light](http://blightdesign.com/unfinished/?p=326)
 * [Monica Bate](http://itp.nyu.edu/~mbv227/?cat=20)
 * [Patrick Muth](http://itppatrick.tumblr.com/)
-* [Sarah & Alessandra](http://www.alessandravillaamil.com/Sediment-Mars)
+* [Alessandra Villaamil](http://www.alessandravillaamil.com/Sediment-Mars)
+* [Sarah Hallacher](http://ablogthat.sarahmak.es/?p=8642601526)
+* [Kim Ash](http://blog.kim-ash.com/category/printing-code/)
