@@ -1,7 +1,3 @@
-TODO NOW
-
-* Make another printing-code repo and put message on 2012 saying THIS IS NO LONGER MAINTAINED
-
 Form
 
 * Form class should have ALL THE GEOMERATIVE FUNCTIONALITY. LOOK IN THE EXAMPLES!!!

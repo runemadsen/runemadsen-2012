@@ -90,7 +90,7 @@ A number of important figures:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/kandinsky_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/kandinsky.jpg" />
 
-Vassily Kandinsky usedgGeometric shapes in his painting - probably the best known - Guggenheim has a large collection of him.
+Vassily Kandinsky used geometric shapes in his painting - probably the best known - Guggenheim has a large collection of him.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/klee_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/klee.jpg" />
 
@@ -98,7 +98,7 @@ Paul Klee is mostly considered a painter, but released numerous essays design (W
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/itten.jpg" />
 
-The Bauhaus is especially important to use because of this guy, Johannes Itten. Itten was one of the forces behind the foundation courses at the Bauhaus, and he is mostly known for his work in color theory.
+The Bauhaus is especially important to us because of this guy, Johannes Itten. Itten was one of the forces behind the foundation courses at the Bauhaus, and he is mostly known for his work in color theory.
 
 If you're wondering why he's looking so weird, it's because he was a follower of the Christian fire cult Mazdaznan, in which the members follow a strict vegetarian diet, perform rhytmic breathing and gymnastic exercises. This is important, as Ittens work in color theory is closely tied to his spiritual beliefs.
 
@@ -152,7 +152,7 @@ Characterized by a balance between simplicity and playfulness, these designers r
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
 
-William Bernbach's _Think Small_ campaign has become the go-to example of these "Big Idea" designers. Some of the things to notice here is its heavy use of white-space, simplistic typography, and creative text copy.
+William Bernbach's _Think Small_ campaign has become the go-to example of these "Big Idea" designers. What's important to realize is that this kind of advertising was very different than what came before it. It was primarily centered around the ideas of a single designer, and was much more minimalistic, with heavy use of white-space, simplistic typography, and creative text copy.
 
 The Beetle was originally designed as a _people's car_ for Nazi Germany, so the Beetle was not an obvious success on the American market. The _Think Small_ campaign managed to build a strong relationship between the Beetle and American consumers.  
 
@@ -200,8 +200,13 @@ Paul Rand released numerous books (see _[Recommended Readings](/printing-code-20
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/bass.jpg" />
 
-Another hugely important designer from this period is **Saul Bass**, who is best known for his movie poster designs.
+Another hugely important designer from this period is **Saul Bass**, who is best known for his movie poster designs. He later started making title sequences for movies, all animated with paper cutouts. Here's the trailer for "The Man with the Golden Arm".
 
+<iframe width="560" height="338" src="http://www.youtube.com/embed/eGnpJ_KdqZE" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
+
+.. and here's the trailer for "Psycho" from 1960.
+
+<iframe width="560" height="338" src="http://www.youtube.com/embed/Tek8QmKRODw" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
 The Swiss Style
 ---------------
@@ -240,7 +245,7 @@ In _Designing Programmes_, **Karl Gerstner** goes even further and proposes an a
 
 As can be seen in the picture above, Gerstner often relies on rules that can be re-used to generate multiple versions of a design. In this sense Gerstner's work is almost algorithmic.
 
-Gerstner's work points directly to the notion of Serial Art and the early experiments in computational art.
+What's important to use in this class is how these Swiss designers decided - contrary to the Big Idea designers - how the visual arts is a balance between working within a system and breaking out from the system. Much of Gerstner's principles can be directly ported to software algorithms, and his work points to the notion of Serial Art and even the early experiments in computational art.
 
 
 Serial Art
@@ -248,7 +253,7 @@ Serial Art
 
 Aspects of the serial art movement can be traced back to the 1930's, but it came into the publics eye during the 1960's with the emergence of artists like Karl Gerstner and Sol Lewitt. Central to the works of the serial artists is the concept of creating art through algorithms, although the computer was still not a tool of the artist.
 
-For Lewitt, the real art piece was the algorithm, not the final product.
+Sol Lewitt is probably the best known serial artist. He's interesting to us because of his focus on the system behind the visual arts.For Lewitt, the real art piece was the algorithm, not the final product.
 
 <blockquote data-slideshow="self">
 The system is the work of art; the visual work of art is the proof of the system - Sol Lewitt
