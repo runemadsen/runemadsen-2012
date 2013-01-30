@@ -16,6 +16,11 @@ class RuneMadsen < Sinatra::Base
   get "/" do
     erb :'front/index'
   end
+
+  get "/test.json" do
+    content_type :json
+    { :name => 'Rune Madsen', :company => 'OReilly Media' }.to_json
+  end
   
   # Work
   # -------------------------------------------------------------------
