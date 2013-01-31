@@ -4,7 +4,7 @@
 * Welcome
 * About Printing Code
     * All the stuff from my waza talk (division, manual design, growing up .. problematic)
-    * Tiny artists
+    * For designer -> Programming, for programmers -> Design
     * Not advertising, but graphic arts
     * Not necessarily generative, but applying real graphic design theory to code
     * Hemingway: "Write the truest sentence you've ever written"
