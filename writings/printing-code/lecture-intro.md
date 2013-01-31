@@ -316,7 +316,7 @@ Here's a comparison of interface design for Google Docs from the last 5 years, a
 
 The Xerox Parc creations proved to be insanely important, also because a 24-old Steve Jobs visited the PARC facilities and was inspired to create some of the most important innovations for graphic designers.
 
-I want to show you this video, not only because it's super fun, but because you realize what Steve Jobs did for computation:
+I want to show you this video, not only because it's super fun, but because you realize what Steve Jobs did for computation:. Suddenly the computer was a creative tool. This seems obvious now, but it wasn't back then.
 
 <blockquote data-slideshow="self">
 The Macintosh turned out so well because the people working on it were musicians, artists, poets and historians who also happened to be excellent computer scientists. - Steve Jobs
@@ -332,7 +332,7 @@ The computer became a tool for creation.
 The first computers in arts
 ---------------------------
 
-Exactly like the Bauhaus, where machines became accessible to ordinary people, the computer slowly became accessible for artists. Some of the first ones where the artists known as _The New Tendencies_ movement.
+Exactly like the Bauhaus, where machines became accessible to ordinary people, the computer slowly became accessible for artists. Some of the first ones where the artists known as _The New Tendencies_ movement, based in Yugoslavia, but with artists all over the world.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/nt1.jpg" />
 
@@ -414,7 +414,7 @@ Even though it has a bad rep, Flash was hugely successful in  in graphic designe
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/generative_design.jpg" />
 
-Books about Flash and Director started being published, only targeted towards designers. What's interesting, however, is that all of these books focused on generative art, not so much graphic design.
+Books about Flash and Director started being published, only targeted towards designers. What's interesting, however, is that all of these books focused on generative art, not so much graphic design. Notice how it was still super hip to use your hacker name on your book cover.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/processing.jpg" />
 
