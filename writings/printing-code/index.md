@@ -75,6 +75,7 @@ In this class we'll introduce ourselves, and talk a little bit about the class, 
 
 ### Assignment for next week
 
+* Please join the [Printing Code Google Group](https://groups.google.com/forum/?fromgroups#!forum/printing-code)
 * Set up a Github repository where you'll post all your code. Send me an email with the link.
 * On ITP's laser printer, print a PDF file generated via a Processing sketch. A few rules about your code: You can only use black (0) and white (255). You are only allowed to use triangle(), rect() and ellipse() once each, and no other drawing functions are allowed (no beginShape or images). Bring to class a design of an ice cream cone. Yes, and ice cream cone.
 
