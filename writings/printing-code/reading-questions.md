@@ -1,18 +1,26 @@
 Reading Questions
 =================
 
-A few things to take away from these texts ...
+Random thoughts and notes on the texts...
 
 Form + Content by Paul Rand
 ---------------------------
 
 * 10 points to the person who knows who Paul Rand is
+* Rand argues that the principles of design is the basis of all visual arts. "one cannot speak of form without implying value", that's why design is important.
 * Graphic design is not advertising
 * Design is combining form and content. We need both. Too much form becomes abstract. Too much content becomes unreadable
-* Design does not start with: "This is pretty". It starts with an onion of content that you peel
+* Design does not start with: "This is pretty". It starts with an onion of content that you peel. The perfect design is the least design.
 * Design is like ingredients. You cannot put a massive amount of one ingredient in a dish. But you cannot put all of them in either. It's a constant balance of making the complex simple.
 * You cannot have content without form (this of typefaces), so we better design it well.
 * In art there is no proof, only interpretation
+
+
+Software Structures by Casey Reas
+---------------------------------
+
+* What I like about Reas (and Lewitt) is how he explains the process of creation. We should not operate in a space where we think in strings and integers. We are not doing code for code's sake. But we're interested in the instruction as a way to create. Always have an instruction.
+* A dynamic structure to Lewitt is an object that can transform. A finished sculpture is not as important as the number of sculptures the tranfsormed object can create. With print, we are creating static works, but transformation can still be a huge part of the output.
 
 
 Computers, Pencils, and Brushes by Paul Rand

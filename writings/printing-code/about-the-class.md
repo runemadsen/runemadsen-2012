@@ -1,42 +1,34 @@
 9:30  About the Class
 ---------------------
 
-* Welcome. First of all, this is printing code, give people time to leave
-* First time it runs, happy to see so much interest
+* Welcome
+* About Printing Code
+    * All the stuff from my waza talk (division, manual design, growing up .. problematic)
+    * Tiny artists
+    * Not advertising, but graphic arts
+    * Not necessarily generative, but applying real graphic design theory to code
+    * Hemingway: "Write the truest sentence you've ever written"
+    * Assignment constraints
+* Practical
+    * A lot of work: You will have go to AMS and print a poster every week
+    * More than 2 missed classes / assignments: fail. More than 15 minutes late: absent.
+    * Low tolerance for people who are late
+    * Low tolerance for people who don't do anything
+    * lids down
+		* _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
+		* Go to AMS together! (visit next week)
 * Today 3 things...
     1. Talking about the class / syllabus walkthrough
     2. Introductions
     3. Me talking a lot
-* About Printing Code
-    * this class comes from personal experience
-    * People are still doing it by hand
-    * Tiny artists
-    * Not advertising, but graphic arts
-    * Not necessarily generative, but applying real graphic design theory to code
-* A few things
-    * lids down
-		* _Design by committee_ is terrible. Only groups allowed for mid-terms and finals
-		* Go to AMS together! (visit next week)
-    * More than 2 missed classes / assignments: fail. More than 15 minutes late: absent. No tolerance for people who are late.
-* Explain goal: Hemingway: "Write the truest sentence you've ever written"
-* Assignment constraints
 
 
 9:40  Syllabus
 --------------
 
-Each week we introduce a new concept
-
-* Examples from history
-* How to translate it in code
-* You will go to AMS and print a poster
-
 
 9:40  Introductions
 -------------------
-
-* About Me - show website
-* About you
 
 
 9:55  Lecture
