@@ -1,5 +1,7 @@
 Form
 
+* talk much more about how everthing carries a meaning.
+* ADD THE DANGER SLIDE IN BEGINNING OF CLASS, SO THEY UNDERSTAND FORM ON THE BASIS
 * Form class should have ALL THE GEOMERATIVE FUNCTIONALITY. LOOK IN THE EXAMPLES!!!
 * In the beginning it should be much more about the toxiclibs form functions (Line2D, ray, Vectors). Maybe 2 weeks on form, and delete one of the other classes?
 * The form class should be much more about geometry and toxiclibs
