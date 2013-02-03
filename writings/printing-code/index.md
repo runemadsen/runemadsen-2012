@@ -95,8 +95,8 @@ This week we'll look at the most basic subject in the visual arts: manipulation 
 ### Class Overview
 
 * Homework presentations
-* Reading discussion
 * Lecture: **[Computational Format and Form](/printing-code/lecture-form)**
+* Reading discussion
 * Trip to AMS
 
 ### Assignment for next week

@@ -1,9 +1,23 @@
 Format and Form
 ===============
 
-Form is the lowest level of graphic design possible: making individual shapes out of color. 
+The purpose of this class is to get you started thinking about visual communication on the lowest level possible: making forms out of color.
 
-On the most basic level we have space... 
+Design is the thing that we wrap around all forms of communication. It comes from the idea that we cannot deliver a message without implying some kind of meaning.
+
+As a very simple example, let's look at the word danger. Here we have a somewhat neutral presentation of of the word.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger.png" />
+
+There's really no way of saying what the "correct" design is, but we can talk about why you would choose a specific design over another. That's called design critique. For example, one could argue that using Comic Sans at typeface in a green color is not the best way of supporting the meaning of the word.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2.png" />
+
+One could instead argue that a bolder font (alerts the eye, underpins the importance) and the color red (the cultural significance, signage, blood) better conveys the message.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3.png" />
+
+This is really what design is about. On the most fundamental level, we have space... 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" />
 	
@@ -278,7 +292,12 @@ This can be used to put something on the perimeter of a circle. Now we can go ba
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
 
-If we put this in a loop, we can generate objects with this equation:
+If we put this in a loop, we can generate objects with this equation. It's interesting how all the basic shapes (triangle, rectangle, hexagon, circle) can be created from the exact same code, just changing the number of times the for loop runs:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_allshapes)
+
+Let's look closer at how to draw a hexagon:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_hexagon)
@@ -327,6 +346,13 @@ The same technique can be used in code by tweaking the rectangle grid example. B
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_random1_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/random_distribution_example2)
+
+
+	Geomerative
+	------------------------------------
+
+	Toxiclibs
+	------------------------------------
 
 
 Project Examples and Code
