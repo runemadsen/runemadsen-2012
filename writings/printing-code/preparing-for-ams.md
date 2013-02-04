@@ -1,7 +1,7 @@
 Preparing Images For Printing At AMS
 ====================================
 
-Now that you know how to export huge images from Processing, how do we prepare the image for print at AMS? It's a simple process, but it's important to do it right. These are the steps we need to take:
+Now that you know how to export PDF's from Processing, how do we prepare the image for print at AMS? It's a simple process, but it's important to do it right. These are the steps we need to take:
 
 * Picking the paper
 * Save as TIFF
@@ -30,27 +30,26 @@ This paper is 16" wide, which means that your final image needs to be 4800 pixel
 We have 1 roll of this paper. Both of these rolls are in the ER with "MATTE" and "PHOTO" written on the boxes.
 
 
-Save as TIFF
-------------
+Save as PDF
+-----------
 
-Instead of saving a PNG or JPG from Processing, you will need to save it in the TIFF format. The save function has to look something like this:
-
-	canvas.save("grab.tiff");
-	
-Processing will save a TIFF image in the sRGB color mode. We will need to convert this into the Adobe RGB (1998) color mode.
+Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into the Adobe RGB (1998) color profile. This makes sure that when you see your PDF on the screen at AMS, the colors will look the same on your print. DOn't trust your laptop screen.
 
 
 Convert to Adobe RGB (1998)
 ---------------------------
 
-To convert your image into Adobe RGB (1998) color mode, create a new image in Photoshop with your final print dimensions in 300dpi. This is an example of a photoshop file for the matte paper. Notice how the color mode says "sRGB".
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/photoshop1.jpg" />
+You can use either Illustrator or Adobe Acrobat Pro to convert your PDF color profile. I'll show you how to do it in illustrator.
 
-Now open your TIFF image created in Processing, and copy/paste it into the new window. You do this by going to "Select > All", and pressing "CMD+C" and "CMD+V" like a normal copy operation.
+First open your PDF in illustrator and choose "Save as Copy"
 
-Now we need to convert the color profile. Choose "Edit > Convert to Profile", and choose the Adobe RGB (1998) color profile. Press "OK".
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams1.png" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/photoshop2.jpg" />
+Save the copy as a PDf.
 
-Now save your Photoshop image in the TIFF format. You now have a file ready to print at AMS!
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams2.png" />
+
+In the settings dialog, choose "Output", choose "Adobe RGB (1998)" as the destination format. Make sure your dialog looks like the screenshot, and press "Save PDF".
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams3.png" />

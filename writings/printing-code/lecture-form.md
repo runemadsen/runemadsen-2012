@@ -348,11 +348,11 @@ The same technique can be used in code by tweaking the rectangle grid example. B
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/random_distribution_example2)
 
 
-	Geomerative
-	------------------------------------
+Geomerative
+------------------------------------
 
-	Toxiclibs
-	------------------------------------
+Toxiclibs
+------------------------------------
 
 
 Project Examples and Code
