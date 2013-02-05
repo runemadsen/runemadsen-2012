@@ -1,19 +1,21 @@
 Format and Form
 ===============
 
-The purpose of this class is to get you started thinking about visual communication on the lowest level possible: making forms out of color.
+The purpose of this class is to get you started thinking about the most basic form of visual communication: making forms out of color. It's important to me that when you're solving you're assignment, you go back to these lecture notes, and think about what I show you.
 
 Design is the thing that we wrap around all forms of communication. It comes from the idea that we cannot deliver a message without implying some kind of meaning.
 
-As a very simple example, let's look at the word danger. Here we have a somewhat neutral presentation of of the word.
+As a very simple example, let's look at the word danger. Here we have a somewhat neutral presentation of the word. It's sans-serif and gray.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger.png" />
 
-There's really no way of saying what the "correct" design is, but we can talk about why you would choose a specific design over another. That's called design critique. For example, one could argue that using Comic Sans at typeface in a green color is not the best way of supporting the meaning of the word.
+There's really no way of saying what the "correct" design is, but we can talk about why you would choose a specific design over another. To be able to choose, you need to take a range of things into account, and that's what makes a really good designer: Choosing the best form for a specific piece of content.
+
+For example, one could argue that setting the word in a green Comic Sans font is not the best way of supporting the meaning of the word.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2.png" />
 
-One could instead argue that a bolder font (alerts the eye, underpins the importance) and the color red (the cultural significance, signage, blood) better conveys the message.
+One could instead argue that a bolder font (alerts the eye, underpins the importance) and the color red (the cultural significance, used in signage, blood) better conveys the message.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3.png" />
 
@@ -25,7 +27,7 @@ This is really what design is about. On the most fundamental level, we have spac
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form.jpg" />
 
-This week you'll be working with simple forms to create meaning. Becoming a good designer is all about asking questions to established forms.
+This week you'll be working with simple forms to create meaning. Becoming a good designer is all about asking these questions.
 
 Format
 ------
@@ -50,7 +52,7 @@ Even a simple thing like choosing the bounds of your design matters.
 Simple Forms in Processing
 --------------------------
 
-When we have the format in place we can draw stuff in it. Using color difference we can create anything from simple to very complicated shapes. By playing around with these shapes, you can create meaning. That's what design is.
+When we have the format in place we can draw stuff in it. Using color differences, we can create anything from simple to very complicated shapes.
 
 You all know the simple drawing functions in Processing: rect(), ellipse() and triangle().
 
@@ -68,7 +70,7 @@ The triangle is one of the simplest polygons possible, but it has a lot more mov
 	
 With these simple shapes we already have a range of expressions, and you need to chose them wisely as they all have a distinct style.
 
-A rectangle is used to streamline the packaging for a carton for dictating machines, conveying technology.
+Here a rectangle is used to convey technology and modernism, on a carton box for a dictating machine.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square.jpg" />
 
@@ -80,9 +82,9 @@ A triangle is used to create a sense of sharpness for a knife product.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle.jpg" />
 
-As Paul Rand said in today's text: Everything is Design! Design is a journey from complexity to simplicity, and today we're looking at the most simplistic stuff.
+As Paul Rand said in today's text: Everything is Design! Design is a journey from complexity to simplicity, and as you experienced in this week's assignment, constraining yourself to three simpe shapes can still give a million different outcomes.
 
-Hopefully, you experienced in your assignment how very different outcomes can be produced even if you constrain yourself to simple shapes. Here are some examples from Josef Muller-Brockmann:
+Here are some examples from Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs.jpg" />
 
@@ -98,12 +100,12 @@ Here are some newer examples from Conrad Smith.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/conrad3.jpg" />
 
-Placement
----------
+Placement and Scale
+-------------------
 
-One thing is to construct forms. Another thing is to size and place them within the given format.
+One of the most important things - and something that the beginner often forgets about - is the placement and scale of shapes in the given format. Thinking about your shapes and how much space they need to fill within the format is very important.
 
-It matters where we place these forms within the format. A circle can seem lost in space
+A circle can seem lost in space
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/lost_in_space.jpg" />
 	
@@ -149,13 +151,13 @@ One way is to use a grid.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_11.png" />
 
-We will talk much more about this in a coming class.
-
-The bottom line with this is that you need to start thinking about now only what you draw, but where you draw it.
+We will talk much more about this in a coming class. But even without a grid system, you need to think about placement and scale.
 
 The "small" Beetle ad is a classic example of why this matters.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/beetle2.jpg" />
+
+The same ad really wouldn't make any sense if the designer hadn's positioned and scaled the car according to the message.
 
 
 Placement in Processing
@@ -172,11 +174,13 @@ The only thing we can't do yet it calculating the proximity of an object, but we
 More Advanced Forms in Processing
 ---------------------------------
 
-Now that we know some basic placement, how do we approach creating more complex shapes in code?
+Now that we know some basic placement techniques, how do we approach creating more complex shapes in code?
 
 ### beginShape() and endShape()
 
 Now that we realize how form can convey meaning, we can start to play around with more complex shapes. Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
+
+There are three different methods for adding outline points within a shape. The assignment this week will concentrates on the use of these.
 
 ### vertex()
 
@@ -192,7 +196,7 @@ Points created with the curveVertex() function will draw a curved line, guided b
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/curvevertex.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/curve_vertex_circle)
 
-### bezierVerterx()
+### bezierVertex()
 
 The bezierVertex function is by far the most flexible of the 3 vertex functions, as it draws points using bezier curves. Most people have a faint idea of how bezier curves work, but let's take a deeper look on how to draw things with Bezier curves.
 
@@ -351,9 +355,12 @@ The same technique can be used in code by tweaking the rectangle grid example. B
 Geomerative
 ------------------------------------
 
+To do
+
 Toxiclibs
 ------------------------------------
 
+To do
 
 Project Examples and Code
 -------------------------
