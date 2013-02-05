@@ -25,7 +25,7 @@ This is really what design is about. On the most fundamental level, we have spac
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/form.jpg" />
 
-This week you'll be working with simple forms to create meaning.
+This week you'll be working with simple forms to create meaning. Becoming a good designer is all about asking questions to established forms.
 
 Format
 ------
