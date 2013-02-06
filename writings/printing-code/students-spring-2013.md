@@ -11,3 +11,4 @@ Student Git Repositories
 * [Jason Rosen](https://github.com/jasonsrosen)
 * [Ann Chen](https://github.com/annhchen/PrintingCode)
 * [Xinran Wang](https://github.com/xinranwang/PrintingCode)
+* [Sean McIntyre](https://github.com/boxysean/itp-printingcode)
