@@ -10,3 +10,4 @@ Student Git Repositories
 * [Doug Kanter](https://github.com/dougkanter/printing_code)
 * [Jason Rosen](https://github.com/jasonsrosen)
 * [Ann Chen](https://github.com/annhchen/PrintingCode)
+* [Xinran Wang](https://github.com/xinranwang/PrintingCode)
