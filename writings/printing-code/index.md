@@ -307,6 +307,7 @@ Recommended Blogs
 * [Smashing Magazine: Lessons from Swiss Style Graphic Design](http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/)
 * [Relational Design](http://nevolution.typepad.com/theories/2011/03/a-relational-design-process-thesis.html)
 * [Colour Lovers](http://www.colourlovers.com)
+* [Geometry Daily](http://geometrydaily.tumblr.com/)
 
 Studios / People
 ----------------
