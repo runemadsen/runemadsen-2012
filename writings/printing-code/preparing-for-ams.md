@@ -4,8 +4,7 @@ Preparing Images For Printing At AMS
 Now that you know how to export PDF's from Processing, how do we prepare the image for print at AMS? It's a simple process, but it's important to do it right. These are the steps we need to take:
 
 * Picking the paper
-* Save as TIFF
-* Convert to Adobe RGB (1998)
+* Convert TIF file with to Adobe RGB (1998) color profile
 
 
 Picking the Paper
@@ -27,29 +26,48 @@ This is the **photo** paper, and you have to use the "Mac Print A" or "Mac Print
 
 This paper is 16" wide, which means that your final image needs to be 4800 pixels wide. Again, you determine the height.
 
-We have 1 roll of this paper. Both of these rolls are in the ER with "MATTE" and "PHOTO" written on the boxes.
+We have 2 rolls of this paper.
 
 
 Save as PDF
 -----------
 
-Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into the Adobe RGB (1998) color profile. This makes sure that when you see your PDF on the screen at AMS, the colors will look the same on your print. DOn't trust your laptop screen.
+Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into a TIF file with the Adobe RGB (1998) color profile. This makes sure that when you see your TIF on the screen at AMS, the colors will look the same on your print. DOn't trust your laptop screen.
+
+Follow these instructions to prepare your file:
 
 
 Convert to Adobe RGB (1998)
 ---------------------------
 
+In order to convert your file, you will need to have Photoshop on your computer.
 
-You can use either Illustrator or Adobe Acrobat Pro to convert your PDF color profile. I'll show you how to do it in illustrator.
+First, open up the PDF file.
 
-First open your PDF in illustrator and choose "Save as Copy"
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif0.png" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams1.png" />
+Photoshop will prompt you with a "PDF Import" dialog. Here you need to make sure that the image is in 300dpi and matched to width/height in inches that you want to print.
 
-Save the copy as a PDf.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif1.png" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams2.png" />
+This will open up your PDF as a bitmap. Now you need to convert the color profile. You find that option in the "Edit" menu.
 
-In the settings dialog, choose "Output", choose "Adobe RGB (1998)" as the destination format. Make sure your dialog looks like the screenshot, and press "Save PDF".
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif2.png" />
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/ams3.png" />
+Make sure to convert into the Adobe RGB 1998 color profile. You can leave all the other settings to their defaults.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif3.png" />
+
+Now you need to save the image as a TIF image. First press "Save As".
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif4.png" />
+
+Choose to save a TIF without layers.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif5.png" />
+
+Press ok when this dialog shows up.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif6.png" />
+
+That's it! You now have a TIF ready for print!
