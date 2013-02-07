@@ -280,6 +280,8 @@ And here's how to recreate it in Processing.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
 
+The important concept to understand here is how we use incrementing loop variables (x, y) and multiply them by the distance between the shapes.
+
 
 Sin and Cos
 -----------
@@ -315,6 +317,8 @@ This can be used to put something on the perimeter of a circle. Now we can go ba
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
+
+We could easily make the point on the edge move by incrementing the degrees in a draw loop.
 
 If we put this in a loop, we can generate objects with this equation. Let's look closer at how to draw a hexagon:
 
