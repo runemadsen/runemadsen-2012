@@ -22,14 +22,14 @@ We have 2 rolls of this paper.
 
 ### Premium Semimatte Photo Paper
 
-This is the **photo** paper, and you have to use the "Mac Print A" or "Mac Print B" printers for it. The paper is not glossy, but looks more like photo paper.
+This is the **photo** paper, and you have to use the "Mac Print PK A" or "Mac Print PK B" printers for it. The paper is not glossy, but looks more like photo paper.
 
-This paper is 16" wide, which means that your final image needs to be 4800 pixels wide. Again, you determine the height.
+This paper is 16" wide. Again, you determine the height.
 
 We have 2 rolls of this paper.
 
 
-Save as PDF
+Save as TIF
 -----------
 
 Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into a TIF file with the Adobe RGB (1998) color profile. This makes sure that when you see your TIF on the screen at AMS, the colors will look the same on your print. DOn't trust your laptop screen.
