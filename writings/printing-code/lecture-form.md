@@ -372,15 +372,11 @@ The same technique can be used in code by tweaking the rectangle grid example. B
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/random_distribution_example2)
 
 
-Geomerative
+Libraries
 ------------------------------------
 
-To do
+We'll talk much more about these libraries in the coming classes, but if you're interested in generating more complex shapes, [Geomerative](http://www.ricardmarxer.com/geomerative/) and [Toxiclibs](http://toxiclibs.org/) are great resources.
 
-Toxiclibs
-------------------------------------
-
-To do
 
 Project Examples and Code
 -------------------------
