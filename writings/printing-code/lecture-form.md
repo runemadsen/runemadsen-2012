@@ -190,7 +190,9 @@ Now that we know some basic placement techniques, how do we approach creating mo
 
 ### beginShape() and endShape()
 
-Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
+Polygons can be created in Processing using the beginShape() and endShape() methods. Some of you may already know about it, but it's important to me that you really understand the different vertex functions.
+
+You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
 
 There are three different methods for adding outline points within a shape. The assignment this week will concentrates on the use of these.
 
@@ -264,10 +266,23 @@ Other shapes have inherent organic qualities, and are harder to replicate on a c
 This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is this an argument for a new aesthetic?
 
 
+Basic Repetition
+----------------
+
+Of course, plotting these vertex points by hand is much slower than just drawing them in a program like illustrator. What we really want is to be able to use a for-loop to construct our shapes.
+
+First, let's just look at how to use the for-loop with simple repetition of a circle. Here's a Paul Rand poster.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+
+And here's how to recreate it in Processing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
+
+
 Sin and Cos
 -----------
-
-Of course, plotting these vertex points by hand is much slower than just drawing them in a program like illustrator. What we really want is to be able to use a for-loop to construct our shapes. 
 
 The easiest way to do a generative shape with repetition is to loop many times and randomly place vertex points between the beginShape() and endShape() functions. This will look something like this:
 
@@ -321,18 +336,6 @@ And another sketch that varies the radius in every loop to create a wobbly shape
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_wobbly)
 
-
-Basic Repetition
-----------------
-
-For loops are extremely powerful, and they can be used throughout the design process in Processing. Let's look at a few examples and try to re-create them in Processing. Here is a uniform grid of hearts by Paul Rand.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
-
-How would you create that in Processing?
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
 	
 
 Basic Randomness
