@@ -33,10 +33,12 @@ Computers, Pencils, and Brushes by Paul Rand
 * Often it all starts in the head
 
 
-Conversations With Paul Rand
-----------------------------
+Conversations With Students by Paul Rand
+----------------------------------------
 
 The reason why I assigned this text is because it gives a good description of how important the manipulation of form is in graphic design, and the problems that arise from it. It's all about relationships. Form and content.
+
+* In the foreword, Wolfgang Weingart says that "Rand was for me one of the strongest, most important warning voices about the future of design". Was does he mean?
 
 * What does Rand mean with "design is relationships"
 * Name a specific example of a relationship from your assignment this week?
