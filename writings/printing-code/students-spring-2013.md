@@ -19,3 +19,4 @@ Student Git Repositories
 * [Christina Carter](https://github.com/itschristinith/printing-code)
 * [Yin Liu](https://github.com/yinnie/printingcode)
 * [Christina Leece](https://github.com/clleece/PrintingCode)
+* [Alexandra Olivier](https://github.com/aolivier/Alex_Printing_Code)
