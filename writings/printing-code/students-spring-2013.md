@@ -13,3 +13,5 @@ Student Git Repositories
 * [Xinran Wang](https://github.com/xinranwang/PrintingCode)
 * [Sean McIntyre](https://github.com/boxysean/itp-printingcode)
 * [Luisa Pereira](https://github.com/luisaph/printing_code)
+* [Valerie Chen](https://github.com/valeriejean/printingcode)
+* [Tak Cheung](https://github.com/gettak/PrintingCode)
