@@ -1,7 +1,9 @@
 Format and Form
 ===============
 
-The purpose of this class is to get you started thinking about the most basic form of visual communication: making forms out of color. It's important to me that when you're solving you're assignment, you go back to these lecture notes, and think about what I show you.
+The purpose of this class is to get you started thinking about the most basic form of visual communication: making forms out of color.
+
+It's important to me that when you're solving you're assignment, you go back to these lecture notes, and think about what I show you.
 
 Design is the thing that we wrap around all forms of communication. It comes from the idea that we cannot deliver a message without implying some kind of meaning.
 
@@ -9,17 +11,21 @@ As a very simple example, let's look at the word danger. Here we have a somewhat
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger.png" />
 
+Let's say - as an exercise - that we want to create another design for the word. Something that is a little more fitting.
+
 There's really no way of saying what the "correct" design is, but we can talk about why you would choose a specific design over another. To be able to choose, you need to take a range of things into account, and that's what makes a really good designer: Choosing the best form for a specific piece of content.
 
-For example, one could argue that setting the word in a green Comic Sans font is not the best way of supporting the meaning of the word.
+For example, one could argue that setting the word in a green Comic Sans font is not the best way of supporting the meaning of the word. It's a happy expression, both in color and in typographic shape.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger2.png" />
 
-One could instead argue that a bolder font (alerts the eye, underpins the importance) and the color red (the cultural significance, used in signage, blood) better conveys the message.
+One could instead argue that a bolder font that alerts the eye and therefore underpins the importance of the message is a better fit. On top of that you could choose - say - the color red, with its cultural significance (it's used in signage, blood, etc), as a much better way of conveying the message.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/danger3.png" />
 
-This is really what design is about. On the most fundamental level, we have space... 
+This is really what design is about: Even on the most basic level, choosing the correct forms for your message.
+
+On the most fundamental level, we have space... 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/space_small.jpg" />
 	
@@ -70,7 +76,7 @@ The triangle is one of the simplest polygons possible, but it has a lot more mov
 	
 With these simple shapes we already have a range of expressions, and you need to chose them wisely as they all have a distinct style.
 
-Here a rectangle is used to convey technology and modernism, on a carton box for a dictating machine.
+Here a rectangle is used to convey technology, on a carton box for a dictating machine.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_square.jpg" />
 
@@ -82,9 +88,11 @@ A triangle is used to create a sense of sharpness for a knife product.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/packaging_triangle.jpg" />
 
-As Paul Rand said in today's text: Everything is Design! Design is a journey from complexity to simplicity, and as you experienced in this week's assignment, constraining yourself to three simpe shapes can still give a million different outcomes.
+As Paul Rand said in today's text: Everything is Design!
 
-Here are some examples from Josef Muller-Brockmann:
+Design is a journey from complexity to simplicity, and as you experienced in this week's assignment, constraining yourself to three simpe shapes can still give a million different outcomes.
+
+Here are some examples of how you can use these basic shapes in graphic design. Here it's Josef Muller-Brockmann:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/brockmann_arcs.jpg" />
 
@@ -163,7 +171,11 @@ The same ad really wouldn't make any sense if the designer hadn's positioned and
 Placement in Processing
 -----------------------
 
-Now that we know placement matters, let's look at how to do this in Processing. To place an object within a given format requires basic math. These are illustrated in this example:
+Now that we know placement matters, let's look at how to do this in code. 
+
+In Processing, placing things within the given format is about knowing how to use 4 key variables: x, y, width and height.
+
+Using these variables, to place something on the screen requires basic math. This is illustrated in this example:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
@@ -178,7 +190,7 @@ Now that we know some basic placement techniques, how do we approach creating mo
 
 ### beginShape() and endShape()
 
-Now that we realize how form can convey meaning, we can start to play around with more complex shapes. Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
+Polygons can be created in Processing using the beginShape() and endShape() methods. You call beginShape() when starting a new shape, then you call any of the vertex functions to create the points on the outline of a shape, and then call endShape() to close the shape.
 
 There are three different methods for adding outline points within a shape. The assignment this week will concentrates on the use of these.
 
@@ -202,7 +214,9 @@ The bezierVertex function is by far the most flexible of the 3 vertex functions,
 
 Bezier curves are essential to computational form, as it's the way most visual programming languages, as well as software tools like Photoshop and Illustrator (with the Pen tool), approach the drawing of complex polygons. It's native to the design process of everything from font design to the design of cars.
 
-Although invented by the mathematician Paul de Casteljau, bezier curves got their name from Pierre Bézier who first used these curves in early CAD programs to design cars for Renault. There are many different kinds of bezier curves (linear, quadratic, cubic), but we'll focus on cubic beziers, as it's the implementation of bezier curves used in Processing.
+Although invented by the mathematician Paul de Casteljau, bezier curves got their name from Pierre Bézier who first used these curves in early CAD programs to design cars for Renault.
+
+There are many different kinds of bezier curves (linear, quadratic, cubic), but we'll focus on cubic beziers, as it's the implementation of bezier curves used in Processing.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/bezier_explain.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/bezier_vertex)
@@ -250,41 +264,32 @@ Other shapes have inherent organic qualities, and are harder to replicate on a c
 This poses a series of questions: When working with computational form, should we prefer some shapes to other? How far should we go to simulate organic, human techniques in the digital world? Is this an argument for a new aesthetic?
 
 
-Basic Repetition
-----------------
+Sin and Cos
+-----------
 
-Of course, plotting these vertex points by hand in the sketch is rather tedious. If you're making more sophisticated shapes, you will need a for loop. It gets tedious to plot in all the points of a shape manually.
+Of course, plotting these vertex points by hand is much slower than just drawing them in a program like illustrator. What we really want is to be able to use a for-loop to construct our shapes. 
 
-Even though for loops are in all programming languages, many people have a hard time understanding how they work. Let's do a generative shape with for loops.
+The easiest way to do a generative shape with repetition is to loop many times and randomly place vertex points between the beginShape() and endShape() functions. This will look something like this:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/beginshape_loop.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/beginshape_loop)
 
+However, that's not super useful. Instead, we can use the sin() and cos() functions to selectively place vertex points on a shape outline.
 
-For loops are extremely powerful, and they can be used throughout the design process in Processing. Let's look at a few examples and try to re-create them in Processing. Here is a uniform grid of hearts by Paul Rand.
+It's interesting how all the basic shapes (triangle, rectangle, hexagon, circle) can be created with cos() and sin(), just by changing the number of times the for loop runs (3 for the triangle, 4 or the rectangle, etc, etc).
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_allshapes)
 
-How would you create that in Processing?
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
-
-
-Sin and Cos
------------
-
-... and if you need a loop, you most definitely need sin() and cos(). Most times it comes down to a simple question like this:
+The cos() and sin() functions help us solve a simple question like this:
 
 <blockquote data-slideshow="self">
-How do I find the x and y of a point that is 450 pixels and 33 degrees away from this point?
+How do I find the x and y of a point that is 300 pixels and 33 degrees away from this point?
 </blockquote>
 
-So you want to do this:
+The same question is illustrated here.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos.jpg" />
-
-People think it's hard, but it really isn't.
 
 To do this we use the sin() and cos() functions. If you pass in a rotation and multiply it with your radius, they will return the x (cos) and y (sin) for the point we're trying to find.
 
@@ -296,12 +301,7 @@ This can be used to put something on the perimeter of a circle. Now we can go ba
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/placement_calculations_small.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/placement_calculations)
 
-If we put this in a loop, we can generate objects with this equation. It's interesting how all the basic shapes (triangle, rectangle, hexagon, circle) can be created from the exact same code, just changing the number of times the for loop runs:
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_allshapes.png" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_allshapes)
-
-Let's look closer at how to draw a hexagon:
+If we put this in a loop, we can generate objects with this equation. Let's look closer at how to draw a hexagon:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/hexagon_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_hexagon)
@@ -320,6 +320,19 @@ And another sketch that varies the radius in every loop to create a wobbly shape
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/sincos_wobbly.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/sincos_wobbly)
+
+
+Basic Repetition
+----------------
+
+For loops are extremely powerful, and they can be used throughout the design process in Processing. Let's look at a few examples and try to re-create them in Processing. Here is a uniform grid of hearts by Paul Rand.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
+
+How would you create that in Processing?
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_example.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/form/repetition_example)
 	
 
 Basic Randomness
