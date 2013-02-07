@@ -32,13 +32,13 @@ We have 2 rolls of this paper.
 Save as TIF
 -----------
 
-Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into a TIF file with the Adobe RGB (1998) color profile. This makes sure that when you see your TIF on the screen at AMS, the colors will look the same on your print. DOn't trust your laptop screen.
+Instead of saving a PNG or JPG from Processing, you will need to save it in PDF format. In order to optimize the colors for use on the AMS computer screens, we will need to convert the PDF into a TIF file with the Adobe RGB (1998) color profile. This makes sure that when you see your TIF on the screen at AMS, the colors will look the same on your print. Don't trust your laptop screen.
 
 Follow these instructions to prepare your file:
 
 
-Convert to Adobe RGB (1998)
----------------------------
+TIF with Adobe RGB (1998) Color Profile
+---------------------------------------
 
 In order to convert your file, you will need to have Photoshop on your computer.
 
@@ -46,11 +46,11 @@ First, open up the PDF file.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif0.png" />
 
-Photoshop will prompt you with a "PDF Import" dialog. Here you need to make sure that the image is in 300dpi and matched to width/height in inches that you want to print.
+Photoshop will prompt you with a "PDF Import" dialog. Here you need to make sure that the image is in 300 pixels per inch, and that the width and height matches your print size.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif1.png" />
 
-This will open up your PDF as a bitmap. Now you need to convert the color profile. You find that option in the "Edit" menu.
+This will open up your PDF as a bitmap. Now you need to convert the color profile. You'll find that option in the "Edit" menu.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/other/tif2.png" />
 
