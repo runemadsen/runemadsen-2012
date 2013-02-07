@@ -271,7 +271,7 @@ Basic Repetition
 
 Of course, plotting these vertex points by hand is much slower than just drawing them in a program like illustrator. What we really want is to be able to use a for-loop to construct our shapes.
 
-First, let's just look at how to use the for-loop with simple repetition of a circle. Here's a Paul Rand poster.
+Before we look at creating polygons in a for-loop, let's just look at how to use the for-loop with simple repetition of a circle., by recreating this Paul Rand poster.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/form/rand_repetition1.jpg" />
 
