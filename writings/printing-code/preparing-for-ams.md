@@ -4,7 +4,7 @@ Preparing Images For Printing At AMS
 Now that you know how to export PDF's from Processing, how do we prepare the image for print at AMS? It's a simple process, but it's important to do it right. These are the steps we need to take:
 
 * Picking the paper
-* Convert TIF file with to Adobe RGB (1998) color profile
+* Convert to TIF file with the Adobe RGB (1998) color profile
 
 
 Picking the Paper
@@ -14,9 +14,9 @@ Before you start coding, you need to figure out what kind of paper you want to p
 
 ### Ultrasmooth Fine Art
 
-This is the **matte** paper, and you have to use the "Mac Print MK" printer for it. If the printer is booked you can also book the "Mac Print 4900" printer, but it will need some resetting. The paper is a rough, non-shiny type, and it works really well for graphic prints.
+This is the **matte** paper, and you have to use the "Mac Print MK" printer for it. If the printer is booked you can also book the "Mac Print 4900" printer, but it will need some resetting. The paper is a rough, non-shiny paper, and it works really well for graphic prints.
 
-This paper is 17" wide, which means that your final image needs to be 5100 pixels wide. You basically determine the height, as it's a full roll of paper. Don't use too much though. Often you want the height to be less than 22", maybe even square.
+This paper is 17" wide, and you basically determine the height, as it's a full roll of paper. Don't use too much though. Often you want the height to be less than 22", maybe even square.
 
 We have 2 rolls of this paper.
 
