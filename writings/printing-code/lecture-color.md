@@ -466,6 +466,10 @@ We do this by using a weighted formula that calculates the perceived brightness 
 Toxiclibs
 ---------
 
+	TODO: Completely rewrite this section with all the stuff in TColor (how to set from rgb, hsb, etc, etc)
+	Why between 0-1
+	ALl the color ezamples from his folder
+
 Now that we know how color works in Processing, we can take a look at the Toxiclibs library that will help us doing generative color. Here's an example on how you can use the _TColor_ class to create and manipulate single colors. Notice how the library stores color values in normalized values (from 0 to 1), so we need to set the Processing colorMode to that.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor.jpg" />

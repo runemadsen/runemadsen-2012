@@ -17,6 +17,7 @@ Typography
 
 GRID
 
+* More grid examples in the beginning of the lecture, to show how people use grid systems
 * Add p. 142-148 as example in Grids class
 
 LOGO
