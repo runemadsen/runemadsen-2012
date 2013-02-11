@@ -164,7 +164,7 @@ To make a well-designed logo requires skills in form, color, type and grid. We'l
 ### Class Overview
 
 * Homework design critique
-* Lecture: **[Organic Logos](/printing-code/lecture-logo)**
+* Lecture: **[Dynamic Logos](/printing-code/lecture-logo)**
 
 ### Assignment for next week
 
