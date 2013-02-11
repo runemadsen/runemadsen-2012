@@ -27,6 +27,7 @@ LOGO
 
 RANDOMIZATION
 
+* THIS HAS NO FUCKING EXAMPLES!!!
 * The class on vectors and randomization should have much more basics of pvector and the toxiclibs vector funcionality, that leads to spline 2D and all that stuff.
 
 REPETITION

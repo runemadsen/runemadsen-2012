@@ -466,31 +466,55 @@ We do this by using a weighted formula that calculates the perceived brightness 
 Toxiclibs
 ---------
 
-	TODO: Completely rewrite this section with all the stuff in TColor (how to set from rgb, hsb, etc, etc)
-	Why between 0-1
-	ALl the color ezamples from his folder
+Now that we know how color works in Processing, we can take a look at the Toxiclibs library. Toxiclibs ships with an awesome set of classes that can drastically help you generate and manipulate colors in Processing. 
 
-Now that we know how color works in Processing, we can take a look at the Toxiclibs library that will help us doing generative color. Here's an example on how you can use the _TColor_ class to create and manipulate single colors. Notice how the library stores color values in normalized values (from 0 to 1), so we need to set the Processing colorMode to that.
+Before using the ToxicLibs library in Processing, you will need to change the colormode. All color numbers in Toxiclibs operate in a scale from 0 to 1 (normalized), instead of 0-255 as you're used to. This may seem weird at first, but makes it a lot easier when doing calculations.
+
+This example shows how to use colormode in Processing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colormode_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colormode.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colormode)
+
+**TColor** is the most important color class in the library, because it's a replacement of the native color object in Processing. It has many advantages over the normal color mode:
+
+<ul data-slideshow="self">
+	<li>Automatically converts between colormodes</li>
+	<li>Has a bunch of handy functions to change color (contrast, saturation, etc)</li>
+	<li>Implements compare methods so you can eaisly say: "Give me the darkest color" in this array</li>
+	<li>Soooooo much more</li>
+</ul>
+
+This sketch shows you how to create a new TColor object. You can do this in many ways, as shown in the code:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_simple_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_simple.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_tcolor_simple)
+
+Here's a more complex example that shows you how to use some of the color manipulation functions, to change the color in code.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tcolor.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_tcolor)
 
-The library has a great collection type called _ColorList_ that allows you to manipulate all colors in the list at once, and do other interesting manipulations.
+**ColorList** is another great class. It's basically an array that can hold multiple *TColor* objects, and perform operations on them.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorlist.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colorlist)
 
-Toxiclibs has a class called _ColorRange_ that allows you to pick random colors within a specific hue, saturation and brightness. Here's an example of how to use it.
+**ColorRange** is a class you can use to make random colors, from a subset of the color wheel. You pick the general bounds, and whenever you call getColor() on the object, it will give you back a random color without those bounds. Here's a sketch that shows you how to use it.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorrange.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colorrange)
 
-To be able to create generative color themes, Toxiclibs also has a _ColorTheme_ class that can contain many of these _ColorRange_ objects and pick random color themes from them.
+Besides those basic classes, there's a number of more advances classes you can use. **ColorTheme** is one of them. A ColorTheme is basically an array of _ColorRange_ objects, that when you run the _getColors()_ function on it, will run through all the _ColorRange_ objects, get a random color, and return an array of random TColors. It's a great way of creating a custom color theme from a bunch of color ranges.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheme.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colortheme)
 
-One of the greatest things about toxi.color is the _ColorTheory_ class that gives us access to all the different color theme types we looked at earlier.
+Probably the most sophisticated of the color classes is the **ColorTheory** class. Remember all those different color theories we went through in the beginning of the class? The _ColorTheory_ class allows you to create them easily in code. Here's a simple example that demonstrates how to create a bunch of colors from a _ColorTheory_.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheory_simple_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colortheory_simple.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colortheory_simple)
+
+Here's a more advanced example showing all of the color theories in action.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/colorthemes.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/toxiclibs_colortheory)
