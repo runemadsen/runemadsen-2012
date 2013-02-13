@@ -140,7 +140,7 @@ Simple Colors with HSB
 
 The first steps into working with HSB is to just draw simple colors on the screen. Here's a sketch that shows how to draw a red, green and blue square, along with some other colors.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/simplehsb_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/simplehsb.png" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/simplehsb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/simplehsb.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/hsb)
 
 Now that we know how to move around the hue wheel, we can use this techniqe to draw a color circle.
