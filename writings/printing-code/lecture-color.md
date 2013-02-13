@@ -132,7 +132,17 @@ We're really not talking about a color wheel, but a 3D color space, where hue, s
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb.jpg" />
 
-H (0-360) control the angle on the wheel. S (0-100) controls saturation (radius). B (0-100) controls brightness (up-down the wheel). The first steps into working with HSB would be to draw a color circle using H.
+H (0-360) control the angle on the wheel. S (0-100) controls saturation (radius). B (0-100) controls brightness (up-down the wheel). 
+
+
+Simple Colors with HSB
+--------------------------------------
+
+The first steps into working with HSB is to just draw simple colors on the screen. Here's a sketch that shows how to draw a red, green and blue square, along with some other colors.
+
+	EXAMPLE WITH COLORS
+
+Now that we know how to move around the hue wheel, we can use this techniqe to draw a color circle.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/circle_hsb_processing.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/color/hsb_color_circle)
@@ -148,6 +158,8 @@ The different ways of creating color schemes are basically just constraints to h
 
 Generating Monochromatic Color Schemes
 --------------------------------------
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/monochrome_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/monochrome.jpg" />
 
 One of the simplest possible ways of generating a color scheme is to pick a specific hue and saturation, and then choose colors that are evenly distributed on the brightness scale. This is one example of a **monochromatic color scheme**.
 
@@ -215,6 +227,8 @@ fill(antipode, 100, 100); // this is green, CORRECT!
 Generating Analogous Color Schemes
 ----------------------------------
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/analogous.jpg" />
+
 And analogous color scheme is a suit of colors that are located close to each other on the color wheel. Often this is a color located 30 degrees away from the base color hue on either side, but that degree can vary.
 
 We rotate 30 degrees around the color wheel because the standard color wheel has 12 colors, and 360/12 is 30. We are just finding the "next" color on the wheel.
@@ -269,6 +283,8 @@ Two examples of complementary color schemes. Notice the sharp contrast between t
 Generating Triadic Color Schemes
 --------------------------------
 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/triadic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/triadic.jpg" />
+
 A triadic color can be said to be the opposite of an analogous color. Where analogous colors are colors located within 90 degrees of the primary color hue, triadic colors are colors located more than 90 degrees away of the base color hue.
 
 Here's a "pure" triadic color scheme with colors found by rotating 120 degrees on each side (internally an Equilateral triangle with 60 degree internal angles).
@@ -293,6 +309,8 @@ Here's another example of a triadic color scheme with hue 90 as the base hue.
 
 Generating Tetradic Color Schemes
 --------------------------------
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tetradic_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/color/tetradic.jpg" />
 
 A tetradic color scheme is a set of 4 colors chosen by placing a rectangle on the color wheel and selecting the colors that fall on the corner of the rectangle.
 
