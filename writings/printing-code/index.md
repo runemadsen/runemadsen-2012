@@ -111,6 +111,7 @@ In this class we'll dive into color theory and look at color handling in Process
 
 * Homework design critique
 * Lecture: **[Computational Color](/printing-code/lecture-color)**
+* Design exercise: Do homework on partner
 
 ### Assignment for next week
 
