@@ -111,7 +111,7 @@ In this class we'll dive into color theory and look at color handling in Process
 
 * Homework design critique
 * Lecture: **[Computational Color](/printing-code/lecture-color)**
-* Design exercise: Do homework on partner
+* Design exercise: Make something ugly. In Processing, draw 3 squares inside each other, and color them in a 3-color theme that you don't like. Tell us why.
 
 ### Assignment for next week
 
