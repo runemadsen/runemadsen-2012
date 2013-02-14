@@ -6,9 +6,7 @@ If you expect to come out of this class knowing simple rules like "red is for lo
 Color is way too subjective and dynamic to allow for so simple definitions. Actually, I'd rather stay away from telling you which colors to use when. Instead we will do 2 things:
 
 * Learn to, simply, observe color and its characteristics.
-* Learn the physics of color and how to approach it in code.
-
-For most of you, using color is probably a question of "what values do I put in fill()". We'll try to add a little more techniques today.
+* Learn how the ideas of color combination springs from simple rules performed on the color spectrum
 
 <iframe width="600" height="338" src="http://www.youtube.com/embed/MXQozTxQSiE" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
