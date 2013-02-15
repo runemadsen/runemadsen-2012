@@ -6,8 +6,7 @@ Form
 
 COLOR
 
-* Color class should be ALL in TColor!
-* Make better example (JOEs example) with toxiclibs color theory
+* The HSBColor class is too confusing when showing the individual color themes. Just use variables.
 
 Typography
 

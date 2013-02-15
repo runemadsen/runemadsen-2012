@@ -132,7 +132,7 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 * Toxiclibs and Graphics review
 * Homework presentations
 * Lecture: **[Computational Typography](/printing-code/lecture-typography)**
-* Possible group assignment
+* Design exercise: Divide into groups of 3 and come up with 2 algorithimic fonts
 
 ### Assignment for next week
 
