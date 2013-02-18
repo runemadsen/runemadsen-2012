@@ -3,6 +3,7 @@ Form
 * Form class should have ALL THE GEOMERATIVE FUNCTIONALITY. LOOK IN THE EXAMPLES!!!
 * Much more about the toxiclibs form functions (Line2D, ray, Vectors).
 * Use geomerative base classes (RPath, RShape) for form class (or later classes). Explain how the RPath works, and how multiple RPaths are in a RShape (maybe wait with some of this for the transformation class) 
+* Add the Paul Rand repetition and randomization stuff from my Waza talk!!!!
 
 COLOR
 
