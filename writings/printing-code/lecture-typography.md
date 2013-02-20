@@ -7,7 +7,7 @@ I'm not sure that anything successful can come out of generative typography, but
 
 Obviously, when we see footage like this, we realize that fonts - almost above anything else - have the widest range of expression. They are at the same time purely functional and purely aesthetic.  
 
-There's so many ranges of expressions you can do with simple type. Even off the paper:
+today we'll look at ways to make type systems: fonts created by using some kind of rule, instead of a manual plotting of the polygon outlines. This can be many things.
 
 <iframe width="600" height="338" src="http://www.youtube.com/embed/up1d_fagy6Q" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 

@@ -96,7 +96,7 @@ This week we'll look at the most basic subject in the visual arts: manipulation 
 
 * Homework presentations
 * Lecture: **[Computational Format and Form](/printing-code/lecture-form)**
-* Reading discussion - what is design?
+* Reading discussion
 * Trip to AMS
 
 ### Assignment for next week
@@ -132,11 +132,11 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 * Toxiclibs and Graphics review
 * Homework presentations
 * Lecture: **[Computational Typography](/printing-code/lecture-typography)**
-* Design exercise: Divide into groups of 3 and come up with 2 algorithimic fonts
+* Design exercise: Divide into groups of 3 and come up with 2 algorithimic font systems
 
 ### Assignment for next week
 
-* This week you're going to design a word. Pick a word and make a typeface around it. The important thing is that you draw the letters using some kind of rule-based logic. This means that you should not draw the font by hand first, and then translate that into code. Instead, look at the examples we looked at in class, and try to come up with your own typeface system - even if it's very simple. You can create it from scratch, or use an already existing font and manipulate its outline points. If you wish to use your own printing mechanism, this would be the perfect time to do so.
+* This week you're going to design a word. Pick a word and make a typeface around it. The important thing is that you draw the letters using some kind of rule-based logic. This means that you should not draw the font by hand first, and then translate that into code. Instead, look at the examples we looked at in class, and try to come up with your own typeface system - even if it's very simple. You can create it from scratch, or use an already existing font and manipulate its outline points.
 
 
 Week 5: Grid Systems
