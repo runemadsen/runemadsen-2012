@@ -1,13 +1,13 @@
 Typography
 ==========
 
-I'm not sure that anything successful can come out of generative typography, but hey, let's do a class on it. The presentation is mostly a collection of things I think are interesting, and not so much a general world-view of computational typography.
+I'm not sure that anything successful can come out of generative typography, but hey, let's do a class on it. The presentation is mostly a collection of things I think are interesting, and not so much a world-view of computational typography.
 
 <iframe src="http://player.vimeo.com/video/20759580?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen data-slideshow="self"></iframe>
 
 Obviously, when we see footage like this, we realize that fonts - almost above anything else - have the widest range of expression. They are at the same time purely functional and purely aesthetic.  
 
-today we'll look at ways to make type systems: fonts created by using some kind of rule, instead of a manual plotting of the polygon outlines. This can be many things.
+Today we'll look at ways to make type systems: fonts created by using some kind of rule, instead of a manual plotting of the polygon outlines. This can be many things.
 
 <iframe width="600" height="338" src="http://www.youtube.com/embed/up1d_fagy6Q" frameborder="0" allowfullscreen data-slideshow="self"></iframe>
 
@@ -15,7 +15,37 @@ today we'll look at ways to make type systems: fonts created by using some kind 
 Short Introduction to Typography
 ---------------------------------
 
-Before we look at fonts in Processing, let's recap some of the most basic things about fonts:
+The history of typefaces is in many ways tied to the technological developements tied to the field of printmaking.
+
+Of course typography is a field that originated in handwriting
+
+	Image of munk writing bibel
+
+.. was revolutionized by the printing press
+
+	Printing press
+
+.. the linogtype machine
+
+	Linotype machine
+
+.. and of course the computer
+
+	Computer
+
+Here's the dadaist poster I showed you in the first class, that was a direct comment on the strict, horizontal grid from the movable type machines.
+
+	Working against the letterpress grid (dadaism)
+
+Many of the things we now consider essential to modern typefaces has deep roots within these traditions. A good is example is the idea of "uppercase" and "lowercase" letter, that was actually a description of where the letters where stored in a printmakers desk
+
+	Image of printmakers desk
+
+Another visual signature from the time of handwriting is serifs, that originally were visual clues to distinguish written letters from each other. The concept transferred to print when printing small type. Here's a quick overview on the evolution of serifs.
+
+	Serifs evolve
+
+Here's a few illustrations that sum up the most important markers that makes up a typeface.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes10.jpg" />
 
@@ -171,7 +201,9 @@ I'm only going to show you a very few things about fonts in Processing.
 
 Processing ships with built-in font handling. To manipulate text, we need to know how to get the basic measurements of the things we draw. Here's an example of how to find the edges of a word you're drawing on the screen.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements.jpg" />
+One thing to note is that the red circle is at location 0,0. Processing text draw upwards on the y axis. This is called the baseline, and is often used as the basis of a grid system (which we'll look at next week).
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/measurements.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_measurements)
 
 
@@ -196,7 +228,7 @@ Now that we have the outline, we can use those points to place objects along the
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_dots)
 	
-Here's a little more complex sketch that uses beginShape to draw curved lines between the outline points.
+Here's a slightly more complex sketch that uses beginShape to draw curved lines between the outline points.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative.jpg" />
 
@@ -237,7 +269,12 @@ Here's the simplest possible font, made up by a 4x6 matrix:
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/pixel_font_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/pixel_font.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/pixel_font)
 
-That seems a little silly. However, making a rule-based font is much of the same process. Let's look at Peter Cho's pie font example again.
+That seems a little silly. Here's a better, but still simple example of the word "meme", that is also scalable.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/meme_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/meme.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/meme)
+
+However, making a rule-based font is much of the same process. Let's look at Peter Cho's pie font example again.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/CreativeCodes86.jpg" />
 

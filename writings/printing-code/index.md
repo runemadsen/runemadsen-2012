@@ -136,7 +136,7 @@ This week we'll look at typography. We'll go through the basic unit measurement 
 
 ### Assignment for next week
 
-* This week you're going to design a word. Pick a word and make a typeface around it. The important thing is that you draw the letters using some kind of rule-based logic. This means that you should not draw the font by hand first, and then translate that into code. Instead, look at the examples we looked at in class, and try to come up with your own typeface system - even if it's very simple. You can create it from scratch, or use an already existing font and manipulate its outline points.
+* This week you're going to design a word. Pick a word and make a typeface around it. The important thing is that you draw the letters using some kind of rule-based logic. This means that you should not draw the font by hand first, and then translate that into code. Instead, look at the examples we looked at in class, and try to come up with your own typeface system - even if it's very simple.
 
 
 Week 5: Grid Systems
