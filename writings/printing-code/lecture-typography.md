@@ -17,33 +17,39 @@ Short Introduction to Typography
 
 The history of typefaces is in many ways tied to the technological developements tied to the field of printmaking.
 
-Of course typography is a field that originated in handwriting
+Of course typography is a field that originated in handwriting. Here it's a so-called illuminated manuscript from the middle ages.
 
-	Image of munk writing bibel
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/illuminated_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/illuminated.jpg" />
 
-.. was revolutionized by the printing press
+Then along came Gutenberg with the printing press. As you can see, the typefaces were still very bound to the art of handwriting.
 
-	Printing press
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/gutenberg_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/gutenberg.jpg" />
 
-.. the linogtype machine
+This slowly changed, as font designers started using the grid as a design tool.
 
-	Linotype machine
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/fontgrid_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/fontgrid.jpg" />
 
-.. and of course the computer
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/fontgrid2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/fontgrid2.jpg" />
 
-	Computer
+The linotype machine
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/linotype_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/linotype.jpg" />
+
+The computer
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/star_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/star.jpg" />
 
 Here's the dadaist poster I showed you in the first class, that was a direct comment on the strict, horizontal grid from the movable type machines.
 
-	Working against the letterpress grid (dadaism)
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show.jpg" />
 
 Many of the things we now consider essential to modern typefaces has deep roots within these traditions. A good is example is the idea of "uppercase" and "lowercase" letter, that was actually a description of where the letters where stored in a printmakers desk
 
-	Image of printmakers desk
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/upperlowercase_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/upperlowercase.jpg" />
 
 Another visual signature from the time of handwriting is serifs, that originally were visual clues to distinguish written letters from each other. The concept transferred to print when printing small type. Here's a quick overview on the evolution of serifs.
 
-	Serifs evolve
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/serifs_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/serifs.jpg" />
 
 Here's a few illustrations that sum up the most important markers that makes up a typeface.
 
