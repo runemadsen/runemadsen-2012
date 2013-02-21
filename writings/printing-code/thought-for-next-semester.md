@@ -1,7 +1,5 @@
 Form
 
-* Much more about the toxiclibs form functions (Line2D, ray, Vectors).
-* Use geomerative base classes (RPath, RShape) for form class (or later classes). Explain how the RPath works, and how multiple RPaths are in a RShape (maybe wait with some of this for the transformation class) 
 * Add the Paul Rand repetition and randomization stuff from my Waza talk!!!!
 
 COLOR
@@ -11,8 +9,7 @@ COLOR
 Typography
 
 * The typography class should have more about basic typography. Go through normal graphic design use of fonts, baseline designs, etc.
-* For font class, use more time on how the font is drawn on the screen. Then spend time on the Geomerative RFont and how to use the draw method.
-* Use this talk: http://www.livestream.com/etsy/video?clipId=pla_3c805d93-1e45-4b2e-8380-84f59ef43a84
+* There is so much damn functionality in Geomerative that can be explained. Scale, widht, height, etc, etc. We need to talk much more about that.
 
 GRID
 

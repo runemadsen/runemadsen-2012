@@ -207,44 +207,6 @@ One thing to note is that the red circle is at location 0,0. Processing text dra
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_measurements)
 
 
-Playing With Font Outlines
---------------------------
-
-However, the implementation of fonts in Processing leaves much to be desired. When you go to "Create Font" in Processing, a bitmap image of that font is created (.vlw file). Whenever you need to draw a font on the screen, Processing will look up that bitmap image, grab the characters from it, and draw them on the screen. This has one big disadvantage:
-
-1. Fonts are normally defined by Vector points, but Processing handles them as bitmaps. The bigger the font, the bigger the file size of that bitmap file is. For print designers this is not good, as we're often working with files with really high resolutions, and your program will get really slow when drawing giant text.
-
-Instead, external libraries has been made for Processing that can load .ttf font files, read the font outlines, and draw them on the screen. When you're working with large files in Processing, you probably want to use one of these libraries. For these exercises we'll be using the [Geomerative](http://www.ricardmarxer.com/geomerative/) library for Processing 2.0.
-
-Besides vector font handling it has a bunch of interesting methods for computational geometry. You can [find the documentation here](http://www.ricardmarxer.com/geomerative/documentation/index.html).
-
-First we need to figure out how to load a font and get its outline. This sketch shows how to that.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points)
-
-Now that we have the outline, we can use those points to place objects along the line.
-	
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_dots)
-	
-Here's a slightly more complex sketch that uses beginShape to draw curved lines between the outline points.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative2.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative3.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative4.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative)
-
-We can also fill the outline instead of drawing stroked lines.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_filled.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative_filled)
-
-
 Custom Rule-based fonts in Processing
 -------------------------------------
 
@@ -282,3 +244,82 @@ Here's a Processing sketch implementing the same rules. It really doesn't take m
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/piefont_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/piefont.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/pie_segments_example)
+
+
+ArrayLists
+----------
+
+Before diving into Geomerative, we need to talk about ArrayLists. In your code you often you arrays, which can hold a list of multiple objects. The problem with arrays is that their length is static, which means that you need to know the length of the array beforehand.
+
+Let's imagine that I want to draw 50 Hexagon objects on the screen. Arrays are great for this:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arrays)
+
+But what if you want to add more hexagons to the array at a later time? For example, what if you want the add a hexagon on the screen where the user presses the mouse? Then you need a kind of flexible array that can get bigger and smaller on the fly. That's what an ArrayList is! 
+
+Take a look at this example that implements the exact same code using ArrayLists, and also implements the mouse clicks
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arraylists)
+
+Vectors
+--------
+
+The basic concept of a vector is that it's a simple class that has a "x" and "y" property. Processing has a built-in class called PVector that you can use out of the box. Dan Shiffman has a ton of material on this, so I won't go that much into detail (you can [read about it on his website](http://natureofcode.com/book/chapter-1-vectors/)). 
+
+What's important to us in this class is how we can use vectors to represent individual points on the screen. These can be used to create outlines or closed shapes. Here's an example that demonstrates how to draw a line with normal variables AND with PVector.
+ 
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/vectors)
+
+What you start to realize is that a vector is actually a description of a direction. For example, a single vector can describe a length of a line. Here's an example of what I mean by that. Also notice how the PVector class has a bunch of cool features, including subtracting and adding vectors to each other. 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_subtraction_small.png" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/vectors_subtraction.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/vectors_subtraction)
+
+The toxiclibs library ships with its own vector class called Vec2D, which basically behaves in the exact same way as PVector, but with a lot of added functionality.
+
+
+
+Geomerative
+-----------
+
+The implementation of fonts in Processing leaves much to be desired. When you go to "Create Font" in Processing, a bitmap image of that font is created (.vlw file). Whenever you need to draw a font on the screen, Processing will look up that bitmap image, grab the characters from it, and draw them on the screen. This has a few disadvantages:
+
+1. Fonts are normally defined by Vector points, but Processing handles them as bitmaps. The bigger the font, the bigger the file size of that bitmap file is. For print designers this is not good, as we're often working with files with really high resolutions, and your program will get really slow when drawing giant text.
+
+2. Fonts will not work in the rendered PDF if the print computer does not have it installed.
+
+To solve these problems we will need to use the external library [Geomerative](http://www.ricardmarxer.com/geomerative/) library for Processing 2.0. The library itself can do a ton of things related to computational geometry. Today we'll look at some of the classes that relate to the use of fonts. You can search through the rest of the classes in [the online documentation](http://www.ricardmarxer.com/geomerative/documentation/index.html).
+
+**RFont* is the main class that you can use for displaying text on the screen. It will read a .ttf font file and draw it on the screen in vectors. This means that when you save your PDF, the font will also be scalable.
+
+Here's a sketch that shows you the basics of drawing a font on the screen.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/geomerative_font_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/geomerative_font.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/geomerative_font)
+
+But the RFont class can do much more than that. It's especially good for getting the outline of a font and playing around with it.
+
+There are 2 different ways you can access the outline. The first one if a reduced way, where Geomerative generates a static number of x,y points along the path. The second way is by accessing the actual vertex points.
+
+Here's a sketch that shows you how to do the first: Getting a reduced number of points from a font. The first sketch here shows you how to do it with a single letter. Notice how many loops we need, as a single RPolygon will always have an array of RContours that themselves have an array of RPoints.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/rfont_reduced)
+
+If you want to do this with more than one character, you will need an extra loop, as each polygon comes in an array of the RGroup.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced_word_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced_word.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/rfont_reduced_word)
+
+Now that we can access the reduced points of the outline, let's play around with them!
+	
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_dots.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_dots)
+	
+Here's that same code, but using beginShape to play around with the contours.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative)
