@@ -302,9 +302,11 @@ Here's a sketch that shows you the basics of drawing a font on the screen.
 
 But the RFont class can do much more than that. It's especially good for getting the outline of a font and playing around with it.
 
-There are 2 different ways you can access the outline. The first one if a reduced way, where Geomerative generates a static number of x,y points along the path. The second way is by accessing the actual vertex points.
+There are several ways you can access the outline of a font. The first one is by letting Geomerative generative a static number of x,y values around the outline. The second way is by actually accessing the vertices (beziers, etc) directly.
 
-Here's a sketch that shows you how to do the first: Getting a reduced number of points from a font. The first sketch here shows you how to do it with a single letter. Notice how many loops we need, as a single RPolygon will always have an array of RContours that themselves have an array of RPoints.
+**Static Outlines**
+
+Here's a sketch that shows you how to do the first: Getting a reduced, static number of points from a font. The first sketch here shows you how to do it with a single letter. Notice how many loops we need, as a single RPolygon will always have an array of RContours that themselves have an array of RPoints.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/rfont_reduced.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/rfont_reduced)
@@ -323,3 +325,7 @@ Here's that same code, but using beginShape to play around with the contours.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/font_to_points_generative.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/font_to_points_generative)
+
+**Non-Reduced Outlines**
+
+If you want to access the actual vertices of the shapes, you should look into the RShape and RCommand classes. 
