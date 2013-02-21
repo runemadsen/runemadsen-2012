@@ -15,7 +15,7 @@ Today we'll look at ways to make type systems: fonts created by using some kind 
 Short Introduction to Typography
 ---------------------------------
 
-The history of typefaces is in many ways tied to the technological developements tied to the field of printmaking.
+The history of typefaces is in many ways tied to the technological developements of printmaking.
 
 Of course typography is a field that originated in handwriting. Here it's a so-called illuminated manuscript from the middle ages.
 
@@ -43,9 +43,13 @@ Here's the dadaist poster I showed you in the first class, that was a direct com
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/intro/dada_show.jpg" />
 
-Many of the things we now consider essential to modern typefaces has deep roots within these traditions. A good is example is the idea of "uppercase" and "lowercase" letter, that was actually a description of where the letters where stored in a printmakers desk
+Many of the things we now consider essential to modern typefaces has deep roots within these traditions. A good is example is the idea of "uppercase" and "lowercase" letter, that was actually a description of where the letters where stored in a printmakers desk.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/upperlowercase_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/upperlowercase.jpg" />
+
+The most important thing for you to start notice, is the difference between different typefaces. Treat them like you treated your forms in these first assignments. Think about where you would use them. Even Helvetica has a specific expression and needs to be chosen wisely.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/typefaces_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/typefaces.jpg" />
 
 Another visual signature from the time of handwriting is serifs, that originally were visual clues to distinguish written letters from each other. The concept transferred to print when printing small type. Here's a quick overview on the evolution of serifs.
 
@@ -60,10 +64,6 @@ Here's a few illustrations that sum up the most important markers that makes up 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes12_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes12.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/DesigningTypes13.jpg" />
-
-I won't go into much detail about specific typefaces and their usage, but only show a small collection of famous fonts. Notice the difference. Think about where you would use them. Even Helvetica has a specific expression and needs to be chosen wisely.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/typefaces_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/typography/typefaces.jpg" />
 
 I recommend you to watch the [Helvetica The Movie](http://www.helveticafilm.com/).
 
