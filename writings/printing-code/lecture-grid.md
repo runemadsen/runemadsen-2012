@@ -11,7 +11,7 @@ Today we'll go through the different types of grid systems, look at interesting 
 
 A grid system is any kind of basic constraint you can put on the canvas.
 
-Measuremente, Measurements
+Measurements, Measurements
 --------------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/apple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/apple.jpg" />
