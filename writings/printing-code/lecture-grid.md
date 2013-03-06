@@ -11,11 +11,45 @@ Today we'll go through the different types of grid systems, look at interesting 
 
 A grid system is any kind of basic constraint you can put on the canvas.
 
+Measuremente, Measurements
+--------------------------
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/apple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/apple.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/mondrianRULES_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/mondrianRULES.jpg" />
+
 
 History of Grid Systems
 -----------------------
 
-	TODO
+Grid systems started as helper lines for written books.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory1.jpg" />
+
+It transferred to movable type, where the type setting itself consists of a grid. The grid lines continued to help printers in typesetting. This could often be as simple as a baseline that determined the scale of the headings and body.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory2.jpg" />
+
+With the industrial revolution came a huge demand for printed works. Many things, like slab-serif fonts, were concieved as a part of the advertising revolution. A grid system is here used to divide page space up into smaller segments, to use for advertising. The bigger the space, the more money the ad would cost.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory3.jpg" />
+
+Movements like the Bauhaus and the Futurists investigated the use of grid systems, and how to play within these constraints. Here it's a page from the futurist magazine Lacerba.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gridhistory4.jpg" />
+
+The masters of the grid system - Swiss Style designers like Brockmann and Gerstner.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmann_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmann.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/swiss_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/swiss.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/swiss2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/swiss2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/gerstner.jpg" />
+
+Images found from <a href="http://www.graphics.com/modules.php?name=Sections&op=viewarticle&artid=620">this post</a>.
+
 
 Types of Grids
 --------------
@@ -37,24 +71,12 @@ The **modular grid** is a column and row grid that not only tells you the x-plac
 The last type of grid is often called a **hierarchical grid**, although it's kind of a "catch all" for grids that do not fit into the above categories. A hierarchical grid is described by not having equal spacing between modules.
 
 
-Using a Grid
-------------
-
-	A lot more on baseline and how to use it...
-
-The grid systems were made popular with the wave of Swiss Style graphic design. The point is to work creatively within the grid, but also break free when you need it.
-
-Even a simple grid gives you a lot of variety in placing your content. You use the modules as basis for larger content areas. This creates alignment and balance in your design.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3.jpg" />
-
-
 Grid Examples
 -------------
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmanngrid_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmanngrid.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmanngrid2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/brockmanngrid2.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid1.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid1.jpg" />
 
@@ -65,6 +87,20 @@ Grid Examples
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid4.jpg" />
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid5.jpg" />
+
+
+Using a Grid
+------------
+
+The grid systems were made popular with the wave of Swiss Style graphic design. The point is to work creatively within the grid, but also break free when you need it.
+
+Even a simple grid gives you a lot of variety in placing your content. You use the modules as basis for larger content areas. This creates alignment and balance in your design.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled1.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled2.jpg" />
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_filled3.jpg" />
 
 
 Int vs. Float
@@ -87,6 +123,11 @@ The simplest possible grid to make is a manuscript grid that only requires 4 var
 [Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/manuscript_grid_no_class)  
 [Using Classes - Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/manuscript_grid_class)
 
+Here's another example, where I'm placing circles inside the grid using the manuscript column.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/manuscript_grid_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/manuscript_grid_circles.png" />
+[Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/manuscript_grid_circles) 
+
 A nice way of encapsulating these 4 variables is by creating a class that can keep track of them and hide them from the main file. He I've created a _Column_ class to hold the column values. Nothing else changed. By extracting the grid code into a class we can add convenient helper methods to that class without cluttering out main source file.
 
 Very simple Processing Code
@@ -103,6 +144,11 @@ Coding a Column Grid
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_random_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_column_random_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/column_grid_random_placement)
 
+Here's the same circle example, just using the column grid code.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/column_grid_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/column_grid_circles.png" />
+[Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/column_grid_circles) 
+
 Coding a Modular Grid
 ---------------------
 
@@ -110,6 +156,11 @@ Coding a Modular Grid
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/grid_modular_example.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/modular_grid_simple)
+
+Here's the same circle example, just using the modular grid.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/modular_grid_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/grid/modular_grid_circles.png" />
+[Not Using Classes - Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/grid/modular_grid_circles) 
 
 
 What is Used? What is Not?
