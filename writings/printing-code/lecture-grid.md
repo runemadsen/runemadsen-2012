@@ -1,7 +1,7 @@
 What is a grid system?
 ======================
 
-There is nothing worse for an artist than a blank canvas. A grid system is a specified group of measurements a graphic designer can use to align and size objects within the given format. Although there are a few different categories of grid systems, there are no strict rules on what can or cannot be a grid. It's up to you. Any guides that help you shape the final design is okay.
+There is nothing worse for an artist than a blank canvas. A grid system is a set of measurements a graphic designer can use to align and size objects within the given format. Although there are a few different categories of grid systems, there are no strict rules on what can or cannot be a grid. It's up to you. Any guides that help you shape the final design is okay.
 
 Relevant for us is how the grid is such a strict mathematical concept. It's perfect for manipulation in code. The traditional way of creating a grid is by doing it by hand in Photoshop or Illustrator. If you suddenly notice that you want a slimmer grid, you need to re-create the grid and move everything by hand. In code this is not the case, a we can be extremely flexible and try many iterations within minutes. It also allows us to use several grid systems on top of each other, distort the grid system by rotating or scaling it, or generating the grid modules randomly. 
 
@@ -11,6 +11,11 @@ Today we'll go through the different types of grid systems, look at interesting 
 
 A grid system is any kind of basic constraint you can put on the canvas.
 
+
+History of Grid Systems
+-----------------------
+
+	TODO
 
 Types of Grids
 --------------
@@ -34,6 +39,8 @@ The last type of grid is often called a **hierarchical grid**, although it's kin
 
 Using a Grid
 ------------
+
+	A lot more on baseline and how to use it...
 
 The grid systems were made popular with the wave of Swiss Style graphic design. The point is to work creatively within the grid, but also break free when you need it.
 

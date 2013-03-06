@@ -8,6 +8,7 @@ COLOR
 
 Typography
 
+* Add this: https://vimeo.com/24358631
 * The typography class should have more about basic typography. Go through normal graphic design use of fonts, baseline designs, etc.
 * There is so much damn functionality in Geomerative that can be explained. Scale, widht, height, etc, etc. We need to talk much more about that.
 
