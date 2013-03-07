@@ -152,6 +152,7 @@ In this class we'll look at grid systems and how to use them as guiding constrai
 
 * Homework design critique
 * Lecture: **[Computational Grid Systems](/printing-code/lecture-grid)**
+* Design exercise: [Sigur Ros Grid System](https://github.com/runemadsen/printing-code/blob/master/homework/sigur_ros/sigur_ros.pde)
 
 ### Assignment for next week
 
