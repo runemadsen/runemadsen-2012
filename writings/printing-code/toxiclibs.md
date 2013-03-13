@@ -1,26 +1,3 @@
-I've only introduced RFont. This class should be about all the other sutff in the libraries. Maybe these concepts should be introduced as a single item every week?
-
-
-Geomerative
------------
-
-Quickly run over these
-
-	BASE CLASSSES: RCommand, RShape, RPath
-
-	Hello Splitting - showing how to get a point on a bezier curve
-
-	BinaryOps - subtracting two shapes form each other
-
-	BinaryIntersection - to create masks
-
-	HelloAdaptChildren - use text on a curve
-
-	ClosestCommands
-
-	Contains
-
-
 Toxiclibs
 ---------
 
