@@ -1,14 +1,14 @@
 Geomerative
 ===========
 
-In the week about typography we looked at Geomerative and how to use the RFont class. Last week we looked at loading SVG images as RShape objects. Here's a quick look at why Geomerative is so powerful.
+In the week about typography we looked at Geomerative and how to use the RFont class. Last week we looked at loading SVG images as RShape objects. Here's a more in depth look at Geomerative and its base classes.
 
-Geomerative Shapes
-------------------
+Why use Geomerative?
+--------------------
 
 The first thing you learn in Processing is to use the basic drawing functions, like line(), rect(), ellipse() or triangle(). When called, these functions draw a shape directly on the screen, using the current fill and stroke.
 
-Often it makes sense to not only draw the shapes directly on the screen, but also save the numbers used for the shape in variables. Here's a very simple example for that:
+Often it makes sense to not only draw the shapes directly on the screen, but also save the numbers used for the shapes in variables. Here's a very simple example on how you would do that without Geomerative
 
 	int x = 80;
 	int y = 80;
@@ -16,38 +16,41 @@ Often it makes sense to not only draw the shapes directly on the screen, but als
 	int rectHeight = 60;
 	rect(x, y, rectWidth, rectHeight);
 
-This allows you to draw a lot of shapes using the same variables, and by tweaking the code one place, all of the shapes change. However, it gets a little messy with all those variables.
+This would allow you to reuse these variables in your code, use them to align other objects to the rectangle, and allow you to change all of this by changing a single variable (instead of looking through your code and changing hard coded number a bunch of places).
 
-Like we have a PVector / Vec2D / RPoint class to hold x and y values, Geomerative also ships with an RShape class that is made to hold values for shapes. You can use some basic functions in Geomerative to generate RShapes with basic shapes in them, as shown in this sketch:
+However, it gets a little messy with all those variables. Exactly like we use PVector (or Vec2D or RPoint) to encapsulate a single x,y location, we can use Geomerative classes to hold the values we use to draw our complex shapes. This can be simple vector points with an x,y, but most of the time it will also be bezier points with control point values.
+
+The class you use to hold the values for shapes is called RShape. Here's an example that shows you how to draw simple shapes with an RShape, instead of Processing's drawing functions.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/basic_shapes_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/basic_shapes.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/basic_shapes)
 
-Remember beginShape() and endShape(). Well, if you want to save those points in an object, RShape is here for you. Here's an example drawing the sample wobbly shape from the form class, first with beginShape(), then with RShape: 
+But drawing ellipses and rectangles won't get us far. Remember beginShape() and endShape()? RShape is built to handle vertex and bezierVertices too! Here's an example where I draw the sample wobbly shape first using beginShape(), then using RShape: 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/beginshape_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/beginshape.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/beginshape)
 
-When you call draw(), the shape will draw with the current fill and stroke in 0,0. But now that we have the shape values as an object, we can start do use the Geomerative RShape functions to do fun stuff with it:
+Notice how the RShape object has a draw() function that will draw the shape with the current fill and stroke in the current 0,0 position in Processing. To move it, you need to call translate before drawing it on screen.
+
+Now that we have an RShape that holds the vertices of our shape, we can do fun stuff with the shape, using some of the built-in RShape functions.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/drawing_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/drawing.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/drawing)
 
-Remember that you can also get an RShape by loading an SVG, like shown in the [Sigur Ros](https://github.com/runemadsen/printing-code/tree/master/class_code/homework/sigur_ros) assignment from last week.
+There are many ways to create an RShape, and adding the vertices one by one is just one example. You've already seen that we can load an SVG image into an RShape, in the [Sigur Ros](https://github.com/runemadsen/printing-code/tree/master/class_code/homework/sigur_ros) assignment from last week.
 
-	Multiple RPaths in an RShape
+	TODO: Adding multiple RPaths in an RShape
 
-Static Outline
---------------
+Two set of classes
+------------------
 
-	Convert RShape to RPolygon, and set segment length.... just the stuff from typography
+	TODO: Show how RPolygon -> RContour -> RPoint is the simplified cousins of RShape -> RPath -> RCommand 
 
-		// all the cool stuff you can do to get the outline points, etc. Look through the class
 
-RCommand
---------
+RShape > RPath > RCommand
+-------------------------
 
-Remember in the typography class where we converted a character to an RShape, and a group of characters to a group of RShapes? Well, the RShape is a pretty sophisticated object, and it has a ton of functionality. What's most important is that each single RShape has  an array of other RShapes, and an array of RPaths. These may or may not be empty.
+The RShape is a pretty sophisticated object, and it has a ton of functionality. What's most important is that each single RShape has  an array of other RShapes, and an array of RPaths. These may or may not be empty.
 
 In the end, RShapes are made up by RPath objects, that themselves has an array of RCommand objects. The RCommand class is the guts of Geomerative, as it holds the command for drawing a single curve or line. When I called addLineTo() and addBezierTo() on the RPath, we're actually telling it to save an RCommand with those values in the last RPath object it holds.
 
@@ -62,17 +65,32 @@ So what is an RCommand? Let's take a close look at a much simpler example. Here 
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/rcommand_simple)
 
 
+RPolygon > RContour > RPoint
+----------------------------
 
-	// RCommand closest
+Remember in the typography class where we converted a character to an RPolygon, and a group of characters to a group of RPolygons? What actually happened is that we took an RFont (which is basically an RShape) and converted all the beziers to static points along the outline.
+
+Here's an example where we do the exact same thing for an RShape 
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/rshape_outline_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/geomerative/rshape_outline.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/rshape_outline)
 
 
 Geometry with Geomerative
 -------------------------
 
-	contains
+	TODO: contains
 
-	BinaryOps - subtracting two shapes form each other
+	TODO: BinaryOps - subtracting two shapes form each other
 
-	BinaryIntersection - to create masks
+	TODO: BinaryIntersection - to create masks
 
-	HelloAdaptChildren - use text on a curve
+	TODO: HelloAdaptChildren - use text on a curve
+
+
+More info
+---------
+
+When you download the Geomerative library, it comes with a ton of great examples for you to explore. They are a bit advanced, but really showcase the power of the library.
+
+You can also find the entire [Geomerative library reference online](http://www.ricardmarxer.com/geomerative/documentation/index.html). This is great if you're looking for specific functionality, and for knowing what parameters each function takes.
