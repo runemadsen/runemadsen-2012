@@ -1,3 +1,13 @@
+Midterm reviews
+---------------
+
+Everyone loves the class. A few notes:
+
+- People should hang their prints before class, and we should walk around to see them
+- More code. We do a lot of design, and code is more review
+- Real design critique could start from week 1
+
+
 Form
 
 * Add the Paul Rand repetition and randomization stuff from my Waza talk!!!!

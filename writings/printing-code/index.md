@@ -199,7 +199,7 @@ Randomization is about letting the computer choose for us. This week we'll look 
 
 ### Assignment for next week
 
-* For next week, pick [one of these famous Olivetti posters by Giovanni Pintori](/printing-code/posters) and write a Processing sketch that directly copies or is inspired by the design of the poster. Your Processing sketch must demonstrate the use of weighted randomness (this means that it must be generative in some sense) and vectors (this means that all x,y variables should instead use PVectors or Vec2D). Bring to class a poster, and be ready to present why you choose that specific poster, in what way the use of randomness helps illustrate the concept, and how your code is written. I'm looking for the simplest possible implementation of the poster concepts, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
+* For next week pick an existing piece of visual art (painting, ad, etc) that uses randomization as a key design principle, and recreate it in Processing. If in doubt, use [one of these famous Olivetti posters](/printing-code/posters). You should use at least some randomization concepts from this week's lecture in your sketch, in order to make the sketch dynamic. This means that it needs to look different every time it runs, but still have the visual style of the original work. Come to class prepared to show your print + to share how your sketch uses randomization. I'm looking for the simplest possible implementation, which means that it's up to you to set goals that are simple enough for you have time to code and print the assignment.
 
 
 Week 9: Repetition
