@@ -252,24 +252,6 @@ Here's a Processing sketch implementing the same rules. It really doesn't take m
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/typography/pie_segments_example)
 
 
-ArrayLists
-----------
-
-Before diving into Geomerative, we need to talk about ArrayLists. In your code you often you arrays, which can hold a list of multiple objects. The problem with arrays is that their length is static, which means that you need to know the length of the array beforehand.
-
-Let's imagine that I want to draw 50 Hexagon objects on the screen. Arrays are great for this:
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arrays)
-
-But what if you want to add more hexagons to the array at a later time? For example, what if you want the add a hexagon on the screen where the user presses the mouse? Then you need a kind of flexible array that can get bigger and smaller on the fly. That's what an ArrayList is! 
-
-Take a look at this example that implements the exact same code using ArrayLists, and also implements the mouse clicks
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arraylists)
-
-
 Geomerative
 -----------
 

@@ -194,7 +194,7 @@ Randomization is about letting the computer choose for us. This week we'll look 
 ### Class Overview
 
 * Reading discussion
-* Lecture: **[Vectors and Randomization](/printing-code/lecture-randomization)**
+* Lecture: **[Randomization](/printing-code/lecture-randomization)**
 * Guest Lecture: E. Roon Kang, The MIT Logo
 
 ### Assignment for next week

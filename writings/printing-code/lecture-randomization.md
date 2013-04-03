@@ -1,30 +1,62 @@
 Vectors and Randomization
 =========================
 
-For the last 7 weeks of the semester, these lectures will be a little more heavy on code structure and the actual coding. This class is be about randomization.
+In this class we'll investigate the concept of randomization.
+
+
+Using Random
+------------
+
+One of the first things you learn in Processing, is to use the random() function. Here's a very simple example where I'm choosing a random stroke for 3 circles.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simplest_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simplest.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_simplest)
+
+But random() can be used for much more than that. We can imagine that we want to be able to randomly stroke the circle with 2 different colors. Here's a sketch that does exactly that:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_simple)
+
+The important thing here is that we can specifically say how much probability we want for the two colors to show. But what if we want to have several different colors, with a specific probability to be chosen? This is called weighted randomness, and can be coded pretty easily by using ArrayLists.
+
+
+ArrayLists
+----------
+
+Before diving into weighted randomness, we need to talk about ArrayLists. In your code you often you arrays, which can hold a list of multiple objects. The problem with arrays is that their length is static, which means that you need to know the length of the array beforehand.
+
+Let's imagine that I want to draw 50 Hexagon objects on the screen. Arrays are great for this:
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arrays.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arrays)
+
+But what if you want to add more hexagons to the array at a later time? For example, what if you want the add a hexagon on the screen where the user presses the mouse? Then you need a kind of flexible array that can get bigger and smaller on the fly. That's what an ArrayList is! 
+
+Take a look at this example that implements the exact same code using ArrayLists, and also implements the mouse clicks, so you can add more hexagons to the array(list)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/arraylists.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/arraylists)
 
 
 Weighted Randomness
 -------------------
 
-Now that we understand vectors, let's look at randomization, and later how it related to the concept of vectors.
+Let's say that we want our sketch to choose between 3 different colors: Red, Green and Blue. Each color should have a specific probability to be chosen. You might imagine that we could do something like this:
 
-We've used simple randomness all through the semester. Here's a short example on how to use the random function in Processing.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple2.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_simple2)
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_simple.jpg" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_simple)
+As you can see, every single color requires an if-statement. The question is, isn't there a better way? Yes, there is. Here's the exact same sketch, but with a Randomizer class that can hold a lot of colors and probabilities.
 
-Instead of random() around in your code, here's an example on how to create a class that can help you with this.
-
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_class)
 
-This Randomizer class can also be used with your own custom classes. For example, you might create a *Settings* class, and let the Randomizer select a specific setting at random. Here's an example on how to do that.
+But this code only works with colors. What if we have more values we want to randomly choose? Here's an example where I have a custom *Settings* class, where each settings object holds a bunch of values.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_settings_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_settings.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_settings)
 
-See how clean that code is compared to a bunch of if statements with random function calls in them? We could even go as far as wrapping it all in a circle class. This is exactly the same code as before, but much nicer to look at.
+See how clean that code is compared to a bunch of if statements with random function calls in them? We could even go as far as to put a display() function in the setting class. This example shows you why.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/random_circles)
@@ -33,14 +65,14 @@ See how clean that code is compared to a bunch of if statements with random func
 Toxiclibs: Weighted Randomness
 ------------------------------
 
-Toxiclibs has a number of nice classes that you can use for randomization purposes. First of all, it has a weighted random class that you can use to randomly choose from a number of weights (like the one we did before).
+If you don't want to code this by yourself, Toxiclibs ships with a nice WeightedRandom class. Here's the simple color example, using Toxiclibs.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_weighted_random.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_class.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/toxiclibs_weighted_random)
 
-You can put all types of objects in the weightedrandom class, so we can recreate our circles example using the toxiclibs library.
+And here's our Setting example, using Toxiclibs.
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/toxiclibs_circles.jpg" />
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/random_circles.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/toxiclibs_circles)
 
 
@@ -69,9 +101,13 @@ Perlin Noise can be used to do many things. One of things that it's great for is
 
 It's quite easy to draw a circle with Perlin noise, but forming many straight lines into a form can be hard. Here's an example of how you can create your own line function that draw a line with Perlin Noise:
 
-
-
 Another thing Perlin Noise can be used for, is to create gradient surfaces with an organic look. Here's a Processing sketch that uses Perlin noise in 2 dimensions:
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/randomization/noise_surface.jpg" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/randomization/noise_surface)
+
+
+ToxicLibs: Other Classes
+------------------------
+
+FloatRange! Yeah!
