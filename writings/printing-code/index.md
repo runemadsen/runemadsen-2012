@@ -214,11 +214,14 @@ Repetition is highly computational, still human beings have created patterns as 
 * Lecture: **[Computational Repetition](/printing-code/lecture-repetition)**
 * [More Geomerative](/printing-code/geomerative2)
 * Possible design exercise: Talk to partner about final project
+* Possible reading discussion
 
 
 ### Assignment for next week
 
 * For next week write a Processing sketch that generates a pattern. The pattern should be a design proposal for the company [Makerbot](http://www.makerbot.com/), and should be designed to be used for their wrapping paper. So you need to research the company, look at their identity, and come up with a design that reflects this. It doesn't matter whether the pattern is periodic or aperiodic, but what does matter is that it's dynamic. This means that I should be able to change global variables and see the pattern change the next time I run the sketch. Bring to class a printed poster of your pattern, and we'll discuss the proposals.
+
+* Pick a real-world design problem that you will tackle for your final. This can be a full event poster, an album cover, a logo re-design, a full company identity or a book cover. It's all up to you, and there are no constraints. Write a short blog post about your project, and come prepared to talk about it in class. Remember, you cannot change your final project once the blog post is written.
 
 
 Week 10: Transformation
@@ -238,13 +241,7 @@ What happens to graphic files when we start to manipulate the pixels in code? Ca
 
 ### Assignment for next week
 
-_From now on and until the end of the semester, we will be working on final projects. Remember that next week is thanksgiving break._
-
-* **Before Thanksgiving**<br />
-Pick a real-world design problem that you will tackle for your final. This can be a full event poster, an album cover, a logo re-design, a full company identity or a book cover. It's all up to you, and there are no constraints. Write a blog post that outlines what entity you're designing for, why this design problem calls for a code-based solution, and why you're interested in it. Some hand-drawn sketches of what you're trying to achieve would be great, but you shouldn't start coding yet. This is only for outlining the design problem. Email me a link to this blog post before Thursday the 22nd, and I'll review it. Once you have done this, you cannot change the design problem. You might find other ways to solve it or change the approach, but you cannot change the entity you're designing for.
-* **After Thanksgiving**<br />
-Start coding. On the first Thursday after Thanksgiving, come prepared to show the progress you've made. This should not be a finished product at all, but you should be ready to share what your are working on, and what problems you're currently facing. We will spend half the class on this.
-
+_From now on and until the end of the semester, we will be working on final projects.
 
 Week 11: Motion
 ---------------
