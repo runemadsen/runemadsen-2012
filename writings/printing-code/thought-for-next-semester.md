@@ -39,7 +39,10 @@ RANDOMIZATION
 
 REPETITION
 
-* Repetition class should have example of doing a Tile class that you can put in x,y for loops in setup and create a tiling pattern.
+* Use this: https://code.google.com/p/fleen/
+
+* Add my paul rand examples from talk
+
 
 MOTION
 

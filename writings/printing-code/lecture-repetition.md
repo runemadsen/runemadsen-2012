@@ -89,6 +89,11 @@ Crucial to the concept of aperiodic tiling is recursion.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/recursion)
 
+Or here's a slightly more usable example, where I'm splitting a rectangle via recursion.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/recursion2.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/recursion2)
+
 
 Aperiodic Tiling: Substitution Rules
 ------------------------------------

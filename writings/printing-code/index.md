@@ -212,11 +212,13 @@ Repetition is highly computational, still human beings have created patterns as 
 * Quick homework presentations
 * [Assignment code review](/printing-code/randomization-homework)
 * Lecture: **[Computational Repetition](/printing-code/lecture-repetition)**
+* [More Geomerative](/printing-code/geomerative2)
+* Possible design exercise: Talk to partner about final project
 
 
 ### Assignment for next week
 
-* For next week write a Processing sketch that generates a pattern. The pattern should be a design proposal for the company [Makerbot](http://www.makerbot.com/), and should be designed to be used for their christmas gift wrapping paper. So you need to research the company, look at their identity, and come up with a design that reflects this. It doesn't matter whether the pattern is periodic or aperiodic, but what does matter is that it's dynamic. This means that I should be able to change global variables and see the pattern change the next time I run the sketch. Bring to class a printed poster of your pattern, and we'll discuss the proposals.
+* For next week write a Processing sketch that generates a pattern. The pattern should be a design proposal for the company [Makerbot](http://www.makerbot.com/), and should be designed to be used for their wrapping paper. So you need to research the company, look at their identity, and come up with a design that reflects this. It doesn't matter whether the pattern is periodic or aperiodic, but what does matter is that it's dynamic. This means that I should be able to change global variables and see the pattern change the next time I run the sketch. Bring to class a printed poster of your pattern, and we'll discuss the proposals.
 
 
 Week 10: Transformation

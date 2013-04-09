@@ -76,18 +76,6 @@ Here's an example where we do the exact same thing for an RShape
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/geomerative/rshape_outline)
 
 
-Geometry with Geomerative
--------------------------
-
-	TODO: contains
-
-	TODO: BinaryOps - subtracting two shapes form each other
-
-	TODO: BinaryIntersection - to create masks
-
-	TODO: HelloAdaptChildren - use text on a curve
-
-
 More info
 ---------
 
