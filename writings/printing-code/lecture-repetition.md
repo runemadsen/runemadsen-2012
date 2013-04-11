@@ -1,13 +1,52 @@
+Repetition
+==========
+
+Humans have a weird fascination with repetition. The effect of marching soldiers, the arrangement of a bed of flowers. Crowds at football stadiums or concerts. A migrating flock of birds. It's almost hypnotic.
+
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/grapefruit.jpg" />
 
 Repetition in Graphic Design
 ----------------------------
 
-Humans have a weird fascination with repetition. The effect of marching soldiers, the arrangement of a bed of flowers. Crowds at football stadiums or concerts. A migrating flock of birds. It's almost hypnotic.
+In graphic design, we can repeat font style, graphic, line, icons, colors, etc. We can use repetition for many things. However, repetition is not something humans are good at. Take this poster by Paul Rand for example.
 
-In graphic design, we can repeat font style, graphic, line, icons, colors, etc. We can use repetition for many things.
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition.png" />
 
-**Movement**
+Paul Rand had to manually arrange all those hearts, in order to simulate a very computational repetition. However, as programmers, we can distill his design rule into code. Here's that exact same design, recreated in Processing.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+But now that we have the design rule in code, we can randomize some value, in order to create a dynamic design, where we quickly can explore different designs.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune2.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune3_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune3.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune4_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune4.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune5_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune5.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune6_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune6.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune7_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune7.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune8_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune8.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune9_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/repetition_rune9.png" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/repetition)
+
+If we really look at the graphic design masters, repetition is used throughout our graphic design history, and it can be used for many different purposes. Here's a few examples.
+
+Repetition as Movement
+----------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/pintori_movement.jpg" />
 
@@ -15,7 +54,8 @@ In graphic design, we can repeat font style, graphic, line, icons, colors, etc. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_movement_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_movement.jpg" />
 
-**Rhythm**
+Repetition as Rhythm
+--------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_rhythm_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/rand_rhythm.jpg" />
 
@@ -23,7 +63,8 @@ In graphic design, we can repeat font style, graphic, line, icons, colors, etc. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/brockmann_rhythm2.png" />
 
-**Direction**
+Repetition as Direction
+-----------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/megert_direction_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/megert_direction.png" />
 
@@ -31,7 +72,8 @@ In graphic design, we can repeat font style, graphic, line, icons, colors, etc. 
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/direction2_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/direction2.jpg" />
 
-And maybe most important: **Texture**
+Repetition as Texture
+---------------------
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/mandala_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/mandala.jpg" />
 
@@ -66,15 +108,15 @@ Here's a slightly better looking cube pattern.
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern)
 
-Here's that same cube pattern code, but using a class to clean up the main file.
+Here's that same cube pattern code, but using a function to clean up the main setup function.
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class.png" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_class)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_function)
 
 Here I'm using the class twice to overlay two patterns
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/repetition/cube_pattern_class_overlay.png" />
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_class_overlay)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/repetition/cube_pattern_function_overlay)
 
 However, these patterns only allow us to create stricly repetitive patterns. To do more sophisticated patterns, we need to learn about aperiodic tiling.
 
