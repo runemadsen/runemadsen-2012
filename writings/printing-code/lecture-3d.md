@@ -85,6 +85,7 @@ Peasycam
 
 * spinning around something in 3D space with the mouse
 * spinning around something in 3D space (automated, not mouse)
+* ControlP5 with PeasyCam
 
 
 Toxiclibs

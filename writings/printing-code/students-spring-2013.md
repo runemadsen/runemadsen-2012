@@ -16,7 +16,7 @@ Student Git Repositories
 * [Valerie Chen](https://github.com/valeriejean/printingcode)
 * [Tak Cheung](https://github.com/gettak/PrintingCode)
 * [Youjin Shin](https://github.com/YoujinShin/ThePrintingCode)
-* [Christina Carter](https://github.com/itschristinith/printing-code)
+* [Christina Carter](https://github.com/itschristinith/printingCode)
 * [Yin Liu](https://github.com/yinnie/printingcode)
 * [Christina Leece](https://github.com/clleece/PrintingCode)
 * [Alexandra Olivier](https://github.com/aolivier/Alex_Printing_Code)

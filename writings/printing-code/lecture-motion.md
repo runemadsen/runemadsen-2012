@@ -12,12 +12,12 @@ Here's an image of a series of graphic prints created with randomized, moving ar
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/tiny_artist1_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/tiny_artist1.jpg" />
 
 
-PGraphics and draw
-------------------
+PDF and draw
+------------
 
-Now that we're moving into the world of motion and animation, take a look at the framework_loop example on how you can use PGraphics with the draw loop, and save multiple images from the animation.
+Now that we're moving into the world of motion and animation, take a look at the pdfexport_loop example that shows you how to export a PDF from the draw loop, and save multiple images from the animation.
 
-[Example on Github](https://github.com/runemadsen/printing-code/tree/master/framework/draw_loop)
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/framework/pdfexport_loop)
 
 
 Random Frame Saving
@@ -45,9 +45,7 @@ Here's an example where we use the same millis() code in a class, with the seed 
 Easings
 -------
 
-<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easingsheet_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easingsheet.jpg" />
-
-Here's a simple example of how to create fluent motion with the [Ani easing library](http://www.looksgood.de/libraries/Ani/).
+Here's a simple example of how to create fluent motion with the [Ani easing library](http://www.looksgood.de/libraries/Ani/). Before we dive into it, let's look at the [easing sheet](http://www.looksgood.de/libraries/Ani/Ani_Cheat_Sheet.pdf)
 
 <img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/easings_simple.png" />
 [Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/motion/easings_simple)
@@ -136,6 +134,25 @@ Now that we know how to create a world and make things fall, we can use this in 
 ControlP5
 ---------
 
-A library related to the concept of motion, is the ControlP5 library. ControlP5 is a Processing library that makes it possible to change variables in your code via UI controls.
+A library related to the concept of motion, is the ControlP5 library. ControlP5 is a Processing library that makes it possible to change variables in your code via UI controls. The library ships with a ton of different examples, but here's a few of our older examples reworked with Control P5.
 
-The library ships with a ton of different examples.
+First of all, here's a very simple color picker sketch.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/controlp5_simple_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/controlp5_simple.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/motion/controlp5_simple)
+
+So what can we use ControlP5 for? Well, here's an example of that cube pattern from the repetition class, where we use the controls to resize the pattern on the fly.
+
+<img src="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/controlp5_cube_small.jpg" data-slideshow="http://runemadsen-2012.s3.amazonaws.com/printing-code-2012/motion/controlp5_cube.jpg" />
+[Example on Github](https://github.com/runemadsen/printing-code/tree/master/class_code/motion/controlp5_cube)
+
+A number of great examples of how to use the library can be found in the library examples folder.
+
+* Save and reload the properties (/examples/controllers/ControlP5properties)
+* Create the controls in a separate window (/examples/controllers/ControlP5window)
+* Listen to controller events (/examples/use/ControlP5controlEvent)
+
+In every example in /controller, there's also a list of the functions of each UI control.
+
+
+
