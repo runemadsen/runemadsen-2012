@@ -250,12 +250,9 @@ Can a still image have movement? In this class we'll experiment with animation a
 
 ### Class Overview
 
+* Update on final projects
 * Lecture: **[Computational Motion](/printing-code/lecture-motion)**
-* Final ideas presentation
-
-### Assignment for next week
-
-* Work on your final. When we meet during next class, you'll have only 1 day (Friday) to print your final. I suggest you finish your final and prepare your presentation over the weekend.
+* Work on final projects. I'll meet with people who are struggling
 
 Week 12: 3D
 -----------
